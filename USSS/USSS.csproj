@@ -130,6 +130,36 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Tests\API REST\Freemium.cs" />
+    <Compile Include="Tests\Regression\B2B\AddressBook.cs" />
+    <Compile Include="Tests\Regression\B2B\BillAnalizerCreateRefund.cs" />
+    <Compile Include="Tests\Regression\B2B\BillAnalizerOff.cs" />
+    <Compile Include="Tests\Regression\B2B\BillAnalizerPromt.cs" />
+    <Compile Include="Tests\Regression\B2B\BillAnalizerReports.cs" />
+    <Compile Include="Tests\Regression\B2B\BillAnalizerTryAndBuy.cs" />
+    <Compile Include="Tests\Regression\B2B\BillAnalyzerReportDesigner.cs" />
+    <Compile Include="Tests\Regression\B2B\BlockUser.cs" />
+    <Compile Include="Tests\Regression\B2B\ChangeLimitsForSubscriptions.cs" />
+    <Compile Include="Tests\Regression\B2B\ChangeTariffWithInternationalRoaming.cs" />
+    <Compile Include="Tests\Regression\B2B\CheckListAvaliableSevices.cs" />
+    <Compile Include="Tests\Regression\B2B\ChooseBlockType.cs" />
+    <Compile Include="Tests\Regression\B2B\CompareBillsB2B.cs" />
+    <Compile Include="Tests\Regression\B2B\ConnectionClosedGroupByNumber.cs" />
+    <Compile Include="Tests\Regression\B2B\CreateClaimToCRMClarify.cs" />
+    <Compile Include="Tests\Regression\B2B\DisablingSubscriptions.cs" />
+    <Compile Include="Tests\Regression\B2B\DisplayBill.cs" />
+    <Compile Include="Tests\Regression\B2B\DisplayBillForEquipment.cs" />
+    <Compile Include="Tests\Regression\B2B\DisplayDeposits.cs" />
+    <Compile Include="Tests\Regression\B2B\DisplayServiceWithAccum.cs" />
+    <Compile Include="Tests\Regression\B2B\EditServiceParameters.cs" />
+    <Compile Include="Tests\Regression\B2B\FormBlankAutofilling.cs" />
+    <Compile Include="Tests\Regression\B2B\FunctionalConfigAdditionalService.cs" />
+    <Compile Include="Tests\Regression\B2B\IndicationOfTemporaryNumbers.cs" />
+    <Compile Include="Tests\Regression\B2B\LogicRoutingAtLogin.cs" />
+    <Compile Include="Tests\Regression\B2B\MobileBudgetStructure.cs" />
+    <Compile Include="Tests\Regression\B2B\ReportOfServiceAndTariff.cs" />
+    <Compile Include="Tests\Regression\B2B\UnlockUser.cs" />
+    <Compile Include="Tests\Regression\B2B\ViewAdjustment.cs" />
+    <Compile Include="Tests\Regression\B2B\ViewPaymentInFutureBill.cs" />
     <Compile Include="Tests\Sanity\B2BPle\DistributionPayment.cs" />
     <Compile Include="Tests\Sanity\B2BPle\ShowingBalance.cs" />
     <Compile Include="Tests\Sanity\B2BPost\ChangePublicPricePlan.cs" />
@@ -832,7 +862,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Tests\Regression\B2B\" />
     <Folder Include="Tests\Regression\B2C\" />
     <Folder Include="Tests\Sanity\B2BCtn\" />
     <Folder Include="Tests\Sanity\UWebMobile\" />

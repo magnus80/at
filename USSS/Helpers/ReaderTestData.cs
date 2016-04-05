@@ -1,4 +1,6 @@
-﻿using Microsoft.Office.Interop.Excel;
+﻿using System.IO;
+using System.Xml;
+using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,6 +88,13 @@ namespace USSS.Helpers
             string d = excelSheet.Cells[i, j].Value.ToString();
             wb.Close();
             return d;
+        }
+
+        public static string GetXMLTestData(string tagname)
+        {
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.Load(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + "/TestData/TestData.xml");
+            return xmlDoc.SelectSingleNode("USSS/" + tagname).InnerText;
         }
    
     }

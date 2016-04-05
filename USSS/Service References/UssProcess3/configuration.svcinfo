@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;UsssProcess3ImplServiceSoapBinding&quot; /&gt;" bindingType="basicHttpBinding" name="UsssProcess3ImplServiceSoapBinding" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://nba33.vimpelcom.ru:8082/cmws/v3/usss&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;UsssProcess3ImplServiceSoapBinding&quot; contract=&quot;UssProcess3.UsssProcess3&quot; name=&quot;UsssProcess3ImplPort&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://nba33.vimpelcom.ru:8082/cmws/v3/usss&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;UsssProcess3ImplServiceSoapBinding&quot; contract=&quot;UssProcess3.UsssProcess3&quot; name=&quot;UsssProcess3ImplPort&quot; /&gt;" contractName="UssProcess3.UsssProcess3" name="UsssProcess3ImplPort" />
+  </endpoints>
+</configurationSnapshot>

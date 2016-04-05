@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:ns1="urn:uss-wsapi:Auth" xmlns:ns0="urn:uss-wsapi:Types" targetNamespace="urn:uss-wsapi:Types" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="http://dev-web01.vimpelcom.ru:50001/api/AuthService?xsd=1" namespace="urn:uss-wsapi:Auth" />
+  <xsd:element name="UssWsApiException" type="ns1:UssWsApiException" />
+</xsd:schema>

@@ -1,0 +1,1409 @@
+2015-мар-26 -> 11:19:22: OnlineDetalization run begin
+2015-мар-26 -> 11:26:43: OnlineDetalization run begin
+2015-мар-26 -> 11:44:10: OnlineDetalization run begin
+2015-мар-26 -> 11:51:12: OnlineDetalization run begin
+2015-мар-26 -> 11:58:20: OnlineDetalization run begin
+2015-мар-26 -> 12:12:16: OnlineDetalization run begin
+2015-мар-26 -> 12:16:30: OnlineDetalization run begin
+2015-мар-26 -> 01:01:30: OnlineDetalization run begin
+2015-мар-26 -> 01:02:19: OnlineDetalization run begin
+2015-мар-26 -> 01:04:03: OnlineDetalization run begin
+2015-мар-26 -> 02:08:09: OnlineDetalization run begin
+2015-мар-26 -> 02:11:57: OnlineDetalization run begin
+2015-мар-26 -> 02:19:50: OnlineDetalization run begin
+2015-мар-26 -> 02:45:54: OnlineDetalization run begin
+2015-мар-26 -> 03:09:24: OnlineDetalization run begin
+2015-мар-26 -> 03:21:05: OnlineDetalization run begin
+2015-мар-26 -> 03:30:52: OnlineDetalization run begin
+2015-мар-26 -> 03:32:51: OnlineDetalization run begin
+2015-мар-26 -> 03:37:31: OnlineDetalization run begin
+2015-мар-26 -> 03:40:09: OnlineDetalization run begin
+2015-мар-26 -> 03:43:03: OnlineDetalization run begin
+2015-мар-26 -> 03:45:08: OnlineDetalization run begin
+2015-мар-26 -> 03:47:03: OnlineDetalization run begin
+2015-мар-26 -> 03:47:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-26 -> 03:48:02: Window not found. The browser window may have been closed.
+2015-мар-26 -> 03:48:04: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-мар-26 -> 03:48:04: Object reference not set to an instance of an object.
+2015-мар-26 -> 03:48:06: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-мар-26 -> 03:48:07: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-мар-26 -> 03:48:08: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-мар-26 -> 03:48:28: OnlineDetalization run begin
+2015-мар-26 -> 03:49:50: OnlineDetalization run begin
+2015-мар-26 -> 03:51:09: OnlineDetalization run begin
+2015-мар-26 -> 03:52:17: OnlineDetalization run begin
+2015-мар-26 -> 03:52:42: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/50c5b445-4426-4e4f-b9e3-76644d679082/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-мар-26 -> 03:53:05: OnlineDetalization run begin
+2015-мар-26 -> 04:02:15: OnlineDetalization run begin
+2015-мар-26 -> 04:05:56: OnlineDetalization run begin
+2015-мар-26 -> 04:07:51: OnlineDetalization run begin
+2015-мар-26 -> 04:21:40: OnlineDetalization run begin
+2015-мар-26 -> 04:23:27: OnlineDetalization run begin
+2015-мар-26 -> 04:25:15: OnlineDetalization run begin
+2015-мар-26 -> 04:26:49: OnlineDetalization run begin
+2015-мар-26 -> 04:28:57: OnlineDetalization run begin
+2015-мар-26 -> 04:30:38: OnlineDetalization run begin
+2015-мар-26 -> 04:31:41: OnlineDetalization run begin
+2015-мар-26 -> 04:48:55: OnlineDetalization run begin
+2015-мар-26 -> 05:52:22: OnlineDetalization run begin
+2015-мар-26 -> 05:54:48: OnlineDetalization run begin
+2015-мар-26 -> 05:55:42: OnlineDetalization run begin
+2015-мар-26 -> 05:57:55: OnlineDetalization run begin
+2015-мар-26 -> 06:06:57: OnlineDetalization run begin
+2015-мар-26 -> 06:09:37: OnlineDetalization run begin
+2015-мар-26 -> 06:32:31: OnlineDetalization run begin
+2015-мар-26 -> 06:34:33: OnlineDetalization run begin
+2015-мар-26 -> 06:38:33: OnlineDetalization run begin
+2015-мар-26 -> 06:42:00: OnlineDetalization run begin
+2015-мар-26 -> 06:44:04: OnlineDetalization run begin
+2015-мар-26 -> 06:45:28: OnlineDetalization run begin
+2015-мар-26 -> 06:46:20: OnlineDetalization run begin
+2015-мар-26 -> 06:49:09: OnlineDetalization run begin
+2015-мар-26 -> 06:50:15: OnlineDetalization run begin
+2015-мар-26 -> 06:51:47: OnlineDetalization run begin
+2015-мар-27 -> 12:04:58: ORA-12541: TNS:no listener
+
+2015-мар-27 -> 12:04:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-мар-27 -> 12:04:58: OnlineDetalization : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]
+2015-мар-27 -> 12:04:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-мар-27 -> 12:09:47: OnlineDetalization run begin
+2015-мар-27 -> 12:18:19: OnlineDetalization run begin
+2015-мар-27 -> 02:04:16: OnlineDetalization run begin
+2015-мар-27 -> 02:41:11: OnlineDetalization run begin
+2015-мар-27 -> 06:12:50: OnlineDetalization run begin
+2015-мар-27 -> 06:20:03: OnlineDetalization run begin
+2015-мар-27 -> 06:20:29: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:21:29: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/2b1e80f5-4f59-4280-8eec-14a778b3929c/element/%7B1e981142-71df-4b26-b2a6-6e5b7cd9b83c%7D/click timed out after 60 seconds.
+2015-мар-27 -> 06:21:52: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:21:52: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:23:30: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-27 -> 06:24:01: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:24:01: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:24:30: The given selector //input[@value='PDF')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='PDF')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:24:30: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:24:45: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:24:45: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:25:01: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:25:01: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:25:16: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:25:16: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:25:55: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:25:55: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:26:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:26:06: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:26:16: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:26:16: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:26:20: The given selector //input[@value='XLSX')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='XLSX')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:26:20: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:26:38: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:26:38: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:26:53: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:26:53: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:27:08: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:27:08: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:27:15: OnlineDetalization run end
+2015-мар-27 -> 06:27:17: ChangeNoSim run begin
+2015-мар-27 -> 06:27:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:28:42: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/33fdc654-9664-4e67-bf2c-bae21f78d160/element/%7B2938ae86-f2dd-4463-8568-37026e16e60d%7D/click timed out after 60 seconds.
+2015-мар-27 -> 06:29:24: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:29:24: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:34: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:34: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:35: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:35: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:36: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:36: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:37: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:37: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:38: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:38: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:39: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:39: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:40: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:40: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:41: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:41: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:42: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:42: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:30:43: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:30:43: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:32:07: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/33fdc654-9664-4e67-bf2c-bae21f78d160/element/%7B73089d5e-8216-4c5b-9db5-d9a3751442ea%7D/click timed out after 60 seconds.
+2015-мар-27 -> 06:32:27: ChangeNoSim run end
+2015-мар-27 -> 06:32:30: ChangeSim run begin
+2015-мар-27 -> 06:32:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:33:56: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/61d7619b-a414-455c-83f0-50a7de591f88/element/%7B4c2ba33a-1d8f-44d3-9983-20550fa64cf7%7D/click timed out after 60 seconds.
+2015-мар-27 -> 06:34:35: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:34:35: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:35:38: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/61d7619b-a414-455c-83f0-50a7de591f88/element/%7B8872a941-24cb-422c-afd1-1d137d825855%7D/click timed out after 60 seconds.
+2015-мар-27 -> 06:36:12: ORA-01729: database link name expected
+
+2015-мар-27 -> 06:36:13: ChangeSim run end
+2015-мар-27 -> 06:36:18: OfflineDetalization run begin
+2015-мар-27 -> 06:36:43: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:37:44: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/ba342e8d-f2fb-4e9d-92aa-cbf87ef2bf6c/element/%7B6bfdb204-ceaf-4099-a0a5-cb47fd67f6e3%7D/click timed out after 60 seconds.
+2015-мар-27 -> 06:38:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:38:02: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:40:01: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:40:01: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:40:30: The given selector //input[@value='PDF')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='PDF')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:40:30: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:40:45: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:40:45: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:41:00: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:41:00: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:41:16: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:41:16: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:41:55: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:41:55: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:42:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:42:05: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:42:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:42:15: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:42:18: The given selector //input[@value='XLSX')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='XLSX')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:42:18: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:42:35: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:42:35: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:42:50: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:42:50: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:43:06: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:43:06: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:43:12: OfflineDetalization run end
+2015-мар-27 -> 06:43:17: OnlineDetalization run begin
+2015-мар-27 -> 06:43:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:44:41: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/04dba13f-516a-4132-afcb-b702d5c908cb/element/%7Bc74e3904-cba1-46de-8d72-6a99d6a38057%7D/click timed out after 60 seconds.
+2015-мар-27 -> 06:45:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-27 -> 06:45:01: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:46:59: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:46:59: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:47:29: The given selector //input[@value='PDF')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='PDF')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:47:29: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:47:44: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:47:44: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:47:59: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:47:59: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:48:15: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:48:15: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:48:54: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:48:54: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:49:04: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:49:04: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:49:14: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-27 -> 06:49:14: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:49:17: The given selector //input[@value='XLSX')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='XLSX')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-27 -> 06:49:17: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:49:32: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:49:32: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:49:47: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:49:47: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:50:03: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-27 -> 06:50:03: Object reference not set to an instance of an object.
+2015-мар-27 -> 06:50:14: AddDelSocTest run begin
+2015-мар-27 -> 06:50:18: AddDelSocTest : step_02 : Ошибка при подключении услуги: java.lang.IllegalArgumentException: Parameter 'ctn' can't be empty
+2015-мар-27 -> 06:50:18: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-мар-27 -> 06:50:18: AddDelSocTest : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2015-мар-27 -> 06:50:18: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-мар-27 -> 06:50:18: AddDelSocTest run end
+2015-мар-27 -> 06:50:19: AuthTest run begin
+2015-мар-27 -> 06:50:19: AuthTest run end
+2015-мар-27 -> 06:50:21: ChangeSimTest run begin
+2015-мар-27 -> 06:50:22: ChangeSimTest : step_02 : Ошибка при замене сим: com.amdocs.uss.wsapi.UssWsApiException
+2015-мар-27 -> 06:50:22: ChangeSimTest run end
+2015-мар-27 -> 06:50:46: GetSIMIMSITest run begin
+2015-мар-27 -> 06:50:47: GetSIMIMSITest : step_02 : Ошибка при получении номера SIM: com.amdocs.uss.wsapi.UssWsApiException
+2015-мар-27 -> 06:50:47: GetSIMIMSITest run end
+2015-мар-27 -> 06:50:50: GetUnbilledTest run begin
+2015-мар-27 -> 06:50:50: GetUnbilledTest : step_02 : Ошибка при подключении услуги: com.amdocs.uss.wsapi.UssWsApiException
+2015-мар-27 -> 06:50:50: GetUnbilledTest run end
+2015-мар-27 -> 06:50:58: NeoBillBalanceCtnTest run begin
+2015-мар-27 -> 06:50:58: NeoBillBalanceCtnTest : step_02 : Ошибка при получение необилленного баланса: com.amdocs.uss.wsapi.UssWsApiException
+2015-мар-27 -> 06:50:58: NeoBillBalanceCtnTest run end
+2015-мар-30 -> 12:32:14: ChangeSim run begin
+2015-мар-30 -> 12:32:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 12:33:42: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/7807c868-f325-4aa6-8b24-02479e2ba32f/element/%7B89c93d75-2ed7-4f5e-b8d7-bda08600c182%7D/click timed out after 60 seconds.
+2015-мар-30 -> 12:34:19: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 12:34:19: Object reference not set to an instance of an object.
+2015-мар-30 -> 12:35:23: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/7807c868-f325-4aa6-8b24-02479e2ba32f/element/%7B9782a718-b9f5-41fa-9fa2-2d05bed2b72d%7D/click timed out after 60 seconds.
+2015-мар-30 -> 12:36:08: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 12:43:16: ChangeSim run begin
+2015-мар-30 -> 12:43:44: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 12:44:45: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1ec7b118-30ac-415c-9271-382079b36073/element/%7B41cc6d37-bf0b-40a3-808b-2adf3666d4a1%7D/click timed out after 60 seconds.
+2015-мар-30 -> 12:45:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 12:45:23: Object reference not set to an instance of an object.
+2015-мар-30 -> 12:46:06: ChangeSim run begin
+2015-мар-30 -> 12:46:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 12:47:34: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/82a85d00-35e8-4e4b-9d3e-02bcc740f1b1/element/%7Bafcc2344-e612-48e1-9d2e-8332eff30bf0%7D/click timed out after 60 seconds.
+2015-мар-30 -> 12:48:11: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 12:48:11: Object reference not set to an instance of an object.
+2015-мар-30 -> 12:49:15: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/82a85d00-35e8-4e4b-9d3e-02bcc740f1b1/element/%7B3b96513c-573e-4439-8fee-c4c6b2e02964%7D/click timed out after 60 seconds.
+2015-мар-30 -> 12:52:50: ChangeSim run begin
+2015-мар-30 -> 12:53:18: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 12:54:19: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1f6247c7-9ecb-4d50-ab5c-95f481c8f7a8/element/%7B19290166-5786-4c65-b729-3629b8b9c2b1%7D/click timed out after 60 seconds.
+2015-мар-30 -> 12:54:56: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 12:54:56: Object reference not set to an instance of an object.
+2015-мар-30 -> 12:56:00: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1f6247c7-9ecb-4d50-ab5c-95f481c8f7a8/element/%7B300a0324-d2fb-4dea-beeb-6a139a5491f7%7D/click timed out after 60 seconds.
+2015-мар-30 -> 12:59:06: ChangeSim run begin
+2015-мар-30 -> 12:59:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 01:00:36: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/3a04c25b-24b7-4a3e-ba74-d5c0c91c6792/element/%7Bdb28bb52-25cf-4866-a8e7-665bc32ef6a7%7D/click timed out after 60 seconds.
+2015-мар-30 -> 01:01:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 01:01:20: Object reference not set to an instance of an object.
+2015-мар-30 -> 01:02:27: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/3a04c25b-24b7-4a3e-ba74-d5c0c91c6792/element/%7B4d479bc6-427c-4572-a32e-d12b84839b9f%7D/click timed out after 60 seconds.
+2015-мар-30 -> 01:03:03: ORA-01722: invalid number
+
+2015-мар-30 -> 01:03:53: ChangeSim run begin
+2015-мар-30 -> 01:04:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 01:05:20: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/2d539501-3dd1-4ac8-b3b6-439204ed690b/element/%7B7f248c34-c38f-4cb0-b637-3e9f5f0d37dd%7D/click timed out after 60 seconds.
+2015-мар-30 -> 01:06:00: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 01:06:00: Object reference not set to an instance of an object.
+2015-мар-30 -> 01:07:07: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/2d539501-3dd1-4ac8-b3b6-439204ed690b/element/%7B936e683a-bf2d-4d9a-b07d-9f4ee852bc46%7D/click timed out after 60 seconds.
+2015-мар-30 -> 02:59:34: ChangeSim run begin
+2015-мар-30 -> 03:00:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 03:01:02: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/0cdc35c0-1b79-4bd7-bef7-59a825f33ea4/element/%7Bc97b2d68-1680-455c-ad4f-99eaa0d9414d%7D/click timed out after 60 seconds.
+2015-мар-30 -> 03:01:42: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 03:01:42: Object reference not set to an instance of an object.
+2015-мар-30 -> 03:02:51: ORA-00933: SQL command not properly ended
+
+2015-мар-30 -> 03:06:30: ChangeSim run begin
+2015-мар-30 -> 03:06:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 03:07:59: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/cb20924e-a6f2-424a-b1df-3bb87bc4ee23/element/%7Be9485975-8978-4c54-876a-5ce81b780600%7D/click timed out after 60 seconds.
+2015-мар-30 -> 03:08:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 03:08:37: Object reference not set to an instance of an object.
+2015-мар-30 -> 03:09:41: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/cb20924e-a6f2-424a-b1df-3bb87bc4ee23/element/%7B961c41d8-84cf-4288-acd2-46f3f3c5f3f2%7D/click timed out after 60 seconds.
+2015-мар-30 -> 03:10:04: ORA-00933: SQL command not properly ended
+
+2015-мар-30 -> 03:49:33: ChangeSim run begin
+2015-мар-30 -> 03:50:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 03:51:03: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1ad7942a-978e-4571-a88f-3386b5b81e62/element/%7B2b043420-c66d-488a-8411-87ef094f761e%7D/click timed out after 60 seconds.
+2015-мар-30 -> 03:51:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 03:51:40: Object reference not set to an instance of an object.
+2015-мар-30 -> 03:52:45: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1ad7942a-978e-4571-a88f-3386b5b81e62/element/%7Bc9d25456-a073-42eb-8614-934ca6494047%7D/click timed out after 60 seconds.
+2015-мар-30 -> 03:53:22: ORA-00933: SQL command not properly ended
+
+2015-мар-30 -> 03:54:24: ChangeSim run begin
+2015-мар-30 -> 03:54:51: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 03:55:52: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/58a3dced-6af8-42bb-a7c1-056c3338ba22/element/%7B6a2fc2a7-a3a9-45c4-ad47-e229ca41fb63%7D/click timed out after 60 seconds.
+2015-мар-30 -> 03:56:29: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 03:56:29: Object reference not set to an instance of an object.
+2015-мар-30 -> 03:57:34: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/58a3dced-6af8-42bb-a7c1-056c3338ba22/element/%7B8fe2052a-041d-440b-ade4-f0d31aa3323d%7D/click timed out after 60 seconds.
+2015-мар-30 -> 03:57:59: ORA-00933: SQL command not properly ended
+
+2015-мар-30 -> 03:59:10: ChangeSim run begin
+2015-мар-30 -> 03:59:38: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:00:39: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/7f0cc3d6-b2cd-40b9-bfec-35112aa2eaa8/element/%7Bc0fcf0b0-c8c5-4851-a526-714388c47b9f%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:01:19: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:01:19: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:02:28: ORA-00933: SQL command not properly ended
+
+2015-мар-30 -> 04:02:55: ChangeSim run begin
+2015-мар-30 -> 04:03:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:04:21: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/e203e197-ac10-433a-9b31-a0ff71bb33e1/element/%7B07e4c383-ac9d-46e6-8567-62abe3335787%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:04:59: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:04:59: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:06:03: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/e203e197-ac10-433a-9b31-a0ff71bb33e1/element/%7B73bd3f7b-11e9-4411-a8ba-f24471ba12d9%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:07:25: ChangeSim run begin
+2015-мар-30 -> 04:07:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:08:54: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/9abac9f8-de75-4883-bf98-33afaf3fe462/element/%7B6d540da6-76d7-4887-9fdf-2c46b568c229%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:09:31: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:09:31: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:10:35: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/9abac9f8-de75-4883-bf98-33afaf3fe462/element/%7B654b9ef5-9c84-4af3-9aed-c38cb6faf817%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:11:29: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 04:11:39: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 04:11:50: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 04:11:56: ORA-01729: database link name expected
+
+2015-мар-30 -> 04:11:57: ChangeSim run end
+2015-мар-30 -> 04:17:51: ChangeNoSim run begin
+2015-мар-30 -> 04:18:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:19:21: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/74a0f538-ddd3-4a02-aa72-e9048f575eec/element/%7B644a2e7d-da25-4103-a177-9a95cfa478d1%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:20:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:20:01: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:05: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/74a0f538-ddd3-4a02-aa72-e9048f575eec/element/%7Bbfb0ca4e-39b9-4b84-aab6-fb1dfb1d8198%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:21:24: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:24: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:25: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:25: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:27: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:27: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:28: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:28: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:29: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:29: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:30: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:30: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:31: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:32: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:33: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:33: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:34: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:34: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:35: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:21:35: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:21:58: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 04:22:08: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 04:22:18: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 04:23:03: ChangeNoSim run end
+2015-мар-30 -> 04:25:00: OnlineDetalization run begin
+2015-мар-30 -> 04:25:29: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:26:29: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/d04a6bc9-7d87-42f6-82b1-1d4edfc109bd/element/%7B193e1871-f2ff-491b-baf4-c86c05c78d4d%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:26:52: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:26:52: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:28:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:28:50: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:29:30: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 04:29:31: The given selector //input[@value='PDF')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='PDF')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:29:31: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:29:48: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:29:48: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:30:03: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:30:03: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:30:19: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:30:19: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:30:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:30:58: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:31:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:31:08: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:31:19: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:31:19: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:31:21: The given selector //input[@value='XLSX')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='XLSX')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:31:21: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:31:37: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:31:37: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:31:52: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:31:52: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:32:07: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:32:07: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:32:14: OnlineDetalization run end
+2015-мар-30 -> 04:32:15: ChangeNoSim run begin
+2015-мар-30 -> 04:32:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:33:40: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/c2d6e28d-256b-4f0a-a6c2-4a85784e89ac/element/%7B13924614-6095-486e-b180-185c92bb49d1%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:34:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:34:20: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:24: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/c2d6e28d-256b-4f0a-a6c2-4a85784e89ac/element/%7B95b7cb25-ee49-45cf-a02e-b66ba78c30af%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:35:43: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:43: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:44: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:44: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:45: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:45: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:46: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:46: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:47: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:47: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:48: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:48: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:50: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:50: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:51: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:51: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:52: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:52: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:35:53: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:35:53: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:36:45: ChangeNoSim run end
+2015-мар-30 -> 04:36:48: ChangeSim run begin
+2015-мар-30 -> 04:37:11: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:38:11: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/79c5f646-a24f-48dd-b68a-74526a1f98ec/element/%7B3a6687e3-e7bb-4450-afb5-013e7e54c495%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:38:51: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:38:51: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:39:55: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/79c5f646-a24f-48dd-b68a-74526a1f98ec/element/%7Bb12c9e58-781b-45b0-804e-10f7138c3ab1%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:40:30: ORA-01729: database link name expected
+
+2015-мар-30 -> 04:40:31: ChangeSim run end
+2015-мар-30 -> 04:40:37: OfflineDetalization run begin
+2015-мар-30 -> 04:41:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:42:02: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/3833393b-b71a-4863-b887-7ef59824b386/element/%7Bef24d577-f02a-4301-bc55-4c320805892a%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:42:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:42:21: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:44:20: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:44:20: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:44:49: The given selector //input[@value='PDF')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='PDF')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:44:49: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:45:03: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:45:03: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:45:19: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:45:19: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:45:34: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:45:34: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:46:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:46:13: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:46:24: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:46:24: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:46:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:46:34: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:46:44: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 04:46:55: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:46:55: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:47:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:47:05: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:47:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:47:15: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:47:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:47:25: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:47:35: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:47:35: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:47:45: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:47:45: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:47:55: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:47:55: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:48:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:48:05: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:48:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:48:15: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:48:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:48:25: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:48:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:48:36: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:48:46: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:48:46: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:48:56: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:48:56: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:49:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:49:06: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:49:16: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:49:16: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:49:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:49:26: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:49:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:49:36: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:49:46: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:49:46: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:49:56: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:49:56: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:50:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:50:06: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:50:17: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:50:17: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:50:27: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 04:50:27: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:50:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:50:37: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:50:58: The given selector //input[@value='XLSX')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='XLSX')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:50:58: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:51:13: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:51:13: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:51:28: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:51:28: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:51:43: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:51:43: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:51:50: OfflineDetalization run end
+2015-мар-30 -> 04:51:56: OnlineDetalization run begin
+2015-мар-30 -> 04:52:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:53:22: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/5bb2d3aa-53b6-44dd-b074-98451f5782e9/element/%7Bb01b6af4-19a1-442b-99a9-e264147bee5a%7D/click timed out after 60 seconds.
+2015-мар-30 -> 04:53:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 04:53:41: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:55:39: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:55:39: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:56:08: The given selector //input[@value='PDF')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='PDF')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:56:08: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:56:25: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:56:25: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:56:40: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:56:40: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:56:55: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:56:55: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:57:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:57:34: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:57:45: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:57:45: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:57:55: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 04:57:55: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:57:57: The given selector //input[@value='XLSX')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //input[@value='XLSX')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 04:57:57: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:58:13: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:58:13: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:58:28: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:58:28: Object reference not set to an instance of an object.
+2015-мар-30 -> 04:58:43: Unable to locate element: {"method":"xpath","selector":"//table/tbody//tr[@data-ri = 0]//td[contains(text(),'Обработан')]"}
+2015-мар-30 -> 04:58:43: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:01:55: ChangeSim run begin
+2015-мар-30 -> 05:02:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:03:21: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/ab50be2f-8d16-4a07-84fd-292bad8008ed/element/%7Bac2c1d73-9250-4f4d-b27e-b5b0aa9d7ca5%7D/click timed out after 60 seconds.
+2015-мар-30 -> 05:04:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:04:08: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:07:16: ChangeSim run begin
+2015-мар-30 -> 05:07:43: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:08:44: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/4b961b35-e627-4cb7-a696-c8ef0ec11ec8/element/%7B3e2815bc-cbb4-4a29-b6b4-4409c482168a%7D/click timed out after 60 seconds.
+2015-мар-30 -> 05:09:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:09:20: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:10:24: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/4b961b35-e627-4cb7-a696-c8ef0ec11ec8/element/%7B9c958d3f-b957-4838-ad1f-bd9d8ba2c9f2%7D/click timed out after 60 seconds.
+2015-мар-30 -> 05:11:00: ORA-01729: database link name expected
+
+2015-мар-30 -> 05:11:02: ChangeSim run end
+2015-мар-30 -> 05:28:17: ChangeSim run begin
+2015-мар-30 -> 05:28:43: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:29:44: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/ab45cce1-2130-4811-b8be-215141e7e46e/element/%7B8a0e773d-65da-44c6-8e59-a634444dee36%7D/click timed out after 60 seconds.
+2015-мар-30 -> 05:30:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:30:23: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:31:31: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/ab45cce1-2130-4811-b8be-215141e7e46e/execute timed out after 60 seconds.
+2015-мар-30 -> 05:32:10: Unable to locate element: {"method":"xpath","selector":"//div[@class='value']"}
+2015-мар-30 -> 05:32:10: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:32:10: ORA-01729: database link name expected
+
+2015-мар-30 -> 05:32:11: ChangeSim run end
+2015-мар-30 -> 05:34:21: ChangeSim run begin
+2015-мар-30 -> 05:34:45: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:35:46: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/13d74533-45d7-41cb-9043-003201a55831/element/%7Bf41140ab-215f-4141-8e69-99b091da2525%7D/click timed out after 60 seconds.
+2015-мар-30 -> 05:36:22: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:36:22: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:46:29: Unable to locate element: {"method":"xpath","selector":"//div[@class='value']"}
+2015-мар-30 -> 05:46:29: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:49:21: ChangeSim run begin
+2015-мар-30 -> 05:49:47: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:50:48: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/d91bd5c9-08eb-464a-b3a9-340611eecce2/element/%7Bcf79e07f-ce64-4021-b12c-3918b38e7f33%7D/click timed out after 60 seconds.
+2015-мар-30 -> 05:51:28: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:51:28: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:52:32: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/d91bd5c9-08eb-464a-b3a9-340611eecce2/element/%7Bcaa94a39-d327-4d46-a405-10a397de4d79%7D/click timed out after 60 seconds.
+2015-мар-30 -> 05:56:49: ChangeNoSim run begin
+2015-мар-30 -> 05:57:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:58:16: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/8bb0ba8f-fa02-4d99-843b-cadf266ea28a/element/%7B91b92655-2c8a-4940-b06c-808ca06b7b2b%7D/click timed out after 60 seconds.
+2015-мар-30 -> 05:58:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 05:58:53: Object reference not set to an instance of an object.
+2015-мар-30 -> 05:59:57: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/8bb0ba8f-fa02-4d99-843b-cadf266ea28a/element/%7B6fe5cabb-2732-4abd-9930-d375be0c85f1%7D/click timed out after 60 seconds.
+2015-мар-30 -> 06:00:37: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:37: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:38: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:38: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:40: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:40: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:41: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:41: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:42: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:42: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:43: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:43: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:45: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:45: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:46: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:46: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:47: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:47: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:00:48: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:00:48: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:01:12: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 06:01:22: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 06:01:32: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 06:02:06: ChangeSim run begin
+2015-мар-30 -> 06:02:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:03:36: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/497346a9-1d03-4fb0-9de1-56e11925dd83/element/%7B9987c933-d368-4619-b41a-1c27aad75986%7D/click timed out after 60 seconds.
+2015-мар-30 -> 06:04:13: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:04:13: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:05:17: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/497346a9-1d03-4fb0-9de1-56e11925dd83/element/%7B8b2565f0-8482-470d-bdf6-378dc949be29%7D/click timed out after 60 seconds.
+2015-мар-30 -> 06:06:41: ChangeSim run begin
+2015-мар-30 -> 06:07:08: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:08:09: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/6df5ac9f-38e6-4177-8246-99f687a60f29/element/%7Bc0e62c38-ae38-434e-b7f2-6eeb88a2909c%7D/click timed out after 60 seconds.
+2015-мар-30 -> 06:08:45: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:08:45: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:10:20: ORA-01729: database link name expected
+
+2015-мар-30 -> 06:10:21: ChangeSim run end
+2015-мар-30 -> 06:14:59: ChangeNoSim run begin
+2015-мар-30 -> 06:15:26: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:16:27: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/35ca4a82-85b6-447a-a0b1-10d3b71608df/element/%7Bf3f9e797-dcab-45aa-8c7b-3da547057f81%7D/click timed out after 60 seconds.
+2015-мар-30 -> 06:17:04: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:17:04: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:11: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/35ca4a82-85b6-447a-a0b1-10d3b71608df/execute timed out after 60 seconds.
+2015-мар-30 -> 06:18:30: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:30: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:31: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:31: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:32: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:32: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:34: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:34: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:35: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:35: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:36: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:36: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:37: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:37: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:38: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:38: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:39: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:40: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:18:41: The given selector //span[contains(text(),'Поле обязательно'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Поле обязательно'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-мар-30 -> 06:18:41: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:19:43: ChangeNoSim run end
+2015-мар-30 -> 06:33:35: ChangeNoSim run begin
+2015-мар-30 -> 06:34:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:35:03: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/15e9b11d-bb93-4fd9-b9a2-5f1cc471defb/element/%7B31fef6dd-1ca6-4641-b38b-7bc5f8ac2f29%7D/click timed out after 60 seconds.
+2015-мар-30 -> 06:35:44: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:35:44: Object reference not set to an instance of an object.
+2015-мар-30 -> 06:38:08: ChangeNoSim run end
+2015-мар-30 -> 06:53:25: ChangeSim run begin
+2015-мар-30 -> 06:53:50: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:54:50: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/cf7c963f-9d64-43f4-849e-11d5cbb81f2f/element/%7B1f61dccd-62bc-4e8e-a6ec-6082c12a2c5c%7D/click timed out after 60 seconds.
+2015-мар-30 -> 06:55:30: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 06:55:30: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:25:13: OnlineDetalization run begin
+2015-мар-30 -> 10:26:08: OnlineDetalization run begin
+2015-мар-30 -> 10:49:15: OfflineDetalization run begin
+2015-мар-30 -> 10:49:57: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 10:50:59: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/f2e4d244-e21c-4435-ba20-79cd73710be6/element/%7Ba5321397-42af-40e6-a7bf-d78e751af1ba%7D/click timed out after 60 seconds.
+2015-мар-30 -> 10:51:32: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 10:51:32: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:51:43: Unable to locate element: {"method":"xpath","selector":"//div[@class='udh-show-container']//b[text()='Структура']"}
+2015-мар-30 -> 10:51:43: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:52:28: Element is not currently visible and so may not be interacted with
+2015-мар-30 -> 10:53:08: Element is not currently visible and so may not be interacted with
+2015-мар-30 -> 10:53:34: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'fileds-row')]//div[contains(@id,'calendars')]//input"}
+2015-мар-30 -> 10:53:34: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:53:49: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 10:53:49: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:53:59: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 10:53:59: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:54:09: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 10:54:09: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:54:20: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 10:54:20: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:54:30: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 10:54:30: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:54:40: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 10:54:40: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:54:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 10:54:50: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:55:01: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 10:55:01: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:55:11: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 10:55:11: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:55:21: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 10:55:21: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:55:31: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 10:55:31: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:55:42: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 10:55:42: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:55:52: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 10:55:52: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:55:57: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/f2e4d244-e21c-4435-ba20-79cd73710be6/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-мар-30 -> 10:55:58: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:56:26: OfflineDetalization run begin
+2015-мар-30 -> 10:56:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 10:57:57: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/dd6673a6-81d9-4e1c-94f6-2c2e868ba231/element/%7B9d368435-103e-4ed9-ba9e-0373cfed5bd8%7D/click timed out after 60 seconds.
+2015-мар-30 -> 10:58:25: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 10:58:26: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:58:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='udh-show-container']//b[text()='Структура']"}
+2015-мар-30 -> 10:58:37: Object reference not set to an instance of an object.
+2015-мар-30 -> 10:58:50: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 10:59:31: Element is not currently visible and so may not be interacted with
+2015-мар-30 -> 11:00:12: Element is not currently visible and so may not be interacted with
+2015-мар-30 -> 11:00:37: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'fileds-row')]//div[contains(@id,'calendars')]//input"}
+2015-мар-30 -> 11:00:37: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:01:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:01:05: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:01:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 11:01:15: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:01:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:01:25: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:01:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 11:01:36: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:01:46: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:01:46: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:01:56: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 11:01:56: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:02:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:02:07: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:02:17: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 11:02:17: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:02:27: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:02:27: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:02:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 11:02:38: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:02:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:02:48: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:02:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 11:02:58: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:03:09: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:03:09: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:03:19: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-30 -> 11:03:19: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:03:29: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:03:29: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:06:26: OfflineDetalization run begin
+2015-мар-30 -> 11:06:59: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:08:02: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/787f0211-3bba-4bb7-95f3-4a8aef749aef/element/%7B44b6292b-fe9e-4697-8e14-c3cd2c451511%7D/click timed out after 60 seconds.
+2015-мар-30 -> 11:08:25: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:08:25: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:08:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='udh-show-container']//b[text()='Структура']"}
+2015-мар-30 -> 11:08:36: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:08:49: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 11:11:17: OfflineDetalization run begin
+2015-мар-30 -> 11:11:44: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:12:45: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/d37bbf56-cc7b-44bd-a390-0c6d42088985/element/%7B004ae5ff-066a-4f0b-af36-47510dc1606e%7D/click timed out after 60 seconds.
+2015-мар-30 -> 11:13:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:13:07: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:13:18: Unable to locate element: {"method":"xpath","selector":"//div[@class='udh-show-container']//b[text()='Структура']"}
+2015-мар-30 -> 11:13:18: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:14:20: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:centerColumnFilter:periodSelect']//label[contains(text(),'За последнюю неделю')]"}
+2015-мар-30 -> 11:14:20: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:14:20: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:14:45: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:centerColumnFilter:periodSelect']//label[contains(text(),'За последние 2 недели')]"}
+2015-мар-30 -> 11:14:45: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:14:45: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:17:20: OfflineDetalization run begin
+2015-мар-30 -> 11:17:47: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:18:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/4fc3e5fd-44b4-4356-be22-904bcbc0a8aa/element/%7B33f25472-4aa8-43b3-96d7-f5d91fe491fe%7D/click timed out after 60 seconds.
+2015-мар-30 -> 11:19:08: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:19:08: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:19:19: Unable to locate element: {"method":"xpath","selector":"//div[@class='udh-show-container']//b[text()='Структура']"}
+2015-мар-30 -> 11:19:19: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:19:32: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 11:21:33: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:21:33: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:21:45: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 11:22:31: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 11:22:41: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:22:41: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:24:21: OnlineDetalization run begin
+2015-мар-30 -> 11:25:27: OfflineDetalization run begin
+2015-мар-30 -> 11:25:54: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:26:56: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/67a89fe3-a022-4f4b-9d29-61517795f29f/element/%7B6b124dc8-7b6e-4860-9a58-fce9300a44ee%7D/click timed out after 60 seconds.
+2015-мар-30 -> 11:27:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:27:12: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:27:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='udh-show-container']//b[text()='Структура']"}
+2015-мар-30 -> 11:27:23: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:31:20: OnlineDetalization run begin
+2015-мар-30 -> 11:31:49: OfflineDetalization run begin
+2015-мар-30 -> 11:32:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:33:19: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/85dbc2a8-5fe5-44bf-9d73-b2c8de756a73/element/%7B58926017-85e8-4b83-a0ab-0e76603142b9%7D/click timed out after 60 seconds.
+2015-мар-30 -> 11:33:44: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:33:44: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:33:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='udh-show-container']//b[text()='Структура']"}
+2015-мар-30 -> 11:33:55: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:35:39: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:35:39: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:35:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:35:50: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:36:00: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:36:00: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:36:10: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:36:10: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:36:21: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:36:21: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:36:31: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:36:31: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:36:42: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:36:42: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:36:52: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:36:52: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:37:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:37:08: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:37:18: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:37:18: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:37:28: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:37:28: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:37:39: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:37:39: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:37:49: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:37:49: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:37:59: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:37:59: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:38:10: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:38:10: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:38:20: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:38:20: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:38:53: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-30 -> 11:38:53: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:39:05: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-30 -> 11:40:00: OfflineDetalization run begin
+2015-мар-30 -> 11:40:26: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:41:27: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/6bc329d5-fac4-4445-9d78-fbaa256cbc88/element/%7Bdef1c51f-6ff2-4984-868a-1dee5ba0255c%7D/click timed out after 60 seconds.
+2015-мар-30 -> 11:41:49: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-30 -> 11:41:49: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:42:00: Unable to locate element: {"method":"xpath","selector":"//div[@class='udh-show-container']//b[text()='Структура']"}
+2015-мар-30 -> 11:42:00: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:43:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:43:36: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:43:46: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:43:46: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:43:56: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:43:56: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:44:07: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:44:07: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:44:17: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:44:17: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:44:27: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:44:27: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:44:38: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:44:38: Object reference not set to an instance of an object.
+2015-мар-30 -> 11:44:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-мар-30 -> 11:44:48: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:06:56: OfflineDetalization run begin
+2015-мар-31 -> 10:43:29: OnlineDetalization run begin
+2015-мар-31 -> 10:44:51: OnlineDetalization run begin
+2015-мар-31 -> 10:45:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 10:46:25: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/8ba841d4-f776-49ad-adc6-5792b2e2772b/element/%7B91d65269-d206-45fa-9ef3-da1fad6b552d%7D/click timed out after 60 seconds.
+2015-мар-31 -> 10:46:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 10:46:37: Object reference not set to an instance of an object.
+2015-мар-31 -> 10:46:52: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 10:48:47: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 10:48:47: Object reference not set to an instance of an object.
+2015-мар-31 -> 10:48:59: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 10:50:02: Unable to locate element: {"method":"xpath","selector":"/td[1]"}
+2015-мар-31 -> 11:00:37: OnlineDetalization run begin
+2015-мар-31 -> 11:01:06: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:02:08: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/ff5e6e13-009b-44d0-9c23-8ace1be1848b/element/%7B9a9b0ae3-5247-45de-8758-b1708867c4cc%7D/click timed out after 60 seconds.
+2015-мар-31 -> 11:02:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:02:27: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:04:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 11:04:25: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:05:04: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'finInfoIndexPage')][2]"}
+2015-мар-31 -> 11:17:03: OnlineDetalization run begin
+2015-мар-31 -> 11:17:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:18:42: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/9e2fe6b8-ea87-4ebf-bbd6-1347970025ef/element/%7Bc96ee20f-45a0-404c-83dc-da73d85be1a6%7D/click timed out after 60 seconds.
+2015-мар-31 -> 11:19:05: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:19:05: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:19:19: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 11:21:14: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 11:21:14: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:22:06: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'finInfoIndexPage')][2]//button"}
+2015-мар-31 -> 11:22:07: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:22:08: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:22:08: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:22:08: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:22:08: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:22:14: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:27:20: OnlineDetalization run begin
+2015-мар-31 -> 11:27:49: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:28:52: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/7783f9c2-540a-4278-9679-fff1bb99f5cd/element/%7B883f434f-f290-48d4-a3fc-d81f01c2d530%7D/click timed out after 60 seconds.
+2015-мар-31 -> 11:29:08: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:29:08: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:30:07: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 11:30:17: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-мар-31 -> 11:30:23: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:35:50: OnlineDetalization run begin
+2015-мар-31 -> 11:36:19: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:37:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:37:01: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:37:43: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 11:37:54: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-мар-31 -> 11:37:55: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:38:20: Unable to locate element: {"method":"xpath","selector":"/td[1]"}
+2015-мар-31 -> 11:39:29: OnlineDetalization run begin
+2015-мар-31 -> 11:39:56: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:41:03: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:41:03: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:41:41: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 11:41:51: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-мар-31 -> 11:41:51: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:42:06: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//tbody[contains(@id,'finInfoIndexPage')]"}
+2015-мар-31 -> 11:42:38: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//tbody[contains(@id,'finInfoIndexPage')]"}
+2015-мар-31 -> 11:42:57: Unable to locate element: {"method":"xpath","selector":"//tr[1]"}
+2015-мар-31 -> 11:43:07: Unable to locate element: {"method":"xpath","selector":"/td[1]"}
+2015-мар-31 -> 11:43:07: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:46:21: OnlineDetalization run begin
+2015-мар-31 -> 11:46:47: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:47:18: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:47:18: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:47:55: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 11:48:12: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 11:48:23: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-мар-31 -> 11:48:23: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:51:48: OnlineDetalization run begin
+2015-мар-31 -> 11:52:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:53:16: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/cf8e995a-929e-4869-bddd-0e2b64c3c938/element/%7B57066acb-1936-47be-bd29-bf57345aa424%7D/click timed out after 60 seconds.
+2015-мар-31 -> 11:53:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 11:53:40: Object reference not set to an instance of an object.
+2015-мар-31 -> 11:54:19: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 11:54:32: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 11:54:45: Unable to locate element: {"method":"xpath","selector":"/td[1]"}
+2015-мар-31 -> 11:54:45: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:02:27: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:02:27: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:02:27: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:02:27: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:07:39: OnlineDetalization run begin
+2015-мар-31 -> 12:08:06: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:09:07: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/a794897f-e8d7-4eb8-99a7-54dd3cfa691e/element/%7B752f01f9-1666-4fd0-9e37-6f716be3ae0b%7D/click timed out after 60 seconds.
+2015-мар-31 -> 12:09:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:09:27: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:10:14: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 12:10:24: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-мар-31 -> 12:10:24: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:12:31: OnlineDetalization run begin
+2015-мар-31 -> 12:12:59: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:13:44: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:13:44: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:14:31: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 12:14:46: Unable to locate element: {"method":"xpath","selector":"/td[1]"}
+2015-мар-31 -> 12:14:46: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:14:58: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:14:58: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:14:58: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:14:58: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:16:18: OnlineDetalization run begin
+2015-мар-31 -> 12:16:45: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:17:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:17:17: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:17:53: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 12:18:04: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-мар-31 -> 12:18:04: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:18:14: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//tbody[contains(@id,'finInfoIndexPage')]"}
+2015-мар-31 -> 12:18:27: OnlineDetalization run end
+2015-мар-31 -> 12:19:35: OnlineDetalization run begin
+2015-мар-31 -> 12:20:06: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:21:09: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/a7160042-f282-4aa6-86c6-8948a139a229/element/%7B7774b188-24fe-4e55-ad16-89ec657dbab9%7D/click timed out after 60 seconds.
+2015-мар-31 -> 12:21:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:21:27: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:22:03: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 12:22:14: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 12:22:29: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 12:22:39: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-мар-31 -> 12:22:39: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:38:12: OnlineDetalization run begin
+2015-мар-31 -> 12:38:39: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:39:39: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/441f61d2-25b4-41f1-ab6c-7ad29a68587a/element/%7Ba98840f8-d848-4b7d-be55-7bbba3c8346a%7D/click timed out after 60 seconds.
+2015-мар-31 -> 12:40:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:40:01: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:40:14: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 12:42:09: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:42:09: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:42:20: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 12:43:10: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-мар-31 -> 12:43:10: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:43:42: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'Profile')]"}
+2015-мар-31 -> 12:43:42: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:43:42: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:43:52: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'fininfo/index.xhtml')]"}
+2015-мар-31 -> 12:43:52: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:44:02: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:44:12: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'fileds-row')]/div[contains(@id,'periodSelec')]//div[contains(@class,'ui-selectonemenu-trigger ui-state-default ui-corner-right')]"}
+2015-мар-31 -> 12:44:12: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:44:12: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:44:22: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'fileds-row')]//div[contains(@id,'calendars')]//input"}
+2015-мар-31 -> 12:44:22: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:44:27: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:44:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:44:37: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:44:37: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:44:47: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 12:44:47: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:44:47: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:44:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:44:58: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:44:58: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:45:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 12:45:08: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:45:08: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:45:18: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:45:18: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:45:18: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:45:28: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 12:45:28: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:45:28: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:45:38: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:45:38: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:45:38: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:45:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 12:45:48: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:45:48: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:45:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:45:58: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:45:58: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:46:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 12:46:08: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:46:08: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:46:18: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:46:18: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:46:18: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:46:28: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 12:46:28: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:46:28: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:46:38: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:46:38: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:46:38: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:46:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 12:46:48: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:46:48: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:46:59: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:46:59: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:46:59: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 12:47:07: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/e210b7b5-d2c8-42b8-a35b-c9b1246db535/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-мар-31 -> 12:47:07: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:47:09: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-мар-31 -> 12:47:10: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-мар-31 -> 12:47:10: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:47:11: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-мар-31 -> 12:47:12: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-мар-31 -> 12:47:12: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:55:10: OnlineDetalization run begin
+2015-мар-31 -> 12:55:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:56:37: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/eb900fa2-4a88-494b-836f-ca37b05bb749/element/%7Bc49bcf38-3467-43c0-acb2-ee9f5f59f88f%7D/click timed out after 60 seconds.
+2015-мар-31 -> 12:57:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 12:57:02: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:59:00: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 12:59:00: Object reference not set to an instance of an object.
+2015-мар-31 -> 12:59:48: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-мар-31 -> 01:00:18: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'Profile')]"}
+2015-мар-31 -> 01:00:18: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:00:18: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:00:28: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'fininfo/index.xhtml')]"}
+2015-мар-31 -> 01:00:28: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:00:38: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:00:49: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'fileds-row')]/div[contains(@id,'periodSelec')]//div[contains(@class,'ui-selectonemenu-trigger ui-state-default ui-corner-right')]"}
+2015-мар-31 -> 01:00:49: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:00:49: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:00:59: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'fileds-row')]//div[contains(@id,'calendars')]//input"}
+2015-мар-31 -> 01:00:59: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:01:04: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:01:14: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 01:01:14: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:01:14: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:01:24: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 01:01:24: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:01:24: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:01:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 01:01:34: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:01:34: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:01:44: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 01:01:44: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:01:44: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:01:54: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-мар-31 -> 01:01:54: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:01:54: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 01:02:04: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd-next')]"}
+2015-мар-31 -> 01:02:04: Object reference not set to an instance of an object.
+2015-мар-31 -> 01:02:04: jQuery is not defined (UnexpectedJavaScriptError)
+2015-мар-31 -> 03:32:40: ChangeSim run begin
+2015-мар-31 -> 03:33:32: ChangeSim run begin
+2015-мар-31 -> 03:34:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 03:35:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 03:35:21: Object reference not set to an instance of an object.
+2015-мар-31 -> 03:36:33: ORA-01729: database link name expected
+
+2015-мар-31 -> 03:36:35: ChangeSim run end
+2015-мар-31 -> 03:38:07: ChangeSim run begin
+2015-мар-31 -> 03:38:32: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 03:39:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 03:39:41: Object reference not set to an instance of an object.
+2015-мар-31 -> 03:42:27: ChangeSim run begin
+2015-мар-31 -> 03:42:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 03:43:56: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1baa9231-c433-4617-9c91-b9fc594cc7d0/element/%7B7e04179f-6fde-45f4-8d83-bb632917e6a1%7D/click timed out after 60 seconds.
+2015-мар-31 -> 03:44:33: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 03:44:33: Object reference not set to an instance of an object.
+2015-мар-31 -> 03:45:39: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1baa9231-c433-4617-9c91-b9fc594cc7d0/element/%7Bea2a3102-c483-4a0a-9c01-94aa91302200%7D/click timed out after 60 seconds.
+2015-мар-31 -> 03:47:50: ChangeSim run begin
+2015-мар-31 -> 03:48:18: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 03:49:20: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/cc5b0239-746f-479c-a655-9b3a48cebedc/element/%7Bc4757b09-3c99-4b04-8a2e-ef714226171e%7D/click timed out after 60 seconds.
+2015-мар-31 -> 03:49:57: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 03:49:57: Object reference not set to an instance of an object.
+2015-мар-31 -> 03:51:10: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/cc5b0239-746f-479c-a655-9b3a48cebedc/execute timed out after 60 seconds.
+2015-мар-31 -> 03:52:03: ORA-01729: database link name expected
+
+2015-мар-31 -> 03:52:05: ChangeSim run end
+2015-мар-31 -> 04:12:15: ChangeSim run begin
+2015-мар-31 -> 04:12:39: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 04:13:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 04:13:36: Object reference not set to an instance of an object.
+2015-мар-31 -> 04:14:41: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/eba410c8-7c5f-47f9-99eb-0202b62ef261/element/%7B5780876e-2311-4a84-a5ca-a74bd5e613d1%7D/click timed out after 60 seconds.
+2015-мар-31 -> 04:15:56: ChangeSim run begin
+2015-мар-31 -> 04:16:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 04:17:23: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/b46ce679-2b75-4742-922a-2bbcfbfe1e39/element/%7B35ceffe5-1601-4a00-91c3-09a74f6589e6%7D/click timed out after 60 seconds.
+2015-мар-31 -> 04:18:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-мар-31 -> 04:18:02: Object reference not set to an instance of an object.
+2015-мар-31 -> 04:19:06: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/b46ce679-2b75-4742-922a-2bbcfbfe1e39/element/%7Bcb402d28-ccac-4b46-963c-144d10a69152%7D/click timed out after 60 seconds.
+2015-мар-31 -> 04:25:41: ORA-01729: database link name expected
+
+2015-мар-31 -> 04:25:46: ChangeSim run end
+2015-апр-01 -> 02:16:06: ChangeSim run begin
+2015-апр-01 -> 02:16:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 02:17:35: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/75a41c08-6d68-40ec-a9b2-c245bb3031b8/element/%7Ba2c573ca-753c-427d-b820-aa90c00b5ca3%7D/click timed out after 60 seconds.
+2015-апр-01 -> 02:18:11: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 02:18:11: Object reference not set to an instance of an object.
+2015-апр-01 -> 02:33:22: ChangeNoSim run begin
+2015-апр-01 -> 02:33:48: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 02:34:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/adb106ab-014c-4ffc-a004-6077fe438d98/element/%7B56c7c61b-cb73-45eb-9bf8-15736f2f3c5c%7D/click timed out after 60 seconds.
+2015-апр-01 -> 02:35:26: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 02:35:26: Object reference not set to an instance of an object.
+2015-апр-01 -> 02:35:32: The given selector //a[text(),'(968) 702-90-01'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //a[text(),'(968) 702-90-01'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-апр-01 -> 02:35:32: Object reference not set to an instance of an object.
+2015-апр-01 -> 02:38:33: ChangeSim run begin
+2015-апр-01 -> 02:38:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 02:39:59: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/ad9383e3-3bec-4cad-a305-26ff25d1da04/element/%7B4f40250e-7ca8-4043-8ba4-fce18e7b66f9%7D/click timed out after 60 seconds.
+2015-апр-01 -> 02:40:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 02:40:36: Object reference not set to an instance of an object.
+2015-апр-01 -> 02:45:14: ChangeNoSim run begin
+2015-апр-01 -> 02:46:42: ChangeSim run begin
+2015-апр-01 -> 02:47:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 02:47:21: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/60c92b77-ad47-4307-b20e-c4b3a814195d/execute. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-апр-01 -> 03:10:54: ChangeSim run begin
+2015-апр-01 -> 03:13:10: ChangeSim run begin
+2015-апр-01 -> 03:13:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 03:14:37: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/6e5198d9-4212-4249-929b-68d141e71b79/element/%7B5de08fcf-7b4d-4358-bc1d-2651d944e8cf%7D/click timed out after 60 seconds.
+2015-апр-01 -> 03:15:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 03:15:17: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:15:53: The given selector //a[text(),'(903) 033-28-95'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //a[text(),'(903) 033-28-95'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-апр-01 -> 03:15:54: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:15:55: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:16:00: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:16:02: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:16:02: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:16:02: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:16:02: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:17:26: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:17:26: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:17:29: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:17:29: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:17:29: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:17:29: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:18:07: ChangeSim run begin
+2015-апр-01 -> 03:18:33: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 03:19:34: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/c555e6f0-76e9-45ce-8966-2449a9b940ba/element/%7Ba8dddad3-11db-4c25-b907-f3e538e3806d%7D/click timed out after 60 seconds.
+2015-апр-01 -> 03:20:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 03:20:12: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:20:29: The given selector //a[@text(),'(903) 033-28-95'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //a[@text(),'(903) 033-28-95'] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-апр-01 -> 03:20:32: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:20:32: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:20:32: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:20:32: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:25:08: ChangeSim run begin
+2015-апр-01 -> 03:25:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 03:26:35: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/998ad9d6-508c-4265-a02d-69566f3e8b74/element/%7B044d79f6-5204-45e8-be1c-79d2de78e294%7D/click timed out after 60 seconds.
+2015-апр-01 -> 03:27:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 03:27:12: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:31:01: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'simReplaceForm')]"}
+2015-апр-01 -> 03:31:01: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:31:17: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/998ad9d6-508c-4265-a02d-69566f3e8b74/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-апр-01 -> 03:31:17: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:32:23: ChangeSim run begin
+2015-апр-01 -> 03:32:50: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 03:33:51: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/b804f695-0b7a-4ad1-a589-a1d8ecabccc8/element/%7B83e5e509-10f7-4cd2-bcd9-9a1b6d3eaece%7D/click timed out after 60 seconds.
+2015-апр-01 -> 03:34:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 03:34:27: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:35:52: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-01 -> 03:35:52: Object reference not set to an instance of an object.
+2015-апр-01 -> 03:36:11: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-01 -> 03:36:22: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-01 -> 03:36:32: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-01 -> 03:36:34: ORA-01729: database link name expected
+
+2015-апр-01 -> 03:37:41: ChangeSim run end
+2015-апр-01 -> 04:44:43: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-апр-01 -> 04:44:43: ChangeNoSim : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]
+2015-апр-01 -> 04:44:43: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-апр-01 -> 04:45:21: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-апр-01 -> 04:45:21: ChangeSim : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]
+2015-апр-01 -> 04:45:21: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-апр-01 -> 04:46:17: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-апр-01 -> 04:46:17: ChangeNoSim : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]
+2015-апр-01 -> 04:46:17: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-апр-01 -> 05:09:56: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-апр-01 -> 05:09:56: ChangeSim : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]
+2015-апр-01 -> 05:09:57: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2015-апр-01 -> 05:35:35: ChangeNoSim run begin
+2015-апр-01 -> 05:37:53: ChangeNoSim run begin
+2015-апр-01 -> 05:38:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 05:39:18: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/4d3f19ef-a080-4f53-bb62-9d13352e2b87/element/%7B99c5fa10-9926-415e-bc32-e6b5e2b066cb%7D/click timed out after 60 seconds.
+2015-апр-01 -> 05:39:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 05:39:55: Object reference not set to an instance of an object.
+2015-апр-01 -> 05:41:17: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-01 -> 05:41:17: Object reference not set to an instance of an object.
+2015-апр-01 -> 05:41:30: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-01 -> 05:41:30: Object reference not set to an instance of an object.
+2015-апр-01 -> 05:42:14: ChangeNoSim run end
+2015-апр-01 -> 05:42:19: ChangeSim run begin
+2015-апр-01 -> 05:42:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 05:43:42: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/35162c94-fe43-489c-a105-18ac694d3d32/element/%7B38a3a530-db3d-4660-84cc-b42c662798ca%7D/click timed out after 60 seconds.
+2015-апр-01 -> 05:44:18: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-01 -> 05:44:18: Object reference not set to an instance of an object.
+2015-апр-01 -> 05:45:25: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/35162c94-fe43-489c-a105-18ac694d3d32/execute timed out after 60 seconds.
+2015-апр-01 -> 05:46:03: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-01 -> 05:46:03: Object reference not set to an instance of an object.
+2015-апр-01 -> 05:46:09: ORA-01729: database link name expected
+
+2015-апр-01 -> 05:46:10: ChangeSim run end

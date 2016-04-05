@@ -1,0 +1,3102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.estylesoft.com/umcs12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.estylesoft.com/umcs12/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.estylesoft.com/umcs12/">
+      <s:element name="AccountGet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="imsi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountGetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountGetResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="accountIsLocked" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="realValueOut" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="value" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountCreate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountCreateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountCreateResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountChangeTPThreshold">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="tpValue" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountChangeTPThresholdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountChangeTPThresholdResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountChangeDPThreshold">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dpValue" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountChangeDPThresholdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountChangeDPThresholdResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountTypeChangeGUI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountTypeChangeGUIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountTypeChangeGUIResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountChangeNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="oldPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newPhone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountChangeNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountChangeNumberResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountQueryResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="status" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="blockType" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="mnemoCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountDelete">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BAN" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountDeleteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountDeleteResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountGetValue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isSendSms" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountGetValueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountGetValueResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lockedValue" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="realValue" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bmkValue" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="transferBlDelta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="status" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountGetValueFoBo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="accId" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountGetValueFoBoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountGetValueFoBoResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="bmkValue" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReplaceSim">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="oldIMSI" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newIMSI" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReplaceSimResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReplaceSimResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountClose">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountCloseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountCloseResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddMoney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="value" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddMoneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddMoneyResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddMoneyOnRemovedAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="value" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddMoneyOnRemovedAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddMoneyOnRemovedAccountResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FundsTransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="destPhone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sms" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="chId" type="tns:Channel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="Channel">
+        <s:restriction base="s:string">
+          <s:enumeration value="NotRequired" />
+          <s:enumeration value="SMS" />
+          <s:enumeration value="USSD" />
+          <s:enumeration value="SHOP" />
+          <s:enumeration value="GUI" />
+          <s:enumeration value="BeePay" />
+          <s:enumeration value="ABC" />
+          <s:enumeration value="ShopLot" />
+          <s:enumeration value="CDP" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="FundsTransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FundsTransferResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PurchLotShopGUI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="accPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsTxtMO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsTxtMT" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="date" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PurchLotShopGUIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PurchLotShopGUIResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountLock">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lockStatus" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="mnemo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountLockResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountLockResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Reserve">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="imsi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsText" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="channel" type="tns:Channel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReserveResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveGoogle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correlationId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="price" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveGoogleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReserveGoogleResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="status" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelPurchaseGoogle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correlationId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelPurchaseGoogleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CancelPurchaseGoogleResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="status" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RefundEnd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correlationId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="transactionId" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="result" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errorCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RefundEndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RefundEndResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckAccountForPurchase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CTN" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckAccountForPurchaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckAccountForPurchaseResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckOffer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ctn" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckOfferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckOfferResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckOfferConfirm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ctn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckOfferConfirmResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckOfferConfirmResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PurchaseTestFoShopChannel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="price" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PurchaseTestFoShopChannelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PurchaseTestFoShopChannelResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="sessionId" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="orderID" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPurchStatusResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="getPurchStatusResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchStatusByCorrelation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correlationId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchStatusByCorrelationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPurchStatusByCorrelationResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="getPurchStatusResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveGUI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sessionId" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="guiDate" nillable="true" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveGUIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReserveGUIResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveTestGUI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveTestGUIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReserveTestGUIResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CommitMTopUp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="orderId" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="res" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="text" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CommitMTopUpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CommitMTopUpResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Purchase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="imsi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsText" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="result" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PurchaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PurchaseResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseSessions">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sessions" type="tns:ArrayOfLong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfLong">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="long" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CloseSessionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CloseSessionsResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseSessionsTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sessions" type="tns:ArrayOfLong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseSessionsTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CloseSessionsTestResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveTestAuto">
+        <s:complexType />
+      </s:element>
+      <s:element name="ReserveTestAutoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReserveTestAutoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseSession">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ssId" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseSessionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CloseSessionResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestsConfirmPurchase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sessions" type="tns:ArrayOfLong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestsConfirmPurchaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RequestsConfirmPurchaseResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestConfirmPurchase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="imsi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestConfirmPurchaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RequestConfirmPurchaseResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveEnd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sessionId" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="price" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userInfo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="result" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="extensions" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveEndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReserveEndResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PurchaseEnd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sessionId" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="userInfo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="result" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PurchaseEndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PurchaseEndResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendFileDailyReport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendFileDailyReportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendFileDailyReportResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendFileDailyReportPart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="reportId" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="reportPartId" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendFileDailyReportPartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendFileDailyReportPartResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BankInstuctions">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dateTo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BankInstuctionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BankInstuctionsResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="instructions" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendLastPurchases">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="msgCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendLastPurchasesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendLastPurchasesResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainDSN">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMainDSNResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainDSNResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSmsgwTimeoutExpiredCode">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSmsgwTimeoutExpiredCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSmsgwTimeoutExpiredCodeResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sourceAddr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLogDSN">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLogDSNResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLogDSNResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PayByPhone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sourcePhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="destPhone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sms" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="chId" type="tns:Channel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PayByPhoneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PayByPhoneResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PayByPhoneWithAccountId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sourceAccId" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="destPhone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sms" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="chId" type="tns:Channel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PayByPhoneWithAccountIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PayByPhoneWithAccountIdResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PayPhoneToAcc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="sms" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="chId" type="tns:Channel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PayPhoneToAccResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PayPhoneToAccResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDirectory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sourcePhone" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendDirectoryResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="RollBackTransaction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="tranID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gdCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RollBackTransactionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RollBackTransactionResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RollBackTransactionGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isTlOrderId" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="datetime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RollBackTransactionGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RollBackTransactionGroupResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMDRepeatRequestGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMDRepeatRequestGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CMDRepeatRequestGroupResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RemoveLockAmountGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RemoveLockAmountGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RemoveLockAmountGroupResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransactionCMDRepeat">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="tranID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransactionCMDRepeatResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TransactionCMDRepeatResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RefundCMDTransaction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="tranID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RefundCMDTransactionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RefundCMDTransactionResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MonitoringParamsGet">
+        <s:complexType />
+      </s:element>
+      <s:element name="MonitoringParamsGetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MonitoringParamsGetResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="monitoringResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MonitoringRecordsetGet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="recordsCount" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MonitoringRecordsetGetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MonitoringRecordsetGetResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="monitoringResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MaxSMSNumber">
+        <s:complexType />
+      </s:element>
+      <s:element name="MaxSMSNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MaxSMSNumberResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OnSmsDelivered">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="messageId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="submitTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="doneTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OnSmsDeliveredResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SendSmsPayByPhone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="phoneIn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phoneOut" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="amount" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSmsPayByPhoneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendSmsPayByPhoneResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TakeFileDailyReport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dailyReport" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="certNumber" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="maxReportLength" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TakeFileDailyReportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TakeFileDailyReportResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckMTopUp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ctn" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckMTopUpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckMTopUpResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoPayCpa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ctn" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isEnabled" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoPayCpaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AutoPayCpaResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errMessage" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveCdp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtoIn" type="tns:AmountReservationTransactionDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AmountReservationTransactionDto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EndUserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Phone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaymentAmount" type="tns:PaymentAmountDto" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransactionOperationStatus" type="tns:ETransactionOperationStatusDto" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReferenceSequence" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServerReferenceCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClientCorrelator" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResourceURL" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PaymentAmountDto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ChargingInformation" type="tns:ChargingInformationDto" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalAmountCharged" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="ChargingMetaData" type="tns:ChargingMetaDataDto" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChargingInformationDto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Amount" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChargingMetaDataDto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Channel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MandateId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="ETransactionOperationStatusDto">
+        <s:restriction base="s:string">
+          <s:enumeration value="Charged" />
+          <s:enumeration value="Refunded" />
+          <s:enumeration value="Reserved" />
+          <s:enumeration value="Released" />
+          <s:enumeration value="Denied" />
+          <s:enumeration value="Refused" />
+          <s:enumeration value="Processing" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ResultDto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Dto" type="tns:AmountReservationTransactionDto" />
+          <s:choice minOccurs="1" maxOccurs="1">
+            <s:element minOccurs="0" maxOccurs="1" name="ServiceExceptionDto" type="tns:ServiceExceptionDto" />
+            <s:element minOccurs="0" maxOccurs="1" name="PolicyExceptionDto" type="tns:PolicyExceptionDto" />
+          </s:choice>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ServiceExceptionDto">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ExceptionDto" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ExceptionDto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MessageId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Text" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Variables" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PolicyExceptionDto">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:ExceptionDto" />
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="ReserveCdpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReserveCdpResult" type="tns:ResultDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReleaseCdp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtoIn" type="tns:AmountReservationTransactionDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReleaseCdpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReleaseCdpResult" type="tns:ResultDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChargeCdp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shopCertId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="goodsPhone" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtoIn" type="tns:AmountReservationTransactionDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChargeCdpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChargeCdpResult" type="tns:ResultDto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AccountGetSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountGet" />
+  </wsdl:message>
+  <wsdl:message name="AccountGetSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountGetResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountCreateSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountCreate" />
+  </wsdl:message>
+  <wsdl:message name="AccountCreateSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountCreateResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountChangeTPThresholdSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountChangeTPThreshold" />
+  </wsdl:message>
+  <wsdl:message name="AccountChangeTPThresholdSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountChangeTPThresholdResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountChangeDPThresholdSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountChangeDPThreshold" />
+  </wsdl:message>
+  <wsdl:message name="AccountChangeDPThresholdSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountChangeDPThresholdResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountTypeChangeGUISoapIn">
+    <wsdl:part name="parameters" element="tns:AccountTypeChangeGUI" />
+  </wsdl:message>
+  <wsdl:message name="AccountTypeChangeGUISoapOut">
+    <wsdl:part name="parameters" element="tns:AccountTypeChangeGUIResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountChangeNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountChangeNumber" />
+  </wsdl:message>
+  <wsdl:message name="AccountChangeNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountChangeNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:AccountQuery" />
+  </wsdl:message>
+  <wsdl:message name="AccountQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:AccountQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountDeleteSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountDelete" />
+  </wsdl:message>
+  <wsdl:message name="AccountDeleteSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountDeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountGetValueSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountGetValue" />
+  </wsdl:message>
+  <wsdl:message name="AccountGetValueSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountGetValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountGetValueFoBoSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountGetValueFoBo" />
+  </wsdl:message>
+  <wsdl:message name="AccountGetValueFoBoSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountGetValueFoBoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceSimSoapIn">
+    <wsdl:part name="parameters" element="tns:ReplaceSim" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceSimSoapOut">
+    <wsdl:part name="parameters" element="tns:ReplaceSimResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountCloseSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountClose" />
+  </wsdl:message>
+  <wsdl:message name="AccountCloseSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountCloseResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddMoneySoapIn">
+    <wsdl:part name="parameters" element="tns:AddMoney" />
+  </wsdl:message>
+  <wsdl:message name="AddMoneySoapOut">
+    <wsdl:part name="parameters" element="tns:AddMoneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddMoneyOnRemovedAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:AddMoneyOnRemovedAccount" />
+  </wsdl:message>
+  <wsdl:message name="AddMoneyOnRemovedAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:AddMoneyOnRemovedAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="FundsTransferSoapIn">
+    <wsdl:part name="parameters" element="tns:FundsTransfer" />
+  </wsdl:message>
+  <wsdl:message name="FundsTransferSoapOut">
+    <wsdl:part name="parameters" element="tns:FundsTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchLotShopGUISoapIn">
+    <wsdl:part name="parameters" element="tns:PurchLotShopGUI" />
+  </wsdl:message>
+  <wsdl:message name="PurchLotShopGUISoapOut">
+    <wsdl:part name="parameters" element="tns:PurchLotShopGUIResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountLockSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountLock" />
+  </wsdl:message>
+  <wsdl:message name="AccountLockSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountLockResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReserveSoapIn">
+    <wsdl:part name="parameters" element="tns:Reserve" />
+  </wsdl:message>
+  <wsdl:message name="ReserveSoapOut">
+    <wsdl:part name="parameters" element="tns:ReserveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGoogleSoapIn">
+    <wsdl:part name="parameters" element="tns:ReserveGoogle" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGoogleSoapOut">
+    <wsdl:part name="parameters" element="tns:ReserveGoogleResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelPurchaseGoogleSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelPurchaseGoogle" />
+  </wsdl:message>
+  <wsdl:message name="CancelPurchaseGoogleSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelPurchaseGoogleResponse" />
+  </wsdl:message>
+  <wsdl:message name="RefundEndSoapIn">
+    <wsdl:part name="parameters" element="tns:RefundEnd" />
+  </wsdl:message>
+  <wsdl:message name="RefundEndSoapOut">
+    <wsdl:part name="parameters" element="tns:RefundEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccountForPurchaseSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckAccountForPurchase" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccountForPurchaseSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckAccountForPurchaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckOfferSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckOffer" />
+  </wsdl:message>
+  <wsdl:message name="CheckOfferSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckOfferResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckOfferConfirmSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckOfferConfirm" />
+  </wsdl:message>
+  <wsdl:message name="CheckOfferConfirmSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckOfferConfirmResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchaseTestFoShopChannelSoapIn">
+    <wsdl:part name="parameters" element="tns:PurchaseTestFoShopChannel" />
+  </wsdl:message>
+  <wsdl:message name="PurchaseTestFoShopChannelSoapOut">
+    <wsdl:part name="parameters" element="tns:PurchaseTestFoShopChannelResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPurchStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPurchStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchStatusByCorrelationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPurchStatusByCorrelation" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchStatusByCorrelationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPurchStatusByCorrelationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGUISoapIn">
+    <wsdl:part name="parameters" element="tns:ReserveGUI" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGUISoapOut">
+    <wsdl:part name="parameters" element="tns:ReserveGUIResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReserveTestGUISoapIn">
+    <wsdl:part name="parameters" element="tns:ReserveTestGUI" />
+  </wsdl:message>
+  <wsdl:message name="ReserveTestGUISoapOut">
+    <wsdl:part name="parameters" element="tns:ReserveTestGUIResponse" />
+  </wsdl:message>
+  <wsdl:message name="CommitMTopUpSoapIn">
+    <wsdl:part name="parameters" element="tns:CommitMTopUp" />
+  </wsdl:message>
+  <wsdl:message name="CommitMTopUpSoapOut">
+    <wsdl:part name="parameters" element="tns:CommitMTopUpResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchaseSoapIn">
+    <wsdl:part name="parameters" element="tns:Purchase" />
+  </wsdl:message>
+  <wsdl:message name="PurchaseSoapOut">
+    <wsdl:part name="parameters" element="tns:PurchaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionsSoapIn">
+    <wsdl:part name="parameters" element="tns:CloseSessions" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionsSoapOut">
+    <wsdl:part name="parameters" element="tns:CloseSessionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionsTestSoapIn">
+    <wsdl:part name="parameters" element="tns:CloseSessionsTest" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionsTestSoapOut">
+    <wsdl:part name="parameters" element="tns:CloseSessionsTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReserveTestAutoSoapIn">
+    <wsdl:part name="parameters" element="tns:ReserveTestAuto" />
+  </wsdl:message>
+  <wsdl:message name="ReserveTestAutoSoapOut">
+    <wsdl:part name="parameters" element="tns:ReserveTestAutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionSoapIn">
+    <wsdl:part name="parameters" element="tns:CloseSession" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionSoapOut">
+    <wsdl:part name="parameters" element="tns:CloseSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestsConfirmPurchaseSoapIn">
+    <wsdl:part name="parameters" element="tns:RequestsConfirmPurchase" />
+  </wsdl:message>
+  <wsdl:message name="RequestsConfirmPurchaseSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestsConfirmPurchaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestConfirmPurchaseSoapIn">
+    <wsdl:part name="parameters" element="tns:RequestConfirmPurchase" />
+  </wsdl:message>
+  <wsdl:message name="RequestConfirmPurchaseSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestConfirmPurchaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReserveEndSoapIn">
+    <wsdl:part name="parameters" element="tns:ReserveEnd" />
+  </wsdl:message>
+  <wsdl:message name="ReserveEndSoapOut">
+    <wsdl:part name="parameters" element="tns:ReserveEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="PurchaseEndSoapIn">
+    <wsdl:part name="parameters" element="tns:PurchaseEnd" />
+  </wsdl:message>
+  <wsdl:message name="PurchaseEndSoapOut">
+    <wsdl:part name="parameters" element="tns:PurchaseEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendFileDailyReportSoapIn">
+    <wsdl:part name="parameters" element="tns:SendFileDailyReport" />
+  </wsdl:message>
+  <wsdl:message name="SendFileDailyReportSoapOut">
+    <wsdl:part name="parameters" element="tns:SendFileDailyReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendFileDailyReportPartSoapIn">
+    <wsdl:part name="parameters" element="tns:SendFileDailyReportPart" />
+  </wsdl:message>
+  <wsdl:message name="SendFileDailyReportPartSoapOut">
+    <wsdl:part name="parameters" element="tns:SendFileDailyReportPartResponse" />
+  </wsdl:message>
+  <wsdl:message name="BankInstuctionsSoapIn">
+    <wsdl:part name="parameters" element="tns:BankInstuctions" />
+  </wsdl:message>
+  <wsdl:message name="BankInstuctionsSoapOut">
+    <wsdl:part name="parameters" element="tns:BankInstuctionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendLastPurchasesSoapIn">
+    <wsdl:part name="parameters" element="tns:SendLastPurchases" />
+  </wsdl:message>
+  <wsdl:message name="SendLastPurchasesSoapOut">
+    <wsdl:part name="parameters" element="tns:SendLastPurchasesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainDSNSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainDSN" />
+  </wsdl:message>
+  <wsdl:message name="GetMainDSNSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainDSNResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSmsgwTimeoutExpiredCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSmsgwTimeoutExpiredCode" />
+  </wsdl:message>
+  <wsdl:message name="GetSmsgwTimeoutExpiredCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSmsgwTimeoutExpiredCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLogDSNSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLogDSN" />
+  </wsdl:message>
+  <wsdl:message name="GetLogDSNSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLogDSNResponse" />
+  </wsdl:message>
+  <wsdl:message name="PayByPhoneSoapIn">
+    <wsdl:part name="parameters" element="tns:PayByPhone" />
+  </wsdl:message>
+  <wsdl:message name="PayByPhoneSoapOut">
+    <wsdl:part name="parameters" element="tns:PayByPhoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="PayByPhoneWithAccountIdSoapIn">
+    <wsdl:part name="parameters" element="tns:PayByPhoneWithAccountId" />
+  </wsdl:message>
+  <wsdl:message name="PayByPhoneWithAccountIdSoapOut">
+    <wsdl:part name="parameters" element="tns:PayByPhoneWithAccountIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="PayPhoneToAccSoapIn">
+    <wsdl:part name="parameters" element="tns:PayPhoneToAcc" />
+  </wsdl:message>
+  <wsdl:message name="PayPhoneToAccSoapOut">
+    <wsdl:part name="parameters" element="tns:PayPhoneToAccResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendDirectorySoapIn">
+    <wsdl:part name="parameters" element="tns:SendDirectory" />
+  </wsdl:message>
+  <wsdl:message name="SendDirectorySoapOut">
+    <wsdl:part name="parameters" element="tns:SendDirectoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="RollBackTransactionSoapIn">
+    <wsdl:part name="parameters" element="tns:RollBackTransaction" />
+  </wsdl:message>
+  <wsdl:message name="RollBackTransactionSoapOut">
+    <wsdl:part name="parameters" element="tns:RollBackTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="RollBackTransactionGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:RollBackTransactionGroup" />
+  </wsdl:message>
+  <wsdl:message name="RollBackTransactionGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:RollBackTransactionGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="CMDRepeatRequestGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:CMDRepeatRequestGroup" />
+  </wsdl:message>
+  <wsdl:message name="CMDRepeatRequestGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:CMDRepeatRequestGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="RemoveLockAmountGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:RemoveLockAmountGroup" />
+  </wsdl:message>
+  <wsdl:message name="RemoveLockAmountGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:RemoveLockAmountGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransactionCMDRepeatSoapIn">
+    <wsdl:part name="parameters" element="tns:TransactionCMDRepeat" />
+  </wsdl:message>
+  <wsdl:message name="TransactionCMDRepeatSoapOut">
+    <wsdl:part name="parameters" element="tns:TransactionCMDRepeatResponse" />
+  </wsdl:message>
+  <wsdl:message name="RefundCMDTransactionSoapIn">
+    <wsdl:part name="parameters" element="tns:RefundCMDTransaction" />
+  </wsdl:message>
+  <wsdl:message name="RefundCMDTransactionSoapOut">
+    <wsdl:part name="parameters" element="tns:RefundCMDTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="MonitoringParamsGetSoapIn">
+    <wsdl:part name="parameters" element="tns:MonitoringParamsGet" />
+  </wsdl:message>
+  <wsdl:message name="MonitoringParamsGetSoapOut">
+    <wsdl:part name="parameters" element="tns:MonitoringParamsGetResponse" />
+  </wsdl:message>
+  <wsdl:message name="MonitoringRecordsetGetSoapIn">
+    <wsdl:part name="parameters" element="tns:MonitoringRecordsetGet" />
+  </wsdl:message>
+  <wsdl:message name="MonitoringRecordsetGetSoapOut">
+    <wsdl:part name="parameters" element="tns:MonitoringRecordsetGetResponse" />
+  </wsdl:message>
+  <wsdl:message name="MaxSMSNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:MaxSMSNumber" />
+  </wsdl:message>
+  <wsdl:message name="MaxSMSNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:MaxSMSNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="OnSmsDeliveredSoapIn">
+    <wsdl:part name="parameters" element="tns:OnSmsDelivered" />
+  </wsdl:message>
+  <wsdl:message name="OnSmsDeliveredSoapOut">
+    <wsdl:part name="parameters" element="tns:OnSmsDeliveredResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSmsPayByPhoneSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSmsPayByPhone" />
+  </wsdl:message>
+  <wsdl:message name="SendSmsPayByPhoneSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSmsPayByPhoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="TakeFileDailyReportSoapIn">
+    <wsdl:part name="parameters" element="tns:TakeFileDailyReport" />
+  </wsdl:message>
+  <wsdl:message name="TakeFileDailyReportSoapOut">
+    <wsdl:part name="parameters" element="tns:TakeFileDailyReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckMTopUpSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckMTopUp" />
+  </wsdl:message>
+  <wsdl:message name="CheckMTopUpSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckMTopUpResponse" />
+  </wsdl:message>
+  <wsdl:message name="AutoPayCpaSoapIn">
+    <wsdl:part name="parameters" element="tns:AutoPayCpa" />
+  </wsdl:message>
+  <wsdl:message name="AutoPayCpaSoapOut">
+    <wsdl:part name="parameters" element="tns:AutoPayCpaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReserveCdpSoapIn">
+    <wsdl:part name="parameters" element="tns:ReserveCdp" />
+  </wsdl:message>
+  <wsdl:message name="ReserveCdpSoapOut">
+    <wsdl:part name="parameters" element="tns:ReserveCdpResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReleaseCdpSoapIn">
+    <wsdl:part name="parameters" element="tns:ReleaseCdp" />
+  </wsdl:message>
+  <wsdl:message name="ReleaseCdpSoapOut">
+    <wsdl:part name="parameters" element="tns:ReleaseCdpResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChargeCdpSoapIn">
+    <wsdl:part name="parameters" element="tns:ChargeCdp" />
+  </wsdl:message>
+  <wsdl:message name="ChargeCdpSoapOut">
+    <wsdl:part name="parameters" element="tns:ChargeCdpResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UMCSSoap">
+    <wsdl:operation name="AccountGet">
+      <wsdl:input message="tns:AccountGetSoapIn" />
+      <wsdl:output message="tns:AccountGetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountCreate">
+      <wsdl:input message="tns:AccountCreateSoapIn" />
+      <wsdl:output message="tns:AccountCreateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeTPThreshold">
+      <wsdl:input message="tns:AccountChangeTPThresholdSoapIn" />
+      <wsdl:output message="tns:AccountChangeTPThresholdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeDPThreshold">
+      <wsdl:input message="tns:AccountChangeDPThresholdSoapIn" />
+      <wsdl:output message="tns:AccountChangeDPThresholdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountTypeChangeGUI">
+      <wsdl:input message="tns:AccountTypeChangeGUISoapIn" />
+      <wsdl:output message="tns:AccountTypeChangeGUISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeNumber">
+      <wsdl:input message="tns:AccountChangeNumberSoapIn" />
+      <wsdl:output message="tns:AccountChangeNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountQuery">
+      <wsdl:input message="tns:AccountQuerySoapIn" />
+      <wsdl:output message="tns:AccountQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountDelete">
+      <wsdl:input message="tns:AccountDeleteSoapIn" />
+      <wsdl:output message="tns:AccountDeleteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountGetValue">
+      <wsdl:input message="tns:AccountGetValueSoapIn" />
+      <wsdl:output message="tns:AccountGetValueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountGetValueFoBo">
+      <wsdl:input message="tns:AccountGetValueFoBoSoapIn" />
+      <wsdl:output message="tns:AccountGetValueFoBoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceSim">
+      <wsdl:input message="tns:ReplaceSimSoapIn" />
+      <wsdl:output message="tns:ReplaceSimSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountClose">
+      <wsdl:input message="tns:AccountCloseSoapIn" />
+      <wsdl:output message="tns:AccountCloseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMoney">
+      <wsdl:input message="tns:AddMoneySoapIn" />
+      <wsdl:output message="tns:AddMoneySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMoneyOnRemovedAccount">
+      <wsdl:input message="tns:AddMoneyOnRemovedAccountSoapIn" />
+      <wsdl:output message="tns:AddMoneyOnRemovedAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FundsTransfer">
+      <wsdl:input message="tns:FundsTransferSoapIn" />
+      <wsdl:output message="tns:FundsTransferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PurchLotShopGUI">
+      <wsdl:input message="tns:PurchLotShopGUISoapIn" />
+      <wsdl:output message="tns:PurchLotShopGUISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountLock">
+      <wsdl:input message="tns:AccountLockSoapIn" />
+      <wsdl:output message="tns:AccountLockSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reserve">
+      <wsdl:input message="tns:ReserveSoapIn" />
+      <wsdl:output message="tns:ReserveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGoogle">
+      <wsdl:input message="tns:ReserveGoogleSoapIn" />
+      <wsdl:output message="tns:ReserveGoogleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelPurchaseGoogle">
+      <wsdl:input message="tns:CancelPurchaseGoogleSoapIn" />
+      <wsdl:output message="tns:CancelPurchaseGoogleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RefundEnd">
+      <wsdl:input message="tns:RefundEndSoapIn" />
+      <wsdl:output message="tns:RefundEndSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccountForPurchase">
+      <wsdl:input message="tns:CheckAccountForPurchaseSoapIn" />
+      <wsdl:output message="tns:CheckAccountForPurchaseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckOffer">
+      <wsdl:input message="tns:CheckOfferSoapIn" />
+      <wsdl:output message="tns:CheckOfferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckOfferConfirm">
+      <wsdl:input message="tns:CheckOfferConfirmSoapIn" />
+      <wsdl:output message="tns:CheckOfferConfirmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PurchaseTestFoShopChannel">
+      <wsdl:input message="tns:PurchaseTestFoShopChannelSoapIn" />
+      <wsdl:output message="tns:PurchaseTestFoShopChannelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchStatus">
+      <wsdl:input message="tns:GetPurchStatusSoapIn" />
+      <wsdl:output message="tns:GetPurchStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchStatusByCorrelation">
+      <wsdl:input message="tns:GetPurchStatusByCorrelationSoapIn" />
+      <wsdl:output message="tns:GetPurchStatusByCorrelationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGUI">
+      <wsdl:input message="tns:ReserveGUISoapIn" />
+      <wsdl:output message="tns:ReserveGUISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveTestGUI">
+      <wsdl:input message="tns:ReserveTestGUISoapIn" />
+      <wsdl:output message="tns:ReserveTestGUISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CommitMTopUp">
+      <wsdl:input message="tns:CommitMTopUpSoapIn" />
+      <wsdl:output message="tns:CommitMTopUpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Purchase">
+      <wsdl:input message="tns:PurchaseSoapIn" />
+      <wsdl:output message="tns:PurchaseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseSessions">
+      <wsdl:input message="tns:CloseSessionsSoapIn" />
+      <wsdl:output message="tns:CloseSessionsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseSessionsTest">
+      <wsdl:input message="tns:CloseSessionsTestSoapIn" />
+      <wsdl:output message="tns:CloseSessionsTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveTestAuto">
+      <wsdl:input message="tns:ReserveTestAutoSoapIn" />
+      <wsdl:output message="tns:ReserveTestAutoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <wsdl:input message="tns:CloseSessionSoapIn" />
+      <wsdl:output message="tns:CloseSessionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestsConfirmPurchase">
+      <wsdl:input message="tns:RequestsConfirmPurchaseSoapIn" />
+      <wsdl:output message="tns:RequestsConfirmPurchaseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestConfirmPurchase">
+      <wsdl:input message="tns:RequestConfirmPurchaseSoapIn" />
+      <wsdl:output message="tns:RequestConfirmPurchaseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveEnd">
+      <wsdl:input message="tns:ReserveEndSoapIn" />
+      <wsdl:output message="tns:ReserveEndSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PurchaseEnd">
+      <wsdl:input message="tns:PurchaseEndSoapIn" />
+      <wsdl:output message="tns:PurchaseEndSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendFileDailyReport">
+      <wsdl:input message="tns:SendFileDailyReportSoapIn" />
+      <wsdl:output message="tns:SendFileDailyReportSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendFileDailyReportPart">
+      <wsdl:input message="tns:SendFileDailyReportPartSoapIn" />
+      <wsdl:output message="tns:SendFileDailyReportPartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BankInstuctions">
+      <wsdl:input message="tns:BankInstuctionsSoapIn" />
+      <wsdl:output message="tns:BankInstuctionsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendLastPurchases">
+      <wsdl:input message="tns:SendLastPurchasesSoapIn" />
+      <wsdl:output message="tns:SendLastPurchasesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainDSN">
+      <wsdl:input message="tns:GetMainDSNSoapIn" />
+      <wsdl:output message="tns:GetMainDSNSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSmsgwTimeoutExpiredCode">
+      <wsdl:input message="tns:GetSmsgwTimeoutExpiredCodeSoapIn" />
+      <wsdl:output message="tns:GetSmsgwTimeoutExpiredCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLogDSN">
+      <wsdl:input message="tns:GetLogDSNSoapIn" />
+      <wsdl:output message="tns:GetLogDSNSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PayByPhone">
+      <wsdl:input message="tns:PayByPhoneSoapIn" />
+      <wsdl:output message="tns:PayByPhoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PayByPhoneWithAccountId">
+      <wsdl:input message="tns:PayByPhoneWithAccountIdSoapIn" />
+      <wsdl:output message="tns:PayByPhoneWithAccountIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PayPhoneToAcc">
+      <wsdl:input message="tns:PayPhoneToAccSoapIn" />
+      <wsdl:output message="tns:PayPhoneToAccSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendDirectory">
+      <wsdl:input message="tns:SendDirectorySoapIn" />
+      <wsdl:output message="tns:SendDirectorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RollBackTransaction">
+      <wsdl:input message="tns:RollBackTransactionSoapIn" />
+      <wsdl:output message="tns:RollBackTransactionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RollBackTransactionGroup">
+      <wsdl:input message="tns:RollBackTransactionGroupSoapIn" />
+      <wsdl:output message="tns:RollBackTransactionGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CMDRepeatRequestGroup">
+      <wsdl:input message="tns:CMDRepeatRequestGroupSoapIn" />
+      <wsdl:output message="tns:CMDRepeatRequestGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveLockAmountGroup">
+      <wsdl:input message="tns:RemoveLockAmountGroupSoapIn" />
+      <wsdl:output message="tns:RemoveLockAmountGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransactionCMDRepeat">
+      <wsdl:input message="tns:TransactionCMDRepeatSoapIn" />
+      <wsdl:output message="tns:TransactionCMDRepeatSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RefundCMDTransaction">
+      <wsdl:input message="tns:RefundCMDTransactionSoapIn" />
+      <wsdl:output message="tns:RefundCMDTransactionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MonitoringParamsGet">
+      <wsdl:input message="tns:MonitoringParamsGetSoapIn" />
+      <wsdl:output message="tns:MonitoringParamsGetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MonitoringRecordsetGet">
+      <wsdl:input message="tns:MonitoringRecordsetGetSoapIn" />
+      <wsdl:output message="tns:MonitoringRecordsetGetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MaxSMSNumber">
+      <wsdl:input message="tns:MaxSMSNumberSoapIn" />
+      <wsdl:output message="tns:MaxSMSNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OnSmsDelivered">
+      <wsdl:input message="tns:OnSmsDeliveredSoapIn" />
+      <wsdl:output message="tns:OnSmsDeliveredSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSmsPayByPhone">
+      <wsdl:input message="tns:SendSmsPayByPhoneSoapIn" />
+      <wsdl:output message="tns:SendSmsPayByPhoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TakeFileDailyReport">
+      <wsdl:input message="tns:TakeFileDailyReportSoapIn" />
+      <wsdl:output message="tns:TakeFileDailyReportSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckMTopUp">
+      <wsdl:input message="tns:CheckMTopUpSoapIn" />
+      <wsdl:output message="tns:CheckMTopUpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutoPayCpa">
+      <wsdl:input message="tns:AutoPayCpaSoapIn" />
+      <wsdl:output message="tns:AutoPayCpaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveCdp">
+      <wsdl:input message="tns:ReserveCdpSoapIn" />
+      <wsdl:output message="tns:ReserveCdpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReleaseCdp">
+      <wsdl:input message="tns:ReleaseCdpSoapIn" />
+      <wsdl:output message="tns:ReleaseCdpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChargeCdp">
+      <wsdl:input message="tns:ChargeCdpSoapIn" />
+      <wsdl:output message="tns:ChargeCdpSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UMCSSoap" type="tns:UMCSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AccountGet">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountGet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountCreate">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountCreate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeTPThreshold">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountChangeTPThreshold" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeDPThreshold">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountChangeDPThreshold" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountTypeChangeGUI">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountTypeChangeGUI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeNumber">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountChangeNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountQuery">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountDelete">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountDelete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountGetValue">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountGetValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountGetValueFoBo">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountGetValueFoBo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceSim">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ReplaceSim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountClose">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountClose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMoney">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AddMoney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMoneyOnRemovedAccount">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AddMoneyOnRemovedAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FundsTransfer">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/FundsTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PurchLotShopGUI">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/PurchLotShopGUI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountLock">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AccountLock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reserve">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/Reserve" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGoogle">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ReserveGoogle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelPurchaseGoogle">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CancelPurchaseGoogle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefundEnd">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/RefundEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccountForPurchase">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CheckAccountForPurchase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckOffer">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CheckOffer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckOfferConfirm">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CheckOfferConfirm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PurchaseTestFoShopChannel">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/PurchaseTestFoShopChannel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchStatus">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/GetPurchStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchStatusByCorrelation">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/GetPurchStatusByCorrelation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGUI">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ReserveGUI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveTestGUI">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ReserveTestGUI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitMTopUp">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CommitMTopUp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Purchase">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/Purchase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSessions">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CloseSessions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSessionsTest">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CloseSessionsTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveTestAuto">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ReserveTestAuto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CloseSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestsConfirmPurchase">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/RequestsConfirmPurchase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestConfirmPurchase">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/RequestConfirmPurchase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveEnd">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ReserveEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PurchaseEnd">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/PurchaseEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendFileDailyReport">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/SendFileDailyReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendFileDailyReportPart">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/SendFileDailyReportPart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BankInstuctions">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/BankInstuctions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendLastPurchases">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/SendLastPurchases" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainDSN">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/GetMainDSN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSmsgwTimeoutExpiredCode">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/GetSmsgwTimeoutExpiredCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogDSN">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/GetLogDSN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayByPhone">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/PayByPhone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayByPhoneWithAccountId">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/PayByPhoneWithAccountId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayPhoneToAcc">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/PayPhoneToAcc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDirectory">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/SendDirectory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RollBackTransaction">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/RollBackTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RollBackTransactionGroup">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/RollBackTransactionGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CMDRepeatRequestGroup">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CMDRepeatRequestGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveLockAmountGroup">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/RemoveLockAmountGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransactionCMDRepeat">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/TransactionCMDRepeat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefundCMDTransaction">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/RefundCMDTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MonitoringParamsGet">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/MonitoringParamsGet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MonitoringRecordsetGet">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/MonitoringRecordsetGet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MaxSMSNumber">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/MaxSMSNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OnSmsDelivered">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/OnSmsDelivered" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSmsPayByPhone">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/SendSmsPayByPhone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TakeFileDailyReport">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/TakeFileDailyReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckMTopUp">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/CheckMTopUp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoPayCpa">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/AutoPayCpa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveCdp">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ReserveCdp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReleaseCdp">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ReleaseCdp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChargeCdp">
+      <soap:operation soapAction="http://www.estylesoft.com/umcs12/ChargeCdp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UMCSSoap12" type="tns:UMCSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AccountGet">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountGet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountCreate">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountCreate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeTPThreshold">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountChangeTPThreshold" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeDPThreshold">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountChangeDPThreshold" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountTypeChangeGUI">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountTypeChangeGUI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountChangeNumber">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountChangeNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountQuery">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountDelete">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountDelete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountGetValue">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountGetValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountGetValueFoBo">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountGetValueFoBo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceSim">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ReplaceSim" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountClose">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountClose" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMoney">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AddMoney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMoneyOnRemovedAccount">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AddMoneyOnRemovedAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FundsTransfer">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/FundsTransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PurchLotShopGUI">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/PurchLotShopGUI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountLock">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AccountLock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reserve">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/Reserve" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGoogle">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ReserveGoogle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelPurchaseGoogle">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CancelPurchaseGoogle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefundEnd">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/RefundEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccountForPurchase">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CheckAccountForPurchase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckOffer">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CheckOffer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckOfferConfirm">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CheckOfferConfirm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PurchaseTestFoShopChannel">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/PurchaseTestFoShopChannel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchStatus">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/GetPurchStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchStatusByCorrelation">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/GetPurchStatusByCorrelation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGUI">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ReserveGUI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveTestGUI">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ReserveTestGUI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitMTopUp">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CommitMTopUp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Purchase">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/Purchase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSessions">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CloseSessions" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSessionsTest">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CloseSessionsTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveTestAuto">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ReserveTestAuto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CloseSession" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestsConfirmPurchase">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/RequestsConfirmPurchase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestConfirmPurchase">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/RequestConfirmPurchase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveEnd">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ReserveEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PurchaseEnd">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/PurchaseEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendFileDailyReport">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/SendFileDailyReport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendFileDailyReportPart">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/SendFileDailyReportPart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BankInstuctions">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/BankInstuctions" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendLastPurchases">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/SendLastPurchases" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainDSN">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/GetMainDSN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSmsgwTimeoutExpiredCode">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/GetSmsgwTimeoutExpiredCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogDSN">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/GetLogDSN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayByPhone">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/PayByPhone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayByPhoneWithAccountId">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/PayByPhoneWithAccountId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayPhoneToAcc">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/PayPhoneToAcc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDirectory">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/SendDirectory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RollBackTransaction">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/RollBackTransaction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RollBackTransactionGroup">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/RollBackTransactionGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CMDRepeatRequestGroup">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CMDRepeatRequestGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveLockAmountGroup">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/RemoveLockAmountGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransactionCMDRepeat">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/TransactionCMDRepeat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefundCMDTransaction">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/RefundCMDTransaction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MonitoringParamsGet">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/MonitoringParamsGet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MonitoringRecordsetGet">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/MonitoringRecordsetGet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MaxSMSNumber">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/MaxSMSNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OnSmsDelivered">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/OnSmsDelivered" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSmsPayByPhone">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/SendSmsPayByPhone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TakeFileDailyReport">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/TakeFileDailyReport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckMTopUp">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/CheckMTopUp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoPayCpa">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/AutoPayCpa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveCdp">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ReserveCdp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReleaseCdp">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ReleaseCdp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChargeCdp">
+      <soap12:operation soapAction="http://www.estylesoft.com/umcs12/ChargeCdp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UMCS">
+    <wsdl:port name="UMCSSoap" binding="tns:UMCSSoap">
+      <soap:address location="http://ms-umcstest003:8020/UMCS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UMCSSoap12" binding="tns:UMCSSoap12">
+      <soap12:address location="http://ms-umcstest003:8020/UMCS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

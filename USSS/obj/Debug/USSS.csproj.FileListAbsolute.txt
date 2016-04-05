@@ -1,0 +1,57 @@
+C:\project\New\at\USSS\obj\Debug\USSS.Properties.Resources.resources
+C:\project\New\at\USSS\obj\Debug\USSS.csproj.GenerateResource.Cache
+C:\project\New\at\USSS\bin\Debug\USSS.dll.config
+C:\project\New\at\USSS\bin\Debug\USSS.dll
+C:\project\New\at\USSS\bin\Debug\USSS.pdb
+C:\project\New\at\USSS\bin\Debug\AT.dll
+C:\project\New\at\USSS\bin\Debug\itextsharp.dll
+C:\project\New\at\USSS\bin\Debug\LibPOP3.dll
+C:\project\New\at\USSS\bin\Debug\nunit.framework.dll
+C:\project\New\at\USSS\bin\Debug\Tamir.SharpSSH.dll
+C:\project\New\at\USSS\bin\Debug\WebDriver.dll
+C:\project\New\at\USSS\bin\Debug\WebDriver.Support.dll
+C:\project\New\at\USSS\bin\Debug\DiffieHellman.dll
+C:\project\New\at\USSS\bin\Debug\Org.Mentalis.Security.dll
+C:\project\New\at\USSS\bin\Debug\AT.pdb
+C:\project\New\at\USSS\bin\Debug\nunit.framework.xml
+C:\project\New\at\USSS\obj\Debug\USSS.csprojResolveAssemblyReference.cache
+C:\project\New\at\USSS\obj\Debug\USSS.dll
+C:\project\New\at\USSS\obj\Debug\USSS.pdb
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\itextsharp.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\LibPOP3.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\nunit.framework.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\Tamir.SharpSSH.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\WebDriver.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\WebDriver.Support.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\DiffieHellman.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\nunit.framework.xml
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.csprojResolveAssemblyReference.cache
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.Properties.Resources.resources
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.csproj.GenerateResource.Cache
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\USSS.dll.config
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\USSS.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\USSS.pdb
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\AT.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\AT.pdb
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.pdb
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\USSS.dll.config
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\USSS.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\USSS.pdb
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\AT.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\itextsharp.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\LibPOP3.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\nunit.framework.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\Tamir.SharpSSH.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\WebDriver.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\WebDriver.Support.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\DiffieHellman.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\AT.pdb
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\bin\Debug\nunit.framework.xml
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.csprojResolveAssemblyReference.cache
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.Properties.Resources.resources
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.csproj.GenerateResource.Cache
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.pdb

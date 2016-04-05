@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\projects\at\USSS\bin\Debug\USSS.dll" total="29" errors="0" failures="29" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-10-09" time="18:32:20">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5420" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.3\bin" machine-name="WIN-NH848JGCRST" user="KPodberezin" user-domain="WIN-NH848JGCRST" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Assembly" name="C:\projects\at\USSS\bin\Debug\USSS.dll" executed="True" result="Failure" success="False" time="69.985" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="USSS" executed="True" result="Failure" success="False" time="69.967" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="69.921" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="B2BPost" executed="True" result="Failure" success="False" time="39.559" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ChangeSim" executed="True" result="Failure" success="False" time="39.543" asserts="1">
+                    <categories>
+                      <category name="USSS" />
+                    </categories>
+                    <failure>
+                      <message><![CDATA[ChangeSim : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]]]></message>
+                      <stack-trace><![CDATA[at AT.Service.AssertsAccumulator.FailTest(String errorMessage) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 87
+at System.Action`1.Invoke(T obj)
+at AT.Global.GlobalEvents.AssertionFailed(String failMessage) in c:\projects\at\AT\Global\Events.cs:line 45
+at AT.Service.AssertsAccumulator.Accumulate(Object testCase, String errorMessage, Action assert) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 68
+at AT.TestBase.Assertion(String errorMessage, Action assert) in c:\projects\at\AT\TestBaseActions.cs:line 87
+at AT.TestBase.CheckPossibilityOfStarting() in c:\projects\at\AT\TestBaseConditions.cs:line 17
+at System.Action.Invoke()
+at AT.TestBase.TestFixtureSetUp() in c:\projects\at\AT\TestBase.cs:line 77
+]]></stack-trace>
+                    </failure>
+                    <results>
+                      <test-case name="USSS.Tests.B2BPost.ChangeSim.step_01" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeSim]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2BPost.ChangeSim.step_02" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeSim]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2BPost.ChangeSim.step_03" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeSim]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2BPost.ChangeSim.step_04" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeSim]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2BPost.ChangeSim.step_05" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeSim]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2BPost.ChangeSim.step_06" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeSim]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="B2CPost" executed="True" result="Failure" success="False" time="23.991" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="OfflineDetalization" executed="True" result="Failure" success="False" time="21.875" asserts="1">
+                    <categories>
+                      <category name="USSS" />
+                    </categories>
+                    <failure>
+                      <message><![CDATA[OfflineDetalization : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]]]></message>
+                      <stack-trace><![CDATA[at AT.Service.AssertsAccumulator.FailTest(String errorMessage) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 87
+at System.Action`1.Invoke(T obj)
+at AT.Global.GlobalEvents.AssertionFailed(String failMessage) in c:\projects\at\AT\Global\Events.cs:line 45
+at AT.Service.AssertsAccumulator.Accumulate(Object testCase, String errorMessage, Action assert) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 68
+at AT.TestBase.Assertion(String errorMessage, Action assert) in c:\projects\at\AT\TestBaseActions.cs:line 87
+at AT.TestBase.CheckPossibilityOfStarting() in c:\projects\at\AT\TestBaseConditions.cs:line 17
+at System.Action.Invoke()
+at AT.TestBase.TestFixtureSetUp() in c:\projects\at\AT\TestBase.cs:line 77
+]]></stack-trace>
+                    </failure>
+                    <results>
+                      <test-case name="USSS.Tests.B2CPost.OfflineDetalization.step_01" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in OfflineDetalization]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.OfflineDetalization.step_02" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in OfflineDetalization]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.OfflineDetalization.step_03" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in OfflineDetalization]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ServiceManager" executed="True" result="Failure" success="False" time="2.090" asserts="1">
+                    <categories>
+                      <category name="USSS" />
+                    </categories>
+                    <failure>
+                      <message><![CDATA[ServiceManager : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]]]></message>
+                      <stack-trace><![CDATA[at AT.Service.AssertsAccumulator.FailTest(String errorMessage) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 87
+at System.Action`1.Invoke(T obj)
+at AT.Global.GlobalEvents.AssertionFailed(String failMessage) in c:\projects\at\AT\Global\Events.cs:line 45
+at AT.Service.AssertsAccumulator.Accumulate(Object testCase, String errorMessage, Action assert) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 68
+at AT.TestBase.Assertion(String errorMessage, Action assert) in c:\projects\at\AT\TestBaseActions.cs:line 87
+at AT.TestBase.CheckPossibilityOfStarting() in c:\projects\at\AT\TestBaseConditions.cs:line 17
+at System.Action.Invoke()
+at AT.TestBase.TestFixtureSetUp() in c:\projects\at\AT\TestBase.cs:line 77
+]]></stack-trace>
+                    </failure>
+                    <results>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_01" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_02" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_03" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_04" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_05" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_06" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_07" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_08" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPost.ServiceManager.step_09" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ServiceManager]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="B2CPre" executed="True" result="Failure" success="False" time="3.161" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ChangeOfTariffPlan" executed="True" result="Failure" success="False" time="2.123" asserts="1">
+                    <categories>
+                      <category name="USSS" />
+                    </categories>
+                    <failure>
+                      <message><![CDATA[ChangeOfTariffPlan : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]]]></message>
+                      <stack-trace><![CDATA[at AT.Service.AssertsAccumulator.FailTest(String errorMessage) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 87
+at System.Action`1.Invoke(T obj)
+at AT.Global.GlobalEvents.AssertionFailed(String failMessage) in c:\projects\at\AT\Global\Events.cs:line 45
+at AT.Service.AssertsAccumulator.Accumulate(Object testCase, String errorMessage, Action assert) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 68
+at AT.TestBase.Assertion(String errorMessage, Action assert) in c:\projects\at\AT\TestBaseActions.cs:line 87
+at AT.TestBase.CheckPossibilityOfStarting() in c:\projects\at\AT\TestBaseConditions.cs:line 17
+at System.Action.Invoke()
+at AT.TestBase.TestFixtureSetUp() in c:\projects\at\AT\TestBase.cs:line 77
+]]></stack-trace>
+                    </failure>
+                    <results>
+                      <test-case name="USSS.Tests.B2CPre.ChangeOfTariffPlan.step_01" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeOfTariffPlan]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPre.ChangeOfTariffPlan.step_02" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeOfTariffPlan]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPre.ChangeOfTariffPlan.step_03" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeOfTariffPlan]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPre.ChangeOfTariffPlan.step_04" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeOfTariffPlan]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPre.ChangeOfTariffPlan.step_05" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeOfTariffPlan]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPre.ChangeOfTariffPlan.step_06" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeOfTariffPlan]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPre.ChangeOfTariffPlan.step_07" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in ChangeOfTariffPlan]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="OfflineDetalization" executed="True" result="Failure" success="False" time="0.765" asserts="1">
+                    <categories>
+                      <category name="USSS" />
+                    </categories>
+                    <failure>
+                      <message><![CDATA[OfflineDetalization : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]]]></message>
+                      <stack-trace><![CDATA[at AT.Service.AssertsAccumulator.FailTest(String errorMessage) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 87
+at System.Action`1.Invoke(T obj)
+at AT.Global.GlobalEvents.AssertionFailed(String failMessage) in c:\projects\at\AT\Global\Events.cs:line 45
+at AT.Service.AssertsAccumulator.Accumulate(Object testCase, String errorMessage, Action assert) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 68
+at AT.TestBase.Assertion(String errorMessage, Action assert) in c:\projects\at\AT\TestBaseActions.cs:line 87
+at AT.TestBase.CheckPossibilityOfStarting() in c:\projects\at\AT\TestBaseConditions.cs:line 17
+at System.Action.Invoke()
+at AT.TestBase.TestFixtureSetUp() in c:\projects\at\AT\TestBase.cs:line 77
+]]></stack-trace>
+                    </failure>
+                    <results>
+                      <test-case name="USSS.Tests.B2CPre.OfflineDetalization.step_01" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in OfflineDetalization]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPre.OfflineDetalization.step_02" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in OfflineDetalization]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                      <test-case name="USSS.Tests.B2CPre.OfflineDetalization.step_03" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in OfflineDetalization]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="Subscription" executed="True" result="Failure" success="False" time="0.237" asserts="1">
+                    <categories>
+                      <category name="USSS" />
+                    </categories>
+                    <failure>
+                      <message><![CDATA[Subscription : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]]]></message>
+                      <stack-trace><![CDATA[at AT.Service.AssertsAccumulator.FailTest(String errorMessage) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 87
+at System.Action`1.Invoke(T obj)
+at AT.Global.GlobalEvents.AssertionFailed(String failMessage) in c:\projects\at\AT\Global\Events.cs:line 45
+at AT.Service.AssertsAccumulator.Accumulate(Object testCase, String errorMessage, Action assert) in c:\projects\at\AT\Service\AssertsAccumulator.cs:line 68
+at AT.TestBase.Assertion(String errorMessage, Action assert) in c:\projects\at\AT\TestBaseActions.cs:line 87
+at AT.TestBase.CheckPossibilityOfStarting() in c:\projects\at\AT\TestBaseConditions.cs:line 17
+at System.Action.Invoke()
+at AT.TestBase.TestFixtureSetUp() in c:\projects\at\AT\TestBase.cs:line 77
+]]></stack-trace>
+                    </failure>
+                    <results>
+                      <test-case name="USSS.Tests.B2CPre.Subscription.step_01" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[TestFixtureSetUp failed in Subscription]]></message>
+                          <stack-trace />
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

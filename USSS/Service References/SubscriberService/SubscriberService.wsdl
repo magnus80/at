@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="urn:uss-wsapi:Subscriber" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="SubscriberService" targetNamespace="urn:uss-wsapi:Subscriber" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://dev-web01:50001/api/SubscriberService?xsd=1" namespace="urn:uss-wsapi:Subscriber" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://dev-web01:50001/api/SubscriberService?xsd=2" namespace="urn:uss-wsapi:Types" />
+    </xsd:schema>
+  </types>
+  <message name="addDelSOC">
+    <part name="parameters" element="tns:addDelSOC" />
+  </message>
+  <message name="addDelSOCResponse">
+    <part name="parameters" element="tns:addDelSOCResponse" />
+  </message>
+  <message name="UssWsApiException">
+    <part xmlns:ns1="urn:uss-wsapi:Types" name="fault" element="ns1:UssWsApiException" />
+  </message>
+  <message name="getBillCalls">
+    <part name="parameters" element="tns:getBillCalls" />
+  </message>
+  <message name="getBillCallsResponse">
+    <part name="parameters" element="tns:getBillCallsResponse" />
+  </message>
+  <message name="addSharedNumberDOL">
+    <part name="parameters" element="tns:addSharedNumberDOL" />
+  </message>
+  <message name="addSharedNumberDOLResponse">
+    <part name="parameters" element="tns:addSharedNumberDOLResponse" />
+  </message>
+  <message name="changePP">
+    <part name="parameters" element="tns:changePP" />
+  </message>
+  <message name="changePPResponse">
+    <part name="parameters" element="tns:changePPResponse" />
+  </message>
+  <message name="createBillCallsRequest">
+    <part name="parameters" element="tns:createBillCallsRequest" />
+  </message>
+  <message name="createBillCallsRequestResponse">
+    <part name="parameters" element="tns:createBillCallsRequestResponse" />
+  </message>
+  <message name="createBillChargesRequest">
+    <part name="parameters" element="tns:createBillChargesRequest" />
+  </message>
+  <message name="createBillChargesRequestResponse">
+    <part name="parameters" element="tns:createBillChargesRequestResponse" />
+  </message>
+  <message name="createDetailsRequest">
+    <part name="parameters" element="tns:createDetailsRequest" />
+  </message>
+  <message name="createDetailsRequestResponse">
+    <part name="parameters" element="tns:createDetailsRequestResponse" />
+  </message>
+  <message name="getAdjustmentList">
+    <part name="parameters" element="tns:getAdjustmentList" />
+  </message>
+  <message name="getAdjustmentListResponse">
+    <part name="parameters" element="tns:getAdjustmentListResponse" />
+  </message>
+  <message name="getBANInfoList">
+    <part name="parameters" element="tns:getBANInfoList" />
+  </message>
+  <message name="getBANInfoListResponse">
+    <part name="parameters" element="tns:getBANInfoListResponse" />
+  </message>
+  <message name="getBANInfoListPaged">
+    <part name="parameters" element="tns:getBANInfoListPaged" />
+  </message>
+  <message name="getBANInfoListPagedResponse">
+    <part name="parameters" element="tns:getBANInfoListPagedResponse" />
+  </message>
+  <message name="getBillCallsPaged">
+    <part name="parameters" element="tns:getBillCallsPaged" />
+  </message>
+  <message name="getBillCallsPagedResponse">
+    <part name="parameters" element="tns:getBillCallsPagedResponse" />
+  </message>
+  <message name="getBillCharges">
+    <part name="parameters" element="tns:getBillCharges" />
+  </message>
+  <message name="getBillChargesResponse">
+    <part name="parameters" element="tns:getBillChargesResponse" />
+  </message>
+  <message name="getBillChargesPaged">
+    <part name="parameters" element="tns:getBillChargesPaged" />
+  </message>
+  <message name="getBillChargesPagedResponse">
+    <part name="parameters" element="tns:getBillChargesPagedResponse" />
+  </message>
+  <message name="getDetails">
+    <part name="parameters" element="tns:getDetails" />
+  </message>
+  <message name="getDetailsResponse">
+    <part name="parameters" element="tns:getDetailsResponse" />
+  </message>
+  <message name="getCTNInfoList">
+    <part name="parameters" element="tns:getCTNInfoList" />
+  </message>
+  <message name="getCTNInfoListResponse">
+    <part name="parameters" element="tns:getCTNInfoListResponse" />
+  </message>
+  <message name="getCTNInfoListPaged">
+    <part name="parameters" element="tns:getCTNInfoListPaged" />
+  </message>
+  <message name="getCTNInfoListPagedResponse">
+    <part name="parameters" element="tns:getCTNInfoListPagedResponse" />
+  </message>
+  <message name="getPaymentListPaged">
+    <part name="parameters" element="tns:getPaymentListPaged" />
+  </message>
+  <message name="getPaymentListPagedResponse">
+    <part name="parameters" element="tns:getPaymentListPagedResponse" />
+  </message>
+  <message name="getSIMList">
+    <part name="parameters" element="tns:getSIMList" />
+  </message>
+  <message name="getSIMListResponse">
+    <part name="parameters" element="tns:getSIMListResponse" />
+  </message>
+  <message name="getSIMListPaged">
+    <part name="parameters" element="tns:getSIMListPaged" />
+  </message>
+  <message name="getSIMListPagedResponse">
+    <part name="parameters" element="tns:getSIMListPagedResponse" />
+  </message>
+  <message name="getServicesList">
+    <part name="parameters" element="tns:getServicesList" />
+  </message>
+  <message name="getServicesListResponse">
+    <part name="parameters" element="tns:getServicesListResponse" />
+  </message>
+  <message name="getServicesListPaged">
+    <part name="parameters" element="tns:getServicesListPaged" />
+  </message>
+  <message name="getServicesListPagedResponse">
+    <part name="parameters" element="tns:getServicesListPagedResponse" />
+  </message>
+  <message name="getUnbilledBalances">
+    <part name="parameters" element="tns:getUnbilledBalances" />
+  </message>
+  <message name="getUnbilledBalancesResponse">
+    <part name="parameters" element="tns:getUnbilledBalancesResponse" />
+  </message>
+  <message name="getUnbilledCallsList">
+    <part name="parameters" element="tns:getUnbilledCallsList" />
+  </message>
+  <message name="getUnbilledCallsListResponse">
+    <part name="parameters" element="tns:getUnbilledCallsListResponse" />
+  </message>
+  <message name="createOrDeleteInvitedFttbCtn">
+    <part name="parameters" element="tns:createOrDeleteInvitedFttbCtn" />
+  </message>
+  <message name="createOrDeleteInvitedFttbCtnResponse">
+    <part name="parameters" element="tns:createOrDeleteInvitedFttbCtnResponse" />
+  </message>
+  <message name="addPleSubscriberLimitInfo">
+    <part name="parameters" element="tns:addPleSubscriberLimitInfo" />
+  </message>
+  <message name="addPleSubscriberLimitInfoResponse">
+    <part name="parameters" element="tns:addPleSubscriberLimitInfoResponse" />
+  </message>
+  <message name="cancelFakeSubscription">
+    <part name="parameters" element="tns:cancelFakeSubscription" />
+  </message>
+  <message name="cancelFakeSubscriptionResponse">
+    <part name="parameters" element="tns:cancelFakeSubscriptionResponse" />
+  </message>
+  <message name="addSharedNumberListDOL">
+    <part name="parameters" element="tns:addSharedNumberListDOL" />
+  </message>
+  <message name="addSharedNumberListDOLResponse">
+    <part name="parameters" element="tns:addSharedNumberListDOLResponse" />
+  </message>
+  <message name="deleteSharedNumberListDOL">
+    <part name="parameters" element="tns:deleteSharedNumberListDOL" />
+  </message>
+  <message name="deleteSharedNumberListDOLResponse">
+    <part name="parameters" element="tns:deleteSharedNumberListDOLResponse" />
+  </message>
+  <message name="replaceSIM">
+    <part name="parameters" element="tns:replaceSIM" />
+  </message>
+  <message name="replaceSIMResponse">
+    <part name="parameters" element="tns:replaceSIMResponse" />
+  </message>
+  <message name="restoreCTN">
+    <part name="parameters" element="tns:restoreCTN" />
+  </message>
+  <message name="restoreCTNResponse">
+    <part name="parameters" element="tns:restoreCTNResponse" />
+  </message>
+  <message name="suspendCTN">
+    <part name="parameters" element="tns:suspendCTN" />
+  </message>
+  <message name="suspendCTNResponse">
+    <part name="parameters" element="tns:suspendCTNResponse" />
+  </message>
+  <message name="getRequestList">
+    <part name="parameters" element="tns:getRequestList" />
+  </message>
+  <message name="getRequestListResponse">
+    <part name="parameters" element="tns:getRequestListResponse" />
+  </message>
+  <message name="getPaymentList">
+    <part name="parameters" element="tns:getPaymentList" />
+  </message>
+  <message name="getPaymentListResponse">
+    <part name="parameters" element="tns:getPaymentListResponse" />
+  </message>
+  <portType name="SubscriberInterface">
+    <operation name="addDelSOC">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addDelSOCRequest" message="tns:addDelSOC" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addDelSOCResponse" message="tns:addDelSOCResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addDelSOC:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getBillCalls">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillCallsRequest" message="tns:getBillCalls" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillCallsResponse" message="tns:getBillCallsResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillCalls:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="addSharedNumberDOL">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addSharedNumberDOLRequest" message="tns:addSharedNumberDOL" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addSharedNumberDOLResponse" message="tns:addSharedNumberDOLResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addSharedNumberDOL:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="changePP">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:changePPRequest" message="tns:changePP" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:changePPResponse" message="tns:changePPResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:changePP:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="createBillCallsRequest">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createBillCallsRequestRequest" message="tns:createBillCallsRequest" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createBillCallsRequestResponse" message="tns:createBillCallsRequestResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createBillCallsRequest:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="createBillChargesRequest">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createBillChargesRequestRequest" message="tns:createBillChargesRequest" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createBillChargesRequestResponse" message="tns:createBillChargesRequestResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createBillChargesRequest:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="createDetailsRequest">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createDetailsRequestRequest" message="tns:createDetailsRequest" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createDetailsRequestResponse" message="tns:createDetailsRequestResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createDetailsRequest:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getAdjustmentList">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getAdjustmentListRequest" message="tns:getAdjustmentList" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getAdjustmentListResponse" message="tns:getAdjustmentListResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getAdjustmentList:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getBANInfoList">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBANInfoListRequest" message="tns:getBANInfoList" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBANInfoListResponse" message="tns:getBANInfoListResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBANInfoList:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getBANInfoListPaged">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBANInfoListPagedRequest" message="tns:getBANInfoListPaged" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBANInfoListPagedResponse" message="tns:getBANInfoListPagedResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBANInfoListPaged:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getBillCallsPaged">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillCallsPagedRequest" message="tns:getBillCallsPaged" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillCallsPagedResponse" message="tns:getBillCallsPagedResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillCallsPaged:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getBillCharges">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillChargesRequest" message="tns:getBillCharges" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillChargesResponse" message="tns:getBillChargesResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillCharges:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getBillChargesPaged">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillChargesPagedRequest" message="tns:getBillChargesPaged" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillChargesPagedResponse" message="tns:getBillChargesPagedResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getBillChargesPaged:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getDetails">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getDetailsRequest" message="tns:getDetails" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getDetailsResponse" message="tns:getDetailsResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getDetails:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getCTNInfoList">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getCTNInfoListRequest" message="tns:getCTNInfoList" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getCTNInfoListResponse" message="tns:getCTNInfoListResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getCTNInfoList:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getCTNInfoListPaged">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getCTNInfoListPagedRequest" message="tns:getCTNInfoListPaged" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getCTNInfoListPagedResponse" message="tns:getCTNInfoListPagedResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getCTNInfoListPaged:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getPaymentListPaged">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getPaymentListPagedRequest" message="tns:getPaymentListPaged" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getPaymentListPagedResponse" message="tns:getPaymentListPagedResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getPaymentListPaged:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getSIMList">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getSIMListRequest" message="tns:getSIMList" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getSIMListResponse" message="tns:getSIMListResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getSIMList:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getSIMListPaged">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getSIMListPagedRequest" message="tns:getSIMListPaged" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getSIMListPagedResponse" message="tns:getSIMListPagedResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getSIMListPaged:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getServicesList">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getServicesListRequest" message="tns:getServicesList" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getServicesListResponse" message="tns:getServicesListResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getServicesList:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getServicesListPaged">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getServicesListPagedRequest" message="tns:getServicesListPaged" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getServicesListPagedResponse" message="tns:getServicesListPagedResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getServicesListPaged:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getUnbilledBalances">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getUnbilledBalancesRequest" message="tns:getUnbilledBalances" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getUnbilledBalancesResponse" message="tns:getUnbilledBalancesResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getUnbilledBalances:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getUnbilledCallsList">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getUnbilledCallsListRequest" message="tns:getUnbilledCallsList" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getUnbilledCallsListResponse" message="tns:getUnbilledCallsListResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getUnbilledCallsList:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="createOrDeleteInvitedFttbCtn">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createOrDeleteInvitedFttbCtnRequest" message="tns:createOrDeleteInvitedFttbCtn" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createOrDeleteInvitedFttbCtnResponse" message="tns:createOrDeleteInvitedFttbCtnResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:createOrDeleteInvitedFttbCtn:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="addPleSubscriberLimitInfo">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addPleSubscriberLimitInfoRequest" message="tns:addPleSubscriberLimitInfo" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addPleSubscriberLimitInfoResponse" message="tns:addPleSubscriberLimitInfoResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addPleSubscriberLimitInfo:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="cancelFakeSubscription">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:cancelFakeSubscriptionRequest" message="tns:cancelFakeSubscription" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:cancelFakeSubscriptionResponse" message="tns:cancelFakeSubscriptionResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:cancelFakeSubscription:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="addSharedNumberListDOL">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addSharedNumberListDOLRequest" message="tns:addSharedNumberListDOL" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addSharedNumberListDOLResponse" message="tns:addSharedNumberListDOLResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:addSharedNumberListDOL:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="deleteSharedNumberListDOL">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:deleteSharedNumberListDOLRequest" message="tns:deleteSharedNumberListDOL" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:deleteSharedNumberListDOLResponse" message="tns:deleteSharedNumberListDOLResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:deleteSharedNumberListDOL:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="replaceSIM">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:replaceSIMRequest" message="tns:replaceSIM" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:replaceSIMResponse" message="tns:replaceSIMResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:replaceSIM:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="restoreCTN">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:restoreCTNRequest" message="tns:restoreCTN" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:restoreCTNResponse" message="tns:restoreCTNResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:restoreCTN:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="suspendCTN">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:suspendCTNRequest" message="tns:suspendCTN" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:suspendCTNResponse" message="tns:suspendCTNResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:suspendCTN:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getRequestList">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getRequestListRequest" message="tns:getRequestList" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getRequestListResponse" message="tns:getRequestListResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getRequestList:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+    <operation name="getPaymentList">
+      <input wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getPaymentListRequest" message="tns:getPaymentList" />
+      <output wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getPaymentListResponse" message="tns:getPaymentListResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Subscriber:SubscriberInterface:getPaymentList:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+  </portType>
+  <binding name="SubscriberPortBinding" type="tns:SubscriberInterface">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="addDelSOC">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getBillCalls">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="addSharedNumberDOL">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="changePP">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="createBillCallsRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="createBillChargesRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="createDetailsRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getAdjustmentList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getBANInfoList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getBANInfoListPaged">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getBillCallsPaged">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getBillCharges">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getBillChargesPaged">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getDetails">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getCTNInfoList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getCTNInfoListPaged">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getPaymentListPaged">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getSIMList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getSIMListPaged">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getServicesList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getServicesListPaged">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getUnbilledBalances">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getUnbilledCallsList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="createOrDeleteInvitedFttbCtn">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="addPleSubscriberLimitInfo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="cancelFakeSubscription">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="addSharedNumberListDOL">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="deleteSharedNumberListDOL">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="replaceSIM">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="restoreCTN">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="suspendCTN">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getRequestList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getPaymentList">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="SubscriberService">
+    <port name="SubscriberPort" binding="tns:SubscriberPortBinding">
+      <soap:address location="http://dev-web01:50001/api/SubscriberService" />
+    </port>
+  </service>
+</definitions>

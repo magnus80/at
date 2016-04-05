@@ -1,0 +1,972 @@
+2015-дек-14 -> 04:42:03: ChangeSimTest run begin
+2015-дек-14 -> 04:42:08: ChangeSimTest run end
+2015-дек-15 -> 01:08:15: DistributionPayment run begin
+2015-дек-15 -> 01:08:47: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:09:14: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:09:14: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:09:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-15 -> 01:09:25: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:10:11: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-15 -> 01:10:11: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:10:21: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-15 -> 01:10:21: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:10:33: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-15 -> 01:10:43: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'mobileButtons') and contains(text(),'Распределение баланса')]"}
+2015-дек-15 -> 01:10:43: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:10:55: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-15 -> 01:10:55: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:11:05: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-15 -> 01:11:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:11:20: Element is disabled and so may not be used for actions
+2015-дек-15 -> 01:11:42: Unable to locate element: {"method":"xpath","selector":"//span[text()='Да']"}
+2015-дек-15 -> 01:11:42: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:12:22: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-15 -> 01:12:34: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-15 -> 01:12:52: Element is disabled and so may not be used for actions
+2015-дек-15 -> 01:13:13: Unable to locate element: {"method":"xpath","selector":"//span[text()='Да']"}
+2015-дек-15 -> 01:13:13: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:13:56: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-output')][2]"}
+2015-дек-15 -> 01:13:56: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:14:06: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-input')][2]//input"}
+2015-дек-15 -> 01:14:06: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:14:28: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2015-дек-15 -> 01:14:28: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:14:39: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2015-дек-15 -> 01:14:39: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:14:54: Element is disabled and so may not be used for actions
+2015-дек-15 -> 01:15:15: Unable to locate element: {"method":"xpath","selector":"//span[text()='Да']"}
+2015-дек-15 -> 01:15:15: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:15:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-15 -> 01:15:36: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-дек-15 -> 01:15:46: Unable to locate element: {"method":"xpath","selector":"//span[@class='expandable' and text()='Договоры']"}
+2015-дек-15 -> 01:15:46: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:16:23: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2015-дек-15 -> 01:16:24: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:16:37: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-15 -> 01:16:37: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:16:47: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-15 -> 01:16:47: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:16:59: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-15 -> 01:16:59: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:17:10: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-15 -> 01:17:10: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:17:51: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:18:19: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:18:19: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:18:29: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-15 -> 01:18:30: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:18:55: DistributionPayment run end
+2015-дек-15 -> 01:18:59: ChangeNoSim run begin
+2015-дек-15 -> 01:19:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:19:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:19:46: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:21:02: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-дек-15 -> 01:21:03: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:21:25: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-дек-15 -> 01:21:25: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:21:56: ChangeNoSim run end
+2015-дек-15 -> 01:22:02: ChangeSim run begin
+2015-дек-15 -> 01:22:32: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:22:51: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:22:51: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:23:58: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-дек-15 -> 01:23:58: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:24:11: ORA-01729: database link name expected
+
+2015-дек-15 -> 01:24:12: ChangeSim run end
+2015-дек-15 -> 01:24:20: ChangeOfTariffPlan run begin
+2015-дек-15 -> 01:24:52: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:25:24: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:25:24: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:26:31: Unable to locate element: {"method":"xpath","selector":"//button[contains(@id,'relatedSocsComponent')]"}
+2015-дек-15 -> 01:26:31: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:27:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:27:47: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:27:47: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:28:48: ChangeOfTariffPlan run end
+2015-дек-15 -> 01:29:09: ChangeOfTariffPlan run begin
+2015-дек-15 -> 01:29:39: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:30:05: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:30:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:31:18: Unable to locate element: {"method":"xpath","selector":"//button[contains(@id,'relatedSocsComponent')]"}
+2015-дек-15 -> 01:31:18: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:32:10: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:32:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:32:36: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:33:22: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:33:41: Unable to locate element: {"method":"xpath","selector":"//a[@id = 'preProfile']"}
+2015-дек-15 -> 01:33:41: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:33:51: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'switch')][1]//button"}
+2015-дек-15 -> 01:33:51: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:34:01: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item tariff-item')][1]//button[contains(@id,'changeButton')]"}
+2015-дек-15 -> 01:34:11: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item tariff-item')][1]//div[@class='payment-ways']"}
+2015-дек-15 -> 01:34:11: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:34:13: ChangeOfTariffPlan run end
+2015-дек-15 -> 01:34:19: ShowingBalance run begin
+2015-дек-15 -> 01:34:48: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:35:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:35:12: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:35:22: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-15 -> 01:35:22: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:37:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/execute timed out after 60 seconds.
+2015-дек-15 -> 01:38:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/element timed out after 60 seconds.
+2015-дек-15 -> 01:38:49: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:39:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/execute timed out after 60 seconds.
+2015-дек-15 -> 01:40:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/element timed out after 60 seconds.
+2015-дек-15 -> 01:40:49: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:41:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/execute timed out after 60 seconds.
+2015-дек-15 -> 01:42:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/element timed out after 60 seconds.
+2015-дек-15 -> 01:42:49: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:43:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/execute timed out after 60 seconds.
+2015-дек-15 -> 01:44:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/element timed out after 60 seconds.
+2015-дек-15 -> 01:44:49: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:45:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/execute timed out after 60 seconds.
+2015-дек-15 -> 01:46:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/element timed out after 60 seconds.
+2015-дек-15 -> 01:46:49: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:47:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/execute timed out after 60 seconds.
+2015-дек-15 -> 01:48:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bc4e3212-bb03-423b-947a-d7004ec8d16f/element timed out after 60 seconds.
+2015-дек-15 -> 01:48:49: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:49:55: ShowingBalance run begin
+2015-дек-15 -> 01:50:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:50:57: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:50:57: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:51:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-15 -> 01:51:08: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:52:56: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:52:56: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:52:58: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:53:00: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:53:00: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:53:00: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:53:00: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:54:01: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/7e8398e7-bbd6-4e46-bc1a-86a15d7b0c32/element/%7Bd03f9b8b-26a3-44f9-93eb-418ab0fc19ff%7D/click timed out after 60 seconds.
+2015-дек-15 -> 01:54:01: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:54:01: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:54:01: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-15 -> 01:54:35: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:54:56: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:54:56: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:55:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-15 -> 01:55:06: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:55:10: ShowingBalance run end
+2015-дек-15 -> 01:55:46: ShowingBalance run begin
+2015-дек-15 -> 01:56:16: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:56:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:56:41: Object reference not set to an instance of an object.
+2015-дек-15 -> 01:57:08: ShowingBalance run end
+2015-дек-15 -> 01:58:24: ServiceManager run begin
+2015-дек-15 -> 01:58:52: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:59:25: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 01:59:25: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:00:40: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//span[contains(@id,'effectiveDate')]//input"}
+2015-дек-15 -> 02:00:50: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//a[contains(@id,'notConnectorBtn')]"}
+2015-дек-15 -> 02:00:50: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:00:50: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:01:25: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'RSMGSMP8')]//div[@class='ui-outputpanel ui-widget descr']"}
+2015-дек-15 -> 02:01:25: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:01:45: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//span[contains(@id,'disconnectingSocDate')]//input"}
+2015-дек-15 -> 02:01:55: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//a[contains(text(),'Не отключать')]"}
+2015-дек-15 -> 02:01:55: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:02:05: ServiceManager run end
+2015-дек-15 -> 02:02:18: ServiceManager run begin
+2015-дек-15 -> 02:02:47: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:03:11: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:03:11: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:05:04: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'VAS_B2')]//div[@class='ui-outputpanel ui-widget descr']"}
+2015-дек-15 -> 02:05:04: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:05:26: ServiceManager run end
+2015-дек-15 -> 02:05:35: InvoiceBillsReports run begin
+2015-дек-15 -> 02:06:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:06:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:06:27: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:08:38: Unable to locate element: {"method":"xpath","selector":"//div[@class='bill-status-paid']"}
+2015-дек-15 -> 02:08:38: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:09:02: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'formRequest:requestsTable:0')]"}
+2015-дек-15 -> 02:09:02: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:09:04: InvoiceBillsReports run end
+2015-дек-15 -> 02:09:12: OnlineDetalization run begin
+2015-дек-15 -> 02:09:42: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:10:03: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:10:03: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:10:54: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Международный роуминг')]"}
+2015-дек-15 -> 02:10:54: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:11:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Национальный и внутрисетевой роуминг')]"}
+2015-дек-15 -> 02:11:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:11:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Включенные минуты')]"}
+2015-дек-15 -> 02:11:15: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:11:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Разовые начисления')]"}
+2015-дек-15 -> 02:11:25: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:11:41: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Международные звонки')]"}
+2015-дек-15 -> 02:11:41: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:11:51: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Междугородние звонки ')]"}
+2015-дек-15 -> 02:11:51: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:12:01: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Местные звонки')]"}
+2015-дек-15 -> 02:12:01: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:12:11: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'SMS/MMS сообщения')]"}
+2015-дек-15 -> 02:12:11: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:12:22: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Роуминговые звонки и SMS')]"}
+2015-дек-15 -> 02:12:22: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:12:32: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Роуминговые GPRS-сессии')]"}
+2015-дек-15 -> 02:12:32: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:12:42: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Роуминговые звонки (Начисления ВымпелКом)')]"}
+2015-дек-15 -> 02:12:42: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:12:52: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Роуминговые GPRS сессии  (Начисления ВымпелКом)')]"}
+2015-дек-15 -> 02:12:52: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:13:02: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'RUS-RPP/TPP Charges')]"}
+2015-дек-15 -> 02:13:02: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:13:04: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:13:15: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:callTypeDetailsPanel']/div[1]/a"}
+2015-дек-15 -> 02:13:15: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:13:28: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[1]"}
+2015-дек-15 -> 02:13:28: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:13:38: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[2]"}
+2015-дек-15 -> 02:13:38: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:13:48: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[3]"}
+2015-дек-15 -> 02:13:48: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:13:58: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[4]"}
+2015-дек-15 -> 02:13:58: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:14:09: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[5]"}
+2015-дек-15 -> 02:14:09: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:14:20: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[6]"}
+2015-дек-15 -> 02:14:20: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:14:30: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[7]"}
+2015-дек-15 -> 02:14:30: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:14:40: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[8]"}
+2015-дек-15 -> 02:14:40: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:14:50: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[9]"}
+2015-дек-15 -> 02:14:50: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:15:05: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Дата')]"}
+2015-дек-15 -> 02:15:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:15:07: OnlineDetalization run end
+2015-дек-15 -> 02:15:15: ReportDetailUnbilled run begin
+2015-дек-15 -> 02:15:44: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:16:04: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:16:04: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:16:52: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-15 -> 02:17:07: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:17:07: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:17:19: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:17:19: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:17:30: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:17:30: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:17:45: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:17:45: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:17:55: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:17:56: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:18:06: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:18:06: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:18:16: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:18:17: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:18:27: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:18:27: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:18:37: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:18:37: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:18:47: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:18:48: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:18:58: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:18:58: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:19:08: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:19:08: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:19:19: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:19:19: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:19:29: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:19:29: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:19:39: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:19:40: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:19:50: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:19:50: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:20:00: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:20:00: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:20:10: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:20:11: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:20:21: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:20:21: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:20:31: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:20:31: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:20:41: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:20:42: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:20:52: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:20:52: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:21:02: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:21:02: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:21:13: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:21:13: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:21:23: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:21:23: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:21:33: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:21:34: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:21:44: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:21:44: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:21:54: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:21:54: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:22:04: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:22:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:22:15: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:22:15: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:22:25: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:22:25: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:22:36: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:22:36: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:22:46: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:22:46: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:22:56: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:22:57: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:23:07: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:23:07: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:23:17: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:23:17: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:23:27: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:23:28: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:23:38: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:23:38: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:23:48: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:23:48: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:23:59: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:23:59: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:24:09: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:24:09: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:24:19: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:24:20: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:24:30: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:24:30: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:24:42: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:24:43: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:24:53: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:24:53: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:25:05: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:25:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:25:15: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:25:16: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:25:26: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:25:26: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:25:36: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:25:36: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:25:46: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:25:47: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:25:57: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:25:57: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:26:12: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:26:12: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:26:23: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:26:23: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:26:37: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:26:37: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:26:47: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:26:47: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:26:57: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:26:58: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:27:08: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:27:08: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:27:25: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:27:26: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:27:34: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/29e9537d-86e8-486c-a33a-8906baf71dfa/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-дек-15 -> 02:27:35: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:27:36: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-дек-15 -> 02:27:37: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-дек-15 -> 02:27:37: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:27:38: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-дек-15 -> 02:27:39: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-дек-15 -> 02:27:39: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:27:58: ReportDetailUnbilled run begin
+2015-дек-15 -> 02:28:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:29:06: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:29:06: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:30:05: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:30:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:30:16: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:30:17: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:30:27: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:30:27: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:30:37: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:30:38: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:30:49: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:30:50: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:31:01: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:31:02: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:31:12: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:31:12: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:31:22: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:31:23: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:31:33: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:31:33: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:31:43: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:31:44: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:31:54: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:31:54: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:32:04: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:32:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:32:15: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:32:15: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:32:26: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:32:26: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:32:36: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:32:36: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:32:46: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:32:47: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:32:57: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:32:57: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:33:07: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:33:08: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:33:18: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:33:18: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:33:28: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:33:29: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:33:44: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:33:45: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:33:55: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:33:55: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:34:07: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:34:07: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:34:17: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:34:18: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:34:29: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:34:29: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:34:44: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:34:45: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:34:55: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:34:55: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:35:05: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:35:06: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:35:18: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:35:18: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:35:29: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:35:29: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:38:26: ReportDetailUnbilled run begin
+2015-дек-15 -> 02:39:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:39:24: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:39:24: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:40:05: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:40:05: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:40:17: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:40:17: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:40:30: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:40:30: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:40:40: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:40:41: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:40:53: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:40:53: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:41:03: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:41:03: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:41:14: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:41:15: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:41:25: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:41:25: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:41:35: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:41:35: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:41:46: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:41:46: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:41:56: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:41:56: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:42:06: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:42:07: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:42:17: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:42:17: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:42:27: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportDetailUnbilledForm:unbilledEntries']"}
+2015-дек-15 -> 02:42:28: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:42:33: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/945d2dff-f49a-486f-b3c7-39fdf5e496b4/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-дек-15 -> 02:42:33: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:42:35: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-дек-15 -> 02:42:36: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-дек-15 -> 02:42:36: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:42:57: ReportDetailUnbilled run begin
+2015-дек-15 -> 02:43:26: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:43:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:43:46: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:44:27: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Дата звонка')]"}
+2015-дек-15 -> 02:44:27: Object reference not set to an instance of an object.
+2015-дек-15 -> 02:44:41: ReportDetailUnbilled run end
+2015-дек-15 -> 02:47:41: ReportDetailUnbilled run begin
+2015-дек-15 -> 02:48:13: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:48:35: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-15 -> 02:48:35: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:44:24: DistributionPayment run begin
+2015-дек-17 -> 11:44:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 11:45:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 11:45:40: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:45:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-17 -> 11:45:50: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:46:44: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-17 -> 11:46:44: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:46:54: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-17 -> 11:46:54: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:50:24: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-17 -> 11:50:24: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:50:34: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-17 -> 11:50:34: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:50:49: Element is disabled and so may not be used for actions
+2015-дек-17 -> 11:51:11: Unable to locate element: {"method":"xpath","selector":"//span[text()='Да']"}
+2015-дек-17 -> 11:51:11: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:51:44: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-17 -> 11:51:56: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-17 -> 11:51:56: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:52:06: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-17 -> 11:52:06: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:52:16: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Недостаточно средств для распределения каждому абоненту введённой суммы.')]"}
+2015-дек-17 -> 11:52:16: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:52:27: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-17 -> 11:52:27: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:52:38: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-17 -> 11:52:38: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:52:54: Element is disabled and so may not be used for actions
+2015-дек-17 -> 11:53:16: Unable to locate element: {"method":"xpath","selector":"//span[text()='Да']"}
+2015-дек-17 -> 11:53:16: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:53:56: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-output')][2]"}
+2015-дек-17 -> 11:53:56: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:54:06: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-input')][2]//input"}
+2015-дек-17 -> 11:54:06: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:54:28: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2015-дек-17 -> 11:54:28: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:54:38: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2015-дек-17 -> 11:54:38: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:54:54: Element is disabled and so may not be used for actions
+2015-дек-17 -> 11:55:15: Unable to locate element: {"method":"xpath","selector":"//span[text()='Да']"}
+2015-дек-17 -> 11:55:15: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:55:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-17 -> 11:55:36: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-дек-17 -> 11:55:46: Unable to locate element: {"method":"xpath","selector":"//span[@class='expandable' and text()='Договоры']"}
+2015-дек-17 -> 11:55:46: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:56:22: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2015-дек-17 -> 11:56:22: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:56:35: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-17 -> 11:56:35: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:56:45: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-17 -> 11:56:45: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:56:55: Unable to locate element: {"method":"xpath","selector":"//div[@id='distributionBalance:sumInputMsg']//span[@class='ui-message-error-detail']"}
+2015-дек-17 -> 11:56:55: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:57:06: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2015-дек-17 -> 11:57:06: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:57:16: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2015-дек-17 -> 11:57:16: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:57:26: Unable to locate element: {"method":"xpath","selector":"//div[@id='distributionBalance:sumInputMsg']//span[@class='ui-message-error-detail']"}
+2015-дек-17 -> 11:57:26: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:57:48: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'ui-datepicker-div')]//table//a[text() = '17']"}
+2015-дек-17 -> 11:57:48: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:58:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 11:58:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 11:58:41: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:58:51: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-17 -> 11:58:52: Object reference not set to an instance of an object.
+2015-дек-17 -> 11:59:21: DistributionPayment run end
+2015-дек-17 -> 11:59:26: ChangeNoSim run begin
+2015-дек-17 -> 12:00:00: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:00:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:00:20: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:01:37: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-дек-17 -> 12:01:37: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:02:00: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-дек-17 -> 12:02:00: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:02:29: ChangeNoSim run end
+2015-дек-17 -> 12:02:36: ChangeSim run begin
+2015-дек-17 -> 12:03:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:03:30: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:03:30: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:04:36: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-дек-17 -> 12:04:37: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:04:52: ORA-01729: database link name expected
+
+2015-дек-17 -> 12:04:54: ChangeSim run end
+2015-дек-17 -> 12:05:03: ChangeOfTariffPlan run begin
+2015-дек-17 -> 12:05:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:06:08: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:06:08: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:06:55: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item tariff-item')][1]//button[contains(@id,'changeButton')]"}
+2015-дек-17 -> 12:06:55: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:07:44: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:08:06: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:08:06: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:08:55: ChangeOfTariffPlan run end
+2015-дек-17 -> 12:09:08: ChangeOfTariffPlan run begin
+2015-дек-17 -> 12:09:45: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:10:11: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:10:11: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:11:25: Unable to locate element: {"method":"xpath","selector":"//button[contains(@id,'relatedSocsComponent')]"}
+2015-дек-17 -> 12:11:25: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:12:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:12:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:12:40: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:13:24: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:13:42: Unable to locate element: {"method":"xpath","selector":"//a[@id = 'preProfile']"}
+2015-дек-17 -> 12:13:42: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:13:52: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'switch')][1]//button"}
+2015-дек-17 -> 12:13:52: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:14:02: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item tariff-item')][1]//button[contains(@id,'changeButton')]"}
+2015-дек-17 -> 12:14:12: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item tariff-item')][1]//div[@class='payment-ways']"}
+2015-дек-17 -> 12:14:12: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:14:14: ChangeOfTariffPlan run end
+2015-дек-17 -> 12:14:20: ShowingBalance run begin
+2015-дек-17 -> 12:14:50: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:15:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:15:15: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:15:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-17 -> 12:15:25: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:17:04: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:17:04: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:17:06: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:17:08: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:17:08: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:17:09: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:17:09: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:18:09: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/01b0b931-9219-42b9-a25a-c0d218fc80d2/element/%7Bb3b29f41-7879-41d7-aa95-11451de9c5a0%7D/click timed out after 60 seconds.
+2015-дек-17 -> 12:18:09: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:18:09: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:18:09: jQuery is not defined (UnexpectedJavaScriptError)
+2015-дек-17 -> 12:18:45: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:19:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:19:07: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:19:18: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2015-дек-17 -> 12:19:18: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:19:22: ShowingBalance run end
+2015-дек-17 -> 12:19:28: ShowingBalance run begin
+2015-дек-17 -> 12:19:59: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:20:22: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:20:22: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:20:48: ShowingBalance run end
+2015-дек-17 -> 12:28:12: ServiceManager run begin
+2015-дек-17 -> 12:28:48: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:29:14: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:29:14: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:39:20: ServiceManager run begin
+2015-дек-17 -> 12:39:51: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:40:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:40:12: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:41:13: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/43d8b85f-9bde-4d0c-8bb1-895a882d4168/execute timed out after 60 seconds.
+2015-дек-17 -> 12:41:55: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//span[contains(@id,'effectiveDate')]//input"}
+2015-дек-17 -> 12:41:59: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:43:15: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/43d8b85f-9bde-4d0c-8bb1-895a882d4168/execute timed out after 60 seconds.
+2015-дек-17 -> 12:44:15: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/43d8b85f-9bde-4d0c-8bb1-895a882d4168/element timed out after 60 seconds.
+2015-дек-17 -> 12:44:17: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:44:29: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'RSMS')]//div[@class='ui-outputpanel ui-widget descr']"}
+2015-дек-17 -> 12:44:29: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:44:50: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//span[contains(@id,'disconnectingSocDate')]//input"}
+2015-дек-17 -> 12:45:00: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//a[contains(text(),'Не отключать')]"}
+2015-дек-17 -> 12:45:00: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:45:10: ServiceManager run end
+2015-дек-17 -> 12:45:23: ServiceManager run begin
+2015-дек-17 -> 12:45:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:46:28: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:46:28: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:48:07: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//span[contains(@id,'effectiveDate')]//input"}
+2015-дек-17 -> 12:48:12: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:49:41: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'VAS_B2')]//div[@class='ui-outputpanel ui-widget descr']"}
+2015-дек-17 -> 12:49:41: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:49:57: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//span[contains(@id,'disconnectingSocDate')]//input"}
+2015-дек-17 -> 12:50:07: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item')][1]//a[contains(text(),'Не отключать')]"}
+2015-дек-17 -> 12:50:07: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:50:16: ServiceManager run end
+2015-дек-17 -> 12:50:25: InvoiceBillsReports run begin
+2015-дек-17 -> 12:51:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:51:33: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:51:33: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:53:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'formRequest:requestsTable:0')]"}
+2015-дек-17 -> 12:53:05: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:53:28: Unable to locate element: {"method":"xpath","selector":"//div[@class='bill-status-paid']"}
+2015-дек-17 -> 12:53:28: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:53:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'formRequest:requestsTable:0')]"}
+2015-дек-17 -> 12:53:50: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:53:52: InvoiceBillsReports run end
+2015-дек-17 -> 12:54:02: OnlineDetalization run begin
+2015-дек-17 -> 12:54:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:54:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 12:54:53: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:55:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Международный роуминг')]"}
+2015-дек-17 -> 12:55:48: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:55:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Национальный и внутрисетевой роуминг')]"}
+2015-дек-17 -> 12:55:58: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:56:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Включенные минуты')]"}
+2015-дек-17 -> 12:56:08: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:56:18: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Разовые начисления')]"}
+2015-дек-17 -> 12:56:18: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:56:29: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:callcostpiechartpanel']"}
+2015-дек-17 -> 12:56:29: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:56:44: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Сумма начислений, руб (без НДС)')]"}
+2015-дек-17 -> 12:56:44: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:56:55: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:chargesTotal']/table/tbody/tr[2]/td[2]"}
+2015-дек-17 -> 12:56:55: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:57:05: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:chargesTotal']/table/tbody/tr[2]/td[1]"}
+2015-дек-17 -> 12:57:05: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:57:20: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Звонки')]"}
+2015-дек-17 -> 12:57:20: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:57:31: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[1]/th[contains(text(),'Вид звонков')]"}
+2015-дек-17 -> 12:57:31: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:57:42: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Суммарные начисления')]"}
+2015-дек-17 -> 12:57:42: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:57:53: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Международные звонки')]"}
+2015-дек-17 -> 12:57:53: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:58:03: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Междугородние звонки ')]"}
+2015-дек-17 -> 12:58:03: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:58:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Местные звонки')]"}
+2015-дек-17 -> 12:58:15: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:58:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'SMS/MMS сообщения')]"}
+2015-дек-17 -> 12:58:25: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:58:36: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'GPRS')]"}
+2015-дек-17 -> 12:58:36: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:58:46: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Роуминговые звонки и SMS')]"}
+2015-дек-17 -> 12:58:46: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:58:56: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Роуминговые GPRS-сессии')]"}
+2015-дек-17 -> 12:58:56: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:59:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Роуминговые звонки (Начисления ВымпелКом)')]"}
+2015-дек-17 -> 12:59:06: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:59:16: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Роуминговые GPRS сессии  (Начисления ВымпелКом)')]"}
+2015-дек-17 -> 12:59:16: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:59:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'RUS-RPP/TPP Charges')]"}
+2015-дек-17 -> 12:59:26: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:59:36: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:piechartpanel']"}
+2015-дек-17 -> 12:59:36: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:59:47: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[2]/td[2]"}
+2015-дек-17 -> 12:59:47: Object reference not set to an instance of an object.
+2015-дек-17 -> 12:59:57: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[2]/td[1]"}
+2015-дек-17 -> 12:59:57: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:00:07: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[3]/td[2]"}
+2015-дек-17 -> 01:00:07: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:00:17: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[3]/td[1]"}
+2015-дек-17 -> 01:00:17: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:00:27: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[4]/td[2]"}
+2015-дек-17 -> 01:00:27: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:00:37: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[4]/td[1]"}
+2015-дек-17 -> 01:00:37: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:00:47: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[5]/td[2]"}
+2015-дек-17 -> 01:00:47: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:00:57: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[5]/td[1]"}
+2015-дек-17 -> 01:00:57: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:01:07: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[6]/td[2]"}
+2015-дек-17 -> 01:01:07: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:01:18: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[6]/td[1]"}
+2015-дек-17 -> 01:01:18: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:01:28: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[7]/td[2]"}
+2015-дек-17 -> 01:01:28: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:01:38: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[7]/td[1]"}
+2015-дек-17 -> 01:01:38: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:01:48: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[8]/td[2]"}
+2015-дек-17 -> 01:01:48: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:01:58: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[8]/td[1]"}
+2015-дек-17 -> 01:01:58: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:02:08: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[9]/td[2]"}
+2015-дек-17 -> 01:02:08: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:02:18: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:detailsTotal']/table/tbody/tr[9]/td[1]"}
+2015-дек-17 -> 01:02:18: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:02:18: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:02:30: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']"}
+2015-дек-17 -> 01:02:30: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:02:42: Unable to locate element: {"method":"xpath","selector":"//*[@id='reportDetailBilledForm:callTypeDetailsPanel']/div[1]/a"}
+2015-дек-17 -> 01:02:42: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:03:18: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[1]"}
+2015-дек-17 -> 01:03:18: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:03:28: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[2]"}
+2015-дек-17 -> 01:03:28: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:03:41: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[3]"}
+2015-дек-17 -> 01:03:41: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:03:51: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[4]"}
+2015-дек-17 -> 01:03:51: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:04:01: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[5]"}
+2015-дек-17 -> 01:04:01: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:04:11: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[6]"}
+2015-дек-17 -> 01:04:11: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:04:22: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[7]"}
+2015-дек-17 -> 01:04:22: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:04:32: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[8]"}
+2015-дек-17 -> 01:04:32: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:04:42: Unable to locate element: {"method":"xpath","selector":"//*[@class='ui-outputpanel ui-widget call-type-details-panel']/div[@class='ui-datatable ui-widget']/div[@class='ui-datatable-tablewrapper']/table/tbody/tr[@data-ri='1']/td[9]"}
+2015-дек-17 -> 01:04:42: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:04:55: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Звонки')]"}
+2015-дек-17 -> 01:04:55: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:05:05: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Дата')]"}
+2015-дек-17 -> 01:05:05: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:05:07: OnlineDetalization run end
+2015-дек-17 -> 01:05:16: ReportDetailUnbilled run begin
+2015-дек-17 -> 01:05:51: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:06:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:06:15: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:06:46: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Текущий период')]"}
+2015-дек-17 -> 01:06:46: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:06:57: ReportDetailUnbilled run end
+2015-дек-17 -> 01:07:06: OfflineDetailsByBill run begin
+2015-дек-17 -> 01:07:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:07:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:07:58: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:08:38: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-17 -> 01:08:48: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'billsForm:b2cpostbillstable_data')]/tr[@data-ri='1']/td[2]/a"}
+2015-дек-17 -> 01:08:48: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:08:58: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'billsForm:b2cpostbillstable_data')]/tr[@data-ri='1']/td[2]/a"}
+2015-дек-17 -> 01:08:58: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:09:08: Unable to locate element: {"method":"xpath","selector":"//ul[@class='ben']/li[@class='active']/h2/span[@class='selected']"}
+2015-дек-17 -> 01:09:08: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:09:18: Unable to locate element: {"method":"xpath","selector":"//button/span[contains(text(),'Выгрузить в Excel')]"}
+2015-дек-17 -> 01:09:18: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:09:28: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Отправить на email')]"}
+2015-дек-17 -> 01:09:28: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:09:38: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,':invoiceMailSendEmail')]"}
+2015-дек-17 -> 01:09:38: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:09:49: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,':invoiceMailSendEmailMessage')]/span[contains(text(),'Отправить')]"}
+2015-дек-17 -> 01:09:49: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:09:59: Unable to locate element: {"method":"xpath","selector":"//h3[@class='mail-success']"}
+2015-дек-17 -> 01:09:59: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:10:34: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'billsForm:b2cpostbillstable_data')]/tr[@data-ri='1']/td[2]/a"}
+2015-дек-17 -> 01:10:34: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:10:44: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'billsForm:b2cpostbillstable_data')]/tr[@data-ri='1']/td[2]/a"}
+2015-дек-17 -> 01:10:44: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:10:54: Unable to locate element: {"method":"xpath","selector":"//ul[@class='ben']/li[@class='active']/h2/span[@class='selected']"}
+2015-дек-17 -> 01:10:54: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:11:05: Unable to locate element: {"method":"xpath","selector":"//div[@id='changeDetalizationTypeForm:changeDetalizationTypePanel']/div[@class='select-one-button ongrey-sob']/a[@id='changeDetalizationTypeForm:callHistory']"}
+2015-дек-17 -> 01:11:05: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:11:45: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-17 -> 01:11:55: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-17 -> 01:12:05: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-17 -> 01:12:15: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-17 -> 01:12:56: OfflineDetailsByBill run end
+2015-дек-17 -> 01:13:04: OnlineDetailsByBill run begin
+2015-дек-17 -> 01:13:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:13:56: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:13:56: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:14:33: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-17 -> 01:15:01: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'SMS/MMS руб.')]"}
+2015-дек-17 -> 01:15:01: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:15:26: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'billsForm:b2cpostbillstable_data')]/tr[@data-ri=1]/td[7]/a"}
+2015-дек-17 -> 01:15:26: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:15:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='select-one-button']/a/span[contains(text(),'Таблицей')]"}
+2015-дек-17 -> 01:15:37: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:15:48: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-outputpanel ui-widget viewport']"}
+2015-дек-17 -> 01:15:48: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:16:38: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'billsForm:b2cpostbillstable_data')]/tr[@data-ri=1]/td[4]/a"}
+2015-дек-17 -> 01:16:38: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:16:40: OnlineDetailsByBill run end
+2015-дек-17 -> 01:16:48: ReportDetailUnbilled run begin
+2015-дек-17 -> 01:17:18: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:17:42: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:17:42: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:18:03: Unable to locate element: {"method":"xpath","selector":"//div[@id='reportPanel']"}
+2015-дек-17 -> 01:18:03: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:18:13: Unable to locate element: {"method":"xpath","selector":"//div[@class='select-one-button']/a/span[contains(text(),'История операций')]"}
+2015-дек-17 -> 01:18:13: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:18:23: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Дата звонка')]"}
+2015-дек-17 -> 01:18:23: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:18:34: Unable to locate element: {"method":"xpath","selector":"//div[@id='xlsUnbilledExporter']/a"}
+2015-дек-17 -> 01:18:34: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:18:45: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-selectonemenu-items-wrapper']/ul/li[2]"}
+2015-дек-17 -> 01:18:45: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:18:46: ReportDetailUnbilled run end
+2015-дек-17 -> 01:18:53: ShowingPayments run begin
+2015-дек-17 -> 01:19:29: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:19:51: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:19:51: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:20:15: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'payments_table')]//tbody[1]/tr[@data-ri='0']/td[1]/a"}
+2015-дек-17 -> 01:20:15: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:20:25: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'payments_table')]//tbody[1]/tr[@data-ri='1']/td[1]/a"}
+2015-дек-17 -> 01:20:25: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:20:35: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'payments_table')]//tbody[1]/tr[@data-ri='2']/td[1]/a"}
+2015-дек-17 -> 01:20:35: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:20:45: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'payments_table')]//tbody[1]/tr[@data-ri='3']/td[1]/a"}
+2015-дек-17 -> 01:20:45: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:20:46: The given selector //div[conteins(@id,'payments_table')]//tr[@data-ri='0']//td[3] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[conteins(@id,'payments_table')]//tr[@data-ri='0']//td[3] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-дек-17 -> 01:20:46: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:20:56: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'Наличный платеж')][1]"}
+2015-дек-17 -> 01:20:56: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:21:06: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'Кредитная карта')][1]"}
+2015-дек-17 -> 01:21:06: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:21:16: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'Безналичный платеж')][1]"}
+2015-дек-17 -> 01:21:16: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:21:26: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'payments_table')]//div[contains(@id,'payments_table:paymentType')]//tr[@data-ri='0']/td[2]"}
+2015-дек-17 -> 01:21:26: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:21:53: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-дек-17 -> 01:22:06: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'payments_table')]//tbody[1]/tr[@data-ri='0']/td[1]/a"}
+2015-дек-17 -> 01:22:06: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:22:16: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'payments_table')]//tbody[1]/tr[@data-ri='1']/td[1]/a"}
+2015-дек-17 -> 01:22:16: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:22:26: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'payments_table')]//tbody[1]/tr[@data-ri='2']/td[1]/a"}
+2015-дек-17 -> 01:22:26: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:22:41: ShowingPayments run end
+2015-дек-17 -> 01:22:48: ShowingSubscription run begin
+2015-дек-17 -> 01:23:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:23:45: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:23:45: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:23:55: Unable to locate element: {"method":"xpath","selector":"//a[@id = 'postProfile']"}
+2015-дек-17 -> 01:23:55: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:24:19: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'subscriptions-list')]/div[4]"}
+2015-дек-17 -> 01:24:19: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:24:29: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'ui-commandlink ui-widget settings false')]"}
+2015-дек-17 -> 01:24:29: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:24:39: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'subscriptions-list')]//div[contains(@class,'CPA')][1]"}
+2015-дек-17 -> 01:24:39: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:24:59: Unable to locate element: {"method":"xpath","selector":"//a[@id='postProfile']"}
+2015-дек-17 -> 01:24:59: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:25:09: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'subscriptions-list')]//div[contains(@class,'CDP')][1]"}
+2015-дек-17 -> 01:25:09: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:25:19: ShowingSubscription run end
+2015-дек-17 -> 01:25:53: ShowingPayments run begin
+2015-дек-17 -> 01:26:24: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:26:50: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-дек-17 -> 01:26:50: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:27:10: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-col-special']"}
+2015-дек-17 -> 01:27:10: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:28:06: Unable to locate element: {"method":"xpath","selector":"//tbody[contains(@id,'paymentsForm:paymentsTable_data')]//tr[@data-ri='6']//td[3]"}
+2015-дек-17 -> 01:28:06: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:28:22: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-дек-17 -> 01:28:22: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:28:45: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-дек-17 -> 01:28:45: Object reference not set to an instance of an object.
+2015-дек-17 -> 01:29:03: The given selector //div[conteins(@id,'paymentsForm:paymentsTable_data')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[conteins(@id,'paymentsForm:paymentsTable_data')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-дек-17 -> 01:29:03: The given selector //div[conteins(@id,'paymentsForm:paymentsTable_data')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[conteins(@id,'paymentsForm:paymentsTable_data')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-дек-17 -> 01:29:04: The given selector //div[conteins(@id,'paymentsForm:paymentsTable_data')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[conteins(@id,'paymentsForm:paymentsTable_data')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-дек-17 -> 01:29:04: The given selector //div[conteins(@id,'paymentsForm:paymentsTable_data')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[conteins(@id,'paymentsForm:paymentsTable_data')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-дек-17 -> 01:29:04: The given selector //div[conteins(@id,'paymentsForm:paymentsTable_data')] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[conteins(@id,'paymentsForm:paymentsTable_data')] because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-дек-17 -> 01:29:14: ShowingPayments run end
+2015-дек-18 -> 03:43:17: GetSIMIMSITest run begin

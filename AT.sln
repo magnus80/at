@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AT", "AT\AT.csproj", "{F08BCCF6-519D-4ADA-A180-FCBCF47B7DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USSS", "USSS\USSS.csproj", "{9ED985F8-98ED-410B-80D9-C99DCADF695D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F08BCCF6-519D-4ADA-A180-FCBCF47B7DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08BCCF6-519D-4ADA-A180-FCBCF47B7DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08BCCF6-519D-4ADA-A180-FCBCF47B7DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08BCCF6-519D-4ADA-A180-FCBCF47B7DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED985F8-98ED-410B-80D9-C99DCADF695D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED985F8-98ED-410B-80D9-C99DCADF695D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED985F8-98ED-410B-80D9-C99DCADF695D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED985F8-98ED-410B-80D9-C99DCADF695D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

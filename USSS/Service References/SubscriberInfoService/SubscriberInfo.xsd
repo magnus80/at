@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:ns="urn:gf-subscriber-info-service:xsd" xmlns:tns="urn:gf-subscriber-info-service:xsd" elementFormDefault="qualified" targetNamespace="urn:gf-subscriber-info-service:xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="RequestBan">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="requiredInfo" type="tns:requiredInfoBan" />
+    </xsd:sequence>
+    <xsd:attribute name="ban" type="xsd:int" />
+  </xsd:complexType>
+  <xsd:complexType name="ResponseBan">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="type" type="xsd:string" />
+      <xsd:element minOccurs="0" name="customerInfo" type="tns:CustomerInfo" />
+      <xsd:element minOccurs="0" name="ctnList" type="tns:CtnList" />
+      <xsd:element minOccurs="0" name="ctnListInfo" type="tns:CtnListInfo" />
+      <xsd:element minOccurs="0" name="ctnListCount" type="xsd:string" />
+      <xsd:element minOccurs="0" name="customerProperties" type="tns:CustomerProperties" />
+      <xsd:element minOccurs="0" name="subscription" type="tns:subscription" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="requiredInfoBan">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="type" />
+      <xsd:enumeration value="customerInfo" />
+      <xsd:enumeration value="ctnList" />
+      <xsd:enumeration value="ctnListInfo" />
+      <xsd:enumeration value="ctnListCount" />
+      <xsd:enumeration value="customerProperties" />
+      <xsd:enumeration value="subscription" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="responseBan" type="tns:ResponseBan" />
+  <xsd:element name="requestBan" type="tns:RequestBan" />
+  <xsd:simpleType name="requiredInfoHistory">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="payments" />
+      <xsd:enumeration value="interacts" />
+      <xsd:enumeration value="events" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="ResponseHistory">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="1" name="payments" type="tns:Payments" />
+      <xsd:element minOccurs="0" maxOccurs="1" name="interacts" type="tns:Interacts" />
+      <xsd:element minOccurs="0" maxOccurs="1" name="events" type="tns:Events" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RequestHistory">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="requiredInfo">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="tns:requiredInfoHistory">
+              <xsd:attribute name="fromDate" type="xsd:dateTime" />
+              <xsd:attribute name="toDate" type="xsd:dateTime" />
+              <xsd:attribute name="maxCount" type="xsd:integer" />
+              <xsd:attribute name="ext" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="ctn" type="tns:ctn" use="optional" />
+  </xsd:complexType>
+  <xsd:element name="responseHistory" type="tns:ResponseHistory" />
+  <xsd:element name="requestHistory" type="tns:RequestHistory" />
+  <xsd:element name="responseBatch" type="tns:ResponseBatch" />
+  <xsd:complexType name="ResponseBatch">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="numberInfo" type="tns:SubscriberNumber" />
+      <xsd:element minOccurs="0" name="areCtnsOnBan" type="tns:AreCTNsOnBan" />
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="operatorCode" type="tns:OperatorCode" />
+      <xsd:element minOccurs="0" name="operatorIds" type="tns:OperatorIds" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="BaseFeaturesRef">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="SOC" type="xsd:string" />
+      <xsd:element minOccurs="0" name="baseFeaturesName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="inclusionType" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="GroupAccount">
+    <xsd:sequence>
+      <xsd:element name="name" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RequestBatch">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="requiredInfo">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="tns:requiredInfoBatch">
+              <xsd:attribute name="ext" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ctnList" type="tns:CtnList" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Interacts">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="interact">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ctn" type="xsd:string" />
+            <xsd:element name="phone" type="xsd:string" />
+            <xsd:element name="endDate" type="xsd:dateTime" />
+            <xsd:element name="objids" type="xsd:string" />
+            <xsd:element name="type" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Events">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="event">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="eventDate" type="xsd:dateTime" />
+            <xsd:element name="ctnA" type="xsd:string" />
+            <xsd:element name="ctnB" type="xsd:string" />
+            <xsd:element name="addInfo" type="xsd:string" />
+            <xsd:element name="marketCodeA" type="xsd:string" />
+            <xsd:element name="marketCodeB" type="xsd:string" />
+            <xsd:element name="channel" type="xsd:string" />
+            <xsd:element name="eventType" type="xsd:string" />
+            <xsd:element name="resultCode" type="xsd:string" />
+            <xsd:element name="appName" type="xsd:string" />
+            <xsd:element name="eventId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="accumulator">
+    <xsd:sequence>
+      <xsd:element name="accumulatorName" type="xsd:string" />
+      <xsd:element name="accumulatorAmount" type="xsd:double" />
+      <xsd:element name="accumulatorType" type="xsd:string" />
+      <xsd:element minOccurs="0" name="accumulatorNextReset" type="xsd:dateTime" />
+      <xsd:element minOccurs="0" name="accumulatorZeroDay" type="xsd:integer" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="request">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="requiredInfo">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="tns:requiredInfo">
+              <xsd:attribute name="ext" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="ctn" type="tns:ctn" use="optional" />
+    <xsd:attribute name="imsi" type="tns:imsi" use="optional" />
+    <xsd:attribute name="login" type="tns:login" />
+  </xsd:complexType>
+  <xsd:complexType name="response">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="balances" type="tns:balances" />
+      <xsd:element minOccurs="0" name="corebalance" type="tns:corebalance" />
+      <xsd:element minOccurs="0" name="subscription" type="tns:subscription" />
+      <xsd:element minOccurs="0" name="SOCs" type="tns:SOCs" />
+      <xsd:element minOccurs="0" name="HLC" type="tns:HLC" />
+      <xsd:element minOccurs="0" name="msisdn" type="xsd:string" />
+      <xsd:element minOccurs="0" name="availableBalances" type="tns:balances" />
+      <xsd:element minOccurs="0" name="type" type="xsd:string" />
+      <xsd:element minOccurs="0" name="state" type="xsd:string" />
+      <xsd:element minOccurs="0" name="resource" type="tns:resource" />
+      <xsd:element minOccurs="0" name="accumulators" type="tns:accumulators" />
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="soc" type="tns:SOC" />
+      <xsd:element minOccurs="0" name="currencyCode" type="xsd:string" />
+      <xsd:element minOccurs="0" name="customerInfo" type="tns:CustomerInfo" />
+      <xsd:element minOccurs="0" name="promisedPayments" type="tns:PromisedPayments" />
+      <xsd:element minOccurs="0" name="subscriberOperatorInfo" type="tns:SubscriberOperatorInfo" />
+      <xsd:element minOccurs="0" name="ctnList" type="tns:CtnList" />
+      <xsd:element minOccurs="0" name="ctnListInfo" type="tns:CtnListInfo" />
+      <xsd:element minOccurs="0" name="ctnListCount" type="xsd:string" />
+      <xsd:element minOccurs="0" name="startBalance" type="tns:StartBalance" />
+      <xsd:element minOccurs="0" name="numberInfo" type="tns:SubscriberNumber" />
+      <xsd:element minOccurs="0" name="dataTrafficPackets" type="tns:dataTrafficPackets" />
+      <xsd:element minOccurs="0" name="customerProperties" type="tns:CustomerProperties" />
+      <xsd:element minOccurs="0" name="offers" type="tns:Offers" />
+      <xsd:element minOccurs="0" name="platformId" type="xsd:string" />
+      <xsd:element minOccurs="0" name="passwordInfo" type="xsd:string" />
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="baseFeaturesRef" type="tns:BaseFeaturesRef" />
+      <xsd:element minOccurs="0" maxOccurs="1" name="groupAccount" type="tns:GroupAccount" />
+      <xsd:element minOccurs="0" maxOccurs="1" name="socIndicators" type="tns:SocIndicators" />
+      <xsd:element minOccurs="0" maxOccurs="1" name="socIndicatorsInfo" type="tns:SocIndicatorsInfo" />
+      <xsd:element minOccurs="0" maxOccurs="1" name="bill" type="tns:Bill" />
+      <xsd:element minOccurs="0" name="imsi" type="xsd:string" />
+      <xsd:element minOccurs="0" name="ctn" type="xsd:string" />
+      <xsd:element minOccurs="0" name="helloFee" type="tns:HelloFee" />
+    </xsd:sequence>
+    <xsd:attribute name="ctn" type="tns:ctn" />
+  </xsd:complexType>
+  <xsd:complexType name="BaseFeaturesRefAll">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="baseFeaturesRef" type="tns:BaseFeaturesRef" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CustomerInfo">
+    <xsd:sequence>
+      <xsd:element name="ban" type="xsd:string" />
+      <xsd:element name="accountType" type="xsd:string" />
+      <xsd:element name="activDate" type="xsd:dateTime" />
+      <xsd:element name="clientRepAddress" type="xsd:string" />
+      <xsd:element name="clientRepName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="birthDate" type="xsd:dateTime" />
+      <xsd:element minOccurs="0" name="docID" type="xsd:string" />
+      <xsd:element minOccurs="0" name="docNumber" type="xsd:string" />
+      <xsd:element minOccurs="0" name="docIdNumberNormalized" type="xsd:string" />
+      <xsd:element minOccurs="0" name="docDate" type="xsd:dateTime" />
+      <xsd:element minOccurs="0" name="docIssue" type="xsd:string" />
+      <xsd:element minOccurs="0" name="docType" type="xsd:string" />
+      <xsd:element minOccurs="0" name="email" type="xsd:string" />
+      <xsd:element minOccurs="0" name="inn" type="xsd:string" />
+      <xsd:element minOccurs="0" name="marketCode" type="xsd:string" />
+      <xsd:element minOccurs="0" name="phoneHome" type="xsd:string" />
+      <xsd:element minOccurs="0" name="phoneWork" type="xsd:string" />
+      <xsd:element minOccurs="0" name="arBalance" type="xsd:string" />
+      <xsd:element minOccurs="0" name="limit" type="xsd:string" />
+      <xsd:element minOccurs="0" name="vip" type="xsd:string" />
+      <xsd:element minOccurs="0" name="payerBan" type="xsd:string" />
+      <xsd:element minOccurs="0" name="payerBanInd" type="xsd:string" />
+      <xsd:element minOccurs="0" name="nameTitle" type="xsd:string" />
+      <xsd:element minOccurs="0" name="firstName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="lastBusinnessName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="additionalTitle" type="xsd:string" />
+      <xsd:element minOccurs="0" name="overdueDebts" type="xsd:string" />
+      <xsd:element minOccurs="0" name="ben" type="xsd:string" />
+      <xsd:element minOccurs="0" name="ctn" type="xsd:string" />
+      <xsd:element minOccurs="0" name="subStatus" type="xsd:string" />
+      <xsd:element minOccurs="0" name="subStatusType" type="xsd:string" />
+      <xsd:element minOccurs="0" name="serialNo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="ctnNgp" type="xsd:string" />
+      <xsd:element minOccurs="0" name="ctnNgpType" type="xsd:string" />
+      <xsd:element minOccurs="0" name="simCardNgp" type="xsd:string" />
+      <xsd:element minOccurs="0" name="simCardNgpType" type="xsd:string" />
+      <xsd:element minOccurs="0" name="pricePlan" type="xsd:string" />
+      <xsd:element minOccurs="0" name="currencyCode" type="xsd:string" />
+      <xsd:element minOccurs="0" name="logicalSwith" type="xsd:string" />
+      <xsd:element minOccurs="0" name="portStatus" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="balances">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="balance" type="tns:balance" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="balance">
+    <xsd:sequence>
+      <xsd:element name="balanceName" type="xsd:string" />
+      <xsd:element name="balanceID" type="xsd:string" />
+      <xsd:element name="balanceAmount" type="xsd:string" />
+      <xsd:element minOccurs="0" name="balanceExpirationDate" type="xsd:dateTime" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="corebalance">
+    <xsd:sequence>
+      <xsd:element name="balanceAmount" type="xsd:string" />
+      <xsd:element name="currencyCode" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="subscription">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="ban" type="xsd:string" />
+      <xsd:element minOccurs="0" name="banStatus" type="xsd:string" />
+      <xsd:element minOccurs="0" name="subStatus" type="xsd:string" />
+      <xsd:element minOccurs="0" name="tariffSOC">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+              <xsd:attribute name="desctiption" type="xsd:string" />
+              <xsd:attribute name="monthlyFee" type="xsd:double" />
+              <xsd:attribute name="subscrFee" type="xsd:double" />
+              <xsd:attribute name="monthlyFeeUSD" type="xsd:double" />
+              <xsd:attribute name="subscrFeeUSD" type="xsd:double" />
+              <xsd:attribute name="categoryId" type="xsd:string" />
+              <xsd:attribute name="descriptionLat" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="accountType" type="xsd:string" />
+      <xsd:element minOccurs="0" name="marketCode" type="xsd:string" />
+      <xsd:element minOccurs="0" name="arpu" type="xsd:string" />
+      <xsd:element minOccurs="0" name="initActivationDate" type="xsd:date" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SOCs">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="SOC">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+              <xsd:attribute name="description" type="xsd:string" />
+              <xsd:attribute name="monthlyFee" type="xsd:double" />
+              <xsd:attribute name="subscrFee" type="xsd:double" />
+              <xsd:attribute name="monthlyFeeUSD" type="xsd:double" />
+              <xsd:attribute name="subscrFeeUSD" type="xsd:double" />
+              <xsd:attribute name="categoryId" type="xsd:string" />
+              <xsd:attribute name="descriptionLat" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="fault">
+    <xsd:sequence>
+      <xsd:element name="code" type="xsd:string" />
+      <xsd:element name="message" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="HLC">
+    <xsd:sequence>
+      <xsd:element name="inHLC" type="xsd:integer" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="response" type="tns:response" />
+  <xsd:element name="fault" type="tns:fault" />
+  <xsd:element name="request" type="tns:request" />
+  <xsd:simpleType name="requiredInfo">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="corebalance" />
+      <xsd:enumeration value="balances" />
+      <xsd:enumeration value="SOC" />
+      <xsd:enumeration value="subscription" />
+      <xsd:enumeration value="HLC" />
+      <xsd:enumeration value="msisdn" />
+      <xsd:enumeration value="availableBalances" />
+      <xsd:enumeration value="type" />
+      <xsd:enumeration value="state" />
+      <xsd:enumeration value="resource" />
+      <xsd:enumeration value="accumulators" />
+      <xsd:enumeration value="SOCParameters" />
+      <xsd:enumeration value="currencyCode" />
+      <xsd:enumeration value="SOCbyFeature" />
+      <xsd:enumeration value="customerInfoMNP" />
+      <xsd:enumeration value="customerInfo" />
+      <xsd:enumeration value="promisedPayments" />
+      <xsd:enumeration value="subscriberOperatorInfo" />
+      <xsd:enumeration value="ctnList" />
+      <xsd:enumeration value="ctnListInfo" />
+      <xsd:enumeration value="ctnListCount" />
+      <xsd:enumeration value="startBalance" />
+      <xsd:enumeration value="numberInfo" />
+      <xsd:enumeration value="dataTrafficPackets" />
+      <xsd:enumeration value="customerProperties" />
+      <xsd:enumeration value="offers" />
+      <xsd:enumeration value="platformId" />
+      <xsd:enumeration value="baseFeaturesRef" />
+      <xsd:enumeration value="passwordInfo" />
+      <xsd:enumeration value="groupAccount" />
+      <xsd:enumeration value="ctn" />
+      <xsd:enumeration value="imsi" />
+      <xsd:enumeration value="socIndicators" />
+      <xsd:enumeration value="socIndicatorsInfo" />
+      <xsd:enumeration value="bill" />
+      <xsd:enumeration value="helloFee" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="ctn">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{10,}" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="imsi">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d+" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="login">
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="1" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="resource">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="ban" type="xsd:string" />
+      <xsd:element minOccurs="0" name="subscriberNumber" type="xsd:string" />
+      <xsd:element minOccurs="0" name="subscriberId" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="accumulators">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="accumulator" type="tns:accumulator" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SOC">
+    <xsd:sequence>
+      <xsd:element name="name" type="xsd:string" />
+      <xsd:element minOccurs="0" name="type" type="xsd:string" />
+      <xsd:element minOccurs="0" name="baseFeature" type="xsd:string" />
+      <xsd:element minOccurs="0" name="features" type="tns:features" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="features">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="feature" type="tns:feature" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="feature">
+    <xsd:sequence>
+      <xsd:element name="name" type="xsd:string" />
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="parameters" type="tns:parameters" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="parameter">
+    <xsd:sequence>
+      <xsd:element name="name" type="xsd:string" />
+      <xsd:element name="value" type="xsd:string" />
+      <xsd:element name="type" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="parameters">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="parameter" type="tns:parameter" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="PromisedPayments">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="promisedPayment" type="tns:PromisedPayment" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SubscriberOperatorInfo">
+    <xsd:sequence>
+      <xsd:element name="federalOperatorCode" type="xsd:string" />
+      <xsd:element name="federalOperatorName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="federalRegionCode" type="xsd:string" />
+      <xsd:element minOccurs="0" name="federalRegionName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="operatorName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="phoneNumber" type="xsd:string" />
+      <xsd:element minOccurs="0" name="regionName" type="xsd:string" />
+      <xsd:element minOccurs="1" name="operatorId" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CtnList">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="ctn">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="tns:ctn">
+              <xsd:attribute name="startServiceDate" type="xsd:dateTime" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CtnListInfo">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="ctn">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="tns:ctn">
+              <xsd:attribute name="startServiceDate" type="xsd:dateTime" />
+              <xsd:attribute name="portStatus" type="xsd:string" />
+              <xsd:attribute name="status" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="StartBalance">
+    <xsd:sequence>
+      <xsd:element name="balanceAmount" type="xsd:double" />
+      <xsd:element minOccurs="0" name="balanceStartDate" type="xsd:dateTime" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SubscriberNumber">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="marketCode" type="xsd:string" />
+      <xsd:element minOccurs="0" name="timeDifference" type="xsd:string" />
+      <xsd:element minOccurs="0" name="hlr" type="xsd:string" />
+      <xsd:element minOccurs="0" name="isBeelineSubscriber" type="xsd:boolean" />
+      <xsd:element minOccurs="0" name="isBeelinePool" type="xsd:boolean" />
+      <xsd:element minOccurs="0" name="phoneNumber" type="xsd:string" />
+      <xsd:element minOccurs="0" name="rn" type="xsd:string" />
+      <xsd:element minOccurs="0" name="regionId" type="xsd:string" />
+      <xsd:element minOccurs="0" name="platformId" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="requestBatch" type="tns:RequestBatch" />
+  <xsd:simpleType name="requiredInfoBatch">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="numberInfo" />
+      <xsd:enumeration value="areCtnsOnBan" />
+      <xsd:enumeration value="operatorCode" />
+      <xsd:enumeration value="operatorIds" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="dataTrafficPackets">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="packet" type="tns:Packet" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Packet">
+    <xsd:sequence>
+      <xsd:element name="name" type="xsd:string" />
+      <xsd:element minOccurs="0" name="unit" type="xsd:string" />
+      <xsd:element minOccurs="0" name="size" type="xsd:decimal" />
+      <xsd:element minOccurs="0" name="frequencySubscriptionFee" type="xsd:unsignedByte" />
+      <xsd:element minOccurs="0" name="frequencyResetAccumulator" type="xsd:unsignedByte" />
+      <xsd:element minOccurs="0" name="rest" type="xsd:decimal" />
+      <xsd:element minOccurs="0" name="dateResetPacket" type="xsd:dateTime" />
+      <xsd:element minOccurs="0" name="dateSubscriptionFee" type="xsd:dateTime" />
+      <xsd:element minOccurs="0" name="state" type="xsd:string" />
+      <xsd:element minOccurs="0" name="isSpeedDown" type="xsd:boolean" />
+      <xsd:element minOccurs="0" name="isSpeedUp" type="xsd:boolean" />
+      <xsd:element minOccurs="0" name="priority" type="xsd:unsignedByte" />
+      <xsd:element minOccurs="0" name="accName" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="OperatorIds">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="operator" type="tns:Operator" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Operator">
+    <xsd:sequence>
+      <xsd:element name="id" type="xsd:string" />
+      <xsd:element name="phoneNumber" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="AreCTNsOnBan">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="customerInfo" type="tns:CustomerInfo" />
+      <xsd:element name="result" type="xsd:boolean" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="OperatorCode">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" name="phoneNumber" type="xsd:string" />
+      <xsd:element minOccurs="0" name="federalRegionCode" type="xsd:string" />
+      <xsd:element minOccurs="0" name="federalOperatorCode" type="xsd:string" />
+      <xsd:element minOccurs="0" name="federalOperatorName" type="xsd:string" />
+      <xsd:element minOccurs="0" name="operatorName" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="PromisedPayment">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="origPpServiceFee" type="xsd:double" />
+      <xsd:element minOccurs="0" name="origPpAmount" type="xsd:double" />
+      <xsd:element minOccurs="0" name="grantExpiryDate" type="xsd:dateTime" />
+      <xsd:element minOccurs="0" name="grantExpirationType" type="xsd:byte" />
+      <xsd:element minOccurs="0" name="grantAmount" type="xsd:double" />
+      <xsd:element minOccurs="0" name="grantActiveDate" type="xsd:dateTime" />
+      <xsd:element name="currency" type="xsd:string" />
+      <xsd:element minOccurs="0" name="awardedAmount" type="xsd:double" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Payments">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="payment" type="tns:Payment" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Payment">
+    <xsd:sequence>
+      <xsd:element name="rechargeId" type="xsd:string" />
+      <xsd:element name="rechargeComment" type="xsd:string" />
+      <xsd:element name="rechargeDateTime" type="xsd:dateTime" />
+      <xsd:element name="faceValue" type="xsd:double" />
+      <xsd:element name="currencyConvRate" type="xsd:double" />
+      <xsd:element name="subscriberCurrency" type="xsd:string" />
+      <xsd:element minOccurs="0" maxOccurs="1" name="balances" type="tns:HistoryBalances" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="HistoryBalances">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="balance" type="tns:HistoryBalance" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="HistoryBalance">
+    <xsd:sequence>
+      <xsd:element name="id" type="xsd:string" />
+      <xsd:element name="chargeAmount" type="xsd:double" />
+      <xsd:element name="balanceAmount" type="xsd:double" />
+      <xsd:element name="currency" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CustomerProperties">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="customerProperty" type="tns:customerProperty" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="customerProperty">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="mandatory" type="xsd:string" />
+      <xsd:element minOccurs="0" name="desc" type="xsd:string" />
+      <xsd:element minOccurs="0" name="group" type="xsd:string" />
+      <xsd:element minOccurs="0" name="value" type="xsd:string" />
+      <xsd:element minOccurs="0" name="name" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Offer">
+    <xsd:sequence>
+      <xsd:element name="activeDt" type="xsd:dateTime" />
+      <xsd:element name="offerState" type="xsd:integer" />
+      <xsd:element name="offerType" type="xsd:integer" />
+      <xsd:element minOccurs="0" name="offerId" type="xsd:integer" />
+      <xsd:element minOccurs="0" name="offerName" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Offers">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="offer" type="tns:Offer" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SOCS">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="soc" type="tns:SOC" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SocIndicatorsInfo">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="soc">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="name" type="xsd:string" />
+            <xsd:element minOccurs="0" name="offers">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" maxOccurs="unbounded" name="supplementaryOffer">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element name="name" type="xsd:string" />
+                        <xsd:element minOccurs="0" name="activeDate" type="xsd:dateTime" />
+                        <xsd:element minOccurs="0" name="state" type="xsd:string" />
+                        <xsd:element minOccurs="0" name="periodicCharge">
+                          <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element name="name" type="xsd:string" />
+                              <xsd:element name="amount" type="xsd:double" />
+                              <xsd:element name="nextApplyDate" type="xsd:dateTime" />
+                              <xsd:element name="activeDate" type="xsd:dateTime" />
+                              <xsd:element name="periodType" type="xsd:string" />
+                            </xsd:sequence>
+                          </xsd:complexType>
+                        </xsd:element>
+                      </xsd:sequence>
+                    </xsd:complexType>
+                  </xsd:element>
+                  <xsd:element minOccurs="0" maxOccurs="unbounded" name="primaryOffer">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element name="name" type="xsd:string" />
+                        <xsd:element minOccurs="0" name="activeDate" type="xsd:dateTime" />
+                        <xsd:element minOccurs="0" name="state" type="xsd:string" />
+                        <xsd:element minOccurs="0" name="periodicCharge">
+                          <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element name="name" type="xsd:string" />
+                              <xsd:element name="amount" type="xsd:double" />
+                              <xsd:element name="nextApplyDate" type="xsd:dateTime" />
+                              <xsd:element name="activeDate" type="xsd:dateTime" />
+                              <xsd:element name="periodType" type="xsd:string" />
+                            </xsd:sequence>
+                          </xsd:complexType>
+                        </xsd:element>
+                      </xsd:sequence>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="periodicCharges">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" maxOccurs="unbounded" name="periodicCharge">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element name="name" type="xsd:string" />
+                        <xsd:element minOccurs="0" name="amount" type="xsd:float" />
+                        <xsd:element minOccurs="0" name="nextApplyDate" type="xsd:dateTime" />
+                        <xsd:element minOccurs="0" name="periodType" type="xsd:string" />
+                      </xsd:sequence>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="accumulators">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" maxOccurs="unbounded" name="accumulator">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element name="name" type="xsd:string" />
+                        <xsd:element minOccurs="0" name="nextReset" type="xsd:dateTime" />
+                        <xsd:element minOccurs="0" name="unitType" type="xsd:string" />
+                        <xsd:element minOccurs="0" name="periodType" type="xsd:string" />
+                        <xsd:element minOccurs="0" name="basePackageValue" type="xsd:double" />
+                        <xsd:element minOccurs="0" name="currentDiscount" type="xsd:double" />
+                        <xsd:element minOccurs="0" name="futureDiscount" type="xsd:double" />
+                        <xsd:element minOccurs="0" name="lowSpeedFlag" type="xsd:boolean" />
+                        <xsd:element minOccurs="0" name="restOfPackage" type="xsd:double" />
+                      </xsd:sequence>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SocIndicators">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="soc">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="name" type="xsd:string" />
+            <xsd:element minOccurs="0" name="offers">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" maxOccurs="unbounded" name="supplementaryOffer" type="xsd:string" />
+                  <xsd:element minOccurs="0" maxOccurs="unbounded" name="primaryOffer" type="xsd:string" />
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="accumulators">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" maxOccurs="unbounded" name="accumulator" type="xsd:string" />
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="periodicCharges">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" maxOccurs="unbounded" name="periodicCharge" type="xsd:string" />
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="HelloFee">
+    <xsd:sequence>
+      <xsd:element name="subscriptionFee">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="current" type="xsd:string" />
+            <xsd:element name="future" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="contentFee">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="current" type="xsd:string" />
+            <xsd:element name="future" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="returnCode" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Bill">
+    <xsd:sequence>
+      <xsd:element name="dateFrom" type="xsd:dateTime" />
+      <xsd:element name="dateTo" type="xsd:dateTime" />
+      <xsd:element name="items">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="unbounded" name="item">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element name="name" type="xsd:string" />
+                  <xsd:element name="type" type="xsd:string" />
+                  <xsd:element name="amount" type="xsd:double" />
+                  <xsd:element minOccurs="0" name="soc" type="xsd:string" />
+                  <xsd:element minOccurs="0" name="url" type="xsd:string" />
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="totalAmount" type="xsd:double" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

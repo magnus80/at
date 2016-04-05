@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9ED985F8-98ED-410B-80D9-C99DCADF695D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>USSS</RootNamespace>
+    <AssemblyName>USSS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LibPOP3">
+      <HintPath>.\LibPOP3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfToText, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\projects\PdfToText\bin\Debug\PdfToText.exe</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib">
+      <HintPath>..\..\..\..\..\..\projects\PdfToText\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Input.Manipulations" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Helpers\API REST\Meta.cs" />
+    <Compile Include="Helpers\API REST\RestrequestGet.cs" />
+    <Compile Include="Helpers\API REST\RestRequestPut.cs" />
+    <Compile Include="Helpers\API REST\TokenHashRestAPI.cs" />
+    <Compile Include="Helpers\GetUrl.cs" />
+    <Compile Include="Helpers\Logger.cs" />
+    <Compile Include="Helpers\ReaderMail.cs" />
+    <Compile Include="Helpers\ReaderTestData.cs" />
+    <Compile Include="Helpers\SOAP\CCBO.cs" />
+    <Compile Include="Helpers\SOAP\ChangeBalance.cs" />
+    <Compile Include="Helpers\TokenHashSoap.cs" />
+    <Compile Include="Helpers\СheckReports.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AuthSoap\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Comv\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SubscriberInfoService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SubscriberService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\UmcsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\UssProcess3\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\UsssProcessImplService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\API REST\Freemium.cs" />
+    <Compile Include="Tests\Sanity\B2BPle\DistributionPayment.cs" />
+    <Compile Include="Tests\Sanity\B2BPle\ShowingBalance.cs" />
+    <Compile Include="Tests\Sanity\B2BPost\ChangePublicPricePlan.cs" />
+    <Compile Include="Tests\Sanity\B2BPost\ChangeSim.cs" />
+    <Compile Include="Tests\Sanity\B2BPost\ChangeNoSim.cs" />
+    <Compile Include="Tests\Sanity\B2BPost\InvoiceBillsReports.cs" />
+    <Compile Include="Tests\Sanity\B2BPost\OnlineDetalization.cs" />
+    <Compile Include="Tests\Sanity\B2BPost\ReportDetailUnbilled.cs" />
+    <Compile Include="Tests\Sanity\B2CPost\ChangeOfTariffPlan.cs" />
+    <Compile Include="Tests\Sanity\B2CPost\OfflineDetailsByBill.cs" />
+    <Compile Include="Tests\Sanity\B2CPost\OnlineDetailsByBill.cs" />
+    <Compile Include="Tests\Sanity\B2CPost\ReportDetailUnbilled.cs" />
+    <Compile Include="Tests\Sanity\B2CPost\ShowingSubscription.cs" />
+    <Compile Include="Tests\Sanity\B2CPost\ServiceManager.cs" />
+    <Compile Include="Tests\Sanity\B2CPost\ShowingPayments.cs" />
+    <Compile Include="Tests\Sanity\B2CPre\ChangeOfTariffPlan.cs" />
+    <Compile Include="Tests\Sanity\B2CPre\ServiceManager.cs" />
+    <Compile Include="Tests\Sanity\B2CPre\ShowingBalance.cs" />
+    <Compile Include="Tests\Sanity\B2CPre\ShowingPayments.cs" />
+    <Compile Include="Tests\Sanity\Common\CheckPriceTariff.cs" />
+    <Compile Include="Tests\Sanity\SOAP\AccountGetValueTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\AddDelSocTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\AuthTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\ChangeSimTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\CreateBillCallsRequestTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\CreateBillChargesRequestTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\CreateDetailsRequestTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetBillCallsTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetBillChargesTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetCACBalance.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetCtnInfoTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetPaymentListTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetServicesTests.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetSIMIMSITest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetUnbilledTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\GetUSSSTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\LockUnlockTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\NeoBillBalanceCtnTest.cs" />
+    <Compile Include="Tests\Sanity\SOAP\RequestListTest.cs" />
+    <Compile Include="WebPages\B2BCtn\FinansAndDetalizationPage.cs" />
+    <Compile Include="WebPages\B2BCtn\ProfilePage.cs" />
+    <Compile Include="WebPages\B2BPle\ContractPage.cs" />
+    <Compile Include="WebPages\B2BPle\AbonentProfilePage.cs" />
+    <Compile Include="WebPages\B2BPle\DistributionPaymentPage.cs" />
+    <Compile Include="WebPages\B2BPle\HomePage.cs" />
+    <Compile Include="WebPages\B2BPle\ManagerContractPage.cs" />
+    <Compile Include="WebPages\B2BPle\RequestHistoryPage.cs" />
+    <Compile Include="WebPages\B2BPost\FinalTariffChange.cs" />
+    <Compile Include="WebPages\B2BPost\FinancePage.cs" />
+    <Compile Include="WebPages\B2BPost\ManagerContractPage.cs" />
+    <Compile Include="WebPages\B2BPost\NumberProfilePage.cs" />
+    <Compile Include="WebPages\B2BPost\HomePage.cs" />
+    <Compile Include="WebPages\B2BPost\ReportsPage.cs" />
+    <Compile Include="WebPages\B2BPost\RequestHistoryPage.cs" />
+    <Compile Include="WebPages\B2BPost\TariffChangePage.cs" />
+    <Compile Include="WebPages\B2CPost\FinansAndDetalizationPage.cs" />
+    <Compile Include="WebPages\B2CPost\ProfilePage.cs" />
+    <Compile Include="WebPages\B2CPost\RequestHistoryPage.cs" />
+    <Compile Include="WebPages\B2CPost\ServicesPage.cs" />
+    <Compile Include="WebPages\B2CPost\TariffsPage.cs" />
+    <Compile Include="WebPages\B2CPre\FinansAndDetalizationPage.cs" />
+    <Compile Include="WebPages\B2CPre\ProfilePage.cs" />
+    <Compile Include="WebPages\B2CPre\RequestHistoryPage.cs" />
+    <Compile Include="WebPages\B2CPre\ServicesPage.cs" />
+    <Compile Include="WebPages\CommonPages\NavigationPage.cs" />
+    <Compile Include="WebPages\CommonPages\RequestHistoryPage.cs" />
+    <Compile Include="WebPages\B2CPre\TariffsPage.cs" />
+    <Compile Include="WebPages\CommonPages\AuthorizationPage.cs" />
+    <Compile Include="WebPages\CommonPages\SKPPage.cs" />
+    <Compile Include="WebPages\CommonPages\UWebAuthorisationPage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AT\AT.csproj">
+      <Project>{f08bccf6-519d-4ada-a180-fcbcf47b7def}</Project>
+      <Name>AT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\AuthSoap\AuthService.wsdl" />
+    <None Include="Service References\AuthSoap\AuthService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AuthSoap\AuthService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AuthSoap\USSS.AuthSoap.authResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\CustomerCareService.wsdl" />
+    <None Include="Service References\Comv\CustomerCareService_schema1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountAddOfferInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountAdjustAccumulatorInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountAdjustBalanceInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountCreateOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountGetAccumulatorInstanceValueOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountRetrieveOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountSetAccumulatorInstanceValueOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountTransferFundsToAccountOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountTransferFundsToSubscriberOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountUpdateAccumulatorInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountUpdateBalanceInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountUpdateOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.AccountUpdateRatingStatusOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.CallingCircleAddMemberOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.CallingCircleMemberFindOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.CallingCircleRemoveMemberOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.ConvertAccountObjectToAccountObjectWithNamesOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.ConvertSubscriberObjectToSubscriberObjectWithNamesOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.FaListInstanceMemberAddOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.FaListInstanceMemberRemoveOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.FaListInstanceMemberReplaceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.NonVoucherRechargeGroupOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberAddOfferInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberAddRcTermInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberAdjustAccumulatorInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberAdjustBalanceInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberCreateFromBundleOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberCreateFromOfferOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberDisconnectOfferInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberGetAccumulatorInstanceValueOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberOfferDetailsOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberRemoveRcTermInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberRetrieveOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberSetAccumulatorInstanceValueOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberSwapPrimaryOfferOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberTransferFundsToAccountOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberTransferFundsToSubscriberOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberUpdateAccumulatorInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberUpdateBalanceInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberUpdateLanguageCodeOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberUpdateOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberUpdateRatingStatusOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.SubscriberUpdateRcTermInstanceOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Comv\USSS.Comv.VoucherModifyExtOutputMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberInfoService\SubscriberInfo.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SubscriberInfoService\SubscriverInfo.wsdl" />
+    <None Include="Service References\SubscriberInfoService\USSS.SubscriberInfoService.output.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberInfoService\USSS.SubscriberInfoService.output1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberInfoService\USSS.SubscriberInfoService.output11.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberInfoService\USSS.SubscriberInfoService.output2.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberInfoService\USSS.SubscriberInfoService.response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberInfoService\USSS.SubscriberInfoService.ResponseBan.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberInfoService\USSS.SubscriberInfoService.ResponseBatch.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberInfoService\USSS.SubscriberInfoService.ResponseHistory.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\SubscriberService.wsdl" />
+    <None Include="Service References\SubscriberService\SubscriberService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SubscriberService\SubscriberService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.addDelSOCResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.addPleSubscriberLimitInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.addSharedNumberDOLResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.addSharedNumberListDOLResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.adjustmentList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.apibanInfoPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.apiBillCallsPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.apiBillChargesPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.apictnInfoPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.apiPaymentInfoPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.apiRequestPageDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.apiServiceInfoPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.apiSimPage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.banInfoDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.billCallDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.billChargeDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.cancelFakeSubscriptionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.changePPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.createBillCallsRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.createBillChargesRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.createDetailsRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.createOrDeleteInvitedFttbCtnResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.ctnInfoDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.deleteSharedNumberListDOLResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.detailsDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getAdjustmentListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getBANInfoListPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getBANInfoListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getBillCallsPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getBillCallsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getBillChargesPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getBillChargesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getCTNInfoListPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getCTNInfoListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getPaymentListPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getPaymentListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getRequestListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getServicesListPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getServicesListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getSIMListPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getSIMListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getUnbilledBalancesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.getUnbilledCallsListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.paymentDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.replaceSIMResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.restoreCTNResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.serviceDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.simDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.suspendCTNResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.unbilledBalancesDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SubscriberService\USSS.SubscriberService.unbilledCallDO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\UMCS.wsdl" />
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountChangeDPThresholdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountChangeNumberResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountChangeTPThresholdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountCloseResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountCreateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountDeleteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountGetResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountGetValueFoBoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountGetValueResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountLockResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountQueryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AccountTypeChangeGUIResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AddMoneyOnRemovedAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AddMoneyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.AutoPayCpaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.BankInstuctionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CancelPurchaseGoogleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CheckAccountForPurchaseResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CheckMTopUpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CheckOfferConfirmResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CheckOfferResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CloseSessionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CloseSessionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CloseSessionsTestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CMDRepeatRequestGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.CommitMTopUpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.FundsTransferResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.GetPurchStatusByCorrelationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.GetPurchStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.GetSmsgwTimeoutExpiredCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.MonitoringParamsGetResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.MonitoringRecordsetGetResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.PayByPhoneResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.PayByPhoneWithAccountIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.PayPhoneToAccResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.PurchaseEndResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.PurchaseResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.PurchaseTestFoShopChannelResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.PurchLotShopGUIResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.RefundCMDTransactionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.RefundEndResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.RemoveLockAmountGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.ReplaceSimResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.RequestConfirmPurchaseResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.RequestsConfirmPurchaseResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.ReserveEndResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.ReserveGoogleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.ReserveGUIResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.ReserveResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.ReserveTestGUIResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.ResultDto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.RollBackTransactionGroupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.RollBackTransactionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.SendFileDailyReportPartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.SendFileDailyReportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.SendLastPurchasesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UmcsService\USSS.UmcsService.TransactionCMDRepeatResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UssProcess3\USSS.UssProcess3.campaignHistory.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UssProcess3\USSS.UssProcess3.getHistoryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UssProcess3\USSS.UssProcess3.getUsssResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UssProcess3\USSS.UssProcess3.usss.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UssProcess3\UsssProcess3ImplService.wsdl" />
+    <None Include="Service References\UsssProcessImplService\USSS.UsssProcessImplService.getUsssResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UsssProcessImplService\USSS.UsssProcessImplService.usss.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UsssProcessImplService\UsssProcessImpl2Service.wsdl" />
+    <None Include="TestsData.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AuthSoap\" />
+    <WCFMetadataStorage Include="Service References\Comv\" />
+    <WCFMetadataStorage Include="Service References\SubscriberInfoService\" />
+    <WCFMetadataStorage Include="Service References\SubscriberService\" />
+    <WCFMetadataStorage Include="Service References\UmcsService\" />
+    <WCFMetadataStorage Include="Service References\UssProcess3\" />
+    <WCFMetadataStorage Include="Service References\UsssProcessImplService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SubscriberInfoService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SubscriberInfoService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SubscriberInfoService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Comv\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Comv\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Comv\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthSoap\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthSoap\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthSoap\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UsssProcessImplService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UsssProcessImplService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UsssProcessImplService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UmcsService\UMCS.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UmcsService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UmcsService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UmcsService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tests\Regression\B2B\" />
+    <Folder Include="Tests\Regression\B2C\" />
+    <Folder Include="Tests\Sanity\B2BCtn\" />
+    <Folder Include="Tests\Sanity\UWebMobile\" />
+    <Folder Include="Tests\SDBbee\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UssProcess3\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UssProcess3\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UssProcess3\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SubscriberService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SubscriberService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SubscriberService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

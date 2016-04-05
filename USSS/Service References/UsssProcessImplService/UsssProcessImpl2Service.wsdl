@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://service.cm.atc/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="UsssProcessImpl2Service" targetNamespace="http://service.cm.atc/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://service.cm.atc/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getUsss" type="tns:getUsss" />
+      <xs:element name="getUsssResponse" type="tns:getUsssResponse" />
+      <xs:element name="usss" type="tns:usss" />
+      <xs:complexType name="getUsss">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ctn" type="xs:string" />
+          <xs:element minOccurs="0" name="channel_type" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUsssResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" ref="tns:usss" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="usss">
+        <xs:sequence>
+          <xs:element name="camp_id" type="xs:long" />
+          <xs:element name="subgroup_id" type="xs:long" />
+          <xs:element minOccurs="0" name="soc_code" type="xs:string" />
+          <xs:element name="soc_type" type="xs:long" />
+          <xs:element name="score_value" type="xs:int" />
+          <xs:element minOccurs="0" name="treatment_desc" type="xs:string" />
+          <xs:element minOccurs="0" name="camp_name" type="xs:string" />
+          <xs:element minOccurs="0" name="camp_desc" type="xs:string" />
+          <xs:element minOccurs="0" name="fee" type="xs:decimal" />
+          <xs:element minOccurs="0" name="fee_period" type="xs:long" />
+          <xs:element minOccurs="0" name="price" type="xs:decimal" />
+          <xs:element minOccurs="0" name="currency" type="xs:string" />
+          <xs:element minOccurs="0" name="fttb_ui_id_list" type="xs:string" />
+          <xs:element minOccurs="0" name="new_offer_ind" type="xs:boolean" />
+          <xs:element minOccurs="0" name="news_id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getUsssResponse">
+    <wsdl:part name="parameters" element="tns:getUsssResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUsss">
+    <wsdl:part name="parameters" element="tns:getUsss" />
+  </wsdl:message>
+  <wsdl:portType name="UsssProcess">
+    <wsdl:operation name="getUsss">
+      <wsdl:input name="getUsss" message="tns:getUsss" />
+      <wsdl:output name="getUsssResponse" message="tns:getUsssResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UsssProcessImpl2ServiceSoapBinding" type="tns:UsssProcess">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getUsss">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getUsss">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getUsssResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UsssProcessImpl2Service">
+    <wsdl:port name="UsssProcessImpl2Port" binding="tns:UsssProcessImpl2ServiceSoapBinding">
+      <soap:address location="http://nba12.vimpelcom.ru:8082/cmws/v2/UsssProcess" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

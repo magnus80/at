@@ -1,0 +1,416 @@
+2015-авг-25 -> 11:27:57: ChangePublicPricePlan run begin
+2015-авг-25 -> 11:28:28: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:29:01: ChangePublicPricePlan run begin
+2015-авг-25 -> 11:29:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:30:28: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/136f6f5f-064b-49c4-ae02-7ba038e5cd95/element/%7B9b9a7287-a3d6-4392-9f94-04bdb42b9326%7D/click timed out after 60 seconds.
+2015-авг-25 -> 11:30:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:30:46: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:31:15: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 11:31:15: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:32:02: ChangePublicPricePlan run end
+2015-авг-25 -> 11:33:12: ChangePublicPricePlan run begin
+2015-авг-25 -> 11:33:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:34:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:34:02: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:34:30: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 11:34:30: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:35:18: ChangePublicPricePlan run end
+2015-авг-25 -> 11:43:55: ChangePublicPricePlan run begin
+2015-авг-25 -> 11:44:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:44:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:44:46: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:45:14: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 11:45:14: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:46:00: ChangePublicPricePlan run end
+2015-авг-25 -> 11:52:45: ChangePublicPricePlan run begin
+2015-авг-25 -> 11:53:13: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:53:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:53:36: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:54:05: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 11:54:05: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:55:09: ChangePublicPricePlan run end
+2015-авг-25 -> 11:55:32: ChangePublicPricePlan run begin
+2015-авг-25 -> 11:56:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:56:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 11:56:23: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:56:50: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 11:56:50: Object reference not set to an instance of an object.
+2015-авг-25 -> 11:57:51: ChangePublicPricePlan run end
+2015-авг-25 -> 12:00:29: ChangePublicPricePlan run begin
+2015-авг-25 -> 12:00:54: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 12:01:50: Window not found. The browser window may have been closed.
+2015-авг-25 -> 12:01:52: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-авг-25 -> 12:01:52: Object reference not set to an instance of an object.
+2015-авг-25 -> 12:01:53: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-авг-25 -> 12:01:54: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-авг-25 -> 12:02:08: ChangePublicPricePlan run begin
+2015-авг-25 -> 12:02:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 12:02:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 12:02:58: Object reference not set to an instance of an object.
+2015-авг-25 -> 12:03:25: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 12:03:25: Object reference not set to an instance of an object.
+2015-авг-25 -> 12:04:23: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-авг-25 -> 12:04:24: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2015-авг-25 -> 12:04:24: Object reference not set to an instance of an object.
+2015-авг-25 -> 12:06:13: ChangePublicPricePlan run begin
+2015-авг-25 -> 12:06:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 12:07:00: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 12:07:00: Object reference not set to an instance of an object.
+2015-авг-25 -> 12:07:58: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 12:07:58: Object reference not set to an instance of an object.
+2015-авг-25 -> 12:09:07: Element is not currently visible and so may not be interacted with
+2015-авг-25 -> 12:09:09: ChangePublicPricePlan run end
+2015-авг-25 -> 01:30:09: ChangePublicPricePlan run begin
+2015-авг-25 -> 01:30:39: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:31:03: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:31:03: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:31:32: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 01:31:32: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:32:28: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-25 -> 01:32:30: ChangePublicPricePlan run end
+2015-авг-25 -> 01:36:20: ChangePublicPricePlan run begin
+2015-авг-25 -> 01:36:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:37:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:37:53: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:38:20: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 01:38:20: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:39:33: Element is not currently visible and so may not be interacted with
+2015-авг-25 -> 01:39:35: ChangePublicPricePlan run end
+2015-авг-25 -> 01:40:50: ChangePublicPricePlan run begin
+2015-авг-25 -> 01:41:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:41:35: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:41:35: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:42:32: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-25 -> 01:43:26: ChangePublicPricePlan run end
+2015-авг-25 -> 01:45:13: ChangePublicPricePlan run begin
+2015-авг-25 -> 01:45:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:46:42: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:46:42: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:47:08: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 01:47:08: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:47:58: ChangePublicPricePlan run end
+2015-авг-25 -> 01:48:57: ChangePublicPricePlan run begin
+2015-авг-25 -> 01:49:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:49:47: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:49:47: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:50:34: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 01:50:34: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:51:30: ChangePublicPricePlan run end
+2015-авг-25 -> 01:52:18: ChangePublicPricePlan run begin
+2015-авг-25 -> 01:52:43: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:53:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:53:02: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:53:28: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 01:53:28: Object reference not set to an instance of an object.
+2015-авг-25 -> 01:54:27: ChangePublicPricePlan run end
+2015-авг-25 -> 01:59:10: ChangePublicPricePlan run begin
+2015-авг-25 -> 01:59:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:59:57: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 01:59:57: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:00:23: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 02:00:23: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:05:33: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:05:33: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:05:46: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:05:46: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:05:59: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:05:59: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:06:12: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:06:12: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:06:25: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:06:25: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:06:38: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:06:38: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:06:51: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:06:51: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:07:04: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:07:04: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:07:17: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:07:17: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:07:30: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:07:30: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:07:43: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:07:43: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:07:57: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:07:57: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:08:10: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:08:10: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:08:23: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:08:23: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:08:36: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:08:36: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:08:49: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:08:49: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:09:02: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:09:02: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:09:15: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:09:15: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:09:28: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:09:28: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:09:41: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:09:41: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:09:54: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:09:54: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:10:07: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:10:07: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:10:20: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:10:20: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:10:33: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:10:33: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:10:47: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:10:47: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:11:00: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:11:00: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:11:13: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:11:13: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:11:26: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:11:26: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:11:39: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:11:39: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:11:52: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:11:52: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:12:05: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:12:05: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:12:18: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:12:18: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:12:31: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:12:31: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:12:44: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:12:44: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:12:57: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:12:57: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:13:11: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:13:11: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:13:24: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:13:24: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:13:37: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:13:37: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:13:50: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:13:50: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:14:03: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:14:03: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:14:16: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:14:16: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:14:29: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:14:29: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:14:42: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:14:42: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:14:55: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:14:55: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:15:08: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:15:08: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:15:21: Unable to locate element: {"method":"xpath","selector":"//button[contains(@onclick,'confirmChangePricePlan')]"}
+2015-авг-25 -> 02:15:21: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:15:42: ChangePublicPricePlan run begin
+2015-авг-25 -> 02:16:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 02:16:32: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 02:16:32: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:17:19: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 02:17:19: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:18:20: ChangePublicPricePlan run end
+2015-авг-25 -> 02:38:05: ChangePublicPricePlan run begin
+2015-авг-25 -> 02:38:31: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 02:39:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 02:39:01: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:39:29: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 02:39:29: Object reference not set to an instance of an object.
+2015-авг-25 -> 02:40:30: ChangePublicPricePlan run end
+2015-авг-25 -> 04:38:40: ChangePublicPricePlan run begin
+2015-авг-25 -> 04:39:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 04:40:08: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/8efcae9e-4be4-4067-87cc-f41236bd7931/element/%7B08c4be3f-cfd4-43c5-9967-9cd58ffdb306%7D/click timed out after 60 seconds.
+2015-авг-25 -> 04:41:08: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/8efcae9e-4be4-4067-87cc-f41236bd7931/execute timed out after 60 seconds.
+2015-авг-25 -> 04:41:29: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-25 -> 04:41:29: Object reference not set to an instance of an object.
+2015-авг-25 -> 04:42:24: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-25 -> 04:42:24: Object reference not set to an instance of an object.
+2015-авг-25 -> 04:43:47: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-25 -> 04:43:57: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-25 -> 04:44:07: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-25 -> 04:44:09: ChangePublicPricePlan run end
+2015-авг-26 -> 09:25:46: ChangePublicPricePlan run begin
+2015-авг-26 -> 09:26:13: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 09:26:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 09:26:55: Object reference not set to an instance of an object.
+2015-авг-26 -> 09:27:42: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 09:27:42: Object reference not set to an instance of an object.
+2015-авг-26 -> 09:29:08: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 09:29:25: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 09:29:26: ChangePublicPricePlan run end
+2015-авг-26 -> 10:37:14: ChangePublicPricePlan run begin
+2015-авг-26 -> 10:37:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:38:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:38:12: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:38:37: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 10:38:37: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:39:57: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 10:40:08: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 10:40:18: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 10:40:35: Session not found: 
+2015-авг-26 -> 10:40:35: Session not found: 
+2015-авг-26 -> 10:40:35: Session not found: 
+2015-авг-26 -> 10:40:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:40:46: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:40:46: Session not found: 
+2015-авг-26 -> 10:40:56: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='mobileDataForm:abonents_data']/tr/td[12]"}
+2015-авг-26 -> 10:40:56: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:40:56: ChangePublicPricePlan run end
+2015-авг-26 -> 10:48:28: ChangePublicPricePlan run begin
+2015-авг-26 -> 10:48:57: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:49:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:49:23: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:49:49: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 10:49:49: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:51:28: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:51:47: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:51:47: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:51:47: Session not found: 
+2015-авг-26 -> 10:51:57: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='mobileDataForm:abonents_data']/tr/td[12]"}
+2015-авг-26 -> 10:51:57: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:51:57: ChangePublicPricePlan run end
+2015-авг-26 -> 10:54:43: ChangePublicPricePlan run begin
+2015-авг-26 -> 10:55:11: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:55:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:55:37: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:56:13: Unable to locate element: {"method":"xpath","selector":"//form[contains(@id,'changeTariffForm')]"}
+2015-авг-26 -> 10:56:13: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:57:44: ChangePublicPricePlan run begin
+2015-авг-26 -> 10:58:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:58:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 10:58:40: Object reference not set to an instance of an object.
+2015-авг-26 -> 10:59:08: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 10:59:08: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:01:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:01:33: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:01:33: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:01:40: ChangePublicPricePlan run end
+2015-авг-26 -> 11:07:09: ChangePublicPricePlan run begin
+2015-авг-26 -> 11:07:35: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:07:57: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:07:57: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:08:22: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 11:08:22: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:09:54: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:10:14: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:10:14: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:10:33: ChangePublicPricePlan run end
+2015-авг-26 -> 11:16:21: ChangePublicPricePlan run begin
+2015-авг-26 -> 11:16:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:17:19: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:17:19: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:17:46: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 11:17:46: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:19:16: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:19:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:19:37: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:20:06: Element is not currently visible and so may not be interacted with
+2015-авг-26 -> 11:20:22: ChangePublicPricePlan run end
+2015-авг-26 -> 11:24:53: ChangePublicPricePlan run begin
+2015-авг-26 -> 11:25:26: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:25:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:25:55: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:26:25: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 11:26:25: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:28:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:28:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:28:23: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:28:53: Unable to locate element: {"method":"xpath","selector":"//div[@id=contactInformation]/div[1]/div[2]/div[2]/form/a[1]"}
+2015-авг-26 -> 11:28:53: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:28:53: ChangePublicPricePlan run end
+2015-авг-26 -> 11:42:12: ChangePublicPricePlan run begin
+2015-авг-26 -> 11:42:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:43:08: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:43:08: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:43:34: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 11:43:34: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:44:57: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 11:45:07: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 11:45:17: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 11:45:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:46:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:46:07: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:46:22: ChangePublicPricePlan run end
+2015-авг-26 -> 11:53:42: ChangePublicPricePlan run begin
+2015-авг-26 -> 11:54:09: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:54:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:54:34: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:55:02: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 11:55:02: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:56:42: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:57:03: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 11:57:03: Object reference not set to an instance of an object.
+2015-авг-26 -> 11:57:19: ChangePublicPricePlan run end
+2015-авг-26 -> 12:22:21: ChangePublicPricePlan run begin
+2015-авг-26 -> 12:22:54: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 12:23:22: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 12:23:22: Object reference not set to an instance of an object.
+2015-авг-26 -> 12:23:48: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 12:23:48: Object reference not set to an instance of an object.
+2015-авг-26 -> 12:25:20: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 12:25:38: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 12:25:38: Object reference not set to an instance of an object.
+2015-авг-26 -> 12:26:04: Element is not currently visible and so may not be interacted with
+2015-авг-26 -> 12:26:21: ChangePublicPricePlan run end
+2015-авг-26 -> 01:28:03: ChangePublicPricePlan run begin
+2015-авг-26 -> 01:28:29: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 01:28:50: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 01:28:50: Object reference not set to an instance of an object.
+2015-авг-26 -> 01:29:16: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 01:29:16: Object reference not set to an instance of an object.
+2015-авг-26 -> 01:30:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 01:31:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 01:31:15: Object reference not set to an instance of an object.
+2015-авг-26 -> 01:31:31: ChangePublicPricePlan run end
+2015-авг-26 -> 01:33:40: ChangePublicPricePlan run begin
+2015-авг-26 -> 01:36:53: ChangePublicPricePlan run begin
+2015-авг-26 -> 01:37:18: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 01:37:42: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 01:37:42: Object reference not set to an instance of an object.
+2015-авг-26 -> 01:38:08: Unable to locate element: {"method":"xpath","selector":"//div[@id='mobileDataForm:waitingTariffsKrutilka']"}
+2015-авг-26 -> 01:38:08: Object reference not set to an instance of an object.
+2015-авг-26 -> 01:39:29: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 01:39:39: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 01:39:49: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-авг-26 -> 01:40:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 01:40:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-авг-26 -> 01:40:37: Object reference not set to an instance of an object.
+2015-авг-26 -> 01:41:10: ChangePublicPricePlan run end

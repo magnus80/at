@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9fd4b31d-c88f-414f-8f9f-2cd037617d02" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://dev-web01.vimpelcom.ru:50001/api/AuthService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AuthService.xsd" MetadataType="Schema" ID="b63a786b-0839-40a0-ad7f-291aa7b788d5" SourceId="1" SourceUrl="http://dev-web01.vimpelcom.ru:50001/api/AuthService?xsd=1" />
+    <MetadataFile FileName="AuthService.wsdl" MetadataType="Wsdl" ID="2071e03e-772b-41aa-87ab-5c73df9182ba" SourceId="1" SourceUrl="http://dev-web01.vimpelcom.ru:50001/api/AuthService?wsdl" />
+    <MetadataFile FileName="AuthService1.xsd" MetadataType="Schema" ID="f53568c0-983c-4e91-ae19-ba1054e554b1" SourceId="1" SourceUrl="http://dev-web01.vimpelcom.ru:50001/api/AuthService?xsd=2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

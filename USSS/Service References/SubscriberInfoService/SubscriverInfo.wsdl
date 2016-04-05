@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:tns="urn:gf-subscriber-info-service:wsdl" xmlns:types="urn:gf-subscriber-info-service:xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:basp="http://sun.com/ws/httpbc/security/BasicauthSecurityPolicy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns="http://schemas.xmlsoap.org/wsdl/" name="SubscriverInfo" targetNamespace="urn:gf-subscriber-info-service:wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicAuthPolicy">
+    <basp:MustSupportBasicAuthentication on="true">
+      <basp:BasicAuthenticationDetail>
+        <basp:Realm realmName="file" />
+      </basp:BasicAuthenticationDetail>
+    </basp:MustSupportBasicAuthentication>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:gf-subscriber-info-service:wsdl">
+      <xsd:import schemaLocation="http://ms-glass006.bee.vimpelcom.ru:8094/SubscriberInfoServiceCA-sun-http-binding/SubscriberInfoModule/SubscriberInfo.xsd" namespace="urn:gf-subscriber-info-service:xsd" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SubscribeInfoResponse">
+    <wsdl:part name="response" element="types:response" />
+  </wsdl:message>
+  <wsdl:message name="SubscriberBanResponse">
+    <wsdl:part name="response" element="types:responseBan" />
+  </wsdl:message>
+  <wsdl:message name="ServiceException">
+    <wsdl:part name="fault" element="types:fault" />
+  </wsdl:message>
+  <wsdl:message name="SubscriberBanRequest">
+    <wsdl:part name="request" element="types:requestBan" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeInfoRequest">
+    <wsdl:part name="request" element="types:request" />
+  </wsdl:message>
+  <wsdl:message name="SubscriberHistoryResponse">
+    <wsdl:part name="response" element="types:responseHistory" />
+  </wsdl:message>
+  <wsdl:message name="SubscribersInfoRequest">
+    <wsdl:part name="request" element="types:requestBatch" />
+  </wsdl:message>
+  <wsdl:message name="SubscribersInfoResponse">
+    <wsdl:part name="response" element="types:responseBatch" />
+  </wsdl:message>
+  <wsdl:message name="SubscriberHistoryRequest">
+    <wsdl:part name="request" element="types:requestHistory" />
+  </wsdl:message>
+  <wsdl:portType name="SubscriberInfoBatch">
+    <wsdl:operation name="SubscribersInfo">
+      <wsdl:input name="input" message="tns:SubscribersInfoRequest" />
+      <wsdl:output name="output" message="tns:SubscribersInfoResponse" />
+      <wsdl:fault name="fault" message="tns:ServiceException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SubscribeInfo">
+    <wsdl:operation name="SubscribeInfo">
+      <wsdl:input name="input" message="tns:SubscribeInfoRequest" />
+      <wsdl:output name="output" message="tns:SubscribeInfoResponse" />
+      <wsdl:fault name="fault" message="tns:ServiceException" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeBanInfo">
+      <wsdl:input name="input1" message="tns:SubscriberBanRequest" />
+      <wsdl:output name="output1" message="tns:SubscriberBanResponse" />
+      <wsdl:fault name="fault1" message="tns:ServiceException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SubscriberHistory">
+    <wsdl:operation name="SubscriberHistory">
+      <wsdl:input name="input" message="tns:SubscriberHistoryRequest" />
+      <wsdl:output name="output" message="tns:SubscriberHistoryResponse" />
+      <wsdl:fault name="fault" message="tns:ServiceException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SubscriberInfoBatchBinding" type="tns:SubscriberInfoBatch">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SubscribersInfo">
+      <soap:operation soapAction="" />
+      <wsdl:input name="input">
+        <soap:body use="literal" namespace="urn:gf-subscriber-info-service:wsdl" />
+      </wsdl:input>
+      <wsdl:output name="output">
+        <soap:body use="literal" namespace="urn:gf-subscriber-info-service:wsdl" />
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SubscriberHistory" type="tns:SubscriberHistory">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SubscriberHistory">
+      <soap:operation soapAction="" />
+      <wsdl:input name="input">
+        <soap:body use="literal" namespace="urn:gf-subscriber-info-service:wsdl" />
+      </wsdl:input>
+      <wsdl:output name="output">
+        <soap:body use="literal" namespace="urn:gf-subscriber-info-service:wsdl" />
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SubscribeInfoBinding" type="tns:SubscribeInfo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SubscribeInfo">
+      <soap:operation soapAction="" />
+      <wsdl:input name="input">
+        <soap:body use="literal" namespace="urn:gf-subscriber-info-service:wsdl" />
+      </wsdl:input>
+      <wsdl:output name="output">
+        <soap:body use="literal" namespace="urn:gf-subscriber-info-service:wsdl" />
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeBanInfo">
+      <soap:operation soapAction="" />
+      <wsdl:input name="input1">
+        <soap:body use="literal" namespace="urn:gf-subscriber-info-service:wsdl" />
+      </wsdl:input>
+      <wsdl:output name="output1">
+        <soap:body use="literal" namespace="urn:gf-subscriber-info-service:wsdl" />
+      </wsdl:output>
+      <wsdl:fault name="fault1">
+        <soap:fault use="literal" name="fault1" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SubscriberInfoService">
+    <wsdl:port name="SubscriberHistoryBindingPort" binding="tns:SubscriberHistory">
+      <soap:address location="http://ms-glass006.bee.vimpelcom.ru:9080/SubscriberInfoHistory" />
+      <wsp:PolicyReference URI="#BasicAuthPolicy" />
+    </wsdl:port>
+    <wsdl:port name="SubscribeInfoBindingPort" binding="tns:SubscribeInfoBinding">
+      <soap:address location="http://ms-glass006.bee.vimpelcom.ru:9080/SubscriberInfo" />
+      <wsp:PolicyReference URI="#BasicAuthPolicy" />
+    </wsdl:port>
+    <wsdl:port name="SubscriberInfoBatchBindingPort" binding="tns:SubscriberInfoBatchBinding">
+      <soap:address location="http://ms-glass006.bee.vimpelcom.ru:9080/SubscriberInfoBatch" />
+      <wsp:PolicyReference URI="#BasicAuthPolicy" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

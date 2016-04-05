@@ -1,0 +1,349 @@
+2016-фев-03 -> 03:52:51: DistributionPayment run begin
+2016-фев-03 -> 03:52:55: DistributionPayment run end
+2016-фев-10 -> 11:50:29: InvoiceBillsReports run begin
+2016-фев-10 -> 12:39:35: ServiceManager run begin
+2016-фев-10 -> 12:39:58: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:39:59: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:00: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:01: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:02: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:03: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:04: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:05: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:05: Object reference not set to an instance of an object.
+2016-фев-10 -> 12:40:05: Object reference not set to an instance of an object.
+2016-фев-10 -> 12:40:05: Object reference not set to an instance of an object.
+2016-фев-10 -> 12:40:05: Object reference not set to an instance of an object.
+2016-фев-10 -> 12:40:06: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:07: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:07: Object reference not set to an instance of an object.
+2016-фев-10 -> 12:40:08: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:09: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:11: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:12: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:13: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:14: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:15: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:16: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:17: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 12:40:18: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:7055
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2016-фев-10 -> 01:45:32: DistributionPayment run begin
+2016-фев-10 -> 01:46:04: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-фев-10 -> 01:46:31: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-фев-10 -> 01:46:31: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:46:42: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2016-фев-10 -> 01:46:42: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:47:23: Unable to locate element: {"method":"xpath","selector":"//*[text()='Равномерное']"}
+2016-фев-10 -> 01:47:33: Unable to locate element: {"method":"xpath","selector":"//*[text()='Одна сумма для всех']"}
+2016-фев-10 -> 01:47:43: Unable to locate element: {"method":"xpath","selector":"//*[text()='Различные суммы']"}
+2016-фев-10 -> 01:47:53: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 01:48:03: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 01:48:13: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-фев-10 -> 01:48:23: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'repeatCheckBox')]"}
+2016-фев-10 -> 01:48:33: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'finishSumPanel')]"}
+2016-фев-10 -> 01:48:43: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]/div/span"}
+2016-фев-10 -> 01:48:53: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']"}
+2016-фев-10 -> 01:49:04: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 01:49:14: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]"}
+2016-фев-10 -> 01:49:24: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[4]/div[2]/a"}
+2016-фев-10 -> 01:49:24: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:49:34: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 01:49:34: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:49:44: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 01:49:44: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:49:54: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-фев-10 -> 01:49:54: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:50:05: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 01:50:05: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:50:15: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 01:50:15: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:50:30: Unable to locate element: {"method":"xpath","selector":"//input[@id='notificationChange:requestUserServiceParamsForm:email']"}
+2016-фев-10 -> 01:50:30: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:51:07: Unable to locate element: {"method":"xpath","selector":"//*[text()='Равномерное']"}
+2016-фев-10 -> 01:51:17: Unable to locate element: {"method":"xpath","selector":"//*[text()='Одна сумма для всех']"}
+2016-фев-10 -> 01:51:27: Unable to locate element: {"method":"xpath","selector":"//*[text()='Различные суммы']"}
+2016-фев-10 -> 01:51:37: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 01:51:47: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 01:51:57: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-фев-10 -> 01:52:08: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'repeatCheckBox')]"}
+2016-фев-10 -> 01:52:18: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'finishSumPanel')]"}
+2016-фев-10 -> 01:52:28: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]/div/span"}
+2016-фев-10 -> 01:52:38: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']"}
+2016-фев-10 -> 01:52:48: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 01:52:58: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]"}
+2016-фев-10 -> 01:53:08: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[4]/div[2]/a"}
+2016-фев-10 -> 01:53:08: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:53:18: Unable to locate element: {"method":"xpath","selector":"//a[@id='distributionBalance:bills-mobile-new']"}
+2016-фев-10 -> 01:53:18: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:53:28: Unable to locate element: {"method":"xpath","selector":"//*[text()='Равномерное']"}
+2016-фев-10 -> 01:53:38: Unable to locate element: {"method":"xpath","selector":"//*[text()='Одна сумма для всех']"}
+2016-фев-10 -> 01:53:49: Unable to locate element: {"method":"xpath","selector":"//*[text()='Различные суммы']"}
+2016-фев-10 -> 01:53:59: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 01:54:09: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 01:54:19: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-фев-10 -> 01:54:29: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'repeatCheckBox')]"}
+2016-фев-10 -> 01:54:39: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'finishSumPanel')]"}
+2016-фев-10 -> 01:54:49: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]/div/span"}
+2016-фев-10 -> 01:55:00: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']"}
+2016-фев-10 -> 01:55:10: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 01:55:20: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]"}
+2016-фев-10 -> 01:55:30: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[4]/div[2]/a"}
+2016-фев-10 -> 01:55:30: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:55:40: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 01:55:40: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:55:50: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 01:55:50: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:56:00: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 01:56:00: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:56:10: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 01:56:10: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:56:26: Unable to locate element: {"method":"xpath","selector":"//input[@id='notificationChange:requestUserServiceParamsForm:email']"}
+2016-фев-10 -> 01:56:26: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:56:55: Unable to locate element: {"method":"xpath","selector":"//*[text()='Равномерное']"}
+2016-фев-10 -> 01:57:05: Unable to locate element: {"method":"xpath","selector":"//*[text()='Одна сумма для всех']"}
+2016-фев-10 -> 01:57:15: Unable to locate element: {"method":"xpath","selector":"//*[text()='Различные суммы']"}
+2016-фев-10 -> 01:57:25: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 01:57:35: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 01:57:45: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-фев-10 -> 01:57:55: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'repeatCheckBox')]"}
+2016-фев-10 -> 01:58:06: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'finishSumPanel')]"}
+2016-фев-10 -> 01:58:16: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]/div/span"}
+2016-фев-10 -> 01:58:26: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']"}
+2016-фев-10 -> 01:58:36: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 01:58:46: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]"}
+2016-фев-10 -> 01:58:56: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[4]/div[2]/a"}
+2016-фев-10 -> 01:58:56: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:59:06: Unable to locate element: {"method":"xpath","selector":"//a[@id='distributionBalance:bills-mobile-all']"}
+2016-фев-10 -> 01:59:06: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:59:16: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-output')][1]"}
+2016-фев-10 -> 01:59:16: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:59:27: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-input')][1]//input"}
+2016-фев-10 -> 01:59:27: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:59:37: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-output')][2]"}
+2016-фев-10 -> 01:59:37: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:59:47: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-input')][2]//input"}
+2016-фев-10 -> 01:59:47: Object reference not set to an instance of an object.
+2016-фев-10 -> 01:59:57: Unable to locate element: {"method":"xpath","selector":"//div[@class='sum']"}
+2016-фев-10 -> 01:59:57: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:00:07: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 02:00:07: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:00:17: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-фев-10 -> 02:00:17: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:00:28: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 02:00:28: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:00:39: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 02:00:39: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:00:54: Unable to locate element: {"method":"xpath","selector":"//input[@id='notificationChange:requestUserServiceParamsForm:email']"}
+2016-фев-10 -> 02:00:54: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:01:04: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2016-фев-10 -> 02:01:14: Unable to locate element: {"method":"xpath","selector":"//span[@class='expandable' and text()='Договоры']"}
+2016-фев-10 -> 02:01:14: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:01:51: Unable to locate element: {"method":"xpath","selector":"//*[text()='Равномерное']"}
+2016-фев-10 -> 02:02:01: Unable to locate element: {"method":"xpath","selector":"//*[text()='Одна сумма для всех']"}
+2016-фев-10 -> 02:02:11: Unable to locate element: {"method":"xpath","selector":"//*[text()='Различные суммы']"}
+2016-фев-10 -> 02:02:21: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 02:02:31: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 02:02:41: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-фев-10 -> 02:02:51: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'repeatCheckBox')]"}
+2016-фев-10 -> 02:03:01: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'finishSumPanel')]"}
+2016-фев-10 -> 02:03:11: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]/div/span"}
+2016-фев-10 -> 02:03:22: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']"}
+2016-фев-10 -> 02:03:32: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 02:03:42: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]"}
+2016-фев-10 -> 02:03:52: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[4]/div[2]/a"}
+2016-фев-10 -> 02:03:52: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:04:02: Unable to locate element: {"method":"xpath","selector":"//a[@id='distributionBalance:bills-mobile-new']"}
+2016-фев-10 -> 02:04:02: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:04:12: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 02:04:12: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:04:22: Unable to locate element: {"method":"xpath","selector":"//div[@id='distributionBalance:sumInputMsg']//span[@class='ui-message-error-detail']"}
+2016-фев-10 -> 02:04:22: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:04:32: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 02:04:32: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:04:42: Unable to locate element: {"method":"xpath","selector":"//div[@id='distributionBalance:sumInputMsg']//span[@class='ui-message-error-detail']"}
+2016-фев-10 -> 02:04:42: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:04:53: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'repeatCheckBox')]//span"}
+2016-фев-10 -> 02:04:53: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:05:08: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance:periodic:name')]"}
+2016-фев-10 -> 02:05:08: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:05:39: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-фев-10 -> 02:06:03: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-фев-10 -> 02:06:03: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:06:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2016-фев-10 -> 02:06:13: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:06:51: Unable to locate element: {"method":"xpath","selector":"//*[text()='Равномерное']"}
+2016-фев-10 -> 02:07:01: Unable to locate element: {"method":"xpath","selector":"//*[text()='Одна сумма для всех']"}
+2016-фев-10 -> 02:07:11: Unable to locate element: {"method":"xpath","selector":"//*[text()='Различные суммы']"}
+2016-фев-10 -> 02:07:21: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-фев-10 -> 02:07:31: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-фев-10 -> 02:07:41: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-фев-10 -> 02:07:51: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'repeatCheckBox')]"}
+2016-фев-10 -> 02:08:01: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'finishSumPanel')]"}
+2016-фев-10 -> 02:08:11: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]/div/span"}
+2016-фев-10 -> 02:08:21: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']"}
+2016-фев-10 -> 02:08:32: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-фев-10 -> 02:08:42: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]"}
+2016-фев-10 -> 02:08:52: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[4]/div[2]/a"}
+2016-фев-10 -> 02:08:52: Object reference not set to an instance of an object.
+2016-фев-10 -> 02:08:54: DistributionPayment run end
+2016-фев-10 -> 02:08:58: ChangeNoSim run begin

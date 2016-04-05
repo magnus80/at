@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.comverse.com" name="CustomerCareService" targetNamespace="http://www.comverse.com" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="CustomerCareService_schema1.xsd" namespace="http://www.comverse.com" />
+    </xsd:schema>
+  </types>
+  <message name="AccountCreate">
+    <part name="parameters" element="tns:AccountCreate" />
+  </message>
+  <message name="AccountCreateResponse">
+    <part name="parameters" element="tns:AccountCreateResponse" />
+  </message>
+  <message name="ApiException">
+    <part name="fault" element="tns:ApiException" />
+  </message>
+  <message name="AccountUpdate">
+    <part name="parameters" element="tns:AccountUpdate" />
+  </message>
+  <message name="AccountUpdateResponse">
+    <part name="parameters" element="tns:AccountUpdateResponse" />
+  </message>
+  <message name="AccountUpdateRatingStatus">
+    <part name="parameters" element="tns:AccountUpdateRatingStatus" />
+  </message>
+  <message name="AccountUpdateRatingStatusResponse">
+    <part name="parameters" element="tns:AccountUpdateRatingStatusResponse" />
+  </message>
+  <message name="AccountUpdateAccumulatorInstance">
+    <part name="parameters" element="tns:AccountUpdateAccumulatorInstance" />
+  </message>
+  <message name="AccountUpdateAccumulatorInstanceResponse">
+    <part name="parameters" element="tns:AccountUpdateAccumulatorInstanceResponse" />
+  </message>
+  <message name="AccountGetAccumulatorInstanceValue">
+    <part name="parameters" element="tns:AccountGetAccumulatorInstanceValue" />
+  </message>
+  <message name="AccountGetAccumulatorInstanceValueResponse">
+    <part name="parameters" element="tns:AccountGetAccumulatorInstanceValueResponse" />
+  </message>
+  <message name="AccountSetAccumulatorInstanceValue">
+    <part name="parameters" element="tns:AccountSetAccumulatorInstanceValue" />
+  </message>
+  <message name="AccountSetAccumulatorInstanceValueResponse">
+    <part name="parameters" element="tns:AccountSetAccumulatorInstanceValueResponse" />
+  </message>
+  <message name="AccountAdjustAccumulatorInstance">
+    <part name="parameters" element="tns:AccountAdjustAccumulatorInstance" />
+  </message>
+  <message name="AccountAdjustAccumulatorInstanceResponse">
+    <part name="parameters" element="tns:AccountAdjustAccumulatorInstanceResponse" />
+  </message>
+  <message name="AccountUpdateBalanceInstance">
+    <part name="parameters" element="tns:AccountUpdateBalanceInstance" />
+  </message>
+  <message name="AccountUpdateBalanceInstanceResponse">
+    <part name="parameters" element="tns:AccountUpdateBalanceInstanceResponse" />
+  </message>
+  <message name="AccountAdjustBalanceInstance">
+    <part name="parameters" element="tns:AccountAdjustBalanceInstance" />
+  </message>
+  <message name="AccountAdjustBalanceInstanceResponse">
+    <part name="parameters" element="tns:AccountAdjustBalanceInstanceResponse" />
+  </message>
+  <message name="AccountAddOfferInstance">
+    <part name="parameters" element="tns:AccountAddOfferInstance" />
+  </message>
+  <message name="AccountAddOfferInstanceResponse">
+    <part name="parameters" element="tns:AccountAddOfferInstanceResponse" />
+  </message>
+  <message name="AccountTransferFundsToAccount">
+    <part name="parameters" element="tns:AccountTransferFundsToAccount" />
+  </message>
+  <message name="AccountTransferFundsToAccountResponse">
+    <part name="parameters" element="tns:AccountTransferFundsToAccountResponse" />
+  </message>
+  <message name="AccountTransferFundsToSubscriber">
+    <part name="parameters" element="tns:AccountTransferFundsToSubscriber" />
+  </message>
+  <message name="AccountTransferFundsToSubscriberResponse">
+    <part name="parameters" element="tns:AccountTransferFundsToSubscriberResponse" />
+  </message>
+  <message name="CallingCircleAddMember">
+    <part name="parameters" element="tns:CallingCircleAddMember" />
+  </message>
+  <message name="CallingCircleAddMemberResponse">
+    <part name="parameters" element="tns:CallingCircleAddMemberResponse" />
+  </message>
+  <message name="CallingCircleRemoveMember">
+    <part name="parameters" element="tns:CallingCircleRemoveMember" />
+  </message>
+  <message name="CallingCircleRemoveMemberResponse">
+    <part name="parameters" element="tns:CallingCircleRemoveMemberResponse" />
+  </message>
+  <message name="CallingCircleMemberFind">
+    <part name="parameters" element="tns:CallingCircleMemberFind" />
+  </message>
+  <message name="CallingCircleMemberFindResponse">
+    <part name="parameters" element="tns:CallingCircleMemberFindResponse" />
+  </message>
+  <message name="FaListInstanceMemberAdd">
+    <part name="parameters" element="tns:FaListInstanceMemberAdd" />
+  </message>
+  <message name="FaListInstanceMemberAddResponse">
+    <part name="parameters" element="tns:FaListInstanceMemberAddResponse" />
+  </message>
+  <message name="FaListInstanceMemberRemove">
+    <part name="parameters" element="tns:FaListInstanceMemberRemove" />
+  </message>
+  <message name="FaListInstanceMemberRemoveResponse">
+    <part name="parameters" element="tns:FaListInstanceMemberRemoveResponse" />
+  </message>
+  <message name="FaListInstanceMemberReplace">
+    <part name="parameters" element="tns:FaListInstanceMemberReplace" />
+  </message>
+  <message name="FaListInstanceMemberReplaceResponse">
+    <part name="parameters" element="tns:FaListInstanceMemberReplaceResponse" />
+  </message>
+  <message name="SubscriberRetrieve">
+    <part name="parameters" element="tns:SubscriberRetrieve" />
+  </message>
+  <message name="SubscriberRetrieveResponse">
+    <part name="parameters" element="tns:SubscriberRetrieveResponse" />
+  </message>
+  <message name="SubscriberUpdateAccumulatorInstance">
+    <part name="parameters" element="tns:SubscriberUpdateAccumulatorInstance" />
+  </message>
+  <message name="SubscriberUpdateAccumulatorInstanceResponse">
+    <part name="parameters" element="tns:SubscriberUpdateAccumulatorInstanceResponse" />
+  </message>
+  <message name="SubscriberAdjustAccumulatorInstance">
+    <part name="parameters" element="tns:SubscriberAdjustAccumulatorInstance" />
+  </message>
+  <message name="SubscriberAdjustAccumulatorInstanceResponse">
+    <part name="parameters" element="tns:SubscriberAdjustAccumulatorInstanceResponse" />
+  </message>
+  <message name="SubscriberGetAccumulatorInstanceValue">
+    <part name="parameters" element="tns:SubscriberGetAccumulatorInstanceValue" />
+  </message>
+  <message name="SubscriberGetAccumulatorInstanceValueResponse">
+    <part name="parameters" element="tns:SubscriberGetAccumulatorInstanceValueResponse" />
+  </message>
+  <message name="SubscriberSetAccumulatorInstanceValue">
+    <part name="parameters" element="tns:SubscriberSetAccumulatorInstanceValue" />
+  </message>
+  <message name="SubscriberSetAccumulatorInstanceValueResponse">
+    <part name="parameters" element="tns:SubscriberSetAccumulatorInstanceValueResponse" />
+  </message>
+  <message name="SubscriberUpdateBalanceInstance">
+    <part name="parameters" element="tns:SubscriberUpdateBalanceInstance" />
+  </message>
+  <message name="SubscriberUpdateBalanceInstanceResponse">
+    <part name="parameters" element="tns:SubscriberUpdateBalanceInstanceResponse" />
+  </message>
+  <message name="SubscriberAdjustBalanceInstance">
+    <part name="parameters" element="tns:SubscriberAdjustBalanceInstance" />
+  </message>
+  <message name="SubscriberAdjustBalanceInstanceResponse">
+    <part name="parameters" element="tns:SubscriberAdjustBalanceInstanceResponse" />
+  </message>
+  <message name="SubscriberUpdateRatingStatus">
+    <part name="parameters" element="tns:SubscriberUpdateRatingStatus" />
+  </message>
+  <message name="SubscriberUpdateRatingStatusResponse">
+    <part name="parameters" element="tns:SubscriberUpdateRatingStatusResponse" />
+  </message>
+  <message name="SubscriberSwapPrimaryOffer">
+    <part name="parameters" element="tns:SubscriberSwapPrimaryOffer" />
+  </message>
+  <message name="SubscriberSwapPrimaryOfferResponse">
+    <part name="parameters" element="tns:SubscriberSwapPrimaryOfferResponse" />
+  </message>
+  <message name="SubscriberUpdate">
+    <part name="parameters" element="tns:SubscriberUpdate" />
+  </message>
+  <message name="SubscriberUpdateResponse">
+    <part name="parameters" element="tns:SubscriberUpdateResponse" />
+  </message>
+  <message name="SubscriberAddOfferInstance">
+    <part name="parameters" element="tns:SubscriberAddOfferInstance" />
+  </message>
+  <message name="SubscriberAddOfferInstanceResponse">
+    <part name="parameters" element="tns:SubscriberAddOfferInstanceResponse" />
+  </message>
+  <message name="SubscriberDisconnectOfferInstance">
+    <part name="parameters" element="tns:SubscriberDisconnectOfferInstance" />
+  </message>
+  <message name="SubscriberDisconnectOfferInstanceResponse">
+    <part name="parameters" element="tns:SubscriberDisconnectOfferInstanceResponse" />
+  </message>
+  <message name="SubscriberTransferFundsToAccount">
+    <part name="parameters" element="tns:SubscriberTransferFundsToAccount" />
+  </message>
+  <message name="SubscriberTransferFundsToAccountResponse">
+    <part name="parameters" element="tns:SubscriberTransferFundsToAccountResponse" />
+  </message>
+  <message name="SubscriberTransferFundsToSubscriber">
+    <part name="parameters" element="tns:SubscriberTransferFundsToSubscriber" />
+  </message>
+  <message name="SubscriberTransferFundsToSubscriberResponse">
+    <part name="parameters" element="tns:SubscriberTransferFundsToSubscriberResponse" />
+  </message>
+  <message name="SubscriberCreateFromBundle">
+    <part name="parameters" element="tns:SubscriberCreateFromBundle" />
+  </message>
+  <message name="SubscriberCreateFromBundleResponse">
+    <part name="parameters" element="tns:SubscriberCreateFromBundleResponse" />
+  </message>
+  <message name="SubscriberCreateFromOffer">
+    <part name="parameters" element="tns:SubscriberCreateFromOffer" />
+  </message>
+  <message name="SubscriberCreateFromOfferResponse">
+    <part name="parameters" element="tns:SubscriberCreateFromOfferResponse" />
+  </message>
+  <message name="SubscriberUpdateLanguageCode">
+    <part name="parameters" element="tns:SubscriberUpdateLanguageCode" />
+  </message>
+  <message name="SubscriberUpdateLanguageCodeResponse">
+    <part name="parameters" element="tns:SubscriberUpdateLanguageCodeResponse" />
+  </message>
+  <message name="SubscriberAddRcTermInstance">
+    <part name="parameters" element="tns:SubscriberAddRcTermInstance" />
+  </message>
+  <message name="SubscriberAddRcTermInstanceResponse">
+    <part name="parameters" element="tns:SubscriberAddRcTermInstanceResponse" />
+  </message>
+  <message name="SubscriberRemoveRcTermInstance">
+    <part name="parameters" element="tns:SubscriberRemoveRcTermInstance" />
+  </message>
+  <message name="SubscriberRemoveRcTermInstanceResponse">
+    <part name="parameters" element="tns:SubscriberRemoveRcTermInstanceResponse" />
+  </message>
+  <message name="SubscriberUpdateRcTermInstance">
+    <part name="parameters" element="tns:SubscriberUpdateRcTermInstance" />
+  </message>
+  <message name="SubscriberUpdateRcTermInstanceResponse">
+    <part name="parameters" element="tns:SubscriberUpdateRcTermInstanceResponse" />
+  </message>
+  <message name="VoucherModifyExt">
+    <part name="parameters" element="tns:VoucherModifyExt" />
+  </message>
+  <message name="VoucherModifyExtResponse">
+    <part name="parameters" element="tns:VoucherModifyExtResponse" />
+  </message>
+  <message name="AccountRetrieve">
+    <part name="parameters" element="tns:AccountRetrieve" />
+  </message>
+  <message name="AccountRetrieveResponse">
+    <part name="parameters" element="tns:AccountRetrieveResponse" />
+  </message>
+  <message name="NonVoucherRechargeGroup">
+    <part name="parameters" element="tns:NonVoucherRechargeGroup" />
+  </message>
+  <message name="NonVoucherRechargeGroupResponse">
+    <part name="parameters" element="tns:NonVoucherRechargeGroupResponse" />
+  </message>
+  <message name="ConvertSubscriberObjectToSubscriberObjectWithNames">
+    <part name="parameters" element="tns:ConvertSubscriberObjectToSubscriberObjectWithNames" />
+  </message>
+  <message name="ConvertSubscriberObjectToSubscriberObjectWithNamesResponse">
+    <part name="parameters" element="tns:ConvertSubscriberObjectToSubscriberObjectWithNamesResponse" />
+  </message>
+  <message name="ConvertAccountObjectToAccountObjectWithNames">
+    <part name="parameters" element="tns:ConvertAccountObjectToAccountObjectWithNames" />
+  </message>
+  <message name="ConvertAccountObjectToAccountObjectWithNamesResponse">
+    <part name="parameters" element="tns:ConvertAccountObjectToAccountObjectWithNamesResponse" />
+  </message>
+  <message name="SubscriberOfferDetails">
+    <part name="parameters" element="tns:SubscriberOfferDetails" />
+  </message>
+  <message name="SubscriberOfferDetailsResponse">
+    <part name="parameters" element="tns:SubscriberOfferDetailsResponse" />
+  </message>
+  <portType name="CustomerCare">
+    <operation name="AccountCreate">
+      <input message="tns:AccountCreate" />
+      <output message="tns:AccountCreateResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountUpdate">
+      <input message="tns:AccountUpdate" />
+      <output message="tns:AccountUpdateResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountUpdateRatingStatus">
+      <input message="tns:AccountUpdateRatingStatus" />
+      <output message="tns:AccountUpdateRatingStatusResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountUpdateAccumulatorInstance">
+      <input message="tns:AccountUpdateAccumulatorInstance" />
+      <output message="tns:AccountUpdateAccumulatorInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountGetAccumulatorInstanceValue">
+      <input message="tns:AccountGetAccumulatorInstanceValue" />
+      <output message="tns:AccountGetAccumulatorInstanceValueResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountSetAccumulatorInstanceValue">
+      <input message="tns:AccountSetAccumulatorInstanceValue" />
+      <output message="tns:AccountSetAccumulatorInstanceValueResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountAdjustAccumulatorInstance">
+      <input message="tns:AccountAdjustAccumulatorInstance" />
+      <output message="tns:AccountAdjustAccumulatorInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountUpdateBalanceInstance">
+      <input message="tns:AccountUpdateBalanceInstance" />
+      <output message="tns:AccountUpdateBalanceInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountAdjustBalanceInstance">
+      <input message="tns:AccountAdjustBalanceInstance" />
+      <output message="tns:AccountAdjustBalanceInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountAddOfferInstance">
+      <input message="tns:AccountAddOfferInstance" />
+      <output message="tns:AccountAddOfferInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountTransferFundsToAccount">
+      <input message="tns:AccountTransferFundsToAccount" />
+      <output message="tns:AccountTransferFundsToAccountResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountTransferFundsToSubscriber">
+      <input message="tns:AccountTransferFundsToSubscriber" />
+      <output message="tns:AccountTransferFundsToSubscriberResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="CallingCircleAddMember">
+      <input message="tns:CallingCircleAddMember" />
+      <output message="tns:CallingCircleAddMemberResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="CallingCircleRemoveMember">
+      <input message="tns:CallingCircleRemoveMember" />
+      <output message="tns:CallingCircleRemoveMemberResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="CallingCircleMemberFind">
+      <input message="tns:CallingCircleMemberFind" />
+      <output message="tns:CallingCircleMemberFindResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="FaListInstanceMemberAdd">
+      <input message="tns:FaListInstanceMemberAdd" />
+      <output message="tns:FaListInstanceMemberAddResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="FaListInstanceMemberRemove">
+      <input message="tns:FaListInstanceMemberRemove" />
+      <output message="tns:FaListInstanceMemberRemoveResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="FaListInstanceMemberReplace">
+      <input message="tns:FaListInstanceMemberReplace" />
+      <output message="tns:FaListInstanceMemberReplaceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberRetrieve">
+      <input message="tns:SubscriberRetrieve" />
+      <output message="tns:SubscriberRetrieveResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberUpdateAccumulatorInstance">
+      <input message="tns:SubscriberUpdateAccumulatorInstance" />
+      <output message="tns:SubscriberUpdateAccumulatorInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberAdjustAccumulatorInstance">
+      <input message="tns:SubscriberAdjustAccumulatorInstance" />
+      <output message="tns:SubscriberAdjustAccumulatorInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberGetAccumulatorInstanceValue">
+      <input message="tns:SubscriberGetAccumulatorInstanceValue" />
+      <output message="tns:SubscriberGetAccumulatorInstanceValueResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberSetAccumulatorInstanceValue">
+      <input message="tns:SubscriberSetAccumulatorInstanceValue" />
+      <output message="tns:SubscriberSetAccumulatorInstanceValueResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberUpdateBalanceInstance">
+      <input message="tns:SubscriberUpdateBalanceInstance" />
+      <output message="tns:SubscriberUpdateBalanceInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberAdjustBalanceInstance">
+      <input message="tns:SubscriberAdjustBalanceInstance" />
+      <output message="tns:SubscriberAdjustBalanceInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberUpdateRatingStatus">
+      <input message="tns:SubscriberUpdateRatingStatus" />
+      <output message="tns:SubscriberUpdateRatingStatusResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberSwapPrimaryOffer">
+      <input message="tns:SubscriberSwapPrimaryOffer" />
+      <output message="tns:SubscriberSwapPrimaryOfferResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberUpdate">
+      <input message="tns:SubscriberUpdate" />
+      <output message="tns:SubscriberUpdateResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberAddOfferInstance">
+      <input message="tns:SubscriberAddOfferInstance" />
+      <output message="tns:SubscriberAddOfferInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberDisconnectOfferInstance">
+      <input message="tns:SubscriberDisconnectOfferInstance" />
+      <output message="tns:SubscriberDisconnectOfferInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberTransferFundsToAccount">
+      <input message="tns:SubscriberTransferFundsToAccount" />
+      <output message="tns:SubscriberTransferFundsToAccountResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberTransferFundsToSubscriber">
+      <input message="tns:SubscriberTransferFundsToSubscriber" />
+      <output message="tns:SubscriberTransferFundsToSubscriberResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberCreateFromBundle">
+      <input message="tns:SubscriberCreateFromBundle" />
+      <output message="tns:SubscriberCreateFromBundleResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberCreateFromOffer">
+      <input message="tns:SubscriberCreateFromOffer" />
+      <output message="tns:SubscriberCreateFromOfferResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberUpdateLanguageCode">
+      <input message="tns:SubscriberUpdateLanguageCode" />
+      <output message="tns:SubscriberUpdateLanguageCodeResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberAddRcTermInstance">
+      <input message="tns:SubscriberAddRcTermInstance" />
+      <output message="tns:SubscriberAddRcTermInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberRemoveRcTermInstance">
+      <input message="tns:SubscriberRemoveRcTermInstance" />
+      <output message="tns:SubscriberRemoveRcTermInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberUpdateRcTermInstance">
+      <input message="tns:SubscriberUpdateRcTermInstance" />
+      <output message="tns:SubscriberUpdateRcTermInstanceResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="VoucherModifyExt">
+      <input message="tns:VoucherModifyExt" />
+      <output message="tns:VoucherModifyExtResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="AccountRetrieve">
+      <input message="tns:AccountRetrieve" />
+      <output message="tns:AccountRetrieveResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="NonVoucherRechargeGroup">
+      <input message="tns:NonVoucherRechargeGroup" />
+      <output message="tns:NonVoucherRechargeGroupResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="ConvertSubscriberObjectToSubscriberObjectWithNames">
+      <input message="tns:ConvertSubscriberObjectToSubscriberObjectWithNames" />
+      <output message="tns:ConvertSubscriberObjectToSubscriberObjectWithNamesResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="ConvertAccountObjectToAccountObjectWithNames">
+      <input message="tns:ConvertAccountObjectToAccountObjectWithNames" />
+      <output message="tns:ConvertAccountObjectToAccountObjectWithNamesResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+    <operation name="SubscriberOfferDetails">
+      <input message="tns:SubscriberOfferDetails" />
+      <output message="tns:SubscriberOfferDetailsResponse" />
+      <fault name="ApiException" message="tns:ApiException" />
+    </operation>
+  </portType>
+  <binding name="CustomerCarePortBinding" type="tns:CustomerCare">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="AccountCreate">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountUpdate">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountUpdateRatingStatus">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountUpdateAccumulatorInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountGetAccumulatorInstanceValue">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountSetAccumulatorInstanceValue">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountAdjustAccumulatorInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountUpdateBalanceInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountAdjustBalanceInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountAddOfferInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountTransferFundsToAccount">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountTransferFundsToSubscriber">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="CallingCircleAddMember">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="CallingCircleRemoveMember">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="CallingCircleMemberFind">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="FaListInstanceMemberAdd">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="FaListInstanceMemberRemove">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="FaListInstanceMemberReplace">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberRetrieve">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberUpdateAccumulatorInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberAdjustAccumulatorInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberGetAccumulatorInstanceValue">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberSetAccumulatorInstanceValue">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberUpdateBalanceInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberAdjustBalanceInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberUpdateRatingStatus">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberSwapPrimaryOffer">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberUpdate">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberAddOfferInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberDisconnectOfferInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberTransferFundsToAccount">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberTransferFundsToSubscriber">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberCreateFromBundle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberCreateFromOffer">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberUpdateLanguageCode">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberAddRcTermInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberRemoveRcTermInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberUpdateRcTermInstance">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="VoucherModifyExt">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="AccountRetrieve">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="NonVoucherRechargeGroup">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="ConvertSubscriberObjectToSubscriberObjectWithNames">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="ConvertAccountObjectToAccountObjectWithNames">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="SubscriberOfferDetails">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="ApiException">
+        <soap:fault use="literal" name="ApiException" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="CustomerCareService">
+    <port name="CustomerCarePort" binding="tns:CustomerCarePortBinding">
+      <soap:address location="https://192.168.112.65:8001/services/CustomerCareService" />
+    </port>
+  </service>
+</definitions>

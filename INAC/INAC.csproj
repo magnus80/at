@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAB081D7-7534-42C5-8E68-618DC913CAD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>INAC</RootNamespace>
+    <AssemblyName>INAC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\AT\bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="nunit.mocks, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Environment.cs" />
+    <Compile Include="Helpers\AAA\Actions_Bras.cs" />
+    <Compile Include="Helpers\AAA\Actions_Connect.cs" />
+    <Compile Include="Helpers\AAA\Actions.cs" />
+    <Compile Include="Helpers\AAA\Actions_Prepare.cs" />
+    <Compile Include="Helpers\AAA\Actions_Radius.cs" />
+    <Compile Include="Helpers\AAA\Actions_Tracert.cs" />
+    <Compile Include="Helpers\AAA\Queries.cs" />
+    <Compile Include="Helpers\Abonents\Actions.cs" />
+    <Compile Include="Helpers\Abonents\Actions_Create.cs" />
+    <Compile Include="Helpers\Abonents\Actions_Netphone.cs" />
+    <Compile Include="Helpers\Abonents\Actions_Payments.cs" />
+    <Compile Include="Helpers\Abonents\Actions_TurboButton.cs" />
+    <Compile Include="Helpers\Abonents\Actions_VSU.cs" />
+    <Compile Include="Helpers\Abonents\Info.cs" />
+    <Compile Include="Helpers\Abonents\Queries.cs" />
+    <Compile Include="Helpers\Adresses\Queries.cs" />
+    <Compile Include="Helpers\Helpdesk Users\Queries.cs" />
+    <Compile Include="Helpers\Methods\HD.cs" />
+    <Compile Include="Helpers\OSE\Queries.cs" />
+    <Compile Include="Helpers\Other\Queries.cs" />
+    <Compile Include="Helpers\Query.cs" />
+    <Compile Include="Helpers\Queues\Actions.cs" />
+    <Compile Include="Helpers\Services\Bundles\Queries.cs" />
+    <Compile Include="Helpers\Services\Deleter.cs" />
+    <Compile Include="Helpers\Services\FTTB\Actions.cs" />
+    <Compile Include="Helpers\Services\FTTB\Queries.cs" />
+    <Compile Include="Helpers\Services\IPTV\Queries.cs" />
+    <Compile Include="Helpers\Services\Queries.cs" />
+    <Compile Include="Helpers\Services\Turbo Button\Queries.cs" />
+    <Compile Include="Helpers\Services\VSU\Queries.cs" />
+    <Compile Include="Helpers\Tickets\Actions.cs" />
+    <Compile Include="Helpers\Tickets\Info.cs" />
+    <Compile Include="Helpers\Tickets\Queries.cs" />
+    <Compile Include="Helpers\TL\AnnualContracts_Techlists.cs" />
+    <Compile Include="Helpers\TL\Bundles_Techlists.cs" />
+    <Compile Include="Helpers\TL\Fttb_Techlists.cs" />
+    <Compile Include="Helpers\TL\Iptv_Techlists.cs" />
+    <Compile Include="Helpers\TL\Netphone_Techlists.cs" />
+    <Compile Include="Helpers\TL\Techlist.cs" />
+    <Compile Include="Helpers\USSS\InfoService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\AAA\AAA_Init.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\AAA_PerTarif_Init.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\test_261586 - Подключение к BRAS - позитивный.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\Блокировки\test_261715 - Финансовая блокировка.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\Блокировки\test_261716 - Добровольная блокировка.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\Блокировки\test_261717 - Блокировка при регистрации.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\Блокировки\test_261718 - Административная блокировка.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\Блокировки\test_261719 - Расторжение.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\Первый вход\test_262036 - Переход из статуса Отказ.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per tarif\Первый вход\test_262037 - Переход из статуса Мусор.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per User\AAA_PerUser_Init.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per User\Блокировки\test_261728 - Финансовая блокировка.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per User\Блокировки\test_261729 - Добровольная блокировка.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per User\Блокировки\test_261730 - Блокировка при регистрации.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per User\Блокировки\test_261731 - Административная блокировка.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per User\Блокировки\test_261732 - Расторжение.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per User\Первый вход\test_262032 - Переход из статуса Отказ.cs" />
+    <Compile Include="Tests\AAA\CISCO\Per User\Первый вход\test_262033 - Переход из статуса Мусор.cs" />
+    <Compile Include="Tests\AAA\Ericson\Первый вход\test_262034 - Переход из статуса Отказ.cs" />
+    <Compile Include="Tests\AAA\Ericson\Первый вход\test_262035 - Переход из статуса Мусор.cs" />
+    <Compile Include="Tests\Billing\IPTV Контейнеры !\test_262025 - Анализ корректности собранного контейнера.cs" />
+    <Compile Include="Tests\Billing\IPTV Контейнеры !\test_262026 - Проверка корректности резервирования средств.cs" />
+    <Compile Include="Tests\Billing\IPTV Контейнеры !\test_262027 - Проверка корректности рассчета стоимости и скидок %28пакеты одного типа%29.cs" />
+    <Compile Include="Tests\Billing\IPTV Контейнеры !\test_262028 - Проверка корректности рассчета стоимости и скидок %28пакеты разных типов%29.cs" />
+    <Compile Include="Tests\Billing\IPTV Контейнеры !\test_262029 - Проверка корректности возврата средств после отключения.cs" />
+    <Compile Include="Tests\Billing\IPTV Контейнеры !\test_262030 - Проверка корректности реакции системы на невалидные данные.cs" />
+    <Compile Include="Tests\Billing\IPTV Контейнеры !\test_262031 - Проверка корректности работы процедур.cs" />
+    <Compile Include="Tests\Billing\test_258277 - Автоматический запуск нового БЦ.cs" />
+    <Compile Include="Tests\Billing\test_258621 - Резервирование.cs" />
+    <Compile Include="Tests\Billing\test_258622 - Проверка неостанавливаемой аренды.cs" />
+    <Compile Include="Tests\Billing\test_258623 - Смена тарифного плана с безлимитного на лимитный.cs" />
+    <Compile Include="Tests\Billing\test_258624 - Проверка административной блокировки.cs" />
+    <Compile Include="Tests\Billing\test_258625 - Проверка добровольной блокировки.cs" />
+    <Compile Include="Tests\Billing\Автоматическое расторжение\test_261931 - Проверка наличия в БД новых заявок и статусов.cs" />
+    <Compile Include="Tests\Billing\Автоматическое расторжение\test_261932 - Сценарий автоматического расторжения %28позитивный%29.cs" />
+    <Compile Include="Tests\Billing\Автоматическое расторжение\test_261933 - Проверка создания заявок в ХД.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262039 - Отключение контракта до окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262040 - Оплата доверительным платежом.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262041 - Фин блок до окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262042 - Адм блок до окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262043 - Добровольный блок до окончания срока действия .cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262044 - Фин блок после окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262045 - Адм блок после окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262046 - Добровольный блок после окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262047 - Блокировка Collection до окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262048 - Блокировка Collection после окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262049 - Подключение долгосрочного контракта.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262050 - Смена тарифа внутри долгосрочного контракта.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262051 - Подключение долгосрочного контракта при наличии доп. услуг.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262052 - Продление и остановка БЦ при долгосрочном контракте.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262053 - Подключение долгосрочного контракта при недостатке средств.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262054 - Подключение долгосрочного контракта на офсетный тариф.cs" />
+    <Compile Include="Tests\Billing\Годовой контракт !\test_262098 - Отключение контракта после окончания срока действия.cs" />
+    <Compile Include="Tests\Billing\Доверительные платежи\test_259146 - Погашение доверительного платежа существующим абонентом при ручной корректировке баланса.cs" />
+    <Compile Include="Tests\Billing\Доверительные платежи\test_259147 - Погашение доверительного платежа существующим абонентом после активации опций при ручной корректировке баланса.cs" />
+    <Compile Include="Tests\Billing\Доверительные платежи\test_259149 - Погашение доверительного платежа при пополнении счета абонента бонусами.cs" />
+    <Compile Include="Tests\Billing\Доверительные платежи\test_259148 - Погашение доверительного платежа при возврате на баланс абонента сумм из резерва.cs" />
+    <Compile Include="Tests\Billing\Доверительные платежи\ОТТ\test_262001 - show_button.cs" />
+    <Compile Include="Tests\Billing\Доверительные платежи\ОТТ\test_262002 - button_pressed_f.cs" />
+    <Compile Include="Tests\Billing\Доверительные платежи\ОТТ\test_262003 - reactivate_login.cs" />
+    <Compile Include="Tests\Billing\Нотификации\RFC 305091\test_262005 - Проверка отправки SMS.cs" />
+    <Compile Include="Tests\Billing\Нотификации\test_262006 - Проверка отключения тригера на таблице inac.services_per_login.cs" />
+    <Compile Include="Tests\Billing\Остановка отрицательных начислений !\test_262063 - Обновление l_last_block_date %28фин. бл%29.cs" />
+    <Compile Include="Tests\Billing\Остановка отрицательных начислений !\test_262064 - переход абонента в статус “Collection” %28фин. бл%29.cs" />
+    <Compile Include="Tests\Billing\Остановка отрицательных начислений !\test_262065 - переход абонента в статус “Collection” %28адм. бл%29.cs" />
+    <Compile Include="Tests\Billing\Остановка отрицательных начислений !\test_262066 - проверка при подключенном бандле.cs" />
+    <Compile Include="Tests\Billing\Остановка отрицательных начислений !\test_262067 - Обновление l_last_block_date %28адм. бл%29.cs" />
+    <Compile Include="Tests\Billing\Остановка отрицательных начислений !\test_262068 - Проверка на запрет активных операций в ХД %28смена тарифа IPTV и ШПД%29.cs" />
+    <Compile Include="Tests\Billing\Остановка отрицательных начислений !\test_262069 - Обновление l_last_block_date %28рег. бл%29.cs" />
+    <Compile Include="Tests\Billing\Сбор долгов %28IVR%29 аренда !\test_262055 - Блокировка 107 дней. Ренты нет.cs" />
+    <Compile Include="Tests\Billing\Сбор долгов %28IVR%29 аренда !\test_262056 - Блокировка 107 дней. Рента платная..cs" />
+    <Compile Include="Tests\Billing\Сбор долгов %28IVR%29 аренда !\test_262057 - Блокировка 107 дней. Рента нулевая. Баланс меньше 0.cs" />
+    <Compile Include="Tests\Billing\Сбор долгов %28IVR%29 аренда !\test_262058 - Блокировка 107 дней. Рента нулевая. Баланс больше или равно 0..cs" />
+    <Compile Include="Tests\Billing\Сбор долгов %28IVR%29 аренда !\test_262059 - Блокировка 115 дней. Ренты нет.cs" />
+    <Compile Include="Tests\Billing\Сбор долгов %28IVR%29 аренда !\test_262060 - Блокировка 115 дней. Рента платная.cs" />
+    <Compile Include="Tests\Billing\Сбор долгов %28IVR%29 аренда !\test_262061 - Блокировка 115 дней. Рента нулевая. Баланс меньше 0.cs" />
+    <Compile Include="Tests\Billing\Сбор долгов %28IVR%29 аренда !\test_262062 - Блокировка 115 дней. Рента нулевая. Баланс больше или равно 0.cs" />
+    <Compile Include="Tests\Billing\Табельные номера !\test_262010 - Изменения в БД.cs" />
+    <Compile Include="Tests\Billing\Табельные номера !\test_262011 - Создание пользователя с корректным табельным номером.cs" />
+    <Compile Include="Tests\Billing\Табельные номера !\test_262012 - Создание пользователя с неуникальным табельным номером.cs" />
+    <Compile Include="Tests\Billing\Табельные номера !\test_262013 - Создание пользователя без табельного номера.cs" />
+    <Compile Include="Tests\end_test.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262101 - Проверка наличия заявки %28подключение лайт%29.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262102 - Проверка работы скрипта _ заявка открыта _ меньше 3 дней _ был первый вход.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262103 - Проверка работы скрипта _ заявка открыта _ больше 3 дней.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262104 - Проверка работы скрипта _ заявка закрыта.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262105 - Проверка наличия новой радиокнопки в заявке на подключение.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262106 - Нажатие на кнопку %28установить состояние кабеля%29 _ есть заявка.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262107 - Нажатие на кнопку %28установить состояние кабеля%29 _ нет заявки.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262108 - Разблокировка абонентов _ доступы.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262109 - Невозможность создания заявки вручную.cs" />
+    <Compile Include="Tests\HD\Абоненты\Подключение лайт !\test_262110 - Проверка работы скрипта _ заявка открыта _ меньше 3 дней _ не было первого входа.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_262079 - Переименование раздела Антивируса.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_262080 - Видимость сервисов.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_262082 - Подключение архивного предложения.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_262083 - Проверка на дубли - Активация IPTV.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_262084 - Проверка на дубли - Аренда IPTV. Выдача.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_262085 - Переход подключенного бандла в архив.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_262086 - Изменение видимости сервиса внутри бандла после подключения.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_262087 - Видимость бандла в HD.cs" />
+    <Compile Include="Tests\HD\HD_Init.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262070 - Функционал changeadress.pl для GOD.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262071 - Наличие новых типов заявок в БД.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262072 - Проверка доступа к заявке %28переезд%29.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262073 - Сценарий переезда абонента.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262074 - Отказ в переезде %28другой город%29.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262075 - Отказ в переезде %28подключенный адрес%29.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262076 - Ручная смена статусов %28переезд%29.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262077 - Проверка changeadress3.pl.cs" />
+    <Compile Include="Tests\HD\Абоненты\Переезд !\test_262078 - Перенос заявок.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262088 - Подключение VSU - проверка чекбокса выбора скорости.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262089 - Проверка добавление записи в БД и комментария в заявку.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262090 - Сохранение выбранных параметров при первом входе.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262091 - Заявка на выбор скорости - предвыбор.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262092 - Заявка на выбор скорости - подключение - хватает денег.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262093 - Заявка на выбор скорости - подключение - не хватает денег.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262094 - Заявка на выбор скорости - подключение - не погашеный дов. платеж.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262095 - Заявка на выбор скорости - подключение - погашеный дов. платеж.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262096 - Смена ШПД с сохранением VSU.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262097 - Смена ШПД с отключением VSU.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262098 - Смена ШПД со сменой VSU.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262099 - Заявка на выбор скорости - подключение архивного VSU.cs" />
+    <Compile Include="Tests\HD\Услуги\Выбор скорости !\test_262100 - Заявка на выбор скорости - подключение архивного VSU - доступы.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Годовой контракт\Sanity\253992 - Загрузка годового контракта %28добавление%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Годовой контракт\Sanity\254038 - Загрузка годового контракта %28обновление%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Нетфон\Sanity\254236 - Загрузка сервисов нетфона %28добавление%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Нетфон\Sanity\254244 - Загрузка сервисов нетфона %28обновление%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Пакетные предложения\Sanity\253889 - Загрузка пакетного предложения %28добавление%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Пакетные предложения\Sanity\253934 - Загрузка пакетного предложения %28обновление%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Тарифы интернет\Sanity\253750 - Загрузка тарифов интернет %28добавление%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Тарифы интернет\Sanity\253759 - Загрузка тарифов интернет %28обновление%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\253794 - Добавление IPTV пакета.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\253888 - Обновление IPTV пакета.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253766 - Пакетное телевидение.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253783 - Аренда приставки без жесткого диска.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253784 - Аренда приставки c жестким диском 1.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253785 - Аренда приставки с жестким диском 2.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253786 - Мультирум.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253787 - Техподдержка линии.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253788 - Аренда приставки с жестким диском %28bunlde%29.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253789 - Платный выезд монтажника.cs" />
+    <Compile Include="Tests\OSE\Создание и изменение тарифных планов\Услуги и пакеты IPTV\Sanity\Добавление услуг\253790 - Платный выезд курьера.cs" />
+    <Compile Include="Tests\HD\test_251200.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_251049.cs" />
+    <Compile Include="Tests\HD\Настройки\Оповещения\test_247280.cs" />
+    <Compile Include="Tests\HD\Настройки\Оповещения\test_247288.cs" />
+    <Compile Include="Tests\HD\Настройки\Пользователи\test_246868.cs" />
+    <Compile Include="Tests\HD\Настройки\Пользователи\test_247244.cs" />
+    <Compile Include="Tests\HD\Настройки\Пользователи\test_247250.cs" />
+    <Compile Include="Tests\HD\УКК\test_246136.cs" />
+    <Compile Include="Tests\HD\УКК\test_246604.cs" />
+    <Compile Include="Tests\HD\УКК\test_246605.cs" />
+    <Compile Include="Tests\HD\Услуги\AVPC\test_237998.cs" />
+    <Compile Include="Tests\HD\Услуги\AVPC\test_237999.cs" />
+    <Compile Include="Tests\HD\Услуги\AVPC\test_238002.cs" />
+    <Compile Include="Tests\HD\Услуги\AVPC\test_238001.cs" />
+    <Compile Include="Tests\HD\Услуги\AVPC\test_238016.cs" />
+    <Compile Include="Tests\HD\Абоненты\test_244033.cs" />
+    <Compile Include="Tests\HD\Абоненты\test_244711.cs" />
+    <Compile Include="Tests\HD\Абоненты\test_244712.cs" />
+    <Compile Include="Tests\HD\Абоненты\test_244726.cs" />
+    <Compile Include="Tests\HD\Абоненты\test_244984.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\ORANGE\test_243279.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\ORANGE\test_243280.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\ORANGE\test_243281.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\ORANGE\test_243283.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\ORANGE\test_243284.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\ORANGE\test_243285.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\ORANGE\test_343282.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_242175.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_242240.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_242241.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_242242.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_242456.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_243278.cs" />
+    <Compile Include="Tests\HD\Модули\test_245019.cs" />
+    <Compile Include="Tests\HD\Модули\test_245140.cs" />
+    <Compile Include="Tests\HD\Модули\test_245145.cs" />
+    <Compile Include="Tests\HD\Модули\test_245154.cs" />
+    <Compile Include="Tests\HD\Модули\test_245161.cs" />
+    <Compile Include="Tests\HD\Модули\test_245269.cs" />
+    <Compile Include="Tests\HD\Модули\test_245300.cs" />
+    <Compile Include="Tests\HD\УКК\test_246134.cs" />
+    <Compile Include="Tests\HD\Услуги\IPTV\test_246265.cs" />
+    <Compile Include="Tests\HD\Услуги\IPTV\test_246266.cs" />
+    <Compile Include="Tests\HD\Услуги\IPTV\test_246529.cs" />
+    <Compile Include="Tests\HD\Услуги\IPTV\Подключение архивной аренды\test_251042.cs" />
+    <Compile Include="Tests\HD\Услуги\IPTV\Подключение архивной аренды\test_246267.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_247523.cs" />
+    <Compile Include="Tests\HD\Услуги\Бандлы !\test_247629.cs" />
+    <Compile Include="Tests\HD\Услуги\Нетфон\test_246734.cs" />
+    <Compile Include="Tests\HD\Услуги\Нетфон\test_246737.cs" />
+    <Compile Include="Tests\HD\Услуги\Нетфон\test_246750.cs" />
+    <Compile Include="Tests\HD\Услуги\ШПД\test_246603.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_241815.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\Автокомпенсации\test_238046.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\Автокомпенсации\test_238047.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\Автокомпенсации\test_238048.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\Автокомпенсации\test_238049.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\Автокомпенсации\test_238050.cs" />
+    <Compile Include="Tests\HD\Авторизация\test_241806.cs" />
+    <Compile Include="Tests\HD\Глобальные проблемы\test_241812.cs" />
+    <Compile Include="Tests\HD\Настройки\Графики\test_241998.cs" />
+    <Compile Include="Tests\HD\Настройки\Графики\test_241999.cs" />
+    <Compile Include="Tests\HD\Настройки\Графики\test_242000.cs" />
+    <Compile Include="Tests\test.cs" />
+    <Compile Include="Tests\Billing\Доверительные платежи\test_259145 - Погашение доверительного платежа новым абонентом при ручной корректировке баланса.cs" />
+    <Compile Include="Tests\USSS API\01. Общая информация о логине\test_266992 - Ввести логин в добровольную блокировку.cs" />
+    <Compile Include="Tests\USSS API\01. Общая информация о логине\test_266993 - Получить стоимость всех услуг на следующий БЦ.cs" />
+    <Compile Include="WebPages\HD\Addiptv.pl.cs" />
+    <Compile Include="WebPages\HD\Address.pl.cs" />
+    <Compile Include="WebPages\HD\Adv_adr_info.pl.cs" />
+    <Compile Include="WebPages\HD\Antivir.pl.cs" />
+    <Compile Include="WebPages\HD\Avpc_statuses.pl.cs" />
+    <Compile Include="WebPages\HD\Bundle_services2.pl.cs" />
+    <Compile Include="WebPages\HD\Changeadress.pl.cs" />
+    <Compile Include="WebPages\HD\Changeadress2.pl.cs" />
+    <Compile Include="WebPages\HD\Changeadress3.pl.cs" />
+    <Compile Include="WebPages\HD\Changeiptv.pl.cs" />
+    <Compile Include="WebPages\HD\Changepassword.pl.cs" />
+    <Compile Include="WebPages\HD\Comments.pl.cs" />
+    <Compile Include="WebPages\HD\Cus_admin.cs" />
+    <Compile Include="WebPages\HD\Cus_campaign.pl.cs" />
+    <Compile Include="WebPages\HD\DelIptv.pl.cs" />
+    <Compile Include="WebPages\HD\Find_name.pl.cs" />
+    <Compile Include="WebPages\HD\Globalcomments.pl.cs" />
+    <Compile Include="WebPages\HD\Global_problems.pl.cs" />
+    <Compile Include="WebPages\HD\Login.pl.cs" />
+    <Compile Include="WebPages\HD\Logout.pl.cs" />
+    <Compile Include="WebPages\HD\Move_bill.pl.cs" />
+    <Compile Include="WebPages\HD\Netfone_add.pl.cs" />
+    <Compile Include="WebPages\HD\Newglobal.pl.cs" />
+    <Compile Include="WebPages\HD\New_logs.pl.cs" />
+    <Compile Include="WebPages\HD\Notification_settings.pl.cs" />
+    <Compile Include="WebPages\HD\Payments.pl.cs" />
+    <Compile Include="WebPages\HD\Pay_reserved.pl.cs" />
+    <Compile Include="WebPages\HD\Prolongation_bc.pl.cs" />
+    <Compile Include="WebPages\HD\ptn\add_speed\change_speed.cs" />
+    <Compile Include="WebPages\OSE\inaclogin.pl.cs" />
+    <Compile Include="WebPages\OSE\inacusers.pl.cs" />
+    <Compile Include="WebPages\OSE\services\form.py.cs" />
+    <Compile Include="WebPages\OSE\services\results.py.cs" />
+    <Compile Include="WebPages\OSE\services\rfc.py.cs" />
+    <Compile Include="WebPages\HD\Promissed_pay.pl.cs" />
+    <Compile Include="WebPages\HD\ptn\iptv\archive_rent_fld.cs" />
+    <Compile Include="WebPages\HD\Queues.pl.cs" />
+    <Compile Include="WebPages\HD\Rentiptv2.pl.cs" />
+    <Compile Include="WebPages\HD\Scalechange.pl.cs" />
+    <Compile Include="WebPages\HD\Services.pl.cs" />
+    <Compile Include="WebPages\HD\Shedule_nconnect.pl.cs" />
+    <Compile Include="WebPages\HD\Showcomments.pl.cs" />
+    <Compile Include="WebPages\HD\Startstop.pl.cs" />
+    <Compile Include="WebPages\HD\Stop_bc.pl.cs" />
+    <Compile Include="WebPages\HD\Stop_billing.pl.cs" />
+    <Compile Include="WebPages\HD\Tickets2.pl.cs" />
+    <Compile Include="WebPages\HD\Users.pl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Pages.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AT\AT.csproj">
+      <Project>{f08bccf6-519d-4ada-a180-fcbcf47b7def}</Project>
+      <Name>AT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tests\OSE\Создание и изменение тарифных планов\Тарифы интернет\Negative\" />
+    <Folder Include="Tests\OSE\Создание и изменение тарифных планов\Тарифы интернет\Positive\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

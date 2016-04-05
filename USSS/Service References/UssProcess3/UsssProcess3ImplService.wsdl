@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://service.cm.atc/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="UsssProcess3ImplService" targetNamespace="http://service.cm.atc/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://service.cm.atc/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="campaignHistory" type="tns:campaignHistory" />
+      <xs:element name="eventParam" type="tns:eventParam" />
+      <xs:element name="eventParams" type="tns:eventParams" />
+      <xs:element name="fttbService" type="tns:fttbService" />
+      <xs:element name="fttbServices" type="tns:fttbServices" />
+      <xs:element name="getHistory" type="tns:getHistory" />
+      <xs:element name="getHistoryResponse" type="tns:getHistoryResponse" />
+      <xs:element name="getUsss" type="tns:getUsss" />
+      <xs:element name="getUsssResponse" type="tns:getUsssResponse" />
+      <xs:element name="iptvService" type="tns:iptvService" />
+      <xs:element name="iptvServices" type="tns:iptvServices" />
+      <xs:element name="packets" type="tns:packets" />
+      <xs:element name="usss" type="tns:usss" />
+      <xs:complexType name="getHistory">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ctn" type="xs:string" />
+          <xs:element minOccurs="0" name="channel_type" type="xs:long" />
+          <xs:element minOccurs="0" name="response" type="xs:long" />
+          <xs:element minOccurs="0" name="direction" type="xs:long" />
+          <xs:element minOccurs="0" name="category" type="xs:long" />
+          <xs:element minOccurs="0" name="start_date" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="end_date" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="soc_type" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getHistoryResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:campaignHistory" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="campaignHistory">
+        <xs:sequence>
+          <xs:element name="camp_id" type="xs:long" />
+          <xs:element name="subgroup_id" type="xs:long" />
+          <xs:element name="direction" type="xs:long" />
+          <xs:element name="category" type="xs:long" />
+          <xs:element name="date_inform_main_from" type="xs:dateTime" />
+          <xs:element name="date_inform_main_to" type="xs:dateTime" />
+          <xs:element name="camp_name" type="xs:string" />
+          <xs:element minOccurs="0" name="camp_desc" type="xs:string" />
+          <xs:element minOccurs="0" name="infocenter_link" type="xs:string" />
+          <xs:element name="channel_type" type="xs:long" />
+          <xs:element name="response" type="xs:long" />
+          <xs:element minOccurs="0" name="response_date" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="employee_number" type="xs:string" />
+          <xs:element minOccurs="0" name="date_offered" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="outbound_response" type="xs:long" />
+          <xs:element minOccurs="0" name="offer_status" type="xs:long" />
+          <xs:element minOccurs="0" name="soc_code" type="xs:string" />
+          <xs:element minOccurs="0" name="soc_type" type="xs:long" />
+          <xs:element minOccurs="0" name="news_id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUsss">
+        <xs:sequence>
+          <xs:element name="ctn" type="xs:string" />
+          <xs:element name="channel_type" type="xs:long" />
+          <xs:element minOccurs="0" name="fttb_balance" type="xs:decimal" />
+          <xs:element minOccurs="0" name="fttb_currency" type="xs:string" />
+          <xs:element minOccurs="0" name="fttb_activity_reason_code" type="xs:int" />
+          <xs:element minOccurs="0" name="fttb_service_list" type="tns:fttbServices" />
+          <xs:element minOccurs="0" name="iptv_service_list" type="tns:iptvServices" />
+          <xs:element minOccurs="0" name="fttb_total_service_price" type="xs:decimal" />
+          <xs:element minOccurs="0" name="master_login" type="xs:string" />
+          <xs:element minOccurs="0" name="fttb_hide_offer_ind" type="xs:int" />
+          <xs:element minOccurs="0" name="event_id" type="xs:long" />
+          <xs:element minOccurs="0" name="event_param_list" type="tns:eventParams" />
+          <xs:element minOccurs="0" name="fttb_trust_payment_ind" type="xs:boolean" />
+          <xs:element minOccurs="0" name="fttb_auto_payment_ind" type="xs:boolean" />
+          <xs:element minOccurs="0" name="fttb_billing_end_date" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="impersonalization_ind" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="fttbServices">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="fttb_service" type="tns:fttbService" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="fttbService">
+        <xs:sequence>
+          <xs:element name="id" type="xs:string" />
+          <xs:element minOccurs="0" name="type" type="xs:string" />
+          <xs:element minOccurs="0" name="price" type="xs:decimal" />
+          <xs:element minOccurs="0" name="in_bundle" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="iptvServices">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="iptv_service" type="tns:iptvService" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="iptvService">
+        <xs:sequence>
+          <xs:element name="base_id" type="xs:long" />
+          <xs:element minOccurs="0" name="price" type="xs:decimal" />
+          <xs:element minOccurs="0" name="in_bundle" type="xs:boolean" />
+          <xs:element minOccurs="0" name="packet_list" type="tns:packets" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="packets">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="packet_id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="eventParams">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="event_param" type="tns:eventParam" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="eventParam">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="param_name" type="xs:string" />
+          <xs:element minOccurs="0" name="param_value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUsssResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="USSS" type="tns:usss" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="usss">
+        <xs:sequence>
+          <xs:element name="camp_id" type="xs:long" />
+          <xs:element name="subgroup_id" type="xs:long" />
+          <xs:element minOccurs="0" name="soc_code" type="xs:string" />
+          <xs:element name="soc_type" type="xs:long" />
+          <xs:element name="score_value" type="xs:int" />
+          <xs:element minOccurs="0" name="treatment_desc" type="xs:string" />
+          <xs:element minOccurs="0" name="camp_name" type="xs:string" />
+          <xs:element minOccurs="0" name="camp_desc" type="xs:string" />
+          <xs:element minOccurs="0" name="fee" type="xs:decimal" />
+          <xs:element minOccurs="0" name="fee_period" type="xs:long" />
+          <xs:element minOccurs="0" name="price" type="xs:decimal" />
+          <xs:element minOccurs="0" name="currency" type="xs:string" />
+          <xs:element minOccurs="0" name="fttb_ui_id_list" type="xs:string" />
+          <xs:element minOccurs="0" name="new_offer_ind" type="xs:boolean" />
+          <xs:element minOccurs="0" name="news_id" type="xs:long" />
+          <xs:element minOccurs="0" name="url" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getHistoryResponse">
+    <wsdl:part name="parameters" element="tns:getHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="getHistory">
+    <wsdl:part name="parameters" element="tns:getHistory" />
+  </wsdl:message>
+  <wsdl:message name="getUsss">
+    <wsdl:part name="parameters" element="tns:getUsss" />
+  </wsdl:message>
+  <wsdl:message name="getUsssResponse">
+    <wsdl:part name="parameters" element="tns:getUsssResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UsssProcess3">
+    <wsdl:operation name="getHistory">
+      <wsdl:input name="getHistory" message="tns:getHistory" />
+      <wsdl:output name="getHistoryResponse" message="tns:getHistoryResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsss">
+      <wsdl:input name="getUsss" message="tns:getUsss" />
+      <wsdl:output name="getUsssResponse" message="tns:getUsssResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UsssProcess3ImplServiceSoapBinding" type="tns:UsssProcess3">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getHistory">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getHistory">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getHistoryResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsss">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getUsss">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getUsssResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UsssProcess3ImplService">
+    <wsdl:port name="UsssProcess3ImplPort" binding="tns:UsssProcess3ImplServiceSoapBinding">
+      <soap:address location="http://nba33.vimpelcom.ru:8082/cmws/v3/usss" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

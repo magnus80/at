@@ -1,0 +1,1218 @@
+2014-авг-07 -> 11:49:23: 258623 run begin
+2014-авг-07 -> 11:49:34: 258623 : step_03 : Деньги за сервис M771 не ушли в резерв, логин: 0894995910
+2014-авг-07 -> 11:49:34: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 11:49:34: 258623 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 11:49:34: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 11:49:34: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 11:49:34: 258623 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 11:49:34: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 11:49:34: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 11:49:34: 258623 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 11:49:34: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 11:49:34: 258623 run end
+2014-авг-07 -> 11:49:52: 258623 run begin
+2014-авг-07 -> 11:49:57: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-07 -> 11:58:20: 258623 run begin
+2014-авг-07 -> 11:58:22: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-07 -> 12:05:45: 258623 run begin
+2014-авг-07 -> 12:05:50: ORA-01403: no data found
+ORA-06512: at "INAC.API", line 2926
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-07 -> 12:06:00: 258623 : step_05 : Некорректный пересчет денег абонента при смене сервиса, логин: 0894995943
+2014-авг-07 -> 12:06:00: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 12:06:00: 258623 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 12:06:00: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 12:06:00: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 12:06:00: 258623 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 12:06:00: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 12:06:00: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 12:06:00: 258623 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 12:06:00: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 12:06:00: 258623 run end
+2014-авг-07 -> 12:06:19: 258623 run begin
+2014-авг-07 -> 12:28:10: 258623 run begin
+2014-авг-07 -> 12:28:13: ORA-01403: no data found
+ORA-06512: at "INAC.API", line 2995
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-07 -> 01:04:24: 258623 run begin
+2014-авг-07 -> 01:04:26: ORA-08177: can't serialize access for this transaction
+
+2014-авг-07 -> 01:06:33: 258623 run end
+2014-авг-07 -> 05:23:44: 259145 run begin
+2014-авг-07 -> 05:23:52: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:23:54: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:23:54: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-07 -> 05:23:56: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:23:58: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:23:58: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-07 -> 05:24:00: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:24:02: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:24:02: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-07 -> 05:24:05: ORA-08177: can't serialize access for this transaction
+
+2014-авг-07 -> 05:24:07: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 13
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 92
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-07 -> 05:24:18: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:24:20: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:24:24: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:24:27: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:24:27: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-07 -> 05:24:29: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:24:31: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-07 -> 05:24:31: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-07 -> 05:24:31: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-авг-07 -> 05:24:31: 259145 : step_05 : Доверительный платеж не начислился, логин: 0894992630
+2014-авг-07 -> 05:24:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 05:24:31: 259145 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 05:24:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 05:24:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 05:24:31: 259145 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 05:24:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 05:24:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 05:24:31: 259145 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-07 -> 05:24:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-07 -> 05:24:31: 259145 run end
+2014-авг-07 -> 05:24:39: 259145 run begin
+2014-авг-07 -> 05:26:04: 259145 run begin
+2014-авг-07 -> 05:26:30: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-07 -> 05:26:30: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-07 -> 05:26:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-07 -> 05:26:57: 259145 : step_05 : Некорректная сумма доверительного платежа, ожидаемо: 400, актуально: 1000; логин: 0894992641
+2014-авг-07 -> 07:59:20: 258625 run begin
+2014-авг-07 -> 07:59:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-07 -> 07:59:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-07 -> 07:59:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-07 -> 07:59:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-07 -> 07:59:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-08 -> 10:50:56: ORA-12170: TNS:истекло время ожидания соединения
+
+2014-авг-08 -> 10:50:56: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-08 -> 10:50:56: 258625 : След. шаг : Тест-кейс не выполнялся, т.к. были ошибки при инициализации [DB: False; Browser: True]
+2014-авг-08 -> 10:50:56: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:16:13: 258625 run begin
+2014-авг-11 -> 10:16:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:16:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:16:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:16:48: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:16:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:42:42: 258277 run begin
+2014-авг-11 -> 10:42:59: 258277 run end
+2014-авг-11 -> 10:42:59: 258622 run begin
+2014-авг-11 -> 10:43:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:43:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:43:17: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:43:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:43:26: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 10:43:36: 258622 run end
+2014-авг-11 -> 10:43:36: 258623 run begin
+2014-авг-11 -> 10:43:54: 258623 run end
+2014-авг-11 -> 10:43:55: 258624 run begin
+2014-авг-11 -> 10:43:59: ORA-20000: Unable to insert login, because contract information doesnt contain information about legal entity
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 108
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-11 -> 10:44:12: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:14: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:14: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:44:17: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:19: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:19: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:44:21: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:23: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:23: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:44:29: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:31: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:33: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1d241b8b-ae3c-4f2c-9c1b-d753ac01b2db/url. The status of the exception was ConnectFailure, and the message was: Невозможно соединиться с удаленным сервером
+2014-авг-11 -> 10:44:33: 258624 : step_04 : Ошибка при создании заявки Аренда IPTV. Выдача
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: 258624 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: 258624 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: 258624 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: 258624 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: 258624 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: 258624 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:44:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:44:33: 258624 run end
+2014-авг-11 -> 10:44:33: 258625 run begin
+2014-авг-11 -> 10:44:48: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:50: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:50: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:44:52: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:54: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:54: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:44:56: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:58: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:44:58: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:45:04: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:06: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:08: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1d241b8b-ae3c-4f2c-9c1b-d753ac01b2db/url. The status of the exception was ConnectFailure, and the message was: Невозможно соединиться с удаленным сервером
+2014-авг-11 -> 10:45:08: 258625 : step_04 : Ошибка при создании заявки Аренда IPTV. Выдача
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: 258625 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: 258625 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: 258625 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: 258625 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: 258625 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: 258625 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:08: 258625 run end
+2014-авг-11 -> 10:45:08: 259145 run begin
+2014-авг-11 -> 10:45:14: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:16: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:16: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:45:18: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:20: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:20: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:45:22: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:24: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:24: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:45:32: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.TRIG_LOGINS_CHANGE", line 59
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_CHANGE'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-11 -> 10:45:39: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:41: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:45: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:47: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:47: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:45:49: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:51: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:45:51: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:45:51: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-авг-11 -> 10:45:51: 259145 : step_05 : Доверительный платеж не начислился, логин: 0894932745
+2014-авг-11 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:51: 259145 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:51: 259145 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:51: 259145 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:45:51: 259145 run end
+2014-авг-11 -> 10:45:51: 259146 run begin
+2014-авг-11 -> 10:46:06: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:08: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:08: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:46:10: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:12: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:12: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:46:14: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:16: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:16: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:46:23: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:25: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:29: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:31: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:31: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:46:33: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:35: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:35: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:46:35: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-авг-11 -> 10:46:35: 259146 : step_05 : Доверительный платеж не начислился, логин: 0894932756
+2014-авг-11 -> 10:46:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:46:35: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:46:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:46:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:46:35: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:46:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:46:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:46:35: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:46:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:46:35: 259146 run end
+2014-авг-11 -> 10:46:35: 259147 run begin
+2014-авг-11 -> 10:46:50: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:52: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:52: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:46:54: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:56: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:46:56: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:46:58: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:01: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:01: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:47:07: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:09: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:13: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:15: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:15: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:47:17: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:19: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:19: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:47:21: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:23: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:23: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:47:25: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:27: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:27: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:47:39: 259147 : step_05 : Не подключилась опция 'выбор скорости' с использованием дов. платежа, логин: 0894940339
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: 259147 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: 259147 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: 259147 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: 259147 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: 259147 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:47:39: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:47:39: 259147 run end
+2014-авг-11 -> 10:47:39: 259148 run begin
+2014-авг-11 -> 10:47:45: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:47: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:47: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:47:49: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:51: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:51: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:47:53: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:56: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:47:56: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:48:10: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:12: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:16: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:18: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:18: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:48:20: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:22: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:22: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:48:22: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-авг-11 -> 10:48:22: 259148 : step_05 : Доверительный платеж не начислился, логин: 0894940350
+2014-авг-11 -> 10:48:22: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:48:22: 259148 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:48:22: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:48:22: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:48:22: 259148 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:48:22: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:48:22: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:48:22: 259148 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:48:22: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:48:22: 259148 run end
+2014-авг-11 -> 10:48:22: 259149 run begin
+2014-авг-11 -> 10:48:27: ORA-01403: no data found
+ORA-06512: at "INAC.API", line 2926
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-11 -> 10:48:39: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:41: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:41: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:48:43: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:45: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:45: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:48:47: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:49: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:49: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:48:56: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:48:59: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:03: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:05: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:05: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:49:07: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:09: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:09: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:49:11: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:13: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:13: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:49:15: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:17: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-авг-11 -> 10:49:17: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-11 -> 10:49:29: 259149 : step_06 : Не подключилась опция 'выбор скорости' с использованием дов. платежа, логин: 0894940361
+2014-авг-11 -> 10:49:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:49:29: 259149 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:49:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:49:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:49:29: 259149 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-11 -> 10:49:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-11 -> 10:49:29: 259149 run end
+2014-авг-11 -> 12:50:37: 258277 run begin
+2014-авг-11 -> 12:53:07: 258277 run end
+2014-авг-11 -> 01:26:21: 258624 run begin
+2014-авг-11 -> 01:26:29: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-11 -> 01:26:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 01:26:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 01:26:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 01:26:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 01:26:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-11 -> 01:27:15: 258624 run end
+2014-авг-13 -> 04:17:44: test run begin
+2014-авг-13 -> 04:18:54: test run begin
+2014-авг-13 -> 04:31:11: test run begin
+2014-авг-13 -> 04:33:08: test run begin
+2014-авг-13 -> 04:34:28: test run begin
+2014-авг-13 -> 04:34:50: test run begin
+2014-авг-13 -> 04:35:15: test run begin
+2014-авг-13 -> 04:36:38: test run begin
+2014-авг-13 -> 04:37:17: test run begin
+2014-авг-13 -> 04:37:55: test run begin
+2014-авг-13 -> 04:38:43: test run begin
+2014-авг-13 -> 04:39:28: test run begin
+2014-авг-13 -> 04:40:35: test run begin
+2014-авг-13 -> 04:41:13: test run end
+2014-авг-13 -> 05:04:29: test run begin
+2014-авг-13 -> 05:04:29: Поток StandardIn не был перенаправлен.
+2014-авг-13 -> 05:04:29: Поток StandardOut не был перенаправлен или процесс еще не был запущен.
+2014-авг-13 -> 05:04:48: test run begin
+2014-авг-13 -> 05:04:48: Поток StandardIn не был перенаправлен.
+2014-авг-13 -> 05:05:14: test run begin
+2014-авг-13 -> 05:12:10: test run begin
+2014-авг-13 -> 05:12:51: test run begin
+2014-авг-13 -> 05:13:27: test run begin
+2014-авг-13 -> 05:14:00: test run begin
+2014-авг-13 -> 05:14:00: Запись в закрытый TextWriter невозможна.
+2014-авг-13 -> 05:15:02: test run begin
+2014-авг-13 -> 05:15:37: test run begin
+2014-авг-13 -> 05:16:58: test run begin
+2014-авг-13 -> 05:17:27: test run begin
+2014-авг-13 -> 05:18:02: test run begin
+2014-авг-13 -> 05:18:31: test run begin
+2014-авг-13 -> 05:18:55: test run begin
+2014-авг-13 -> 05:19:24: test run begin
+2014-авг-13 -> 05:20:40: test run begin
+2014-авг-13 -> 05:22:11: test run begin
+2014-авг-13 -> 05:23:05: test run begin
+2014-авг-13 -> 05:23:05: Название кодировки "1251" не поддерживается.
+Имя параметра: name
+2014-авг-13 -> 05:23:05: test run end
+2014-авг-13 -> 05:23:28: test run begin
+2014-авг-13 -> 05:23:28: Название кодировки "1251" не поддерживается.
+Имя параметра: name
+2014-авг-13 -> 05:23:28: test run end
+2014-авг-13 -> 05:23:47: test run begin
+2014-авг-13 -> 05:23:47: Название кодировки "1251" не поддерживается.
+Имя параметра: name
+2014-авг-13 -> 05:23:47: test run end
+2014-авг-13 -> 05:24:04: test run begin
+2014-авг-13 -> 05:24:12: Название кодировки "1251" не поддерживается.
+Имя параметра: name
+2014-авг-13 -> 05:24:12: test run end
+2014-авг-13 -> 05:24:30: test run begin
+2014-авг-13 -> 05:26:56: test run begin
+2014-авг-13 -> 05:28:00: test run begin
+2014-авг-13 -> 05:34:45: test run begin

@@ -1,0 +1,781 @@
+2015-апр-02 -> 02:03:56: OnlineDetalization run begin
+2015-апр-02 -> 02:04:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:04:28: OnlineDetalization : step_01 : Ошибка авторизации: Пользователь не найден
+2015-апр-02 -> 02:13:53: OnlineDetalization run begin
+2015-апр-02 -> 02:14:23: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:14:26: OnlineDetalization : step_01 : Ошибка авторизации: Пользователь не найден
+2015-апр-02 -> 02:28:50: OnlineDetalization run begin
+2015-апр-02 -> 02:29:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:30:17: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/597aaf18-f4e2-46e3-8cfd-7c20c6a9f35c/element/%7Bf12459d0-9efb-4f34-8c66-85b1f27363fe%7D/click timed out after 60 seconds.
+2015-апр-02 -> 02:30:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:30:34: Object reference not set to an instance of an object.
+2015-апр-02 -> 02:30:38: The given selector //div[@class,'support-request']//a is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[@class,'support-request']//a because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-апр-02 -> 02:30:38: Object reference not set to an instance of an object.
+2015-апр-02 -> 02:30:50: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-02 -> 02:33:57: OnlineDetalization run begin
+2015-апр-02 -> 02:34:24: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:35:25: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/6e431a7b-4cbf-4ce4-bcee-e091b2d434b3/element/%7Bd4cf8a3e-91b4-4ac8-b45b-5086f075d935%7D/click timed out after 60 seconds.
+2015-апр-02 -> 02:35:43: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:35:43: Object reference not set to an instance of an object.
+2015-апр-02 -> 02:35:46: The given selector //div[@class,'support-request']//a is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[@class,'support-request']//a because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-апр-02 -> 02:35:56: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-02 -> 02:38:12: OnlineDetalization run begin
+2015-апр-02 -> 02:38:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:39:42: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/a0106db6-cc94-43e3-a0f5-341423f68a8d/element/%7B92860e9a-72aa-42e5-8a95-a4c747d3f592%7D/click timed out after 60 seconds.
+2015-апр-02 -> 02:39:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:39:58: Object reference not set to an instance of an object.
+2015-апр-02 -> 02:40:01: The given selector //div[@class,'support-request']//a is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //div[@class,'support-request']//a because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "<unknown>"]
+2015-апр-02 -> 02:40:01: Object reference not set to an instance of an object.
+2015-апр-02 -> 02:42:16: OnlineDetalization run begin
+2015-апр-02 -> 02:42:42: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:43:44: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/3b641793-4f90-4759-80ac-24e1fc157df9/element/%7Bfc879dc2-021a-4574-9411-c654cf8f19fd%7D/click timed out after 60 seconds.
+2015-апр-02 -> 02:44:03: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 02:44:03: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:42:34: OnlineDetalization run begin
+2015-апр-02 -> 03:43:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 03:44:03: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/bbcff9ab-b5f0-4f22-82a2-5059f27ad497/element/%7Bb1b30e83-7a42-4a23-a203-d4c2f40d0423%7D/click timed out after 60 seconds.
+2015-апр-02 -> 03:44:26: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 03:44:26: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:45:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:45:05: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:45:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:45:15: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:45:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:45:26: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:45:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:45:36: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:45:46: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:45:46: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:45:57: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:45:57: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:46:07: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:46:07: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:46:18: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:46:18: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:46:43: Element is not currently visible and so may not be interacted with
+2015-апр-02 -> 03:48:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-02 -> 03:48:23: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:48:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-02 -> 03:48:34: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:51:11: OnlineDetalization run begin
+2015-апр-02 -> 03:51:38: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 03:52:40: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/229ad5d5-036a-403f-8529-40a8297e0cce/element/%7B0602a77b-bfa3-40e3-958b-9b37cafade0b%7D/click timed out after 60 seconds.
+2015-апр-02 -> 03:52:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 03:52:58: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:53:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:53:37: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:53:47: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:53:48: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:53:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:53:58: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:54:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:54:08: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:54:19: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:54:19: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:54:29: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:54:29: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:54:39: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:54:39: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:54:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:54:50: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:55:08: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/229ad5d5-036a-403f-8529-40a8297e0cce/element/%7Bf632973f-8f53-4163-b155-605eb79fa56a%7D/click. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-апр-02 -> 03:56:23: OnlineDetalization run begin
+2015-апр-02 -> 03:56:48: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 03:57:54: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/5afef60a-11e7-4855-ba01-ef2fedeb0a3b/element/%7B04478ab7-8837-442a-a787-93b344b52d2f%7D/click timed out after 60 seconds.
+2015-апр-02 -> 03:58:07: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-02 -> 03:58:07: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:58:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:58:48: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:58:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:58:58: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:59:09: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:59:09: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:59:19: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:59:19: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:59:29: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:59:29: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:59:40: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:59:40: Object reference not set to an instance of an object.
+2015-апр-02 -> 03:59:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 03:59:50: Object reference not set to an instance of an object.
+2015-апр-02 -> 04:00:01: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-02 -> 04:00:01: Object reference not set to an instance of an object.
+2015-апр-02 -> 04:00:26: Element is not currently visible and so may not be interacted with
+2015-апр-02 -> 04:02:10: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-02 -> 04:02:10: Object reference not set to an instance of an object.
+2015-апр-02 -> 04:02:20: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-02 -> 04:02:20: Object reference not set to an instance of an object.
+2015-апр-03 -> 11:56:36: OnlineDetalization run begin
+2015-апр-03 -> 11:57:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 11:58:03: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/5c2519dd-a8de-4fee-b3bc-4cf80125e9c9/element/%7B3c818892-0c7c-4dc8-ad88-2087f6aaab64%7D/click timed out after 60 seconds.
+2015-апр-03 -> 11:58:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 11:58:21: Object reference not set to an instance of an object.
+2015-апр-03 -> 11:59:02: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 11:59:02: Object reference not set to an instance of an object.
+2015-апр-03 -> 11:59:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 11:59:13: Object reference not set to an instance of an object.
+2015-апр-03 -> 11:59:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 11:59:23: Object reference not set to an instance of an object.
+2015-апр-03 -> 11:59:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 11:59:34: Object reference not set to an instance of an object.
+2015-апр-03 -> 11:59:44: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 11:59:44: Object reference not set to an instance of an object.
+2015-апр-03 -> 11:59:54: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 11:59:54: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:00:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:00:05: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:00:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:00:15: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:00:41: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 12:02:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:02:25: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:02:35: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:02:35: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:03:12: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:03:12: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:03:25: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'datepick-popup')]//div[contains(@class,'datepick-month first')]//table//a[text() = '30']"}
+2015-апр-03 -> 12:03:25: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:03:41: Unable to locate element: {"method":"xpath","selector":"//h3[text()='Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.']"}
+2015-апр-03 -> 12:03:41: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:11:27: OnlineDetalization run begin
+2015-апр-03 -> 12:11:54: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 12:12:55: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/ebecd1fb-a129-4b8a-82c3-2fc7d6ed6e27/element/%7Bbfc82eb7-cdd0-4df9-8954-6718fa57c323%7D/click timed out after 60 seconds.
+2015-апр-03 -> 12:13:13: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 12:13:14: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:13:53: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:13:53: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:14:04: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:14:04: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:14:14: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:14:14: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:14:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:14:25: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:14:35: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:14:35: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:14:45: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:14:45: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:14:56: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:14:56: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:15:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:15:06: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:15:32: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 12:17:16: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:17:16: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:17:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:17:26: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:18:03: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:18:03: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:18:14: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'datepick-popup')]//div[contains(@class,'datepick-month first')]//table//a[text() = '30']"}
+2015-апр-03 -> 12:18:14: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:18:30: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-03 -> 12:18:30: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:30:27: OnlineDetalization run begin
+2015-апр-03 -> 12:30:54: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 12:31:56: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/67814ff9-87a8-4c9b-9159-68fd8fff9618/element/%7B64322b87-fa3b-45d7-a342-2bbd60e91234%7D/click timed out after 60 seconds.
+2015-апр-03 -> 12:32:19: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 12:32:19: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:33:00: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:33:00: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:33:11: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:33:11: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:33:21: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:33:21: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:33:32: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:33:32: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:33:42: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:33:42: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:33:53: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:33:53: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:34:03: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:34:03: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:34:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:34:13: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:34:39: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 12:36:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:36:23: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:36:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:36:34: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:37:25: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/67814ff9-87a8-4c9b-9159-68fd8fff9618/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-апр-03 -> 12:37:25: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:38:16: OnlineDetalization run begin
+2015-апр-03 -> 12:38:42: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 12:39:45: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/c6171246-06a7-4179-96b5-b36396c42f05/element/%7B0ebc5ec8-33fa-43f5-80f1-60ca8b631335%7D/click timed out after 60 seconds.
+2015-апр-03 -> 12:40:10: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 12:40:10: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:40:51: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:40:51: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:41:01: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:41:01: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:41:11: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:41:11: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:41:22: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:41:22: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:41:32: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:41:32: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:41:43: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:41:43: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:41:53: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:41:53: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:42:03: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 12:42:03: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:42:29: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 12:44:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:44:13: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:44:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:44:23: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:45:01: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 12:45:02: Object reference not set to an instance of an object.
+2015-апр-03 -> 12:46:41: Unable to locate element: {"method":"xpath","selector":"//h3[text()='Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.']"}
+2015-апр-03 -> 12:46:41: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:04:08: OnlineDetalization run begin
+2015-апр-03 -> 02:04:35: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 02:05:36: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/1b235199-61e3-4cc2-835c-ae0817a0755f/element/%7B7e601cc4-9301-4374-93c8-e758079cb312%7D/click timed out after 60 seconds.
+2015-апр-03 -> 02:05:57: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 02:05:57: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:06:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 02:06:37: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:06:47: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 02:06:47: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:06:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 02:06:58: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:07:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 02:07:08: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:07:18: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 02:07:19: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:07:29: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 02:07:29: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:07:39: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 02:07:39: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:07:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 02:07:50: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:08:15: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 02:09:59: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 02:10:00: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:10:10: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 02:10:10: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:10:47: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 02:10:47: Object reference not set to an instance of an object.
+2015-апр-03 -> 02:11:03: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-03 -> 02:11:03: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:30:29: OnlineDetalization run begin
+2015-апр-03 -> 04:31:00: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 04:32:04: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/8748aa6f-471e-458f-bb4f-9a45925aa384/element/%7B561023d0-7935-4029-a16b-ed88586fcc8c%7D/click timed out after 60 seconds.
+2015-апр-03 -> 04:32:22: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 04:32:22: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:32:36: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-03 -> 04:33:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:33:13: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:33:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:33:24: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:33:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:33:34: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:33:44: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:33:44: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:33:55: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:33:55: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:34:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:34:05: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:34:16: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:34:16: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:34:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:34:26: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:34:52: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 04:36:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 04:36:36: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:36:47: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 04:36:47: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:37:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 04:37:23: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:52:36: OnlineDetalization run begin
+2015-апр-03 -> 04:53:01: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 04:54:04: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/a19e3159-032f-4964-b60c-f608e81a9eba/element/%7B531333a6-e2c6-47f9-837e-05f5bf77ca5a%7D/click timed out after 60 seconds.
+2015-апр-03 -> 04:54:24: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 04:54:24: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:54:39: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-03 -> 04:55:17: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:55:17: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:55:27: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:55:27: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:55:38: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:55:38: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:55:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:55:48: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:55:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:55:59: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:56:09: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:56:09: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:56:19: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:56:19: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:56:30: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 04:56:30: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:56:56: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 04:58:40: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 04:58:40: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:58:50: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 04:58:50: Object reference not set to an instance of an object.
+2015-апр-03 -> 04:59:22: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 04:59:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 04:59:37: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:02:39: OnlineDetalization run begin
+2015-апр-03 -> 05:03:05: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 05:04:07: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/cabc707f-5013-491c-86e3-18273093a026/element/%7Be9d3ab37-8519-4675-a75c-99003f8ecd17%7D/click timed out after 60 seconds.
+2015-апр-03 -> 05:04:26: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 05:04:26: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:05:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:05:06: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:05:17: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:05:17: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:05:27: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:05:27: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:05:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:05:37: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:05:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:05:48: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:05:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:05:58: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:06:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:06:08: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:06:19: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:06:19: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:06:44: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 05:08:28: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:08:29: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:08:39: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:08:39: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:09:16: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:09:16: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:33:33: OnlineDetalization run begin
+2015-апр-03 -> 05:33:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 05:34:59: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/3c957236-483d-4530-b5c1-540965b4a2fc/element/%7Bc1a00784-d01f-4e4c-b947-01396dbfaedc%7D/click timed out after 60 seconds.
+2015-апр-03 -> 05:35:21: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 05:35:21: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:36:01: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:36:02: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:36:12: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:36:12: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:36:22: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:36:22: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:36:33: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:36:33: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:36:43: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:36:43: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:36:53: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:36:53: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:37:04: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:37:04: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:37:14: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:37:14: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:37:40: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 05:39:24: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:39:24: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:39:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:39:34: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:40:11: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:40:11: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:40:39: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'tooMuchContainer:saveFile_input')]"}
+2015-апр-03 -> 05:40:42: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:40:46: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:40:46: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:40:46: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:40:46: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:41:19: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:42:08: OnlineDetalization run begin
+2015-апр-03 -> 05:42:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 05:43:36: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/45c51fd7-795a-4961-adbd-ce4d72517cbb/element/%7Badbc8f40-5777-4034-9e77-8b6eead625b6%7D/click timed out after 60 seconds.
+2015-апр-03 -> 05:43:54: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 05:43:54: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:44:33: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:44:34: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:44:44: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:44:44: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:44:54: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:44:54: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:45:05: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:45:05: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:45:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:45:15: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:45:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:45:25: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:45:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:45:36: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:45:46: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 05:45:46: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:46:12: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 05:47:56: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:47:56: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:48:07: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:48:07: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:48:45: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 05:48:45: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:57:54: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-03 -> 05:58:21: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'tooMuchContainer:saveFile_input')][0]"}
+2015-апр-03 -> 05:58:27: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:58:30: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:58:30: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:58:30: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:58:30: Object reference not set to an instance of an object.
+2015-апр-03 -> 05:59:07: OnlineDetalization run begin
+2015-апр-03 -> 05:59:32: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 06:00:33: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/0fc26f84-3f1e-4c4a-8b8e-1e3e1d56e893/element/%7B04f85686-8927-4254-aaef-be2741813da3%7D/click timed out after 60 seconds.
+2015-апр-03 -> 06:00:52: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 06:00:53: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:01:06: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-03 -> 06:01:42: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:01:42: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:01:52: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:01:52: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:02:03: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:02:03: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:02:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:02:13: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:02:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:02:23: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:02:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:02:34: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:02:44: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:02:44: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:02:54: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:02:54: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:03:20: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 06:05:04: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 06:05:04: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:05:14: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 06:05:14: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:05:52: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 06:05:52: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:12:18: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-03 -> 06:12:19: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:13:50: OnlineDetalization run begin
+2015-апр-03 -> 06:14:15: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 06:15:16: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/ec0f9405-010b-467e-b0d6-efb585aa921c/element/%7Bf94dcc98-f5e7-4c56-bbe9-653596a332e5%7D/click timed out after 60 seconds.
+2015-апр-03 -> 06:15:33: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-03 -> 06:15:33: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:16:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:16:14: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:16:24: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:16:24: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:16:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:16:34: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:16:45: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:16:45: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:16:55: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:16:55: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:17:06: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:17:06: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:17:16: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:17:16: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:17:27: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:17:27: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:17:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:17:37: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:17:47: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-03 -> 06:17:47: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:18:13: Element is not currently visible and so may not be interacted with
+2015-апр-03 -> 06:19:57: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 06:19:57: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:20:07: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 06:20:07: Object reference not set to an instance of an object.
+2015-апр-03 -> 06:20:44: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-03 -> 06:20:44: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:06:09: ChangeNoSim run begin
+2015-апр-08 -> 05:06:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-08 -> 05:07:03: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-08 -> 05:07:03: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:07:20: Unable to locate element: {"method":"xpath","selector":"//a[text()='(968) 702-90-01']"}
+2015-апр-08 -> 05:07:20: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:08:29: ChangeNoSim run begin
+2015-апр-08 -> 05:08:58: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-08 -> 05:09:25: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-08 -> 05:09:25: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:09:46: Unable to locate element: {"method":"xpath","selector":"//a[text()='(968) 702-90-01']"}
+2015-апр-08 -> 05:09:46: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:11:18: ChangeNoSim run begin
+2015-апр-08 -> 05:11:43: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-08 -> 05:12:09: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-08 -> 05:12:09: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:48:31: ChangeNoSim run begin
+2015-апр-08 -> 05:48:55: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-08 -> 05:49:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-08 -> 05:49:17: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:50:04: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-08 -> 05:50:04: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:50:47: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-08 -> 05:50:47: Object reference not set to an instance of an object.
+2015-апр-08 -> 05:51:17: ChangeNoSim run end
+2015-апр-09 -> 12:09:44: OnlineDetalization run begin
+2015-апр-09 -> 12:23:13: OnlineDetalization run begin
+2015-апр-09 -> 12:25:36: OnlineDetalization run begin
+2015-апр-09 -> 02:46:00: OnlineDetalization run begin
+2015-апр-09 -> 03:09:05: OnlineDetalization run begin
+2015-апр-09 -> 03:10:29: OnlineDetalization run begin
+2015-апр-10 -> 10:47:06: OnlineDetalization run begin
+2015-апр-10 -> 11:20:49: OnlineDetalization run begin
+2015-апр-10 -> 11:25:13: OnlineDetalization run begin
+2015-апр-10 -> 11:55:19: OnlineDetalization run begin
+2015-апр-10 -> 11:57:39: Unable to locate element: {"method":"xpath","selector":"//input[@name='password']"}
+2015-апр-10 -> 11:58:10: Object reference not set to an instance of an object.
+2015-апр-10 -> 11:59:08: OnlineDetalization run begin
+2015-апр-10 -> 12:00:57: Unable to locate element: {"method":"xpath","selector":"//button[@text()='Войти']"}
+2015-апр-10 -> 12:01:00: Object reference not set to an instance of an object.
+2015-апр-10 -> 12:02:01: OnlineDetalization run begin
+2015-апр-10 -> 12:03:08: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Войти')]"}
+2015-апр-10 -> 12:04:21: Object reference not set to an instance of an object.
+2015-апр-10 -> 12:07:26: OnlineDetalization run begin
+2015-апр-10 -> 12:08:45: Unable to locate element: {"method":"xpath","selector":"span[@class='new-auth-submit new-auth-form-line__item']//button"}
+2015-апр-10 -> 12:09:08: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:31:13: OnlineDetalization run begin
+2015-апр-13 -> 09:31:39: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-13 -> 09:32:00: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-13 -> 09:32:00: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:32:16: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-col-special']"}
+2015-апр-13 -> 09:32:16: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:32:53: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-13 -> 09:32:53: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:33:04: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-13 -> 09:33:04: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:33:15: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-13 -> 09:33:15: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:33:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-13 -> 09:33:26: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:33:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-13 -> 09:33:37: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:33:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-13 -> 09:33:48: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:33:59: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-13 -> 09:33:59: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:34:09: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-13 -> 09:34:09: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:34:36: Element is not currently visible and so may not be interacted with
+2015-апр-13 -> 09:36:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-13 -> 09:36:23: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:37:10: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-13 -> 09:37:10: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:37:39: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-апр-13 -> 09:37:39: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:37:43: OnlineDetalization run end
+2015-апр-13 -> 09:37:48: ChangeNoSim run begin
+2015-апр-13 -> 09:38:11: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-13 -> 09:38:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-13 -> 09:38:36: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:39:58: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-13 -> 09:39:58: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:40:17: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-13 -> 09:40:18: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:40:45: ChangeNoSim run end
+2015-апр-13 -> 09:40:50: ChangeSim run begin
+2015-апр-13 -> 09:41:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-13 -> 09:41:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-13 -> 09:41:36: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:42:25: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2015-апр-13 -> 09:42:25: Object reference not set to an instance of an object.
+2015-апр-13 -> 09:42:33: ORA-01729: database link name expected
+
+2015-апр-13 -> 09:42:35: ChangeSim run end
+2015-апр-13 -> 10:33:13: OnlineDetalization run begin
+2015-апр-13 -> 10:34:37: Unable to locate element: {"method":"xpath","selector":"span[@class='new-auth-submit new-auth-form-line__item']//button"}
+2015-апр-13 -> 10:34:39: Object reference not set to an instance of an object.
+2015-апр-13 -> 10:36:09: OnlineDetalization run begin
+2015-апр-13 -> 11:14:10: OnlineDetalization run begin
+2015-апр-13 -> 11:15:49: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/d73f8281-3260-4c77-84e2-e93a68c705d1/element/%7B481eb877-71a1-4615-a57b-7662d145b287%7D/click timed out after 60 seconds.
+2015-апр-13 -> 11:20:49: OnlineDetalization run begin
+2015-апр-13 -> 11:21:38: jQuery is not defined (UnexpectedJavaScriptError)
+2015-апр-13 -> 11:21:48: Unable to locate element: {"method":"xpath","selector":"//div[@class='b-messages b-messages_threaded']//div[0]"}
+2015-апр-13 -> 11:21:48: Object reference not set to an instance of an object.
+2015-апр-13 -> 11:22:30: OnlineDetalization run begin
+2015-апр-13 -> 11:26:31: OnlineDetalization run begin
+2015-апр-13 -> 11:28:19: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/d3e6d90b-4166-46c6-a1eb-e287ea8de0a4/execute timed out after 60 seconds.
+2015-апр-13 -> 11:43:54: OnlineDetalization run begin
+2015-апр-13 -> 11:45:40: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/53f09fa9-0fa8-4368-bada-cab5d23520cb/element/%7B29826018-1336-419d-ba47-8506b6d22b88%7D/click timed out after 60 seconds.
+2015-апр-13 -> 11:47:32: OnlineDetalization run begin
+2015-апр-13 -> 11:51:26: OnlineDetalization run begin
+2015-апр-13 -> 11:53:04: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/e66a0f16-c834-4ef8-91d4-ef35401614fb/element/%7Bf2547a3f-5664-47b3-8e77-b642753a2544%7D/click timed out after 60 seconds.
+2015-апр-13 -> 02:15:15: OnlineDetalization run begin
+2015-апр-13 -> 02:17:06: OnlineDetalization run begin
+2015-апр-13 -> 02:18:57: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/69807345-ee12-4733-838b-781928b28b5c/element/%7B3f9b2776-00d3-4ecd-b306-3d44168b59ed%7D/click timed out after 60 seconds.
+2015-апр-13 -> 02:27:18: OnlineDetalization run begin
+2015-апр-13 -> 02:30:28: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/426d7b59-294d-4484-a9bf-255f107803d1/execute timed out after 60 seconds.
+2015-апр-13 -> 02:31:00: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/426d7b59-294d-4484-a9bf-255f107803d1/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-апр-13 -> 02:31:00: Object reference not set to an instance of an object.
+2015-апр-13 -> 02:31:24: OnlineDetalization run begin
+2015-апр-13 -> 02:33:57: OnlineDetalization run begin
+2015-апр-13 -> 02:35:31: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/f5aaa3e3-2a80-4f73-9ec7-e147081ce380/element/%7Bba0a3800-166a-4bfe-82e4-c05279920522%7D/click timed out after 60 seconds.
+2015-апр-13 -> 02:36:41: The HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/f5aaa3e3-2a80-4f73-9ec7-e147081ce380/execute timed out after 60 seconds.
+2015-апр-15 -> 10:18:26: OnlineDetalization run begin
+2015-апр-15 -> 10:18:54: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 10:19:19: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 10:19:19: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:20:03: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:20:03: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:20:14: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:20:14: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:20:25: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:20:25: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:20:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:20:36: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:20:47: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:20:47: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:20:58: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:20:58: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:21:09: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:21:09: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:21:27: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:21:27: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:21:38: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:21:38: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:21:49: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:21:49: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:22:18: Element is not currently visible and so may not be interacted with
+2015-апр-15 -> 10:23:05: OnlineDetalization run begin
+2015-апр-15 -> 10:23:29: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 10:23:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 10:23:53: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:24:36: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:24:37: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:24:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:24:48: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:24:59: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:24:59: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:25:09: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:25:10: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:25:21: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:25:21: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:25:32: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:25:32: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:25:43: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:25:43: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:25:54: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:25:54: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:26:20: Element is not currently visible and so may not be interacted with
+2015-апр-15 -> 10:28:08: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-15 -> 10:28:08: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:28:55: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 10:28:55: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:29:25: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-апр-15 -> 10:29:25: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:29:29: OnlineDetalization run end
+2015-апр-15 -> 10:40:53: OnlineDetalization run begin
+2015-апр-15 -> 10:41:22: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 10:41:43: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 10:41:43: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:42:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:42:26: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:42:37: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:42:38: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:42:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:42:48: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:42:59: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:42:59: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:43:10: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:43:10: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:43:21: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:43:21: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:43:32: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:43:32: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:43:43: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:43:43: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:44:09: Element is not currently visible and so may not be interacted with
+2015-апр-15 -> 10:45:57: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-15 -> 10:45:57: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:46:44: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 10:46:44: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:47:13: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-апр-15 -> 10:47:13: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:55:39: OnlineDetalization run begin
+2015-апр-15 -> 10:56:10: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 10:56:34: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 10:56:34: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:57:17: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:57:17: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:57:29: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:57:29: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:57:40: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:57:40: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:57:51: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:57:51: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:58:02: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:58:02: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:58:13: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:58:13: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:58:23: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:58:23: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:58:34: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-prev  datepick-disabled')]"}
+2015-апр-15 -> 10:58:34: Object reference not set to an instance of an object.
+2015-апр-15 -> 10:59:01: Element is not currently visible and so may not be interacted with
+2015-апр-15 -> 11:00:48: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'datepick-cmd datepick-cmd-next  datepick-disabled')]"}
+2015-апр-15 -> 11:00:48: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:01:35: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 11:01:35: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:02:05: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-апр-15 -> 11:02:05: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:26:03: OnlineDetalization run begin
+2015-апр-15 -> 11:26:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:26:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:26:47: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:27:53: OnlineDetalization run begin
+2015-апр-15 -> 11:28:18: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:28:36: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:28:36: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:29:28: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 11:29:28: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:29:52: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-15 -> 11:31:15: OnlineDetalization run begin
+2015-апр-15 -> 11:31:40: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:32:02: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:32:03: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:32:54: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 11:32:54: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:33:19: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-15 -> 11:33:34: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-апр-15 -> 11:33:35: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:36:23: OnlineDetalization run begin
+2015-апр-15 -> 11:36:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:37:14: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:37:14: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:38:05: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 11:38:05: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:38:30: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-15 -> 11:40:17: OnlineDetalization run begin
+2015-апр-15 -> 11:40:48: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:41:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:41:12: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:42:04: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 11:42:04: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:42:29: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-15 -> 11:54:40: OnlineDetalization run begin
+2015-апр-15 -> 11:55:12: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:55:32: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 11:55:32: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:56:24: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 11:56:24: Object reference not set to an instance of an object.
+2015-апр-15 -> 11:56:54: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-апр-15 -> 11:56:54: Object reference not set to an instance of an object.
+2015-апр-15 -> 12:00:33: OnlineDetalization run begin
+2015-апр-15 -> 12:00:59: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 12:01:27: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 12:01:27: Object reference not set to an instance of an object.
+2015-апр-15 -> 12:02:18: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 12:02:18: Object reference not set to an instance of an object.
+2015-апр-15 -> 12:02:46: Element not found in the cache - perhaps the page has changed since it was looked up
+2015-апр-15 -> 12:06:47: OnlineDetalization run begin
+2015-апр-15 -> 12:07:17: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 12:07:41: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 12:07:41: Object reference not set to an instance of an object.
+2015-апр-15 -> 12:08:33: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Отчёт получился слишком большим для отображения в личном кабинете. Выберите меньший период или воспользуйтесь детализацией в формате PDF или XLSX.')]"}
+2015-апр-15 -> 12:08:33: Object reference not set to an instance of an object.
+2015-апр-15 -> 12:09:03: Unable to locate element: {"method":"xpath","selector":"//div[@id='finInfoIndexPage:callDetailsPanel']//button"}
+2015-апр-15 -> 12:09:03: Object reference not set to an instance of an object.
+2015-апр-15 -> 12:14:18: OnlineDetalization run begin
+2015-апр-15 -> 12:14:36: jQuery is not defined (UnexpectedJavaScriptError)
+2015-апр-15 -> 12:14:46: Unable to locate element: {"method":"xpath","selector":"//input[@name='loginFormB2C:loginForm:login']"}
+2015-апр-15 -> 12:14:46: jQuery is not defined (UnexpectedJavaScriptError)
+2015-апр-15 -> 12:14:49: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/a6e94489-a076-4b52-95ba-db13bcbcbdc0/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly.
+2015-апр-15 -> 12:16:33: OnlineDetalization run begin
+2015-апр-15 -> 12:17:03: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 12:17:24: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2015-апр-15 -> 12:17:24: Object reference not set to an instance of an object.

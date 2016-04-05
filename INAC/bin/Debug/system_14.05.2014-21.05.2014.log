@@ -1,0 +1,983 @@
+2014-май-14 -> 11:28:00: 253794 run begin
+2014-май-14 -> 11:28:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:28:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:28:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:30:50: 253794 run begin
+2014-май-14 -> 11:30:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:30:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:30:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:31:05: 253794 run end
+2014-май-14 -> 11:35:14: 253794 run begin
+2014-май-14 -> 11:35:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:35:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:35:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:35:24: 253794 run end
+2014-май-14 -> 11:48:23: 253794 run begin
+2014-май-14 -> 11:48:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:48:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:48:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:48:33: 253794 run end
+2014-май-14 -> 11:49:39: 253794 run begin
+2014-май-14 -> 11:49:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:49:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:49:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:49:47: 253794 run end
+2014-май-14 -> 11:51:23: 253794 run begin
+2014-май-14 -> 11:51:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:51:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:51:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:51:32: 253794 run end
+2014-май-14 -> 11:55:02: 253794 run begin
+2014-май-14 -> 11:55:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:55:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:55:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:55:19: 253794 run end
+2014-май-14 -> 11:56:01: 253794 run begin
+2014-май-14 -> 11:56:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:56:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:56:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 11:56:15: 253794 run end
+2014-май-14 -> 12:04:56: 253794 run begin
+2014-май-14 -> 12:04:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 12:04:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 12:04:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 12:06:57: 253794 run begin
+2014-май-14 -> 12:06:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 12:06:59: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 12:07:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 12:08:12: 253794 run begin
+2014-май-14 -> 12:08:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 12:08:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 12:08:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 02:07:18: 253794 run begin
+2014-май-14 -> 02:07:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 02:07:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 02:07:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 02:07:47: 253794 run end
+2014-май-15 -> 04:21:06: 253750 run begin
+2014-май-15 -> 04:21:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-15 -> 04:21:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-15 -> 04:21:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-15 -> 04:22:06: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7056
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-15 -> 04:22:08: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7056
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-15 -> 04:22:08: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-15 -> 04:22:11: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7056
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-15 -> 04:22:13: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7056
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-15 -> 04:22:13: 253750 run end
+2014-май-15 -> 04:22:37: 253750 run begin
+2014-май-15 -> 04:22:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-15 -> 04:22:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-15 -> 04:22:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-15 -> 04:22:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-15 -> 04:23:08: 253750 run end
+2014-май-19 -> 10:16:00: 253794 run begin
+2014-май-19 -> 10:16:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 10:16:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 10:16:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 10:16:40: 253794 run end
+2014-май-19 -> 11:08:36: 253888 run begin
+2014-май-19 -> 11:08:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:08:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:08:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:08:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:08:51: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, '#iptv')]"}
+2014-май-19 -> 11:08:51: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-19 -> 11:08:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:09:02: Unable to locate element: {"method":"xpath","selector":"(//select[@name='action'])[2]"}
+2014-май-19 -> 11:09:28: 253888 run begin
+2014-май-19 -> 11:09:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:09:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:09:30: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:11:56: 253888 run begin
+2014-май-19 -> 11:11:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:11:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:11:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:12:03: 253888:step_06:Некорректное обновление имени пакета, id: 17868 [ожидаемо: at_loadservice_IPTV-packet_808152109, актуально: at_loadservice_IPTV-packet_662461224]
+2014-май-19 -> 11:13:18: 253888 run begin
+2014-май-19 -> 11:13:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:13:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:13:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:13:28: 253888:step_06:Некорректное обновление имени пакета, id: 17868 [ожидаемо: at_loadservice_IPTV-packet_15500017, актуально: at_loadservice_IPTV-packet_662461224]
+2014-май-19 -> 11:14:25: 253888 run begin
+2014-май-19 -> 11:14:26: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:14:26: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:14:26: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:14:35: 253888:step_06:Некорректное обновление имени пакета, id: 17868 [ожидаемо: at_loadservice_IPTV-packet_1451506596, актуально: at_loadservice_IPTV-packet_662461224]
+2014-май-19 -> 11:17:39: 253888 run begin
+2014-май-19 -> 11:17:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:17:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:17:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:17:47: 253888:step_06:Некорректное обновление имени пакета, id: 17868 [ожидаемо: at_loadservice_IPTV-packet_10661307, актуально: at_loadservice_IPTV-packet_662461224]
+2014-май-19 -> 11:18:43: 253888 run begin
+2014-май-19 -> 11:18:44: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:18:44: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:18:44: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:18:52: 253888:step_06:Некорректное обновление имени пакета, id: 17868 [ожидаемо: at_loadservice_IPTV-packet_585016081, актуально: at_loadservice_IPTV-packet_662461224]
+2014-май-19 -> 11:21:17: 253888 run begin
+2014-май-19 -> 11:21:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:21:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:21:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:22:47: 253888:step_06:Некорректное обновление имени пакета, id: 17868 [ожидаемо: at_loadservice_IPTV-packet_518486278, актуально: at_loadservice_IPTV-packet_662461224]
+2014-май-19 -> 11:29:38: 253888 run begin
+2014-май-19 -> 11:29:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:29:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:29:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 11:29:50: 253888 run end
+2014-май-19 -> 02:42:50: 253889 run begin
+2014-май-19 -> 02:42:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 02:42:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 02:42:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 03:07:10: 253889 run begin
+2014-май-19 -> 03:07:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 03:07:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 03:07:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 03:25:07: 253889 run begin
+2014-май-19 -> 03:25:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 03:25:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 03:25:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 03:25:45: 253889 run end
+2014-май-19 -> 04:51:28: 253934 run begin
+2014-май-19 -> 04:51:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:51:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:51:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:51:44: Element is not currently visible and so may not be interacted with
+2014-май-19 -> 04:52:11: 253934 run begin
+2014-май-19 -> 04:52:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:52:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:52:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:52:35: 253934 run begin
+2014-май-19 -> 04:52:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:52:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:52:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:53:20: Element is not currently visible and so may not be interacted with
+2014-май-19 -> 04:55:01: 253934 run begin
+2014-май-19 -> 04:55:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:55:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:55:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:55:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:55:33: 253934 run begin
+2014-май-19 -> 04:55:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:55:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:55:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:56:49: 253934 run begin
+2014-май-19 -> 04:56:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:56:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:56:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:58:49: 253934 run begin
+2014-май-19 -> 04:58:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:58:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:58:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 04:58:54: 253934:step_06:Некорректное обновление имени бандла, бандл: BS00223 [ожидаемо: at_updateservice_bundle_1507875385, актуально: at_loadbundle_vpdn_1464409007]
+2014-май-19 -> 05:00:09: 253934 run begin
+2014-май-19 -> 05:00:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:00:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:00:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:00:24: Element is not currently visible and so may not be interacted with
+2014-май-19 -> 05:00:34: Element is not currently visible and so may not be interacted with
+2014-май-19 -> 05:00:44: Element is not currently visible and so may not be interacted with
+2014-май-19 -> 05:01:24: 253934 run begin
+2014-май-19 -> 05:01:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:01:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:01:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:01:31: 253934:step_06:Некорректное обновление имени бандла, бандл: BS00224 [ожидаемо: at_updateservice_bundle_700239639, актуально: at_loadbundle_vpdn_1656189374]
+2014-май-19 -> 05:01:31: 253934 run end
+2014-май-19 -> 05:13:16: 253934 run begin
+2014-май-19 -> 05:13:17: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:13:17: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:13:17: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-19 -> 05:13:22: 253934 run end
+2014-май-20 -> 01:58:55: 253992 run begin
+2014-май-20 -> 01:58:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 01:58:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 01:58:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:00:04: 253992 run begin
+2014-май-20 -> 02:00:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:00:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:00:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:02:23: 253992 run begin
+2014-май-20 -> 02:02:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:02:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:02:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:02:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:22:11: 253992 run begin
+2014-май-20 -> 02:22:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:22:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:22:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:22:26: Unable to locate element: {"method":"xpath","selector":"(//input[@name='lid'])[5]"}
+2014-май-20 -> 02:22:26: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:22:37: Unable to locate element: {"method":"xpath","selector":"(//input[@name='file'])[5]"}
+2014-май-20 -> 02:22:37: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:22:47: Unable to locate element: {"method":"xpath","selector":"(//input[@name='start_date'])[5]"}
+2014-май-20 -> 02:22:47: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:22:57: Unable to locate element: {"method":"xpath","selector":"(//input[@value='Применить'])[5]"}
+2014-май-20 -> 02:22:57: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:22:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:23:09: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-20 -> 02:23:09: 253992:step_06:загруженный сервис отсутствует в БД (выборка пустая)
+2014-май-20 -> 02:23:09: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 02:23:09: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 02:23:09: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 02:23:09: 253992 run end
+2014-май-20 -> 02:23:37: 253992 run begin
+2014-май-20 -> 02:23:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:23:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:23:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:23:46: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:25:48: 253992:step_05:Некорректное имя сервиса [ожидаемо: at_loadservice_annual_952702732, актуально: ]
+2014-май-20 -> 02:25:48: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 02:25:48: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 02:25:48: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 02:25:48: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 02:25:48: 253992 run end
+2014-май-20 -> 02:27:11: 253992 run begin
+2014-май-20 -> 02:27:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:27:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:27:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:27:26: Unable to locate element: {"method":"xpath","selector":"(//input[@name='lid'])[5]"}
+2014-май-20 -> 02:27:26: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:27:36: Unable to locate element: {"method":"xpath","selector":"(//input[@name='file'])[5]"}
+2014-май-20 -> 02:27:36: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:27:47: Unable to locate element: {"method":"xpath","selector":"(//input[@name='start_date'])[5]"}
+2014-май-20 -> 02:27:47: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:29:48: 253992 run begin
+2014-май-20 -> 02:29:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:29:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:29:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:30:08: Unable to locate element: {"method":"xpath","selector":"(//input[@name='lid'])[5]"}
+2014-май-20 -> 02:30:08: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:30:18: Unable to locate element: {"method":"xpath","selector":"(//input[@name='file'])[5]"}
+2014-май-20 -> 02:30:18: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 02:30:35: 253992 run begin
+2014-май-20 -> 02:30:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:30:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:30:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:31:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:35:44: 253992 run begin
+2014-май-20 -> 02:35:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:35:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:35:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:35:55: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 02:38:47: 253992:step_08:Некорректное значение параметра (AC_SCALE_SIZE) [ожидаемо: 11, актуально: 11]
+2014-май-20 -> 02:38:47: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 02:38:47: 253992 run end
+2014-май-20 -> 03:11:19: 253992 run begin
+2014-май-20 -> 03:11:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:11:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:11:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:11:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:14:00: 253992 run begin
+2014-май-20 -> 03:14:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:14:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:14:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:14:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:15:39: 253992 run begin
+2014-май-20 -> 03:15:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:15:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:15:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:15:57: Unable to locate element: {"method":"xpath","selector":"(//input[@name='lid'])[5]"}
+2014-май-20 -> 03:15:57: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 03:16:07: Unable to locate element: {"method":"xpath","selector":"(//input[@name='file'])[5]"}
+2014-май-20 -> 03:16:07: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 03:16:17: Unable to locate element: {"method":"xpath","selector":"(//input[@name='start_date'])[5]"}
+2014-май-20 -> 03:16:17: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 03:16:28: Unable to locate element: {"method":"xpath","selector":"(//input[@value='Применить'])[5]"}
+2014-май-20 -> 03:16:28: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 03:16:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:16:39: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-20 -> 03:16:39: 253992:step_06:загруженный сервис отсутствует в БД (выборка пустая)
+2014-май-20 -> 03:16:39: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:16:39: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:16:39: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:16:39: 253992 run end
+2014-май-20 -> 03:20:09: 253992 run begin
+2014-май-20 -> 03:20:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:20:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:20:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:20:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:22:53: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-20 -> 03:22:53: 253992:step_06:загруженный сервис отсутствует в БД (выборка пустая)
+2014-май-20 -> 03:22:53: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:22:53: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:22:53: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:22:53: 253992 run end
+2014-май-20 -> 03:23:11: 253992 run begin
+2014-май-20 -> 03:23:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:23:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:23:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:23:23: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/441e9e7d-c452-4d85-98a6-4067eb862cd6/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 03:23:23: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 03:23:27: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 03:23:29: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 03:23:29: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 03:23:31: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 03:23:33: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 03:23:33: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 03:23:35: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 03:23:37: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 03:23:37: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 03:23:43: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7055
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 03:23:45: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-20 -> 03:23:45: 253992:step_06:загруженный сервис отсутствует в БД (выборка пустая)
+2014-май-20 -> 03:23:45: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:23:45: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:23:45: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 03:23:45: 253992 run end
+2014-май-20 -> 03:23:51: 253992 run begin
+2014-май-20 -> 03:23:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:23:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:23:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:23:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 03:29:41: 253992 run end
+2014-май-20 -> 05:47:02: 253992 run begin
+2014-май-20 -> 05:47:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:47:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:47:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:47:15: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7056/hub/session/f5df9b5f-1cfe-446f-90df-28cba504be77/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 05:47:15: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 05:47:33: 253992 run begin
+2014-май-20 -> 05:47:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:47:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:47:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:47:48: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:48:35: 253992 run begin
+2014-май-20 -> 05:48:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:48:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:48:46: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:48:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:51:19: 253992 run begin
+2014-май-20 -> 05:51:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:51:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:51:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:51:32: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7057/hub/session/0604a2e6-1b06-4c06-b9d7-0b3ebe892be3/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 05:51:32: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 05:51:53: 253992 run begin
+2014-май-20 -> 05:51:54: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:51:54: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:51:54: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:52:07: Unable to locate element: {"method":"xpath","selector":"(//input[@name='lid'])[5]"}
+2014-май-20 -> 05:52:07: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 05:52:09: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7057/hub/session/ea21aa11-7dc6-46b6-96ac-54e1e35ddfd5/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 05:52:09: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 05:52:29: 253992 run begin
+2014-май-20 -> 05:52:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:52:30: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:52:30: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 05:52:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:00:37: 253750 run begin
+2014-май-20 -> 06:00:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:00:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:00:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:00:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:00:42: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-20 -> 06:00:43: 253750:step_06:загруженный тариф отсутствует в БД (выборка пустая)
+2014-май-20 -> 06:00:43: 253750 run end
+2014-май-20 -> 06:36:13: 253992 run begin
+2014-май-20 -> 06:36:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:36:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:36:14: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:36:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:37:40: 253992 run begin
+2014-май-20 -> 06:37:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:37:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:37:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:37:50: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7058/hub/session/71356cb1-bd1a-462b-8c46-c601ba025c79/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 06:37:50: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:38:08: 253992 run begin
+2014-май-20 -> 06:38:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:38:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:38:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:38:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:42:44: 253992 run begin
+2014-май-20 -> 06:42:44: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:42:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:42:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:42:49: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/f5e910b9-7f97-42c7-b6e8-328e79424dbf/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 06:42:49: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:45:07: 253766 run begin
+2014-май-20 -> 06:45:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:45:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:45:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:45:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:48:12: 253750 run begin
+2014-май-20 -> 06:48:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:48:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:48:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:48:17: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:19: 253992 run begin
+2014-май-20 -> 06:49:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:26: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7057/hub/session/9be784a2-c13e-43cc-a84b-f9a8122a742e/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 06:49:26: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:49:30: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:49:32: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:49:32: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:49:34: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:49:36: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:49:36: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:49:38: Session not found: 9be784a2-c13e-43cc-a84b-f9a8122a742e
+2014-май-20 -> 06:49:38: Session not found: 9be784a2-c13e-43cc-a84b-f9a8122a742e
+2014-май-20 -> 06:49:38: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:49:38: Session not found: 9be784a2-c13e-43cc-a84b-f9a8122a742e
+2014-май-20 -> 06:49:38: Session not found: 9be784a2-c13e-43cc-a84b-f9a8122a742e
+2014-май-20 -> 06:49:38: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-20 -> 06:49:38: 253992:step_06:загруженный сервис отсутствует в БД (выборка пустая)
+2014-май-20 -> 06:49:38: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:49:38: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:49:38: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:49:38: 253992 run end
+2014-май-20 -> 06:49:39: 253992 run begin
+2014-май-20 -> 06:49:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:48: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7057/hub/session/4c60dfe8-4767-4885-9930-76b518a31aea/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 06:49:48: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:49:52: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:49:54: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:49:54: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:49:56: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:49:57: Session not found: 4c60dfe8-4767-4885-9930-76b518a31aea
+2014-май-20 -> 06:49:57: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:49:57: Session not found: 4c60dfe8-4767-4885-9930-76b518a31aea
+2014-май-20 -> 06:49:57: Session not found: 4c60dfe8-4767-4885-9930-76b518a31aea
+2014-май-20 -> 06:49:57: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:49:57: Session not found: 4c60dfe8-4767-4885-9930-76b518a31aea
+2014-май-20 -> 06:49:57: Session not found: 4c60dfe8-4767-4885-9930-76b518a31aea
+2014-май-20 -> 06:49:57: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-20 -> 06:49:57: 253992:step_06:загруженный сервис отсутствует в БД (выборка пустая)
+2014-май-20 -> 06:49:57: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:49:57: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:49:57: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:49:57: 253992 run end
+2014-май-20 -> 06:49:58: 253992 run begin
+2014-май-20 -> 06:49:59: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:59: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:49:59: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:50:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:50:13: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-20 -> 06:50:13: 253992:step_06:загруженный сервис отсутствует в БД (выборка пустая)
+2014-май-20 -> 06:50:13: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:50:13: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:50:13: 253992::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-20 -> 06:50:13: 253992 run end
+2014-май-20 -> 06:51:15: 253992 run begin
+2014-май-20 -> 06:51:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:51:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:51:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:51:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:52:18: 253992 run begin
+2014-май-20 -> 06:52:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:52:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:52:21: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:52:33: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7059/hub/session/16840073-7dc1-48b5-83d9-ca987aec68ea/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 06:52:33: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:52:37: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7059
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:52:39: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7059
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:52:39: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:52:41: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7059
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:52:44: Session not found: 16840073-7dc1-48b5-83d9-ca987aec68ea
+2014-май-20 -> 06:52:44: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:52:44: Session not found: 16840073-7dc1-48b5-83d9-ca987aec68ea
+2014-май-20 -> 06:52:44: Session not found: 16840073-7dc1-48b5-83d9-ca987aec68ea
+2014-май-20 -> 06:52:44: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:52:47: 253992 run begin
+2014-май-20 -> 06:52:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:52:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:52:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:52:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:52:57: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7059/hub/session/01b5b5f5-f2fb-4f77-9d82-d52559c359af/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-20 -> 06:52:57: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-20 -> 06:53:01: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7059
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:53:03: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7059
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-20 -> 06:53:03: 253992 run end
+2014-май-20 -> 06:53:27: 253992 run begin
+2014-май-20 -> 06:53:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:53:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:53:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:53:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-20 -> 06:53:32: 253992 run end
+2014-май-21 -> 10:12:16: 000003 run begin
+2014-май-21 -> 10:12:16: 000003 run end
+2014-май-21 -> 10:13:08: 000003 run begin
+2014-май-21 -> 10:13:08: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:13:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:13:08: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:13:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:13:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:13:08: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:13:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:13:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:13:08: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:13:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:13:08: 000003 run end
+2014-май-21 -> 10:15:14: 000003 run begin
+2014-май-21 -> 10:20:05: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:20:11: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:20:22: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:20:22: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:20:24: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:20:24: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:20:25: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:20:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:20:29: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:20:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:20:30: 000003 run end
+2014-май-21 -> 10:21:36: 000003 run begin
+2014-май-21 -> 10:21:36: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:21:36: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:21:36: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:21:36: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:21:36: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:21:36: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:21:36: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:21:36: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:21:36: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:21:36: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:21:36: 000003 run end
+2014-май-21 -> 10:43:28: 000003 run begin
+2014-май-21 -> 10:43:29: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:43:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:43:29: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:43:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:43:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:43:29: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:43:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:43:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:43:29: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:43:29: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:43:29: 000003 run end
+2014-май-21 -> 10:44:17: 000003 run begin
+2014-май-21 -> 10:44:17: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:44:20: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:44:20: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:44:20: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:44:21: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:44:21: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:44:21: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:44:21: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:44:21: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:44:21: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:44:22: 000003 run end
+2014-май-21 -> 10:45:51: 000003 run begin
+2014-май-21 -> 10:45:51: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:45:51: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:45:51: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:45:51: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:45:51: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:45:51: 000003 run end
+2014-май-21 -> 10:47:37: 000003 run begin
+2014-май-21 -> 10:47:37: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:47:37: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:47:37: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:47:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:47:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:47:38: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:47:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:47:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:47:38: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:47:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:47:38: 000003 run end
+2014-май-21 -> 10:49:35: 000003 run begin
+2014-май-21 -> 10:49:35: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:49:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:49:35: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:49:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:49:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:49:35: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:49:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:49:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:49:35: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:49:35: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:49:35: 000003 run end
+2014-май-21 -> 10:52:33: 000003 run begin
+2014-май-21 -> 10:52:33: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:52:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:52:33: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:52:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:52:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:52:33: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:52:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:52:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:52:33: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:52:33: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:52:33: 000003 run end
+2014-май-21 -> 10:53:58: 000003 run begin
+2014-май-21 -> 10:53:58: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:53:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:53:58: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:53:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:53:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:53:58: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:53:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:53:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:53:58: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:53:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:53:58: 000003 run end
+2014-май-21 -> 10:55:05: 000003 run begin
+2014-май-21 -> 10:55:05: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:55:05: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:55:05: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:55:05: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:55:05: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:55:05: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:55:05: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:55:05: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:55:05: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:55:05: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:55:05: 000003 run end
+2014-май-21 -> 10:57:42: 000003 run begin
+2014-май-21 -> 10:57:42: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:57:42: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:57:42: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:57:42: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:57:42: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:57:42: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:57:42: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:57:42: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:57:42: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:57:42: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:57:42: 000003 run end
+2014-май-21 -> 10:59:19: 000003 run begin
+2014-май-21 -> 10:59:19: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 10:59:19: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:59:19: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:59:19: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:59:19: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:59:19: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:59:19: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:59:19: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:59:19: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 10:59:19: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 10:59:19: 000003 run end
+2014-май-21 -> 11:00:12: 000003 run begin
+2014-май-21 -> 11:00:12: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:00:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:00:12: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:00:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:00:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:00:12: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:00:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:00:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:00:12: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:00:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:00:12: 000003 run end
+2014-май-21 -> 11:06:50: 000003 run begin
+2014-май-21 -> 11:06:50: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:06:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:06:50: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:06:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:06:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:06:50: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:06:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:06:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:06:50: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:06:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:06:50: 000003 run end
+2014-май-21 -> 11:09:44: 000003 run begin
+2014-май-21 -> 11:09:44: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:09:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:09:44: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:09:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:09:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:09:44: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:09:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:09:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:09:44: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:09:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:09:44: 000003 run end
+2014-май-21 -> 11:12:08: 000003 run begin
+2014-май-21 -> 11:12:08: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:12:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:12:08: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:12:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:12:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:12:08: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:12:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:12:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:12:08: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:12:08: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:12:08: 000003 run end
+2014-май-21 -> 11:14:15: 000003 run begin
+2014-май-21 -> 11:14:15: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:14:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:15: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:14:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:15: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:14:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:15: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:14:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:15: 000003 run end
+2014-май-21 -> 11:14:44: 000003 run begin
+2014-май-21 -> 11:14:44: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:14:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:44: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:14:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:44: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:14:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:44: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:14:44: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:14:44: 000003 run end
+2014-май-21 -> 11:16:12: 000003 run begin
+2014-май-21 -> 11:16:12: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:16:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:16:12: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:16:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:16:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:16:12: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:16:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:16:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:16:12: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:16:12: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:16:12: 000003 run end
+2014-май-21 -> 11:17:50: 000003 run begin
+2014-май-21 -> 11:17:50: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:17:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:17:50: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:17:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:17:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:17:50: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:17:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:17:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:17:50: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:17:50: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:17:50: 000003 run end
+2014-май-21 -> 11:18:54: 000003 run begin
+2014-май-21 -> 11:18:54: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:18:56: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:18:56: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:18:56: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:18:57: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:18:57: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:18:57: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:18:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:18:58: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:18:58: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:18:59: 000003 run end
+2014-май-21 -> 11:22:27: 000003 run begin
+2014-май-21 -> 11:22:27: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:22:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:22:27: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:22:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:22:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:22:27: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:22:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:22:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:22:27: 000003 :  : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:22:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:22:27: 000003 run end
+2014-май-21 -> 11:23:31: 000003 run begin
+2014-май-21 -> 11:23:31: 000003 : step_01 : 1asdasdas
+2014-май-21 -> 11:23:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:23:31: 000003 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:23:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:23:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:23:31: 000003 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:23:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:23:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:23:31: 000003 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-21 -> 11:23:31: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-май-21 -> 11:23:31: 000003 run end

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="urn:uss-wsapi:Auth" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="AuthService" targetNamespace="urn:uss-wsapi:Auth" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://dev-web01.vimpelcom.ru:50001/api/AuthService?xsd=1" namespace="urn:uss-wsapi:Auth" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://dev-web01.vimpelcom.ru:50001/api/AuthService?xsd=2" namespace="urn:uss-wsapi:Types" />
+    </xsd:schema>
+  </types>
+  <message name="auth">
+    <part name="parameters" element="tns:auth" />
+  </message>
+  <message name="authResponse">
+    <part name="parameters" element="tns:authResponse" />
+  </message>
+  <message name="UssWsApiException">
+    <part xmlns:ns1="urn:uss-wsapi:Types" name="fault" element="ns1:UssWsApiException" />
+  </message>
+  <portType name="AuthInterface">
+    <operation name="auth">
+      <input wsam:Action="urn:uss-wsapi:Auth:AuthInterface:authRequest" message="tns:auth" />
+      <output wsam:Action="urn:uss-wsapi:Auth:AuthInterface:authResponse" message="tns:authResponse" />
+      <fault wsam:Action="urn:uss-wsapi:Auth:AuthInterface:auth:Fault:UssWsApiException" name="UssWsApiException" message="tns:UssWsApiException" />
+    </operation>
+  </portType>
+  <binding name="AuthPortBinding" type="tns:AuthInterface">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="auth">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="UssWsApiException">
+        <soap:fault use="literal" name="UssWsApiException" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="AuthService">
+    <port name="AuthPort" binding="tns:AuthPortBinding">
+      <soap:address location="http://dev-web01.vimpelcom.ru:50001/api/AuthService" />
+    </port>
+  </service>
+</definitions>

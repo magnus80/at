@@ -1,0 +1,516 @@
+2014-июл-30 -> 11:45:11: 258621 run begin
+2014-июл-31 -> 02:58:49: 259145 run begin
+2014-июл-31 -> 02:58:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 02:58:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 02:58:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:03:07: 259145 run begin
+2014-июл-31 -> 03:03:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:03:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:03:14: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:12:01: 259145 run begin
+2014-июл-31 -> 03:12:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:12:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:12:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:16:31: 259145 run begin
+2014-июл-31 -> 03:16:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:16:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:16:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:16:40: ORA-08177: can't serialize access for this transaction
+
+2014-июл-31 -> 03:16:46: ORA-08177: can't serialize access for this transaction
+
+2014-июл-31 -> 03:17:34: 259145 run end
+2014-июл-31 -> 03:22:33: 259145 run begin
+2014-июл-31 -> 03:22:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:22:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:22:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-июл-31 -> 03:22:45: ORA-08177: can't serialize access for this transaction
+
+2014-июл-31 -> 03:23:11: 259145 run end
+2014-авг-01 -> 09:37:58: 259145 run begin
+2014-авг-01 -> 09:38:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 09:38:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 09:38:14: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 09:38:44: 259145 run end
+2014-авг-01 -> 09:59:00: 259148 run begin
+2014-авг-01 -> 09:59:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 09:59:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 09:59:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 09:59:18: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 09:59:18: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.TRIG_LOGINS_CHANGE", line 59
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_CHANGE'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 10:02:26: 259148 run begin
+2014-авг-01 -> 10:02:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:02:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:02:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:02:36: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.API", line 3242
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-01 -> 10:03:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:03:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:04:13: 259148 run begin
+2014-авг-01 -> 10:04:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:04:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:04:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:04:22: ORA-01403: no data found
+ORA-06512: at "INAC.API", line 2926
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-01 -> 10:05:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:05:22: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:06:25: 259148 run begin
+2014-авг-01 -> 10:06:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:06:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:06:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:06:33: ORA-08177: can't serialize access for this transaction
+
+2014-авг-01 -> 10:06:39: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.TMP_LOGINS_TRG_INS", line 4
+ORA-04088: error during execution of trigger 'INAC.TMP_LOGINS_TRG_INS'
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 99
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 10:09:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:09:37: 259148 run begin
+2014-авг-01 -> 10:09:43: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:09:43: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:09:44: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:09:50: ORA-01403: no data found
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 130
+ORA-06512: at line 1
+
+2014-авг-01 -> 10:10:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:16:58: 259148 run begin
+2014-авг-01 -> 10:17:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:17:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:17:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:17:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:17:40: 259148 run end
+2014-авг-01 -> 10:38:50: 259149 run begin
+2014-авг-01 -> 10:39:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:39:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:39:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:39:06: ORA-00936: missing expression
+
+2014-авг-01 -> 10:39:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:39:17: Unable to locate element: {"method":"xpath","selector":"//select[@id='select_t']"}
+2014-авг-01 -> 10:42:49: 259149 run begin
+2014-авг-01 -> 10:42:51: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.API", line 5134
+ORA-06512: at "INAC.API", line 5045
+ORA-06512: at "INAC.API", line 929
+ORA-06512: at "INAC.API", line 3296
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-01 -> 10:43:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:43:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:43:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 10:43:05: ORA-00936: missing expression
+
+2014-авг-01 -> 11:01:17: 259149 run begin
+2014-авг-01 -> 11:01:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:01:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:01:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:01:35: ORA-00936: missing expression
+
+2014-авг-01 -> 11:05:11: 259149 run begin
+2014-авг-01 -> 11:05:12: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.ACTIVATE_LOGIN", line 41
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 161
+ORA-06512: at line 1
+
+2014-авг-01 -> 11:05:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:05:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:05:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:05:29: ORA-00936: missing expression
+
+2014-авг-01 -> 11:15:29: 259149 run begin
+2014-авг-01 -> 11:15:30: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 11:15:38: ORA-08177: can't serialize access for this transaction
+
+2014-авг-01 -> 11:15:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:15:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:15:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:15:49: ORA-00936: missing expression
+
+2014-авг-01 -> 11:20:28: 259149 run begin
+2014-авг-01 -> 11:20:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:20:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:20:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:20:46: ORA-00936: missing expression
+
+2014-авг-01 -> 11:21:46: 259149 run begin
+2014-авг-01 -> 11:21:48: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 11:21:52: ORA-08177: can't serialize access for this transaction
+
+2014-авг-01 -> 11:22:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:22:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:22:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:22:10: ORA-00936: missing expression
+
+2014-авг-01 -> 11:25:29: 259149 run begin
+2014-авг-01 -> 11:25:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:25:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:25:47: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:25:52: ORA-00936: missing expression
+
+2014-авг-01 -> 11:27:54: 259149 run begin
+2014-авг-01 -> 11:28:17: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:28:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:28:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:31:13: 259149 run begin
+2014-авг-01 -> 11:31:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:31:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:31:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:54:29: 259149 run begin
+2014-авг-01 -> 11:54:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:54:46: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:54:46: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:55:02: 259149 : step_06 : Не подключилась опция 'выбор скорости' с использованием дов. платежа, логин: 0894982894
+2014-авг-01 -> 11:56:47: 259149 run begin
+2014-авг-01 -> 11:56:47: ORA-01403: no data found
+ORA-06512: at "INAC.API", line 2995
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-01 -> 11:57:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:57:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:57:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 11:57:26: 259149 : step_06 : Не подключилась опция 'выбор скорости' с использованием дов. платежа, логин: 0894982905
+2014-авг-01 -> 12:00:39: 259149 run begin
+2014-авг-01 -> 12:00:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:00:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:00:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:01:44: 259149 : step_06 : Не подключилась опция 'выбор скорости' с использованием дов. платежа, логин: 0894982916
+2014-авг-01 -> 12:02:24: 259149 run begin
+2014-авг-01 -> 12:02:27: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.API", line 3242
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-01 -> 12:02:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:02:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:02:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:04:50: 259149 run begin
+2014-авг-01 -> 12:04:50: ORA-01403: no data found
+ORA-06512: at "INAC.API", line 2926
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-01 -> 12:04:53: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 12:04:55: ORA-08177: can't serialize access for this transaction
+ORA-06512: at "INAC.LOGINS_TRG_PASSWORD_UPDATE", line 4
+ORA-04088: error during execution of trigger 'INAC.LOGINS_TRG_PASSWORD_UPDATE'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 166
+ORA-06512: at line 1
+
+2014-авг-01 -> 12:05:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:05:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:05:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:05:29: Element is not currently visible and so may not be interacted with
+2014-авг-01 -> 12:05:40: Element is not currently visible and so may not be interacted with
+2014-авг-01 -> 12:05:50: Unable to locate element: {"method":"xpath","selector":"//button[@id='next_button']"}
+2014-авг-01 -> 12:05:50: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-01 -> 12:07:49: 259149 run begin
+2014-авг-01 -> 12:08:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:08:06: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:08:06: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:08:27: 259149 : step_06 : Не подключилась опция 'выбор скорости' с использованием дов. платежа, логин: 0894982949
+2014-авг-01 -> 12:08:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-01 -> 12:08:27: 259149 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-01 -> 12:08:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-01 -> 12:08:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-01 -> 12:08:27: 259149 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-01 -> 12:08:27: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-01 -> 12:08:27: 259149 run end
+2014-авг-01 -> 12:08:50: 259149 run begin
+2014-авг-01 -> 12:08:59: ORA-20000: Unable to insert login, because contract information doesnt contain information about legal entity
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 108
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 12:09:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:09:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:09:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:09:38: 259149 run end
+2014-авг-01 -> 12:44:11: 259149 run begin
+2014-авг-01 -> 12:44:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:44:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 12:44:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:06:02: 259147 run begin
+2014-авг-01 -> 01:06:21: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:06:21: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:06:21: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:10:51: 259147 run begin
+2014-авг-01 -> 01:10:57: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 01:11:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:11:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:11:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:11:33: 259147 : step_05 : Не подключилась опция 'выбор скорости' с использованием дов. платежа, логин: 0894982996
+2014-авг-01 -> 01:12:18: 259147 run begin
+2014-авг-01 -> 01:12:25: ORA-01403: no data found
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 130
+ORA-06512: at line 1
+
+2014-авг-01 -> 01:12:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:12:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:12:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:29:54: 259147 run begin
+2014-авг-01 -> 01:29:54: ORA-00904: "S_PRICE": invalid identifier
+
+2014-авг-01 -> 01:30:21: 259147 run begin
+2014-авг-01 -> 01:30:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:30:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:30:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:34:06: ORA-20114: CHANGESERV EXCEPTION: active promised payment exists on this login
+ORA-06512: at "INAC.API", line 4148
+ORA-06512: at line 1
+
+2014-авг-01 -> 01:34:42: 259147 run begin
+2014-авг-01 -> 01:34:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:34:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:34:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 01:35:22: ORA-20114: CHANGESERV EXCEPTION: active promised payment exists on this login
+ORA-06512: at "INAC.API", line 4148
+ORA-06512: at line 1
+
+2014-авг-01 -> 01:35:30: 259147 : step_08 : Ошибка. Сервис успешно сменен на большую стоимость при не закрытом ДП, логин 0894983029
+2014-авг-01 -> 03:09:24: 259147 run begin
+2014-авг-01 -> 03:09:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:09:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:09:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:10:06: ORA-20114: CHANGESERV EXCEPTION: active promised payment exists on this login
+ORA-06512: at "INAC.API", line 4148
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:10:07: 259147 : step_08 : Ошибка. Сервис успешно сменен на большую стоимость при не закрытом ДП, логин 0894983040
+2014-авг-01 -> 03:12:48: 259147 run begin
+2014-авг-01 -> 03:13:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:13:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:13:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:13:34: ORA-20114: CHANGESERV EXCEPTION: active promised payment exists on this login
+ORA-06512: at "INAC.API", line 4148
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:13:41: 259147 : step_08 : Ошибка. Сервис успешно сменен на большую стоимость при не закрытом ДП, логин 0894983051
+2014-авг-01 -> 03:14:10: 259147 run begin
+2014-авг-01 -> 03:14:26: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:14:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:14:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:14:53: ORA-20114: CHANGESERV EXCEPTION: active promised payment exists on this login
+ORA-06512: at "INAC.API", line 4148
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:14:53: 259147 run end
+2014-авг-01 -> 03:15:21: 259147 run begin
+2014-авг-01 -> 03:15:25: ORA-00001: unique constraint (INAC.C_LOGIN_UQ) violated
+ORA-06512: at "INAC.TRIG_LOGINS_JUR_DEPEND", line 67
+ORA-04088: error during execution of trigger 'INAC.TRIG_LOGINS_JUR_DEPEND'
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 134
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:15:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:15:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:15:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:16:06: ORA-20114: CHANGESERV EXCEPTION: active promised payment exists on this login
+ORA-06512: at "INAC.API", line 4148
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:16:07: 259147 run end
+2014-авг-01 -> 03:17:00: 259147 run begin
+2014-авг-01 -> 03:17:17: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:17:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:17:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:17:43: Element is not currently visible and so may not be interacted with
+2014-авг-01 -> 03:17:57: 259147 : step_06 : Абоненту не активировался доверительный платеж при подключении VSU, логин: 0894983084
+2014-авг-01 -> 03:18:17: 259147 run begin
+2014-авг-01 -> 03:18:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:18:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:18:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:19:08: ORA-20114: CHANGESERV EXCEPTION: active promised payment exists on this login
+ORA-06512: at "INAC.API", line 4148
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:19:10: ORA-20114: CHANGESERV EXCEPTION: active promised payment exists on this login
+ORA-06512: at "INAC.API", line 4148
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:22:31: 259147 run begin
+2014-авг-01 -> 03:22:36: ORA-01403: no data found
+ORA-06512: at "INAC.API", line 2926
+ORA-06512: at "INAC.API", line 2820
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 160
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:22:48: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:22:48: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:22:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:23:09: Element is not currently visible and so may not be interacted with
+2014-авг-01 -> 03:23:20: Element is not currently visible and so may not be interacted with
+2014-авг-01 -> 03:23:30: Unable to locate element: {"method":"xpath","selector":"//button[@id='next_button']"}
+2014-авг-01 -> 03:23:30: Ссылка на объект не указывает на экземпляр объекта.
+2014-авг-01 -> 03:23:41: 259147 : step_05 : Не подключилась опция 'выбор скорости' с использованием дов. платежа, логин: 0894989966
+2014-авг-01 -> 03:24:18: 259147 run begin
+2014-авг-01 -> 03:24:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:24:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:24:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:24:59: ORA-20102: UNBLOCK EXCEPTION: debet < unblock
+ORA-06512: at "INAC.API", line 4205
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:57:18: 259147 run begin
+2014-авг-01 -> 03:57:35: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:57:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:57:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 03:58:09: ORA-20102: UNBLOCK EXCEPTION: debet < unblock
+ORA-06512: at "INAC.API", line 4205
+ORA-06512: at line 1
+
+2014-авг-01 -> 03:58:11: 259147 run end
+2014-авг-01 -> 04:09:57: 259147 run begin
+2014-авг-01 -> 04:10:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 04:10:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 04:10:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-01 -> 04:10:49: ORA-20102: UNBLOCK EXCEPTION: debet < unblock
+ORA-06512: at "INAC.API", line 4205
+ORA-06512: at line 1
+
+2014-авг-01 -> 04:10:51: 259147 run end
+2014-авг-04 -> 10:36:33: 259146 run begin
+2014-авг-04 -> 10:36:54: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:36:54: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:36:54: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:37:15: 259146 : step_06 : Некорректная сумма доверительного платежа (оплачено), ожидаемо: 249,5, актуально: 499; логин: 0894990010
+2014-авг-04 -> 10:37:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:37:15: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-04 -> 10:37:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:37:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:37:15: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-04 -> 10:37:15: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:37:15: 259146 run end
+2014-авг-04 -> 10:38:34: 259146 run begin
+2014-авг-04 -> 10:38:40: ORA-08177: can't serialize access for this transaction
+
+2014-авг-04 -> 10:38:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:38:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:38:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:42:39: 259146 run begin
+2014-авг-04 -> 10:42:59: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:43:00: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:43:00: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:45:59: 259146 run begin
+2014-авг-04 -> 10:46:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:46:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:46:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:46:43: ORA-00913: too many values
+
+2014-авг-04 -> 10:46:45: 259146 : step_06 : Некорректная сумма доверительного платежа (оплачено), ожидаемо: 437,5, актуально: 0; логин: 0894995774
+2014-авг-04 -> 10:46:45: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:46:45: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-04 -> 10:46:45: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:46:45: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:46:45: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-04 -> 10:46:45: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:46:45: 259146 run end
+2014-авг-04 -> 10:53:26: 259146 run begin
+2014-авг-04 -> 10:53:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:53:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:53:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:54:00: ORA-00913: too many values
+
+2014-авг-04 -> 10:56:00: 259146 run begin
+2014-авг-04 -> 10:56:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:56:21: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:56:21: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:58:51: 259146 run begin
+2014-авг-04 -> 10:59:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:59:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:59:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 10:59:38: 259146 : step_06 : Некорректная сумма доверительного платежа (оплачено), ожидаемо: 363,5, актуально: 363,50; логин: 0894995807
+2014-авг-04 -> 10:59:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:59:38: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-04 -> 10:59:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:59:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:59:38: 259146 : След. шаг : Шаг не выполнялся, ошибка на предыдущем шаге
+2014-авг-04 -> 10:59:38: Ошибка: не найден номер шага в stacktrace. Возникает, когда появляется 'ошибка на предыдущем шаге', т.к. метод, описывающий шаг, не запускался, и соот-но его нет в stacktrace
+2014-авг-04 -> 10:59:38: 259146 run end
+2014-авг-04 -> 11:00:58: 259146 run begin
+2014-авг-04 -> 11:01:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:01:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:01:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:01:48: 259146 : step_06 : Некорректная сумма доверительного платежа (оплачено), ожидаемо: 442,00, актуально: 442; логин: 0894995818
+2014-авг-04 -> 11:03:20: 259146 run begin
+2014-авг-04 -> 11:03:35: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:03:35: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:03:35: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:04:00: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'CHANGESERV'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+2014-авг-04 -> 11:04:01: 259146 : step_08 : Ошибка. Не порлучилось выполнить смену тарифа, логин 0894995829
+2014-авг-04 -> 11:04:01: 259146 run end
+2014-авг-04 -> 11:04:47: 259146 run begin
+2014-авг-04 -> 11:05:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:05:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:05:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:06:07: 259146 run begin
+2014-авг-04 -> 11:06:12: ORA-01403: no data found
+ORA-06512: at "INAC.NEW_ABON_FOR_TEST", line 130
+ORA-06512: at line 1
+
+2014-авг-04 -> 11:06:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:06:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:06:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:06:49: 259146 run end
+2014-авг-04 -> 11:07:49: 259146 run begin
+2014-авг-04 -> 11:08:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:08:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:08:05: jQuery is not defined (UnexpectedJavaScriptError)
+2014-авг-04 -> 11:08:28: ORA-20102: UNBLOCK EXCEPTION: debet < unblock
+ORA-06512: at "INAC.API", line 4205
+ORA-06512: at line 1
+
+2014-авг-04 -> 11:08:31: 259146 run end

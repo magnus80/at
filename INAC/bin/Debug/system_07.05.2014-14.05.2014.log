@@ -1,0 +1,765 @@
+2014-май-06 -> 12:54:49: 000003 run begin
+2014-май-06 -> 12:54:49: 000003:step_01:ошибка
+2014-май-06 -> 12:54:49: 000003::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-06 -> 12:54:49: 000003::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-06 -> 12:54:49: 000003::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-06 -> 12:54:49: 000003 run end
+2014-май-06 -> 01:00:43: 000003 run begin
+2014-май-06 -> 01:01:15: 000003 run begin
+2014-май-06 -> 01:03:51: 000003 run begin
+2014-май-06 -> 01:05:43: 000003 run begin
+2014-май-06 -> 01:06:42: 000003 run begin
+2014-май-06 -> 01:06:48: 000003:step_01:ошибка
+2014-май-06 -> 01:06:48: 000003::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-06 -> 01:06:48: 000003::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-06 -> 01:06:48: 000003::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-06 -> 01:06:48: 000003 run end
+2014-май-06 -> 04:29:46: 000003 run begin
+2014-май-06 -> 04:29:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:29:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:29:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:35:43: 000003 run begin
+2014-май-06 -> 04:35:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:35:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:35:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:36:10: 000003 run begin
+2014-май-06 -> 04:36:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:36:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:36:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:36:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:36:30: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, '#iptv')]"}
+2014-май-06 -> 04:36:30: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-06 -> 04:36:50: 000003 run begin
+2014-май-06 -> 04:36:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:36:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:36:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:38:00: 000003 run begin
+2014-май-06 -> 04:38:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:38:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:38:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:39:24: 000003 run begin
+2014-май-06 -> 04:39:38: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:39:48: Unable to locate element: {"method":"xpath","selector":"//input[@name='login']"}
+2014-май-06 -> 04:39:48: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-06 -> 04:39:48: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:39:49: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7057/hub/session/a4a26f34-3858-4d4b-8e39-c0264d605bcb/element. The status of the exception was ConnectionClosed, and the message was: Базовое соединение закрыто: Соединение было неожиданно закрыто.
+2014-май-06 -> 04:39:49: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-06 -> 04:39:53: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-06 -> 04:39:55: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7057
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-06 -> 04:39:55: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-06 -> 04:40:26: 000003 run begin
+2014-май-06 -> 04:40:44: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:40:44: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:40:45: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:43:17: 000003 run begin
+2014-май-06 -> 04:43:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:43:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 04:43:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 05:07:37: 000003 run begin
+2014-май-06 -> 05:07:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 05:07:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 05:07:53: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 05:09:08: 000003 run begin
+2014-май-06 -> 05:09:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 05:09:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 05:09:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 06:08:06: 000003 run begin
+2014-май-06 -> 06:08:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 06:08:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 06:08:18: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 06:12:31: 000003 run begin
+2014-май-06 -> 06:12:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 06:12:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-06 -> 06:12:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-07 -> 11:30:34: 000003 run begin
+2014-май-07 -> 12:46:36: 000003 run begin
+2014-май-07 -> 03:25:41: 000003 run begin
+2014-май-07 -> 03:25:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-07 -> 03:25:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-07 -> 03:25:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-07 -> 03:28:07: 000003 run begin
+2014-май-07 -> 03:28:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-07 -> 03:28:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-07 -> 03:28:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-07 -> 03:29:51: 000003 run begin
+2014-май-07 -> 03:29:51: 000003 run end
+2014-май-07 -> 04:02:36: 000003 run begin
+2014-май-07 -> 04:36:13: 000003 run begin
+2014-май-07 -> 04:38:02: 000003 run begin
+2014-май-07 -> 04:39:52: 000003 run begin
+2014-май-07 -> 04:46:19: 000003 run begin
+2014-май-07 -> 04:47:13: 000003 run begin
+2014-май-07 -> 04:47:14: OCI-22053: ошибка переполнения
+
+2014-май-07 -> 04:47:59: 000003 run begin
+2014-май-07 -> 04:48:23: OCI-22053: ошибка переполнения
+
+2014-май-07 -> 04:48:34: 000003 run end
+2014-май-07 -> 04:48:49: 000003 run begin
+2014-май-07 -> 04:50:01: OCI-22053: ошибка переполнения
+
+2014-май-07 -> 05:44:28: 000003 run begin
+2014-май-07 -> 05:45:47: OCI-22053: ошибка переполнения
+
+2014-май-07 -> 05:46:04: 000003 run begin
+2014-май-07 -> 05:46:13: OCI-22053: ошибка переполнения
+
+2014-май-07 -> 05:46:59: 000003 run begin
+2014-май-07 -> 05:49:35: 000003 run begin
+2014-май-07 -> 05:50:35: 000003 run begin
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:45: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:50:46: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: 000003 run begin
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:51:30: Индекс находился вне границ массива.
+2014-май-07 -> 05:52:11: 000003 run begin
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:22: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-07 -> 05:53:23: Индекс находился вне границ массива.
+2014-май-08 -> 09:02:00: 000003 run begin
+2014-май-08 -> 09:07:54: 000003 run begin
+2014-май-08 -> 09:16:22: 000003 run begin
+2014-май-08 -> 09:26:19: 000003 run begin
+2014-май-08 -> 09:27:25: 000003 run begin
+2014-май-08 -> 09:27:25: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-08 -> 09:28:03: 000003 run begin
+2014-май-08 -> 09:28:46: 000003 run begin
+2014-май-08 -> 09:52:23: 000003 run begin
+2014-май-08 -> 09:56:13: 000003 run begin
+2014-май-08 -> 09:57:12: 000003 run begin
+2014-май-08 -> 09:57:32: 000003 run begin
+2014-май-08 -> 09:59:20: 000003 run begin
+2014-май-08 -> 10:55:29: 000003 run begin
+2014-май-08 -> 10:56:24: 000003 run begin
+2014-май-08 -> 10:56:39: Недопустимое значение для OracleType: 0.
+Имя параметра: oracleType
+2014-май-08 -> 10:56:42: Недопустимое значение для OracleType: 0.
+Имя параметра: oracleType
+2014-май-08 -> 10:57:24: 000003 run begin
+2014-май-08 -> 11:01:15: 000003 run begin
+2014-май-08 -> 11:01:15: 000003 run end
+2014-май-08 -> 11:02:17: 000003 run begin
+2014-май-08 -> 11:14:58: 000003 run begin
+2014-май-08 -> 11:15:00: Параметр "Parameter1": не указан размер для типа данных переменной длины: String.
+2014-май-08 -> 11:32:00: 000003 run begin
+2014-май-08 -> 11:34:35: 000003 run begin
+2014-май-12 -> 11:01:17: 000003 run begin
+2014-май-12 -> 11:02:27: 000003 run begin
+2014-май-12 -> 11:04:05: 000003 run begin
+2014-май-12 -> 11:41:29: 253750 run begin
+2014-май-12 -> 11:41:44: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-12 -> 11:42:49: 253750 run begin
+2014-май-12 -> 11:42:49: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-12 -> 11:43:47: 253750 run begin
+2014-май-12 -> 11:43:49: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-12 -> 11:44:52: 253750 run begin
+2014-май-12 -> 11:45:14: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 11:45:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 11:45:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 11:48:38: 253750 run begin
+2014-май-12 -> 11:48:38: ORA-00904: "IUA_HASK": invalid identifier
+
+2014-май-12 -> 11:49:37: 253750 run begin
+2014-май-12 -> 11:49:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 11:49:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 11:49:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 11:49:43: 253750 run end
+2014-май-12 -> 12:26:12: 253750 run begin
+2014-май-12 -> 12:27:01: 253750 run begin
+2014-май-12 -> 12:28:16: 253750 run begin
+2014-май-12 -> 12:35:55: 253750 run begin
+2014-май-12 -> 01:26:51: 253750 run begin
+2014-май-12 -> 01:28:22: 253750 run begin
+2014-май-12 -> 01:37:51: 253750 run begin
+2014-май-12 -> 01:37:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:37:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:37:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:38:12: Element is not currently visible and so may not be interacted with
+2014-май-12 -> 01:38:45: 253750 run begin
+2014-май-12 -> 01:38:46: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:38:46: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:38:46: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:40:57: 253750 run begin
+2014-май-12 -> 01:40:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:40:58: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:40:59: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:43:56: 253750 run begin
+2014-май-12 -> 01:43:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:43:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:43:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:45:00: 253750 run begin
+2014-май-12 -> 01:45:00: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:45:00: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:45:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:45:31: 253750 run begin
+2014-май-12 -> 01:45:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:45:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 01:45:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 02:53:21: 253750 run begin
+2014-май-12 -> 02:53:22: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 02:53:22: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 02:53:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:01:02: 253750 run begin
+2014-май-12 -> 03:01:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:01:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:01:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:01:07: 253750 run end
+2014-май-12 -> 03:33:23: 253750 run begin
+2014-май-12 -> 03:33:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:33:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:33:26: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:35:39: 253750 run begin
+2014-май-12 -> 03:35:39: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:35:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:35:40: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:37:18: 253750 run begin
+2014-май-12 -> 03:37:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:37:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:37:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:38:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-12 -> 03:39:00: 253750 run end
+2014-май-13 -> 11:16:57: 253750 run begin
+2014-май-13 -> 11:17:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:17:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:17:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:18:03: 253750 run begin
+2014-май-13 -> 11:18:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:18:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:18:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:18:14: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:18:35: 253750 run end
+2014-май-13 -> 11:22:06: 253750 run begin
+2014-май-13 -> 11:22:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:22:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:22:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:44:51: 253759 run begin
+2014-май-13 -> 11:44:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:44:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:44:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:45:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:45:38: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 11:45:38: 253759 run end
+2014-май-13 -> 11:45:48: 253759 run begin
+2014-май-13 -> 11:45:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:45:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:45:49: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:45:55: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:46:15: 253759:step_06:Некорректное имя сервиса [ожидаемо: at_updateservice_vpdn_1554563007, актуально: 750]
+2014-май-13 -> 11:46:15: 253759::Шаг не выполнялся, ошибка на предыдущем шаге
+2014-май-13 -> 11:46:15: 253759 run end
+2014-май-13 -> 11:47:33: 253759 run begin
+2014-май-13 -> 11:47:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:47:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:47:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:47:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:47:49: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 11:47:49: 253759 run end
+2014-май-13 -> 11:49:22: 253759 run begin
+2014-май-13 -> 11:49:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:49:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:49:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:49:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 11:49:47: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 11:49:47: 253759 run end
+2014-май-13 -> 12:39:23: 253759 run begin
+2014-май-13 -> 12:39:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 12:39:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 12:39:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 12:39:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 12:39:49: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 12:39:49: 253759 run end
+2014-май-13 -> 12:47:55: 253759 run begin
+2014-май-13 -> 12:47:55: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 12:47:55: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 12:47:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 12:48:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 12:48:21: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 12:48:21: 253759 run end
+2014-май-13 -> 01:00:01: 253759 run begin
+2014-май-13 -> 01:00:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:00:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:00:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:00:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:00:28: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 01:00:28: 253759 run end
+2014-май-13 -> 01:00:59: 253759 run begin
+2014-май-13 -> 01:00:59: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:00:59: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:01:00: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:01:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:01:24: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 01:01:24: 253759 run end
+2014-май-13 -> 01:03:07: 253759 run begin
+2014-май-13 -> 01:03:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:03:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:03:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:03:14: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:05:07: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 01:49:09: 253759 run begin
+2014-май-13 -> 01:49:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:49:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:49:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 01:49:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:08:38: 253759 run begin
+2014-май-13 -> 02:08:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:08:53: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:08:56: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:09:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:09:22: ORA-00904: "S_PARAM_NUMBER": invalid identifier
+
+2014-май-13 -> 02:10:14: 253759 run begin
+2014-май-13 -> 02:10:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:10:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:10:15: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:10:21: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 02:10:41: 253759 run end
+2014-май-13 -> 05:21:36: 253766 run begin
+2014-май-13 -> 05:21:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:21:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:21:37: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:21:51: Element is not currently visible and so may not be interacted with
+2014-май-13 -> 05:22:01: Element is not currently visible and so may not be interacted with
+2014-май-13 -> 05:22:11: Element is not currently visible and so may not be interacted with
+2014-май-13 -> 05:22:21: Element is not currently visible and so may not be interacted with
+2014-май-13 -> 05:22:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:22:35: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-13 -> 05:22:35: 253766:step_07:загруженный тариф отсутствует в БД (выборка пустая)
+2014-май-13 -> 05:22:35: 253766 run end
+2014-май-13 -> 05:23:15: 253766 run begin
+2014-май-13 -> 05:23:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:23:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:23:17: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:24:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:25:00: 253766:step_07:Некорректная цена сервиса [ожидаемо: 623, актуально: 0]
+2014-май-13 -> 05:27:27: 253766 run begin
+2014-май-13 -> 05:27:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:27:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:27:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:27:34: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:27:54: 253766 run end
+2014-май-13 -> 05:39:08: 253783 run begin
+2014-май-13 -> 05:39:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:39:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:39:08: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:39:19: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:39:39: 253783:step_07:Некорректное значение параметра (IPTV_RENT_MODE_1) [ожидаемо: 1, актуально: ]
+2014-май-13 -> 05:39:39: 253783 run end
+2014-май-13 -> 05:43:08: 253784 run begin
+2014-май-13 -> 05:43:09: Window not found. The browser window may have been closed.
+2014-май-13 -> 05:43:13: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:13: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-13 -> 05:43:15: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:17: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:17: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-13 -> 05:43:19: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:21: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:21: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-13 -> 05:43:26: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:28: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:28: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-13 -> 05:43:30: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:32: Unexpected error. System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:7058
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   в System.Net.HttpWebRequest.GetRequestStream()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Firefox.Internal.ExtensionConnection.Execute(Command commandToExecute)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2014-май-13 -> 05:43:33: Session not found: 74c5e741-b25e-4fc9-a136-13b37fd080cb
+2014-май-13 -> 05:43:33: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-13 -> 05:43:33: 253784:step_07:загруженный тариф отсутствует в БД (выборка пустая)
+2014-май-13 -> 05:43:33: 253784 run end
+2014-май-13 -> 05:43:35: 253784 run begin
+2014-май-13 -> 05:43:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:43:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:43:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:43:44: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:44:04: 253784 run end
+2014-май-13 -> 05:45:11: 253785 run begin
+2014-май-13 -> 05:45:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:45:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:45:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:45:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:45:44: 253785 run end
+2014-май-13 -> 05:49:02: 253786 run begin
+2014-май-13 -> 05:49:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:49:02: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:49:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:49:10: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:49:30: 253786 run end
+2014-май-13 -> 05:52:03: 253787 run begin
+2014-май-13 -> 05:52:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:52:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:52:04: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:52:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:52:32: 253787:step_07:Некорректный параметр сервиса (s_f_iptv) [ожидаемо: 1, актуально: 0]
+2014-май-13 -> 05:52:32: 253787 run end
+2014-май-13 -> 05:55:32: 253789 run begin
+2014-май-13 -> 05:55:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:55:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:55:33: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:55:34: ORA-02091: transaction rolled back
+ORA-02292: integrity constraint (INAC.V_FK) violated - child record found
+
+2014-май-13 -> 05:55:40: OracleConnection не поддерживает параллельных транзакций.
+2014-май-13 -> 05:55:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:56:02: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-13 -> 05:56:02: 253789:step_07:загруженный тариф отсутствует в БД (выборка пустая)
+2014-май-13 -> 05:56:02: 253789 run end
+2014-май-13 -> 05:57:27: 253789 run begin
+2014-май-13 -> 05:57:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:57:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:57:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:57:29: ORA-02091: transaction rolled back
+ORA-02292: integrity constraint (INAC.V_FK) violated - child record found
+
+2014-май-13 -> 05:57:35: OracleConnection не поддерживает параллельных транзакций.
+2014-май-13 -> 05:59:27: 253789 run begin
+2014-май-13 -> 05:59:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:59:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:59:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 05:59:30: ORA-02091: transaction rolled back
+ORA-02292: integrity constraint (INAC.V_FK) violated - child record found
+
+2014-май-13 -> 05:59:37: OracleConnection не поддерживает параллельных транзакций.
+2014-май-13 -> 06:15:23: 253789 run begin
+2014-май-13 -> 06:15:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:15:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:15:24: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:15:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:15:53: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-13 -> 06:15:53: 253789:step_07:загруженный тариф отсутствует в БД (выборка пустая)
+2014-май-13 -> 06:15:53: 253789 run end
+2014-май-13 -> 06:16:51: 253789 run begin
+2014-май-13 -> 06:16:51: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:16:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:16:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:19:12: 253789 run begin
+2014-май-13 -> 06:19:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:19:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:19:13: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:19:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:19:40: 253789 run end
+2014-май-13 -> 06:22:02: 253787 run begin
+2014-май-13 -> 06:22:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:22:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:22:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:22:09: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-13 -> 06:22:30: 253787 run end
+2014-май-14 -> 08:42:00: 253750 run begin
+2014-май-14 -> 08:42:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:06: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:26: 253750 run end
+2014-май-14 -> 08:42:27: 253759 run begin
+2014-май-14 -> 08:42:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:28: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:31: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:51: 253759 run end
+2014-май-14 -> 08:42:51: 253766 run begin
+2014-май-14 -> 08:42:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:52: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:42:53: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:03: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href, '#iptv')]"}
+2014-май-14 -> 08:43:03: Ссылка на объект не указывает на экземпляр объекта.
+2014-май-14 -> 08:43:03: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:14: Unable to locate element: {"method":"xpath","selector":"(//select[@name='action'])[2]"}
+2014-май-14 -> 08:43:14: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:24: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+2014-май-14 -> 08:43:24: 253766:step_07:загруженный тариф отсутствует в БД (выборка пустая)
+2014-май-14 -> 08:43:24: 253766 run end
+2014-май-14 -> 08:43:24: 253783 run begin
+2014-май-14 -> 08:43:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:25: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:29: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:49: 253783 run end
+2014-май-14 -> 08:43:49: 253784 run begin
+2014-май-14 -> 08:43:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:50: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:43:54: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:44:15: 253784 run end
+2014-май-14 -> 08:44:16: 253785 run begin
+2014-май-14 -> 08:44:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:44:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:44:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:44:20: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:44:40: 253785 run end
+2014-май-14 -> 08:44:40: 253786 run begin
+2014-май-14 -> 08:44:41: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:44:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:44:42: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:44:46: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:06: 253786 run end
+2014-май-14 -> 08:45:07: 253787 run begin
+2014-май-14 -> 08:45:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:07: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:31: 253787 run end
+2014-май-14 -> 08:45:32: 253788 run begin
+2014-май-14 -> 08:45:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:32: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:36: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:56: 253788 run end
+2014-май-14 -> 08:45:56: 253789 run begin
+2014-май-14 -> 08:45:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:45:57: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:46:01: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:46:22: 253789 run end
+2014-май-14 -> 08:46:22: 253790 run begin
+2014-май-14 -> 08:46:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:46:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:46:23: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:46:27: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:46:48: 253790 run end
+2014-май-14 -> 08:48:11: 253766 run begin
+2014-май-14 -> 08:48:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:48:11: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:48:12: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:48:16: jQuery is not defined (UnexpectedJavaScriptError)
+2014-май-14 -> 08:48:36: 253766 run end

@@ -1,0 +1,18 @@
+C:\project\New\at\AT\bin\Debug\AT.dll.config
+C:\project\New\at\AT\bin\Debug\AT.dll
+C:\project\New\at\AT\bin\Debug\AT.pdb
+C:\project\New\at\AT\obj\Debug\AT.csprojResolveAssemblyReference.cache
+C:\project\New\at\AT\obj\Debug\AT.dll
+C:\project\New\at\AT\obj\Debug\AT.pdb
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\bin\Debug\AT.dll.config
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\bin\Debug\AT.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\bin\Debug\AT.pdb
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.csprojResolveAssemblyReference.cache
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.dll
+C:\Users\AVyalov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.pdb
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\bin\Debug\AT.dll.config
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\bin\Debug\AT.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\bin\Debug\AT.pdb
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.csprojResolveAssemblyReference.cache
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.dll
+C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.pdb

@@ -115,3 +115,195 @@
 2016-апр-05 -> 12:05:14: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
 2016-апр-05 -> 12:05:14: Object reference not set to an instance of an object.
 2016-апр-05 -> 12:05:58: Element not found in the cache - perhaps the page has changed since it was looked up
+2016-апр-08 -> 05:26:08: DistributionPayment run begin
+2016-апр-08 -> 05:27:04: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:27:46: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:27:46: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:27:56: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2016-апр-08 -> 05:27:56: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:28:44: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2016-апр-08 -> 05:28:44: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:28:54: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2016-апр-08 -> 05:28:54: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:29:21: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2016-апр-08 -> 05:29:21: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:29:31: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2016-апр-08 -> 05:29:31: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:29:46: Element is disabled and so may not be used for actions
+2016-апр-08 -> 05:30:08: Unable to locate element: {"method":"xpath","selector":"//span[text()='Да']"}
+2016-апр-08 -> 05:30:08: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:30:44: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']//tr[@data-ri='3']"}
+2016-апр-08 -> 05:30:44: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:30:54: Unable to locate element: {"method":"xpath","selector":"//table[@id='distributionBalance:abonents_data']//tr[@data-ri='0']"}
+2016-апр-08 -> 05:30:54: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:31:04: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Недостаточно средств для распределения каждому абоненту введённой суммы.')]"}
+2016-апр-08 -> 05:31:04: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:31:14: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance:evenlySumInput')]"}
+2016-апр-08 -> 05:31:14: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:31:57: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-output')][2]"}
+2016-апр-08 -> 05:31:57: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:32:07: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'ui-cell-editor-input')][2]//input"}
+2016-апр-08 -> 05:32:07: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:32:19: Element not found in the cache - perhaps the page has changed since it was looked up
+2016-апр-08 -> 05:32:29: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'mobileButtons') and contains(text(),'Распределение баланса')]"}
+2016-апр-08 -> 05:32:29: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:32:39: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance:evenlySumInput')]"}
+2016-апр-08 -> 05:32:39: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:32:54: Element is disabled and so may not be used for actions
+2016-апр-08 -> 05:33:16: Unable to locate element: {"method":"xpath","selector":"//span[text()='Да']"}
+2016-апр-08 -> 05:33:16: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:33:26: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2016-апр-08 -> 05:33:36: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2016-апр-08 -> 05:33:46: Unable to locate element: {"method":"xpath","selector":"//span[@class='expandable' and text()='Договоры']"}
+2016-апр-08 -> 05:33:46: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:34:27: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-апр-08 -> 05:34:27: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:34:38: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance:evenlySumInput')]"}
+2016-апр-08 -> 05:34:38: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:34:48: Unable to locate element: {"method":"xpath","selector":"//div[@id='distributionBalance:sumInputMsg']//span[@class='ui-message-error-detail']"}
+2016-апр-08 -> 05:34:48: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:34:58: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance:evenlySumInput')]"}
+2016-апр-08 -> 05:34:58: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:35:08: Unable to locate element: {"method":"xpath","selector":"//div[@id='distributionBalance:sumInputMsg']//span[@class='ui-message-error-detail']"}
+2016-апр-08 -> 05:35:08: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:36:16: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:36:35: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:36:35: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:36:45: Unable to locate element: {"method":"xpath","selector":"//a[contains(@id,'reports')]"}
+2016-апр-08 -> 05:36:45: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:37:24: Unable to locate element: {"method":"xpath","selector":"//*[text()='Равномерное']"}
+2016-апр-08 -> 05:37:34: Unable to locate element: {"method":"xpath","selector":"//*[text()='Одна сумма для всех']"}
+2016-апр-08 -> 05:37:44: Unable to locate element: {"method":"xpath","selector":"//*[text()='Различные суммы']"}
+2016-апр-08 -> 05:37:54: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Распределить баланс')]"}
+2016-апр-08 -> 05:38:04: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Сохранить шаблон распределения')]"}
+2016-апр-08 -> 05:38:14: Unable to locate element: {"method":"xpath","selector":"//a/span[contains(text(),'Отменить распределение')]"}
+2016-апр-08 -> 05:38:24: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'repeatCheckBox')]"}
+2016-апр-08 -> 05:38:34: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'finishSumPanel')]"}
+2016-апр-08 -> 05:38:44: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]/div/span"}
+2016-апр-08 -> 05:38:54: Unable to locate element: {"method":"xpath","selector":"//tbody[@id='distributionBalance:abonents_data']"}
+2016-апр-08 -> 05:39:04: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'distributionBalance') and contains(@id,'umInput')]"}
+2016-апр-08 -> 05:39:14: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[1]/div[2]"}
+2016-апр-08 -> 05:39:24: Unable to locate element: {"method":"xpath","selector":"//*[@id='distributionBalance']/div[4]/div[2]/a"}
+2016-апр-08 -> 05:39:24: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:39:26: DistributionPayment run end
+2016-апр-08 -> 05:39:33: ChangeNoSim run begin
+2016-апр-08 -> 05:40:31: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:40:53: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:40:53: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:41:35: Element not found in the cache - perhaps the page has changed since it was looked up
+2016-апр-08 -> 05:41:50: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow request-confirm-dlg ui-draggable ui-overlay-visible']//span[contains(text(),'Запрос на замену сим карты')]"}
+2016-апр-08 -> 05:41:50: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:42:00: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:42:00: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:42:11: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:42:11: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:42:22: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:42:22: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:42:33: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:42:33: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:42:44: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:42:44: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:42:55: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:42:55: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:43:06: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:43:06: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:43:17: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:43:17: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:43:28: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:43:28: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:43:39: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:43:39: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:43:50: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:43:50: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:44:01: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:44:01: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:44:12: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:44:12: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:44:23: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:44:23: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:44:34: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:44:34: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:44:45: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:44:45: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:44:57: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:44:57: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:45:08: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:45:08: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:45:19: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:45:19: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:45:30: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Поле обязательно')]"}
+2016-апр-08 -> 05:45:30: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:45:44: Element not found in the cache - perhaps the page has changed since it was looked up
+2016-апр-08 -> 05:46:04: Unable to locate element: {"method":"xpath","selector":"//input[@id = 'j_idt628:requestUserServiceParamsForm:email']"}
+2016-апр-08 -> 05:46:04: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:46:14: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:46:14: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:46:25: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:46:25: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:46:36: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:46:36: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:46:47: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:46:47: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:46:58: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:46:58: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:47:09: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:47:09: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:47:20: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:47:20: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:47:31: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:47:31: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:47:42: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:47:42: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:47:53: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:47:53: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:48:14: Unable to locate element: {"method":"xpath","selector":"//input[@id = 'j_idt628:requestUserServiceParamsForm:email']"}
+2016-апр-08 -> 05:48:15: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:48:25: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2016-апр-08 -> 05:48:25: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:48:50: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2016-апр-08 -> 05:48:50: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:49:28: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'newSimNumber')]"}
+2016-апр-08 -> 05:49:28: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:49:38: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'newSimNumber')]"}
+2016-апр-08 -> 05:49:38: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:49:40: ChangeNoSim run end
+2016-апр-08 -> 05:49:49: ChangeSim run begin
+2016-апр-08 -> 05:50:48: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:51:10: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:51:10: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:51:49: Element not found in the cache - perhaps the page has changed since it was looked up
+2016-апр-08 -> 05:52:10: Unable to locate element: {"method":"xpath","selector":"//input[@id = 'j_idt628:requestUserServiceParamsForm:email']"}
+2016-апр-08 -> 05:52:10: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:52:20: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:52:20: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:52:31: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:52:31: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:52:42: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:52:42: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:52:53: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:52:53: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:53:04: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:53:04: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:53:15: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:53:15: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:53:26: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:53:26: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:53:37: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:53:37: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:53:48: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:53:48: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:53:59: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Замена SIM-карты невозможна, необходимо разблокировать абонента')]"}
+2016-апр-08 -> 05:53:59: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:54:20: Unable to locate element: {"method":"xpath","selector":"//input[@id = 'j_idt628:requestUserServiceParamsForm:email']"}
+2016-апр-08 -> 05:54:20: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:54:40: Unable to locate element: {"method":"xpath","selector":"//a[@onclick='toggleHierarchyPopup()']"}
+2016-апр-08 -> 05:54:41: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:54:56: ORA-01729: database link name expected
+
+2016-апр-08 -> 05:54:57: ChangeSim run end
+2016-апр-08 -> 05:55:10: ChangeOfTariffPlan run begin
+2016-апр-08 -> 05:56:10: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:56:37: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui-messages-error ui-corner-all']//span[@class='ui-messages-error-summary']"}
+2016-апр-08 -> 05:56:37: Object reference not set to an instance of an object.
+2016-апр-08 -> 05:57:31: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item tariff-item')][1]//button[contains(@id,'changeButton')]"}
+2016-апр-08 -> 05:57:31: Object reference not set to an instance of an object.

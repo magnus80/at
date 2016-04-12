@@ -453,7 +453,7 @@ namespace USSS.Tests.Sanity.B2BPost
                 Logger.PrintRezult(true, "Счет выбран");
             }
 
-            rezult = financePage.CheckBillPage(); //TODO : Выпадающий спиписок - структура расходов по пользователям 
+            rezult = financePage.CheckBillPage(); //TODO : Выпадающий список - структура расходов по пользователям 
             if (rezult != "success")               //TODO:  там надо выбрать СЧЕТА КОМПАНИИ, и тогда селектор будет, но у нас нет такого юзера что бы он удовлетворял еще и другим условиям, что делать хз
             {
                 globalR = false;
@@ -484,7 +484,7 @@ namespace USSS.Tests.Sanity.B2BPost
             }
 
            // Logger.PrintStepName("Step 10");
-            Logger.PrintAction("Проставить чекбоксы, ввести номер телефона, емейл, нажать кнопку подтверидить'", "");
+            Logger.PrintAction("Проставить чекбоксы, ввести номер телефона, емейл, нажать кнопку подтвердить'", "");
              rezult = reportsPage.CheckSubmitNotifWindow();
             if (rezult != "success")
             {

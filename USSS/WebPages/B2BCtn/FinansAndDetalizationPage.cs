@@ -49,7 +49,7 @@ namespace USSS.WebPages.B2BCtn
             if (!BlockSpecialServicesWE.Displayed) { return "Не отображены элементы интерфейса: блок полезных сервисов"; }
             if (!BlockHelpersWE.Displayed) { return "Не отображены элементы интерфейса: блок помощи"; }
 
-            if (!PeriodWE.Displayed) { return "Не отображены элементы интерфейса: выпадающий список с перодами"; }
+            if (!PeriodWE.Displayed) { return "Не отображены элементы интерфейса: выпадающий список с периодами"; }
 
             return "success";
         }

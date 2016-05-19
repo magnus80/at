@@ -1,0 +1,4 @@
+[0519/104247:INFO:chromedriver_server.cc(76)] Handling request: /status 
+[0519/104247:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"6.1 SP1"}}}
+[0519/104247:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"chromeOptions":{"detach":false,"args":[],"extensions":[]}}}
+[0519/104247:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":13,"value":{"message":"unknown error: unrecognized chrome option: detach\n  (Driver info: chromedriver=0.8,platform=Windows NT 6.1 SP1 x86_64)"}}

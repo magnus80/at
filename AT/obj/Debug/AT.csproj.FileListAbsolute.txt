@@ -16,3 +16,9 @@ C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\bin\Debug
 C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.csprojResolveAssemblyReference.cache
 C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.dll
 C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\AT\obj\Debug\AT.pdb
+c:\Users\kiryshkov\Documents\GitHub\at\AT\bin\Debug\AT.dll.config
+c:\Users\kiryshkov\Documents\GitHub\at\AT\bin\Debug\AT.dll
+c:\Users\kiryshkov\Documents\GitHub\at\AT\bin\Debug\AT.pdb
+c:\Users\kiryshkov\Documents\GitHub\at\AT\obj\Debug\AT.csprojResolveAssemblyReference.cache
+c:\Users\kiryshkov\Documents\GitHub\at\AT\obj\Debug\AT.dll
+c:\Users\kiryshkov\Documents\GitHub\at\AT\obj\Debug\AT.pdb

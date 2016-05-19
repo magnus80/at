@@ -17,7 +17,7 @@ namespace AT
             get
             {
                 Application excel = new Application();
-                Workbook wb = excel.Workbooks.Open("C:\\ATU\\TestsData2.xls");
+                Workbook wb = excel.Workbooks.Open("C:\\ATU\\TestsData.xls");
                 Worksheet excelSheet = wb.ActiveSheet;
                 string d = excelSheet.Cells[11, 7].Value.ToString();
                 wb.Close();
@@ -30,7 +30,7 @@ namespace AT
             get
             {
                 Application excel = new Application();
-                Workbook wb = excel.Workbooks.Open("C:\\ATU\\TestsData2.xls");
+                Workbook wb = excel.Workbooks.Open("C:\\ATU\\TestsData.xls");
                 Worksheet excelSheet = wb.ActiveSheet;
                 string d = excelSheet.Cells[1, 7].Value.ToString();
                 wb.Close();

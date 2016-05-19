@@ -307,3 +307,13 @@
 2016-апр-08 -> 05:56:37: Object reference not set to an instance of an object.
 2016-апр-08 -> 05:57:31: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'service-item tariff-item')][1]//button[contains(@id,'changeButton')]"}
 2016-апр-08 -> 05:57:31: Object reference not set to an instance of an object.
+2016-май-18 -> 12:26:27: Поток находился в процессе прерывания.
+2016-май-18 -> 12:27:42: DistributionPayment run begin
+2016-май-19 -> 10:41:07: DistributionPayment run end
+2016-май-19 -> 10:42:13: DistributionPayment run begin
+2016-май-19 -> 10:42:21: DistributionPayment run end
+2016-май-19 -> 10:42:26: ChangeNoSim run begin
+2016-май-19 -> 10:42:36: ChangeNoSim run end
+2016-май-19 -> 10:42:44: ChangeSim run begin
+2016-май-19 -> 10:42:48: ChangeSim run end
+2016-май-19 -> 10:46:18: DistributionPayment run begin

@@ -119,7 +119,14 @@ namespace AT.WebDriver
 
         private static ChromeDriver StartChrome()
         {
-            return new ChromeDriver(Directory.GetCurrentDirectory());
+            var chromeOptions = new ChromeOptions();
+            var defaultDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\..\Local\Google\Chrome\User Data\Default";
+            String curr = @"C:\Tools";
+
+
+            //return new ChromeDriver(Directory.GetCurrentDirectory());
+
+            return new ChromeDriver(curr, chromeOptions);
         }
         
         #endregion

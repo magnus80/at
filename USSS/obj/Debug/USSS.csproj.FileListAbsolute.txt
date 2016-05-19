@@ -55,3 +55,22 @@ C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Deb
 C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.csproj.GenerateResource.Cache
 C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.dll
 C:\Users\kiryshkov\Documents\Visual Studio 2012\Projects\at21.07\at\USSS\obj\Debug\USSS.pdb
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\USSS.dll.config
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\USSS.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\USSS.pdb
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\AT.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\itextsharp.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\LibPOP3.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\nunit.framework.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\WebDriver.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\WebDriver.Support.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\Tamir.SharpSSH.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\DiffieHellman.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\Org.Mentalis.Security.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\AT.pdb
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\nunit.framework.xml
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.csprojResolveAssemblyReference.cache
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.Properties.Resources.resources
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.csproj.GenerateResource.Cache
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.dll
+c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.pdb

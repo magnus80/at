@@ -1,10 +1,8 @@
 ﻿using AT;
 using AT.DataBase;
-using USSS.Helpers;
-using USSS.Helpers;
 using NUnit.Framework;
+using USSS.Helpers;
 using USSS.Helpers.API_REST;
-using USSS.Helpers.SOAP;
 
 namespace USSS.Tests.RestAPI
 {
@@ -12,12 +10,11 @@ namespace USSS.Tests.RestAPI
     [Category("RestAPI")]
     public class ServiceActivate_FREEMIUM : TestBase
     {
-        private static string testName = "[API] Проверка подключения услуг";
+        private static readonly string testName = "[API] Проверка подключения услуг";
         //string CtnMain = ReaderTestData.ReadExel("[Rest API] serviceActivate FREEMIUM", "CtnMain");
         //string CtnExtra = ReaderTestData.ReadExel("[Rest API] serviceActivate FREEMIUM", "CtnExtra");
-        private string ctn = ReaderTestData.ReadExel("[Rest API] serviceActivate FREEMIUM", "ctn");
-        private string hostAPI = ReaderTestData.ReadCExel(12, 7);
-
+        private readonly string ctn = ReaderTestData.ReadExel("[Rest API] serviceActivate FREEMIUM", "ctn");
+        private readonly string hostAPI = ReaderTestData.ReadCExel(12, 7);
         private bool globalR = true;
 
         [Test]
@@ -27,8 +24,9 @@ namespace USSS.Tests.RestAPI
             Logger.PrintStepName("Step 1 PUT /api/1.0/request/serviceActivate для FREEMIUM");
             string type = null;
             string ctn_from = null;
-            RestRequestPut step1 = new RestRequestPut(
-                hostAPI + "/api/1.0/request/serviceActivate?ctn=" + ctn + "&serviceName=FREEM_200");//"&hash=" + new TokenHashSoap().GetHashAPI(ctn));
+            var step1 = new RestRequestPut(
+                hostAPI + "/api/1.0/request/serviceActivate?ctn=" + ctn + "&serviceName=FREEM_200");
+                //"&hash=" + new TokenHashSoap().GetHashAPI(ctn));
             //"&hash=" + new TokenHashRestAPI().GetHash2(ctn)
             //);
             try
@@ -38,12 +36,12 @@ namespace USSS.Tests.RestAPI
                 try
                 {
                     //проверка корректности  
-                    string entitySoc =
+                    var entitySoc =
                         Executor.ExecuteSelect(
                             "select SOC_RELATED from ecr9_service_agreement where subscriber_no like '" + ctn_from +
                             "%'")[0, 0];
 
-                    DBResult result =
+                    var result =
                         Executor.ExecuteSelect(
                             @"select ctn_from, ctn_to, status, type from ecr6_subscriber_invitation  where ctn_to = '" +
                             ctn + "' and ctn_from = '" + ctn_from + "' and type = '" + type +
@@ -65,7 +63,6 @@ namespace USSS.Tests.RestAPI
                 //     globalR = false;
                 //     Logger.PrintRezult(globalR, "parameters STaTUS incorrect:");
                 //   }
-
             }
             finally
             {

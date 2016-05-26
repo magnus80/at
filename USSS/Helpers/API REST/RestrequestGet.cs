@@ -18,7 +18,7 @@ namespace USSS.Helpers.API_REST
 
         protected HttpStatusCode statusCode;
 
-        private static string token = new TokenHashRestAPI().GetSystemToken2();
+        private static string token = new TokenHashRestAPI().GetSystemTokenREST();
 
         public Meta outputt = null;
 

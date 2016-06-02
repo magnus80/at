@@ -95,34 +95,35 @@ namespace USSS.Tests.Sanity.B2CPre
                 Logger.PrintRezult(true, "Баланс отображен");
                 balance = profilePage.balance;
             }
-        }
-
-
-        [Test]
-        public void step_02()
-        {
-            string rezult = "";
-            Logger.PrintStepName("Step 2");
-            Logger.PrintAction("Изменение баланса на 20р", "");
-            ChangeBalance cb = new ChangeBalance();
-            cb.SetBalance("7" + phoneNumber, "20");
-            rezult = "";
-            //Проверка отображения баланса
-            Logger.PrintAction("Проверка отображения баланса", "");
-            rezult = profilePage.CheckBalance();
-            double b = Convert.ToDouble(balance.Replace(" руб.", "")) + 20;
-            double bn = Convert.ToDouble(profilePage.balance.Replace(" руб.", ""));
-            if (rezult != "success" || b != bn)
-            {
-                Logger.PrintRezult(false, rezult);
-                globalR = false;
-            }
-            else
-            {
-                Logger.PrintRezult(true, "Баланс отображен корректно");
-            }
             Logger.PrintRezultTest(globalR);
-            ap.Close();
         }
+
+
+        //[Test]
+        //public void step_02()
+        //{
+        //    string rezult = "";
+        //    Logger.PrintStepName("Step 2");
+        //    Logger.PrintAction("Изменение баланса на 20р", "");
+        //    ChangeBalance cb = new ChangeBalance();
+        //    cb.SetBalance("7" + phoneNumber, "20");
+        //    rezult = "";
+        //    //Проверка отображения баланса
+        //    Logger.PrintAction("Проверка отображения баланса", "");
+        //    rezult = profilePage.CheckBalance();
+        //    double b = Convert.ToDouble(balance.Replace(" руб.", "")) + 20;
+        //    double bn = Convert.ToDouble(profilePage.balance.Replace(" руб.", ""));
+        //    if (rezult != "success" || b != bn)
+        //    {
+        //        Logger.PrintRezult(false, rezult);
+        //        globalR = false;
+        //    }
+        //    else
+        //    {
+        //        Logger.PrintRezult(true, "Баланс отображен корректно");
+        //    }
+        //    Logger.PrintRezultTest(globalR);
+        //    ap.Close();
+        //}
     }
 }

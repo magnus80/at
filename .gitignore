@@ -1,2 +1,4 @@
 _ReSharper.AT
 *.suo
+*.pdb
+*.dll

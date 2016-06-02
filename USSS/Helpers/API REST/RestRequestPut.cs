@@ -25,9 +25,9 @@ namespace USSS.Helpers.API_REST
         public Meta outputt = null;
 
         FeatureParameteres fp1 = new FeatureParameteres();     
-        fp1.
-
-        string jLoginString = JsonConvert.SerializeObject(featureParameters);
+   //     fp1.
+//
+ //       string jLoginString = JsonConvert.SerializeObject(featureParameters);
 
         public RestRequestPut(string URL, string paramToken = "default")
         {
@@ -75,7 +75,7 @@ namespace USSS.Helpers.API_REST
             StreamReader myStreamReader = new StreamReader(response.GetResponseStream(), Encoding.GetEncoding(65001));
             StringBuilder output = new StringBuilder();
             output.Append(myStreamReader.ReadToEnd());
-            outputstr = output.ToString();
+            //outputstr = output.ToString();
             response.Close();
 
             outputt = new Meta(output.ToString());
@@ -84,7 +84,8 @@ namespace USSS.Helpers.API_REST
     }
 
     public class FeatureParameteres
-    {   public string feature { get; set; }
+    {    
+        public string feature { get; set; }
         public string paramName { get; set; }
         public string paramValue { get; set; }
     }

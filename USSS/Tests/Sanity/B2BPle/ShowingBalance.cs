@@ -124,7 +124,7 @@ namespace USSS.Tests.Sanity.B2BPle
 
             skp.Open(scpUrl);
             t.Start();
-            
+
             string rezult = skp.GetBalance(ban);
             if (skp.balance.Replace(" руб.", "") != homePage.balance.Replace(" ", "") || !skp.balance.Replace(" руб.", "").Contains(contractPage.balance.Replace("На балансе Вашего договора ", "").Replace(" руб.", "")))
             {
@@ -136,7 +136,7 @@ namespace USSS.Tests.Sanity.B2BPle
                 Logger.PrintRezult(true, "Баланс корректен");
             }
             balance = Convert.ToDouble(homePage.balance.Replace(" ", ""));
-               
+
             skp.AddPayment("20");
             skp.Close();
             t.Abort();
@@ -151,7 +151,7 @@ namespace USSS.Tests.Sanity.B2BPle
             homePage = new HomePage();
             homePage.ConstructionPage();
             homePage.BoxContactInfoOpen();
-            if (balance+20 !=  Convert.ToDouble(homePage.balance.Replace(" ", "")))
+            if (balance + 20 != Convert.ToDouble(homePage.balance.Replace(" ", "")))
             {
                 Logger.PrintRezult(false, "Баланс не корректен");
             }

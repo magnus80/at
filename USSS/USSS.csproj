@@ -80,9 +80,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Helpers\API REST\AuthAuth.cs" />
+    <Compile Include="Helpers\API REST\FinInfo.cs" />
     <Compile Include="Helpers\API REST\Meta.cs" />
     <Compile Include="Helpers\API REST\RestrequestGet.cs" />
     <Compile Include="Helpers\API REST\RestRequestPut.cs" />
+    <Compile Include="Helpers\API REST\ServiceActivate.cs" />
+    <Compile Include="Helpers\API REST\ServiceDeactivate.cs" />
     <Compile Include="Helpers\API REST\TokenHashRestAPI.cs" />
     <Compile Include="Helpers\GetUrl.cs" />
     <Compile Include="Helpers\Logger.cs" />

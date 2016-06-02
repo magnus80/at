@@ -22,3 +22,5 @@ c:\Users\kiryshkov\Documents\GitHub\at\AT\bin\Debug\AT.pdb
 c:\Users\kiryshkov\Documents\GitHub\at\AT\obj\Debug\AT.csprojResolveAssemblyReference.cache
 c:\Users\kiryshkov\Documents\GitHub\at\AT\obj\Debug\AT.dll
 c:\Users\kiryshkov\Documents\GitHub\at\AT\obj\Debug\AT.pdb
+C:\Users\kiryshkov\Documents\GitHub\at\AT\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kiryshkov\Documents\GitHub\at\AT\bin\Debug\Newtonsoft.Json.xml

@@ -196,7 +196,7 @@ namespace USSS.WebPages.B2CPost
        
         public string GoToRequestHistoryPage()
         {
-            RequestHistoryWE = new WebElement().ByXPath("//a[contains(@onclick,'operationsHistory')]");
+            RequestHistoryWE = new WebElement().ById("requestsHistory");//ByXPath("//a(@id='requestsHistory')");
             if (RequestHistoryWE.Displayed) RequestHistoryWE.Click();
             else { return "Не отображены элементы интерфейса: ссылка на историю заявок"; }
             requestHistoryPage = new RequestHistoryPage();

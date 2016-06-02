@@ -14,7 +14,7 @@ namespace USSS.Helpers
         public static string ReadExel(string nameTest, string nameParam)
         {
             Application excel = new Application();
-            Workbook wb = excel.Workbooks.Open("C:\\ATU\\TestsData2.xls");
+            Workbook wb = excel.Workbooks.Open("C:\\ATU\\TestsData.xls");
             Worksheet excelSheet = wb.ActiveSheet;
             try
             {
@@ -83,7 +83,7 @@ namespace USSS.Helpers
         public static string ReadCExel(int i,int j)
         {
             Application excel = new Application();
-            Workbook wb = excel.Workbooks.Open("C:\\ATU\\TestsData2.xls");
+            Workbook wb = excel.Workbooks.Open("C:\\ATU\\TestsData.xls");
             Worksheet excelSheet = wb.ActiveSheet;
             string d = excelSheet.Cells[i, j].Value.ToString();
             wb.Close();

@@ -74,3 +74,5 @@ c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.Properties.Resources.
 c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.csproj.GenerateResource.Cache
 c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.dll
 c:\Users\kiryshkov\Documents\GitHub\at\USSS\obj\Debug\USSS.pdb
+C:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kiryshkov\Documents\GitHub\at\USSS\bin\Debug\Newtonsoft.Json.xml
